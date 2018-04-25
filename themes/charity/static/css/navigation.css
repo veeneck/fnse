@@ -20,7 +20,7 @@
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
 .container {
-  margin: 10px auto;
+  margin: 0px auto;
   max-width: 1200px;
   padding: 0px 10px; }
 
@@ -58,19 +58,18 @@ h1 {
   width: 100%;
   background-color: #313131; }
 
-.heroImg {
-  background-image: url("/images/Header BG Mobile.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 600px;
-  background-color: #FCF3CB;
-  height: 100px; }
+.headerImg {
+  display: none; }
 
 @media screen and (min-width: 35em) {
-  .heroImg {
+  .headerImg {
     background-image: url("/images/Header BG.png");
+    background-color: #FCF3CB;
+    background-repeat: no-repeat;
+    background-position: center top;
     background-size: 1200px;
-    height: 200px; } }
+    height: 200px;
+    display: block; } }
 
 /*----------------------- Donate Button ------------------------------ */
 .donate {
@@ -155,7 +154,7 @@ div.menu-link {
     position: absolute;
     height: 4px;
     width: 30px;
-    top: 122px;
+    top: 22px;
     background-color: #fff; }
     div.menu-link .icon:before {
       transition-duration: 0.5s;

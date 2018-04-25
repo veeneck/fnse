@@ -1,0 +1,197 @@
+/*----------------------- Import League Gothic ------------------------------ */
+/* Italic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-italic-webfont.eot");
+  src: url("/fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-italic-webfont.woff") format("woff"), url("/fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+/* Regular */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-regular-webfont.eot");
+  src: url("/fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-regular-webfont.woff") format("woff"), url("/fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+.container {
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 0px 10px; }
+
+.hero {
+  *zoom: 1; }
+  .hero:before, .hero:after {
+    content: " ";
+    display: table; }
+  .hero:after {
+    clear: both; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+/*----------------------- Title and Background ------------------------------ */
+.hero {
+  width: 100%;
+  height: 520px;
+  background-color: #313131;
+  background-image: url("/images/Bookshelf.png");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-size: auto 120px; }
+
+.hero h2 {
+  margin: 25px 0px 0px 0px;
+  text-align: center;
+  padding: 10px;
+  font: 100% 'League Gothic', Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  font-style: italic !important;
+  font-size: 36px !important; }
+
+.hero h2 mark {
+  background-color: #816C93;
+  padding: 0px 5px;
+  color: #fff; }
+
+.hero p {
+  text-align: center;
+  padding: 3px 10px;
+  color: #fff;
+  margin: 0px 10px;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100; }
+
+@media screen and (min-width: 35em) {
+  .hero h2 {
+    text-align: right; }
+  .hero p {
+    text-align: right; } }
+
+/*----------------------- Call Outs ------------------------------ */
+.callouts {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center; }
+
+.volunteer {
+  width: 0%;
+  height: 270px;
+  background-color: none;
+  position: relative; }
+
+.share {
+  width: 0%;
+  height: 270px;
+  background-color: none;
+  position: relative; }
+
+.featured {
+  width: 100%;
+  height: 357px;
+  background-color: none;
+  position: relative;
+  margin: 0px 10px;
+  background-image: url("/images/raisehand.png");
+  background-repeat: no-repeat;
+  background-position: center bottom 20px;
+  background-size: auto 350px; }
+
+.callouts div a {
+  display: none; }
+
+@media screen and (min-width: 35em) {
+  .volunteer {
+    background-image: url("/images/raisehand.png");
+    background-repeat: no-repeat;
+    background-position: center bottom 50px;
+    background-color: #BDA857;
+    width: 25%; }
+  .share {
+    background-image: url("/images/globe.png");
+    background-repeat: no-repeat;
+    background-position: center bottom 50px;
+    background-color: #F4F4F4;
+    width: 25%; }
+  .featured {
+    background-image: url("/images/donate.png");
+    background-repeat: no-repeat;
+    background-position: center bottom 50px;
+    background-size: auto 250px;
+    background-color: #FCF3CB;
+    width: 35%;
+    height: 370px; }
+  .featured a {
+    background-color: #E95328 !important; }
+  .hero {
+    height: 575px; }
+  .callouts div a {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #EAAB22;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    line-height: 2.1 !important;
+    font-size: 24px !important;
+    font: 100% 'League Gothic', Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff; }
+  .mobileCallouts {
+    display: none !important; } }
+
+/*----------------------- Mobile Call Outs ------------------------------ */
+.mobileCallouts {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -10px; }
+
+.mobileCallouts div {
+  background-image: none;
+  width: 33% !important;
+  height: 50px; }
+
+.mobileCallouts div a {
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  line-height: 2.1 !important;
+  font-size: 24px !important;
+  font: 100% 'League Gothic', Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff; }
+
+.mobileCallouts .volunteer {
+  background-color: #BDA857; }
+
+.mobileCallouts .share {
+  background-color: #EAAB22; }
+
+.mobileCallouts .featured {
+  background-color: #E95328; }

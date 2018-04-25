@@ -26,22 +26,21 @@ h1 {
     background-color: $darkGrey;
 }
 
-.heroImg {
-  	background-image: url("/images/Header BG Mobile.png");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: 600px;
-	background-color: $paleYellow;
-	height: 100px;
+.headerImg {
+  	display: none;
 }
 
-/// Display a background image for larger screens
+/// Display a larger background image for larger screens
 @media screen and (min-width: 35em) {
 
-	.heroImg {
+	.headerImg {
 		background-image: url("/images/Header BG.png");
+		background-color: $paleYellow;
+		background-repeat: no-repeat;
+		background-position: center top;
     	background-size: 1200px;
     	height: 200px;
+    	display: block;
 	}
 
 }
@@ -156,7 +155,7 @@ nav[role=navigation] li a {
     position: absolute;
     height: $height;
     width: $width;
-    top: 122px;
+    top: 22px;
     background-color: $white;
 }
 

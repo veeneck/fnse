@@ -29,13 +29,13 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/colors.css": {
+	"\/css\/hero.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/colors-min.css",
+		"oAP": "\/css\/hero-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -131,14 +131,58 @@
 		"oAP": "\/fonts\/leaguegothic-regular-webfont.woff",
 		"oF": 0
 		},
+	"\/images\/Bookshelf.png": {
+		"ft": 32768,
+		"iS": 8915,
+		"oA": 0,
+		"oAP": "\/images\/Bookshelf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/donate.png": {
+		"ft": 32768,
+		"iS": 8785,
+		"oA": 0,
+		"oAP": "\/images\/donate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/globe.png": {
+		"ft": 32768,
+		"iS": 18530,
+		"oA": 0,
+		"oAP": "\/images\/globe.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/Header BG Mobile.png": {
 		"ft": 32768,
 		"iS": 30713,
 		"oA": 0,
 		"oAP": "\/images\/Header BG Mobile.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Header BG.png": {
+		"ft": 32768,
+		"iS": 66300,
+		"oA": 0,
+		"oAP": "\/images\/Header BG.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -147,6 +191,17 @@
 		"iS": 1221,
 		"oA": 0,
 		"oAP": "\/images\/Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/raisehand.png": {
+		"ft": 32768,
+		"iS": 10032,
+		"oA": 0,
+		"oAP": "\/images\/raisehand.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -173,19 +228,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/sass\/animations.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/animations.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -199,7 +241,33 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/constants.scss": {
+	"\/sass\/hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/modules\/animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/modules\/constants.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -212,7 +280,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout.scss": {
+	"\/sass\/modules\/layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -221,6 +289,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/modules\/typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -234,19 +315,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
