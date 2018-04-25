@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/css\/animations.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/animations-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/base.css": {
 		"aP": 1,
 		"bl": 0,
@@ -120,6 +130,28 @@
 		"oA": 0,
 		"oAP": "\/fonts\/leaguegothic-regular-webfont.woff",
 		"oF": 0
+		},
+	"\/images\/Header BG.png": {
+		"ft": 32768,
+		"iS": 199470,
+		"oA": 0,
+		"oAP": "\/images\/Header BG.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Logo.png": {
+		"ft": 32768,
+		"iS": 1221,
+		"oA": 0,
+		"oAP": "\/images\/Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/js\/index-min.js": {
 		"ft": 64,

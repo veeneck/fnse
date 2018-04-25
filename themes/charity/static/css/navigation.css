@@ -20,9 +20,9 @@
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
 .container {
-  margin: 0px auto;
+  margin: 10px auto;
   max-width: 1200px;
-  padding: 10px; }
+  padding: 0px 10px; }
 
 nav[role=navigation] {
   *zoom: 1; }
@@ -46,21 +46,46 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   font: 100% 'League Gothic', Helvetica, sans-serif;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.2px; }
 
 h1 {
   color: #fff;
-  margin: 5px;
+  margin: 8px 0px 0px 0px;
   padding: 0px; }
 
 .header {
   width: 100%;
   background-color: #313131; }
 
-.container {
-  margin: 10px auto;
-  max-width: 1200px;
-  padding: 10px; }
+@media screen and (min-width: 35em) {
+  .header {
+    background-image: url("/images/Header BG.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 350px; }
+  header {
+    padding: 301px 10px 0px 10px; } }
+
+/*----------------------- Donate Button ------------------------------ */
+.donate {
+  background-color: #FAE18B;
+  text-align: center;
+  vertical-align: middle;
+  height: 27px;
+  width: 75px;
+  margin: 8px 5px 0px 5px;
+  padding: 8px 0px 0px 0px;
+  text-decoration: none;
+  color: #313131;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.donate:hover {
+  background-color: #BDA857;
+  color: #fff; }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
 div.menu-link {
@@ -107,7 +132,7 @@ nav[role=navigation] li a {
     max-height: none;
     margin: 0px; }
   nav[role=navigation] ul {
-    margin: 0 0 0 -0.25em;
+    margin: 5px 0 0 -0.25em;
     border: 0;
     text-align: right; }
   nav[role=navigation] li a {
@@ -124,7 +149,7 @@ div.menu-link {
     position: absolute;
     height: 4px;
     width: 30px;
-    top: 20px;
+    top: 22px;
     background-color: #fff; }
     div.menu-link .icon:before {
       transition-duration: 0.5s;

@@ -1,9 +1,9 @@
 @import "constants.scss";
 
 .container {
-    margin: 0px auto;
+    margin: 10px auto;
     max-width: $maxWidth;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 @mixin flex() {
