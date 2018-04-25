@@ -19,6 +19,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/colors.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/colors-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/layout.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/layout-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/navigation.css": {
 		"aP": 1,
 		"bl": 0,
@@ -26,6 +46,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/navigation-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/typography.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/typography-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -111,6 +141,19 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/sass\/animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -118,8 +161,34 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/constants.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/constants.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -133,6 +202,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

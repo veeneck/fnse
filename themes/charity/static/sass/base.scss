@@ -1,35 +1,10 @@
-$font-stack:    'League Gothic', Helvetica, sans-serif;
+@import "typography.scss";
+@import "constants.scss";
+@import "layout.scss";
+@import "animations.scss";
 
 body {
-  font: 100% $font-stack;
   margin: 0;
   padding: 0;
-  letter-spacing: 1.5px;
-}
-
-/* Italic */
-@font-face {
-    font-family: 'League Gothic';
-    src: url('/fonts/leaguegothic-italic-webfont.eot');
-    src: url('/fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/leaguegothic-italic-webfont.woff') format('woff'),
-         url('/fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
-         url('/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-/* Regular */
-@font-face {
-    font-family: 'League Gothic';
-    src: url('/fonts/leaguegothic-regular-webfont.eot');
-    src: url('/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('/fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 

@@ -1,3 +1,41 @@
+/*----------------------- Import League Gothic ------------------------------ */
+/* Italic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-italic-webfont.eot");
+  src: url("/fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-italic-webfont.woff") format("woff"), url("/fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+/* Regular */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-regular-webfont.eot");
+  src: url("/fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-regular-webfont.woff") format("woff"), url("/fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+.container {
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 10px; }
+
+nav[role=navigation] {
+  *zoom: 1; }
+  nav[role=navigation]:before, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  nav[role=navigation]:after {
+    clear: both; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 /*----------------------- Navigation Styles ------------------------------ */
 header {
   display: -webkit-box;
@@ -6,7 +44,9 @@ header {
   display: -webkit-flex;
   display: flex;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font: 100% 'League Gothic', Helvetica, sans-serif;
+  letter-spacing: 1.5px; }
 
 h1 {
   color: #fff;
@@ -22,52 +62,12 @@ h1 {
   max-width: 1200px;
   padding: 10px; }
 
-/*----------------- Hamburger Animation -----------------*/
-div.menu-link {
-  width: 30px;
-  top: 100px;
-  left: 120px;
-  transition-duration: 0.5s; }
-  div.menu-link .icon {
-    transition-duration: 0.5s;
-    position: absolute;
-    height: 4px;
-    width: 30px;
-    top: 20px;
-    background-color: #efefef; }
-    div.menu-link .icon:before {
-      transition-duration: 0.5s;
-      position: absolute;
-      width: 30px;
-      height: 4px;
-      background-color: #efefef;
-      content: "";
-      top: -10px; }
-    div.menu-link .icon:after {
-      transition-duration: 0.5s;
-      position: absolute;
-      width: 30px;
-      height: 4px;
-      background-color: #efefef;
-      content: "";
-      top: 10px; }
-  div.menu-link.open .icon {
-    transition-duration: 0.5s;
-    background: transparent; }
-    div.menu-link.open .icon:before {
-      transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px); }
-    div.menu-link.open .icon:after {
-      transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px); }
-  div.menu-link:hover {
-    cursor: pointer; }
-
 /*----------------------- Hamburger Functionality ------------------------------ */
 div.menu-link {
   padding: 1em;
   color: #fff; }
 
 nav[role=navigation] {
-  clear: both;
   overflow: hidden;
   max-height: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -81,14 +81,19 @@ nav[role=navigation] {
 nav[role=navigation].open {
   max-height: 15em;
   margin-bottom: 10px;
-  margin-top: 50px; }
+  margin-top: 30px; }
 
 nav[role=navigation] ul {
-  margin: 0 auto;
-  padding: 0; }
+  text-align: center;
+  padding: 0;
+  width: 100%; }
+
+nav[role=navigation] li {
+  display: inline-block;
+  margin: 0 0.25em; }
 
 nav[role=navigation] li a {
-  display: block;
+  display: inline-block;
   padding: 0.8em;
   color: #fff;
   text-transform: uppercase;
@@ -105,8 +110,44 @@ nav[role=navigation] li a {
     margin: 0 0 0 -0.25em;
     border: 0;
     text-align: right; }
-  nav[role=navigation] li {
-    display: inline-block;
-    margin: 0 0.25em; }
   nav[role=navigation] li a {
     border: 0; } }
+
+/*----------------- Hamburger Animation -----------------*/
+div.menu-link {
+  width: 30px;
+  top: 100px;
+  left: 120px;
+  transition-duration: 0.5s; }
+  div.menu-link .icon {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    top: 20px;
+    background-color: #fff; }
+    div.menu-link .icon:before {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background-color: #fff;
+      content: "";
+      top: -10px; }
+    div.menu-link .icon:after {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background-color: #fff;
+      content: "";
+      top: 10px; }
+  div.menu-link.open .icon {
+    transition-duration: 0.5s;
+    background: transparent; }
+    div.menu-link.open .icon:before {
+      transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px); }
+    div.menu-link.open .icon:after {
+      transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px); }
+  div.menu-link:hover {
+    cursor: pointer; }
