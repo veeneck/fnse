@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+  <body>
+
+  	{{ partial "navigation.html" . }}
+  
+    {{ block "main" . -}}{{- end }}
+
+    {{ template "_internal/google_analytics_async.html" . }}
+
+  </body>
+</html>

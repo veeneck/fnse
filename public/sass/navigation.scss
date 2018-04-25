@@ -1,0 +1,178 @@
+/*----------------------- Navigation Styles ------------------------------ */
+
+/// Credit: https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf
+
+header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav, header a {
+    margin-left: auto;
+}
+
+h1 {
+	color: #fff;
+	margin: 5px;
+	padding: 0px;
+}
+
+.headerBG {
+	width: 100%;
+	background-color: #313131;
+}
+
+/*----------------- Hamburger Animation -----------------*/
+
+$dark: #212121;
+$light: #efefef;
+$color: #b3e5fc;
+
+@mixin btn($left, $top) {
+  width: 60px;
+  height: 60px;
+  top: $top;
+  left: $left;
+  transition-duration: 0.5s;
+}
+
+@mixin icon($height, $width) {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: $height;
+  width: $width;
+  top: 30px;
+  background-color: $light;
+}
+
+@mixin icon-before($height, $width, $top) {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: $width;
+  height: $height;
+  background-color: $light;
+  content: "";
+  top: $top;
+}
+
+@mixin icon-after($height, $width, $top) {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: $width;
+  height: $height;
+  background-color: $light;
+  content: "";
+  top: $top;
+}
+
+.btn2{
+  @include btn(120px, 100px);
+  
+  .icon {
+    @include icon(8px, 60px);
+    
+    &:before{
+      @include icon-before(8px, 60px, -20px);
+    }
+    
+    &:after{
+      @include icon-after(8px, 60px, 20px);
+    }
+  }
+  
+  &.open {
+    .icon {
+      transition-duration: 0.5s;
+      background: transparent;
+      
+      &:before{
+        transform: rotateZ(45deg) scaleX(1.25) translate(13px, 13px);
+      }
+
+      &:after{
+        transform: rotateZ(-45deg) scaleX(1.25) translate(12px, -12px);
+      }
+    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+/*----------------------- Hamburger Functionality ------------------------------ */
+
+/// Credit: https://codepen.io/bradfrost/pen/sHvaz
+
+// Float our hamburger menu to the right.
+div.menu-link {
+    float: right;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+// Default plans for small screen. Nav is hidden, and will animate when height changes.
+nav[role=navigation] {
+    clear: both;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+       width: 100%;
+          margin: 0 auto;
+}
+
+// When we want nav to appear, change the height
+nav[role=navigation].active {
+    max-height: 15em;
+    margin-top: 100px;
+}
+
+nav[role=navigation] ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav[role=navigation] li a {
+    display: block;
+    padding: 0.8em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+// Style for larger screens. Hide the menu button, and show the normal navigation menu.
+@media screen and (min-width: 35em) {
+    div.menu-link {
+        display: none;
+    }
+
+    nav[role=navigation] {
+        max-height: none;
+    }
+
+    nav[role=navigation] ul {
+        margin: 0 0 0 -0.25em;
+        border: 0;
+        text-align: right;
+    }
+
+    nav[role=navigation] li {
+        display: inline-block;
+        margin: 0 0.25em;
+    }
+
+    nav[role=navigation] li a {
+        border: 0;
+    }
+}
