@@ -17,14 +17,20 @@ header nav, header a {
 }
 
 h1 {
-	color: #fff;
-	margin: 5px;
-	padding: 0px;
+    color: #fff;
+    margin: 5px;
+    padding: 0px;
 }
 
 .headerBG {
-	width: 100%;
-	background-color: #313131;
+    width: 100%;
+    background-color: #313131;
+}
+
+.container {
+    margin: 10px auto;
+    max-width: 1200px;
+    padding: 10px;
 }
 
 /*----------------- Hamburger Animation -----------------*/
@@ -34,74 +40,74 @@ $light: #efefef;
 $color: #b3e5fc;
 
 @mixin btn($left, $top) {
-  width: 60px;
-  height: 60px;
-  top: $top;
-  left: $left;
-  transition-duration: 0.5s;
+    width: 30px;
+    top: $top;
+    left: $left;
+    transition-duration: 0.5s;
 }
 
 @mixin icon($height, $width) {
-  transition-duration: 0.5s;
-  position: absolute;
-  height: $height;
-  width: $width;
-  top: 30px;
-  background-color: $light;
+    transition-duration: 0.5s;
+    position: absolute;
+    height: $height;
+    width: $width;
+    top: 20px;
+    background-color: $light;
 }
 
 @mixin icon-before($height, $width, $top) {
-  transition-duration: 0.5s;
-  position: absolute;
-  width: $width;
-  height: $height;
-  background-color: $light;
-  content: "";
-  top: $top;
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $light;
+    content: "";
+    top: $top;
 }
 
 @mixin icon-after($height, $width, $top) {
-  transition-duration: 0.5s;
-  position: absolute;
-  width: $width;
-  height: $height;
-  background-color: $light;
-  content: "";
-  top: $top;
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $light;
+    content: "";
+    top: $top;
 }
 
-.btn2{
-  @include btn(120px, 100px);
-  
-  .icon {
-    @include icon(8px, 60px);
-    
-    &:before{
-      @include icon-before(8px, 60px, -20px);
-    }
-    
-    &:after{
-      @include icon-after(8px, 60px, 20px);
-    }
-  }
-  
-  &.open {
-    .icon {
-      transition-duration: 0.5s;
-      background: transparent;
-      
-      &:before{
-        transform: rotateZ(45deg) scaleX(1.25) translate(13px, 13px);
-      }
+.btn2 {
+    @include btn(120px, 100px);
 
-      &:after{
-        transform: rotateZ(-45deg) scaleX(1.25) translate(12px, -12px);
-      }
+    .icon {
+        @include icon(4px, 30px);
+
+        &:before {
+            @include icon-before(4px, 30px, -10px);
+        }
+
+        &:after {
+            @include icon-after(4px, 30px, 10px);
+        }
     }
-  }
-  &:hover {
-    cursor: pointer;
-  }
+
+    &.open {
+        .icon {
+            transition-duration: 0.5s;
+            background: transparent;
+
+            &:before {
+                transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
+            }
+
+            &:after {
+                transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
+            }
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
@@ -110,7 +116,6 @@ $color: #b3e5fc;
 
 // Float our hamburger menu to the right.
 div.menu-link {
-    float: right;
     display: block;
     padding: 1em;
     text-decoration: none;
@@ -127,14 +132,14 @@ nav[role=navigation] {
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-       width: 100%;
-          margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 // When we want nav to appear, change the height
 nav[role=navigation].active {
     max-height: 15em;
-    margin-top: 100px;
+    margin: 50px 0px 10px 0px;
 }
 
 nav[role=navigation] ul {
