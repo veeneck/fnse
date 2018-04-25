@@ -39,11 +39,12 @@ body {
 /*----------------------- Title and Background ------------------------------ */
 .hero {
   width: 100%;
-  height: 520px;
+  height: 420px;
   background-color: #313131;
   background-image: url("/images/raisehand.png");
   background-position: center bottom;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: auto 300px; }
 
 .hero h2 {
   margin: 25px 0px 0px 0px;
@@ -64,21 +65,23 @@ body {
   padding: 3px 10px;
   color: #fff;
   margin: 0px 10px;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Lato', sans-serif;
-  font-weight: 100; }
+  font-weight: 300; }
 
 @media screen and (min-width: 35em) {
   .hero {
     background-image: url("/images/Bookshelf.png");
     background-size: auto 120px;
-    background-repeat: repeat-x; }
+    background-repeat: repeat-x;
+    height: 520px; }
   .hero h2 {
     text-align: right;
     font-size: 36px !important; }
   .hero p {
     text-align: right;
-    font-size: 24px; } }
+    font-size: 24px;
+    font-weight: 100; } }
 
 /*----------------------- Call Outs ------------------------------ */
 .callouts {
@@ -160,7 +163,9 @@ body {
     text-decoration: none;
     color: #fff; }
   .mobileCallouts {
-    display: none !important; } }
+    display: none !important; }
+  .callouts div {
+    display: block; } }
 
 /*----------------------- Mobile Call Outs ------------------------------ */
 .mobileCallouts {
@@ -172,11 +177,11 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: -10px; }
+  margin-top: 10px; }
 
 .mobileCallouts div {
   background-image: none;
-  width: 30% !important;
+  width: 33% !important;
   height: 50px; }
 
 .mobileCallouts div a {
