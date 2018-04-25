@@ -4,16 +4,20 @@
 
 /// Credit: https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf
 
+$magicLogoMarginTop: 8px;
+
 header {
     @include flex();
     max-width: $maxWidth;
     margin: 0 auto;
     @include heavyFontStack();
+    padding: 0px 10px 0px 10px;
+
 }
 
 h1 {
     color: $white;
-    margin: 5px;
+    margin: $magicLogoMarginTop 0px 0px 0px;
     padding: 0px;
 }
 
@@ -22,11 +26,46 @@ h1 {
     background-color: $darkGrey;
 }
 
-.container {
-    margin: 10px auto;
-    max-width: 1200px;
-    padding: 10px;
+.heroImg {
+  	background-image: url("/images/Header BG.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 600px;
+	background-color: $paleYellow;
+	height: 100px;
 }
+
+/// Display a background image for larger screens
+@media screen and (min-width: 35em) {
+
+	.heroImg {
+    	background-size: 1200px;
+    	height: 200px;
+	}
+
+}
+
+
+/*----------------------- Donate Button ------------------------------ */
+
+.donate {
+	background-color: $lightYellow;
+	text-align: center;
+	vertical-align: middle;
+	height: 27px;
+	width: 75px;
+	margin: $magicLogoMarginTop 5px 0px 5px;
+	padding: 8px 0px 0px 0px;
+	text-decoration: none;
+	color: $darkGrey;
+	@include transition(all 0.3s ease-out);
+}
+
+.donate:hover {
+	background-color: $green;
+	color: $white;
+}
+
 
 /*----------------------- Hamburger Functionality ------------------------------ */
 
@@ -89,7 +128,7 @@ nav[role=navigation] li a {
     }
 
     nav[role=navigation] ul {
-        margin: 0 0 0 -0.25em;
+        margin: 5px 0 0 -0.25em;
         border: 0;
         text-align: right;
     }
@@ -116,7 +155,7 @@ nav[role=navigation] li a {
     position: absolute;
     height: $height;
     width: $width;
-    top: 20px;
+    top: 122px;
     background-color: $white;
 }
 
