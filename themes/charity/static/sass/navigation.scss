@@ -12,17 +12,13 @@ header {
     margin: 0 auto;
 }
 
-header nav, header a {
-    margin-left: auto;
-}
-
 h1 {
     color: #fff;
     margin: 5px;
     padding: 0px;
 }
 
-.headerBG {
+.header {
     width: 100%;
     background-color: #313131;
 }
@@ -34,6 +30,8 @@ h1 {
 }
 
 /*----------------- Hamburger Animation -----------------*/
+
+/// Credit: https://codepen.io/mblode/pen/evjfn
 
 $dark: #212121;
 $light: #efefef;
@@ -75,7 +73,7 @@ $color: #b3e5fc;
     top: $top;
 }
 
-.btn2 {
+div.menu-link {
     @include btn(120px, 100px);
 
     .icon {
@@ -114,11 +112,8 @@ $color: #b3e5fc;
 
 /// Credit: https://codepen.io/bradfrost/pen/sHvaz
 
-// Float our hamburger menu to the right.
 div.menu-link {
-    display: block;
     padding: 1em;
-    text-decoration: none;
     color: #fff;
 }
 
@@ -133,13 +128,14 @@ nav[role=navigation] {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     width: 100%;
-    margin: 0 auto;
+    margin: 0px 0px 0px -10px;
 }
 
 // When we want nav to appear, change the height
-nav[role=navigation].active {
+nav[role=navigation].open {
     max-height: 15em;
-    margin: 50px 0px 10px 0px;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 nav[role=navigation] ul {
@@ -164,6 +160,7 @@ nav[role=navigation] li a {
 
     nav[role=navigation] {
         max-height: none;
+        margin: 0px;
     }
 
     nav[role=navigation] ul {

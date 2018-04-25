@@ -4,15 +4,9 @@ $(document).ready(function() {
     $menulink = $('.menu-link');
   
 	$menulink.click(function() {
-	  $menulink.toggleClass('active');
-	  $menu.toggleClass('active');
+	  $menulink.toggleClass('open');
+	  $menu.toggleClass('open');
 	  return false;
 	});
-
-	$('.menu').click (function(){
-  		$(this).toggleClass('open');
-	});
-
-
 
 });
