@@ -59,7 +59,7 @@ h1 {
   background-color: #313131; }
 
 .heroImg {
-  background-image: url("/images/Header BG.png");
+  background-image: url("/images/Header BG Mobile.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 600px;
@@ -68,6 +68,7 @@ h1 {
 
 @media screen and (min-width: 35em) {
   .heroImg {
+    background-image: url("/images/Header BG.png");
     background-size: 1200px;
     height: 200px; } }
 
