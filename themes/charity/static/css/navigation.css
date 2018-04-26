@@ -60,7 +60,6 @@ html {
     line-height: 3rem;
     margin-top: 3rem;
     font: 100% 'League Gothic', Helvetica, sans-serif;
-    letter-spacing: 1.2px;
     font-style: italic;
     letter-spacing: 1.5px; }
     html h2 mark {
@@ -120,7 +119,6 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   font: 100% 'League Gothic', Helvetica, sans-serif;
-  letter-spacing: 1.2px;
   padding: 0px 10px 0px 10px; }
 
 h1 {

@@ -60,7 +60,6 @@ html {
     line-height: 3rem;
     margin-top: 3rem;
     font: 100% 'League Gothic', Helvetica, sans-serif;
-    letter-spacing: 1.2px;
     font-style: italic;
     letter-spacing: 1.5px; }
     html h2 mark {
@@ -156,53 +155,36 @@ body {
   margin-top: 60px;
   text-align: center; }
 
-.volunteer {
-  width: 0%;
-  height: 270px;
-  background-color: none;
-  position: relative; }
-
-.share {
-  width: 0%;
-  height: 270px;
-  background-color: none;
-  position: relative; }
-
-.featured {
-  width: 100%;
-  height: 357px;
-  background-color: none;
-  position: relative;
-  margin: 0px 10px;
-  background-image: url("/images/raisehand.png");
-  background-repeat: no-repeat;
-  background-position: center bottom 20px;
-  background-size: auto 350px; }
-
 .callouts div {
   display: none; }
 
 @media screen and (min-width: 35em) {
   .volunteer {
     background-image: url("/images/raisehand.png");
-    background-repeat: no-repeat;
-    background-position: center bottom 50px;
+    width: 25%;
+    height: 270px;
     background-color: #BDA857;
-    width: 25%; }
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom 50px; }
   .share {
     background-image: url("/images/globe.png");
-    background-repeat: no-repeat;
-    background-position: center bottom 50px;
+    width: 25%;
+    height: 270px;
     background-color: #F4F4F4;
-    width: 25%; }
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom 50px; }
   .featured {
     background-image: url("/images/donate.png");
+    background-size: auto 250px;
+    width: 35%;
+    height: 370px;
+    background-color: #FCF3CB;
+    position: relative;
     background-repeat: no-repeat;
     background-position: center bottom 50px;
-    background-size: auto 250px;
-    background-color: #FCF3CB;
-    width: 35%;
-    height: 370px; }
+    margin: 0px 10px; }
   .featured a {
     background-color: #E95328 !important; }
   .hero {
@@ -219,7 +201,6 @@ body {
     line-height: 2.1 !important;
     font-size: 24px !important;
     font: 100% 'League Gothic', Helvetica, sans-serif;
-    letter-spacing: 1.2px;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff; }
@@ -237,23 +218,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  margin-top: 10px; }
+  text-align: center; }
 
 .mobileCallouts div {
-  background-image: none;
-  width: 33% !important;
+  width: 33.3% !important;
   height: 50px; }
 
 .mobileCallouts div a {
-  width: 100%;
-  display: inline-block;
-  height: 50px;
-  text-align: center;
   line-height: 2.1 !important;
   font-size: 24px !important;
   font: 100% 'League Gothic', Helvetica, sans-serif;
-  letter-spacing: 1.2px;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff; }

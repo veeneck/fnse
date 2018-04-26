@@ -4,197 +4,179 @@
 
 /// On mobile, the hero image single and does not repeat
 .hero {
-	@extend %clearfix;
-	width: 100%;
-	height: 420px;
-	background-color: $darkGrey;
-	background-image: url("/images/raisehand.png");
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-size: auto 300px;
+    @extend %clearfix;
+
+    width: 100%;
+    height: 420px;
+    background-color: $darkGrey;
+    background-image: url("/images/raisehand.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: auto 300px;
 }
 
 .hero h2 {
-	margin: 25px 0px 0px 0px;
-	text-align: center;
+    margin: 25px 0px 0px 0px;
+    text-align: center;
 }
 
 .hero p {
-	text-align: center;
-	padding: 3px 0px;
-	color: $white;
-	margin: 0px;
+    text-align: center;
+    padding: 3px 0px;
+    color: $white;
+    margin: 0px;
 }
 
 /// Hnadle larger displays
 @media screen and (min-width: 35em) {
+    /// On large screens, the background repeats along the bottom
+    .hero {
+        background-image: url("/images/Bookshelf.png");
+        background-size: auto 120px;
+        background-repeat: repeat-x;
+        height: 520px;
+    }
 
-	/// On large screens, the background repeats along the bottom
-	.hero {
-		background-image: url("/images/Bookshelf.png");
-		background-size: auto 120px;
-		background-repeat: repeat-x;
-		height: 520px;
-	}
+    .hero h2 {
+        text-align: right;
+        font-size: 36px !important;
+    }
 
-	.hero h2 {
-		text-align: right;
-		font-size: 36px !important;
-	}
-
-	.hero p {
-		text-align: right;
-		font-size: 24px;
-		font-weight: 300;
-	}
-
+    .hero p {
+        text-align: right;
+        font-size: 24px;
+        font-weight: 300;
+    }
 }
 
 /*----------------------- Call Outs ------------------------------ */
 
 /// Credit: https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/
 
+/// Flexbox of our row of callouts.
 .callouts {
-	@include flex();
-	align-items: center;
-  	justify-content: center;
-  	margin-top: 60px;
-  	text-align: center;
+    @include flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
 }
 
+/// Build a callout.
 @mixin callout($color, $width, $height) {
-	width: $width;
-	height: $height;
-	background-color: $color;
-	position: relative;
+    width: $width;
+    height: $height;
+    background-color: $color;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom 50px;
 }
 
-.volunteer {
-	@include callout(none, 0%, 270px);
-
-}
-
-.share {
-	@include callout(none, 0%, 270px);
-
-}
-
-.featured {
-	@include callout(none, 100%, 357px);
-	margin: 0px 10px;
-	background-image: url("/images/raisehand.png");
-	background-repeat: no-repeat;
-	background-position: center bottom 20px;
-	background-size: auto 350px;
-}
-
+/// On mobile, we don't display callouts. Instead, we have a row underneath for mobile callouts
 .callouts div {
-	display: none;
+    display: none;
 }
 
-/// Hnadle larger displays
+/// On larger displays, shows callouts.
 @media screen and (min-width: 35em) {
+    .volunteer {
+        background-image: url("/images/raisehand.png");
 
-	.volunteer {
-		background-image: url("/images/raisehand.png");
-		background-repeat: no-repeat;
-		background-position: center bottom 50px;
-		background-color: $green;
-		width: 25%;
-	}
+        @include callout($green, 25%, 270px);
+    }
 
-	.share {
-		background-image: url("/images/globe.png");
-		background-repeat: no-repeat;
-		background-position: center bottom 50px;
-		background-color: $lightGrey;
-		width: 25%;
-	}
+    .share {
+        background-image: url("/images/globe.png");
 
-	.featured {
-		background-image: url("/images/donate.png");
-		background-repeat: no-repeat;
-		background-position: center bottom 50px;
-		background-size: auto 250px;
-		background-color: $paleYellow;
-		width: 35%;
-		height: 370px;
-	}
+        @include callout($lightGrey, 25%, 270px);
+    }
 
-	.featured a {
-		background-color: $orange !important;
-	}
+    .featured {
+        background-image: url("/images/donate.png");
+        background-size: auto 250px;
 
-	.hero {
-		height: 575px;
-	}
+        @include callout($paleYellow, 35%, 370px);
 
-	.callouts div a {
-		position: absolute;
-		bottom: 0px;
-		left: 0px;
-		width: 100%;
-		background-color: $darkYellow;
-		display: inline-block;
-		height: 50px;
-		text-align: center;
-		line-height: 2.1 !important;
-		font-size: 24px !important;
-		@include heavyFontStack();
-		text-transform: uppercase;
-		text-decoration: none;
-		color: $white;
-	}
+        margin: 0px 10px;
+    }
 
-	.mobileCallouts {
-		display: none !important;
-	}
+    .featured a {
+        background-color: $orange !important;
+    }
 
-	.callouts div {
-		display: block;
-	}
+    .hero {
+        height: 575px;
+    }
 
+    /// This is ugly trickery to get the a link to sit at the bottom of the callout 
+    /// with the text vertical and horizontal centered.
+    .callouts div a {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: $darkYellow;
+        display: inline-block;
+        height: 50px;
+        text-align: center;
+        line-height: 2.1 !important;
+        font-size: 24px !important;
+
+        @include heavyFontStack;
+
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $white;
+    }
+
+    /// On larger screen, hide the mobile callouts
+    .mobileCallouts {
+        display: none !important;
+    }
+
+    /// and show the full sized callouts.
+    .callouts div {
+        display: block;
+    }
 }
 
 /*----------------------- Mobile Call Outs ------------------------------ */
 
-/// Alt navigation for mobile unerneath the hero images
-
+/// Much like full sized callouts, we have a row of 3 things to focus.
+/// Difference is that this row has to sit below the hero image instead of on top.
 .mobileCallouts {
-	@include flex();
-	align-items: center;
-  	justify-content: center;
-  	text-align: center;
-  	margin-top: 10px;
+    @include flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .mobileCallouts div {
-	background-image: none;
-	width: 33% !important;
-	height: 50px;
+    width: 33.3% !important;
+    height: 50px;
 }
 
 .mobileCallouts div a {
-		width: 100%;
-		display: inline-block;
-		height: 50px;
-		text-align: center;
-		line-height: 2.1 !important;
-		font-size: 24px !important;
-		@include heavyFontStack();
-		text-transform: uppercase;
-		text-decoration: none;
-		color: $white;
-	}
+    line-height: 2.1 !important;
+    font-size: 24px !important;
+
+    @include heavyFontStack;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white;
+}
 
 .mobileCallouts .volunteer {
-	background-color: $green;
+    background-color: $green;
 }
 
 .mobileCallouts .share {
-	background-color: $darkYellow;
+    background-color: $darkYellow;
 }
 
 .mobileCallouts .featured {
-	background-color: $orange;
+    background-color: $orange;
 }
