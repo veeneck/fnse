@@ -158,7 +158,14 @@ h1 {
 
 .header {
   width: 100%;
-  background-color: #313131; }
+  background-color: #313131;
+  position: fixed;
+  z-index: 100; }
+  @media screen and (min-width: 35em) {
+    .header {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px; } }
 
 .headerImg {
   display: none; }
