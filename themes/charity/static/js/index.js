@@ -28,8 +28,18 @@ $(document).ready(function() {
 	      if (target.length) {
 	        // Only prevent default if animation is actually gonna happen
 	        event.preventDefault();
+
+	        var offset =  target.offset().top
+
+	        // close menu on mobile
+	        if ($menu.hasClass('open')) {
+	        	$menulink.toggleClass('open');
+	  			$menu.toggleClass('open');
+	  			offset = target.offset().top - 100
+	        }
+
 	        $('html, body').animate({
-	          scrollTop: target.offset().top
+	          scrollTop: offset
 	        }, 1000, function() {
 	          // Callback after animation
 	          // Must change focus!
