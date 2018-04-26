@@ -114,6 +114,17 @@ html {
         }
     }
 
+    h3 {
+        margin-top: 1.5 * $leading;
+    }
+
+    @media screen and (min-width: 35em) {
+        h2, h3 {
+            font-size: 36px !important;
+            margin-top: 2 * $leading;
+        }
+    }
+
     h4 {
         font-size: $scale / 2 * 1rem;
     }

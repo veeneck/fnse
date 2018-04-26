@@ -66,6 +66,12 @@ html {
       background-color: #816C93;
       padding: 0px 5px;
       color: #fff; }
+  html h3 {
+    margin-top: 2.25rem; }
+  @media screen and (min-width: 35em) {
+    html h2, html h3 {
+      font-size: 36px !important;
+      margin-top: 3rem; } }
   html h4 {
     font-size: 0.707rem; }
   html h5 {
@@ -95,6 +101,14 @@ html {
   max-width: 1200px;
   padding: 0px 10px; }
 
+@media screen and (min-width: 35em) {
+  .container {
+    padding: 0px 30px; } }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 0px 10px; } }
+
 nav[role=navigation] {
   *zoom: 1; }
   nav[role=navigation]:before, nav[role=navigation]:after {
@@ -102,6 +116,15 @@ nav[role=navigation] {
     display: table; }
   nav[role=navigation]:after {
     clear: both; }
+
+.subsection h3 {
+  width: 100%;
+  text-align: center; }
+
+@media screen and (min-width: 35em) {
+  .subsection h3 {
+    width: 100%;
+    text-align: left; } }
 
 body {
   margin: 0;

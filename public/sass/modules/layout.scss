@@ -6,6 +6,20 @@
     padding: 0px 10px;
 }
 
+@media screen and (min-width: 35em) {
+  .container {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .container {
+    padding: 0px 10px;
+  }
+
+}
+
 @mixin flex() {
    	display: -webkit-box;
     display: -moz-box;
@@ -24,4 +38,19 @@
   &:after {
     clear: both;
   }
+}
+
+/// For titles of subsections, center them on mobile but left align on web
+.subsection h3 {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 35em) {
+
+  .subsection h3 {
+    width: 100%;
+    text-align: left;
+  }
+
 }
