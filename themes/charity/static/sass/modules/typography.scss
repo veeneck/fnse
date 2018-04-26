@@ -99,8 +99,8 @@ html {
         line-height: $leading;
     }
 
-    h2 {
-        font-size: 2 * $scale * 1rem;
+    h2, h3 {
+        font-size: 36px !important;
         line-height: 2 * $leading;
         margin-top: 2 * $leading;
         @include heavyFontStack();
@@ -112,10 +112,6 @@ html {
             padding: 0px 5px;
             color: $white;
         }
-    }
-
-    h3 {
-        font-size: 1 * $scale * 1rem;
     }
 
     h4 {

@@ -55,19 +55,17 @@ html {
     margin-top: 1.5rem;
     margin-bottom: 0;
     line-height: 1.5rem; }
-  html h2 {
-    font-size: 2.828rem;
+  html h2, html h3 {
+    font-size: 36px !important;
     line-height: 3rem;
     margin-top: 3rem;
     font: 100% 'League Gothic', Helvetica, sans-serif;
     font-style: italic;
     letter-spacing: 1.5px; }
-    html h2 mark {
+    html h2 mark, html h3 mark {
       background-color: #816C93;
       padding: 0px 5px;
       color: #fff; }
-  html h3 {
-    font-size: 1.414rem; }
   html h4 {
     font-size: 0.707rem; }
   html h5 {
@@ -188,7 +186,7 @@ nav[role=navigation] ul {
   padding: 0;
   letter-spacing: 1.1px; }
   nav[role=navigation] ul :last-child {
-    margin: 0px; }
+    margin-right: 0px; }
 
 nav[role=navigation] li {
   display: inline-block;

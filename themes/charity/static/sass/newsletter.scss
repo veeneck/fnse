@@ -1,0 +1,53 @@
+@import "base.scss";
+
+.newsletter {
+	display: none;
+}
+
+// Hide the newsletter on mobile for now
+@media screen and (min-width: 35em) {
+
+	.newsletter {
+		background-color: $blue;
+		display: block;
+	}
+
+	.newsletter .container {
+		@include flex;
+		align-items: center;
+		justify-content: center;
+	    width: 100%;
+	}
+
+	.newsletter p {
+		color: $white;
+		font-weight: bold;
+		margin: 15px;
+		text-align: center;
+	}
+
+	.newsletter form {
+		margin: 10px;
+	}
+
+	.newsletter input[type=text], select {
+	    width: 250px;
+	    padding: 12px 20px;
+	    margin: 8px 0;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+	    box-sizing: border-box;
+	}
+
+	.newsletter input[type=submit] {
+	    width: 100px;
+	    background-color: $darkYellow;
+	    color: white;
+	    padding: 7px 20px;
+	    border: none;
+	    cursor: pointer;
+	    @include heavyFontStack();
+	    text-transform: uppercase;
+	}
+
+}

@@ -95,144 +95,46 @@ html {
   max-width: 1200px;
   padding: 0px 10px; }
 
-.hero {
-  *zoom: 1; }
-  .hero:before, .hero:after {
-    content: " ";
-    display: table; }
-  .hero:after {
-    clear: both; }
-
 body {
   margin: 0;
   padding: 0; }
 
-/*----------------------- Title and Background ------------------------------ */
-.hero {
-  width: 100%;
-  height: 420px;
-  background-color: #313131;
-  background-image: url("/images/raisehand_large.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: auto 300px; }
-
-.hero h2 {
-  margin: 25px 0px 0px 0px;
-  text-align: center; }
-
-.hero p {
-  text-align: center;
-  padding: 3px 0px;
-  color: #fff;
-  margin: 0px; }
-
-@media screen and (min-width: 35em) {
-  .hero {
-    background-image: url("/images/Bookshelf.png");
-    background-size: auto 120px;
-    background-repeat: repeat-x;
-    height: 520px; }
-  .hero h2 {
-    text-align: right; }
-  .hero p {
-    text-align: right;
-    font-size: 24px;
-    font-weight: 300; } }
-
-/*----------------------- Call Outs ------------------------------ */
-.callouts {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
-  text-align: center; }
-
-.callouts div {
+.newsletter {
   display: none; }
 
 @media screen and (min-width: 35em) {
-  .volunteer {
-    background-image: url("/images/raisehand.png");
-    width: 25%;
-    height: 270px;
-    background-color: #BDA857;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center bottom 50px; }
-  .share {
-    background-image: url("/images/globe.png");
-    width: 25%;
-    height: 270px;
-    background-color: #F4F4F4;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center bottom 50px; }
-  .featured {
-    background-image: url("/images/donate.png");
-    width: 35%;
-    height: 370px;
-    background-color: #FCF3CB;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center bottom 50px;
-    margin: 0px 10px; }
-  .featured a {
-    background-color: #E95328 !important; }
-  .hero {
-    height: 575px; }
-  .callouts div a {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
+  .newsletter {
+    background-color: #91C0C7;
+    display: block; }
+  .newsletter .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .newsletter p {
+    color: #fff;
+    font-weight: bold;
+    margin: 15px;
+    text-align: center; }
+  .newsletter form {
+    margin: 10px; }
+  .newsletter input[type=text], select {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; }
+  .newsletter input[type=submit] {
+    width: 100px;
     background-color: #EAAB22;
-    display: inline-block;
-    height: 50px;
-    text-align: center;
-    line-height: 2.1 !important;
-    font-size: 24px !important;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
     font: 100% 'League Gothic', Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff; }
-  .mobileCallouts {
-    display: none !important; }
-  .callouts div {
-    display: block; } }
-
-/*----------------------- Mobile Call Outs ------------------------------ */
-.mobileCallouts {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
-
-.mobileCallouts div {
-  width: 33.3% !important;
-  height: 50px; }
-
-.mobileCallouts div a {
-  line-height: 2.1 !important;
-  font-size: 24px !important;
-  font: 100% 'League Gothic', Helvetica, sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff; }
-
-.mobileCallouts .volunteer {
-  background-color: #BDA857; }
-
-.mobileCallouts .share {
-  background-color: #EAAB22; }
-
-.mobileCallouts .featured {
-  background-color: #E95328; }
+    text-transform: uppercase; } }

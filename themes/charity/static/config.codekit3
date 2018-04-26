@@ -59,6 +59,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/newsletter.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/newsletter-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/typography.css": {
 		"aP": 1,
 		"bl": 0,
@@ -291,6 +301,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/modules\/form.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/form.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/modules\/layout.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -326,6 +349,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/newsletter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/newsletter.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
