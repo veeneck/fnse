@@ -33,7 +33,7 @@
         background-image: url("/images/Bookshelf.png");
         background-size: auto 120px;
         background-repeat: repeat-x;
-        height: 520px;
+        height: 600px;
     }
 
     .hero h2 {
@@ -100,10 +100,6 @@
 
     .featured a {
         background-color: $orange !important;
-    }
-
-    .hero {
-        height: 575px;
     }
 
     /// This is ugly trickery to get the a link to sit at the bottom of the callout 

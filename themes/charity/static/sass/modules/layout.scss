@@ -1,23 +1,28 @@
 @import "constants.scss";
 
+/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
+@mixin breakpoint($point) {
+  @if $point == large-screen {
+    @media (min-width: 1200px) { @content; }
+  }
+  @else if $point == normal-screen {
+    @media (min-width: 48em) { @content; }
+  }
+  @else if $point == condensed-screen {
+    @media (min-width: 35em)  { @content; }
+  }
+}
+
 .container {
     margin: 0px auto;
     max-width: $maxWidth;
     padding: 0px 10px;
-}
-
-@media screen and (min-width: 35em) {
-  .container {
-    padding: 0px 30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-
-  .container {
-    padding: 0px 10px;
-  }
-
+    @include breakpoint(condensed-screen) { 
+      padding: 0px 30px; 
+    }
+    @include breakpoint(large-screen) { 
+      padding: 0px 10px;
+    }
 }
 
 @mixin flex() {
@@ -40,17 +45,18 @@
   }
 }
 
+#subsections {
+  @include flex;
+  flex-direction: column;
+}
+
 /// For titles of subsections, center them on mobile but left align on web
 .subsection h3 {
   width: 100%;
   text-align: center;
-}
-
-@media screen and (min-width: 35em) {
-
-  .subsection h3 {
-    width: 100%;
-    text-align: left;
+  @include breakpoint(condensed-screen) { 
+      width: 100%;
+      text-align: left; 
   }
-
 }
+

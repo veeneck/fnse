@@ -100,14 +100,12 @@ html {
   margin: 0px auto;
   max-width: 1200px;
   padding: 0px 10px; }
-
-@media screen and (min-width: 35em) {
-  .container {
-    padding: 0px 30px; } }
-
-@media screen and (min-width: 1200px) {
-  .container {
-    padding: 0px 10px; } }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 30px; } }
+  @media (min-width: 1200px) {
+    .container {
+      padding: 0px 10px; } }
 
 .hero {
   *zoom: 1; }
@@ -117,14 +115,21 @@ html {
   .hero:after {
     clear: both; }
 
+#subsections {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column; }
+
 .subsection h3 {
   width: 100%;
   text-align: center; }
-
-@media screen and (min-width: 35em) {
-  .subsection h3 {
-    width: 100%;
-    text-align: left; } }
+  @media (min-width: 35em) {
+    .subsection h3 {
+      width: 100%;
+      text-align: left; } }
 
 body {
   margin: 0;
@@ -154,7 +159,7 @@ body {
     background-image: url("/images/Bookshelf.png");
     background-size: auto 120px;
     background-repeat: repeat-x;
-    height: 520px; }
+    height: 600px; }
   .hero h2 {
     text-align: right; }
   .hero p {
@@ -205,8 +210,6 @@ body {
     margin: 0px 10px; }
   .featured a {
     background-color: #E95328 !important; }
-  .hero {
-    height: 575px; }
   .callouts div a {
     position: absolute;
     bottom: 0px;

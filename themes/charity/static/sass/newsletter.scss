@@ -1,16 +1,17 @@
 @import "base.scss";
 
 .newsletter {
-	display: none;
+	order: 2;
+	background-color: $blue;
+	margin-top: 30px;
+	@include breakpoint(condensed-screen) { 
+      	order: 0;
+		margin-top: 0px;
+    }
 }
 
 // Hide the newsletter on mobile for now
 @media screen and (min-width: 35em) {
-
-	.newsletter {
-		background-color: $blue;
-		display: block;
-	}
 
 	.newsletter .container {
 		@include flex;
