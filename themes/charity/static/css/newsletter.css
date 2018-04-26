@@ -102,6 +102,11 @@ html {
   padding: 0px 10px; }
   @media (min-width: 35em) {
     .container {
+      padding: 0px 30px;
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right); } }
+  @media (min-width: 48em) {
+    .container {
       padding: 0px 30px; } }
   @media (min-width: 1200px) {
     .container {

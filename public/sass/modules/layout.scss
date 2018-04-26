@@ -18,6 +18,11 @@
     max-width: $maxWidth;
     padding: 0px 10px;
     @include breakpoint(condensed-screen) { 
+      padding: 0px 30px;
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right);
+    }
+    @include breakpoint(normal-screen) {
       padding: 0px 30px; 
     }
     @include breakpoint(large-screen) { 
