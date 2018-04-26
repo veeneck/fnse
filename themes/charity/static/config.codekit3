@@ -148,8 +148,8 @@
 		"oA": 0,
 		"oAP": "\/images\/donate.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -202,6 +202,17 @@
 		"iS": 10032,
 		"oA": 0,
 		"oAP": "\/images\/raisehand.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/raisehand_large.png": {
+		"ft": 32768,
+		"iS": 15923,
+		"oA": 0,
+		"oAP": "\/images\/raisehand_large.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -185,7 +185,8 @@ nav[role=navigation].open {
   margin-top: 30px; }
 
 nav[role=navigation] ul {
-  padding: 0; }
+  padding: 0;
+  letter-spacing: 1.1px; }
   nav[role=navigation] ul :last-child {
     margin: 0px; }
 
