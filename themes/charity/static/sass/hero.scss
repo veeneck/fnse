@@ -2,6 +2,7 @@
 
 /*----------------------- Title and Background ------------------------------ */
 
+/// On mobile, the hero image single and does not repeat
 .hero {
 	@extend %clearfix;
 	width: 100%;
@@ -16,31 +17,19 @@
 .hero h2 {
 	margin: 25px 0px 0px 0px;
 	text-align: center;
-	padding: 10px;
-	@include heavyFontStack();
-	font-style: italic !important;
-	font-size: 26px !important;
-}
-
-.hero h2 mark {
-	background-color: $purple;
-	padding: 0px 5px;
-	color: $white;
 }
 
 .hero p {
 	text-align: center;
-	padding: 3px 10px;
+	padding: 3px 0px;
 	color: $white;
-	margin: 0px 10px;
-	font-size: 16px;
-	@include proseFontStack();
-	font-weight: 300;
+	margin: 0px;
 }
 
 /// Hnadle larger displays
 @media screen and (min-width: 35em) {
 
+	/// On large screens, the background repeats along the bottom
 	.hero {
 		background-image: url("/images/Bookshelf.png");
 		background-size: auto 120px;
@@ -56,7 +45,7 @@
 	.hero p {
 		text-align: right;
 		font-size: 24px;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 }
