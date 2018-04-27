@@ -102,6 +102,61 @@ html {
 /*----------------------- Colors ------------------------------ */
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
+h2.triggerMe mark {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  opacity: 0; }
+
+h2.triggeredCSS3 mark {
+  opacity: 1; }
+
+h3.triggerMe mark {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+h3.triggeredCSS3 mark {
+  opacity: 1; }
+
+p.triggerMe {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+p.triggeredCSS3 {
+  opacity: 1; }
+
+blockquote.triggerMe {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+blockquote.triggeredCSS3 {
+  opacity: 1; }
+
+img.triggerMe {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+img.triggeredCSS3 {
+  opacity: 1; }
+
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
 /*----------------------- Import League Gothic ------------------------------ */
@@ -264,6 +319,10 @@ nav[role=navigation] {
 .why p {
   margin-right: 35px; }
 
+.northshoreframed {
+  margin-top: -50px;
+  z-index: 0; }
+
 .button {
   font: 100% 'League Gothic', Helvetica, sans-serif;
   background-color: #BDA857;
@@ -321,7 +380,7 @@ nav[role=navigation] {
   margin-bottom: 0px; }
 
 .shareWrapper figure {
-  margin-left: -82px;
+  margin-left: -95px;
   margin-bottom: -5px; }
 
 .shareWrapper h3 {
@@ -355,6 +414,61 @@ nav[role=navigation] {
 
 .hide {
   display: none; }
+
+h2.triggerMe mark {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  opacity: 0; }
+
+h2.triggeredCSS3 mark {
+  opacity: 1; }
+
+h3.triggerMe mark {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+h3.triggeredCSS3 mark {
+  opacity: 1; }
+
+p.triggerMe {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+p.triggeredCSS3 {
+  opacity: 1; }
+
+blockquote.triggerMe {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+blockquote.triggeredCSS3 {
+  opacity: 1; }
+
+img.triggerMe {
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  opacity: 0; }
+
+img.triggeredCSS3 {
+  opacity: 1; }
 
 body {
   margin: 0;
