@@ -17,7 +17,7 @@ h2.triggeredCSS3 mark  {
 
 
 h3.triggerMe mark {
-	@include transition(all 3s ease-out);
+	@include transition(all 1s ease-out);
 	opacity: 0;
 }
 
@@ -26,7 +26,7 @@ h3.triggeredCSS3 mark  {
 } 
 
 p.triggerMe  {
-	@include transition(all 3s ease-out);
+	@include transition(all 1s ease-out);
 	opacity: 0;
 }
 
@@ -35,7 +35,7 @@ p.triggeredCSS3   {
 } 
 
 blockquote.triggerMe  {
-	@include transition(all 3s ease-out);
+	@include transition(all 1s ease-out);
 	opacity: 0;
 }
 
@@ -44,7 +44,7 @@ blockquote.triggeredCSS3   {
 } 
 
 img.triggerMe  {
-	@include transition(all 3s ease-out);
+	@include transition(all 1s ease-out);
 	opacity: 0;
 }
 

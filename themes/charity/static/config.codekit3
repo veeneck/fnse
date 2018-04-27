@@ -164,7 +164,7 @@
 		},
 	"\/images\/chalkboard.png": {
 		"ft": 32768,
-		"iS": 42427,
+		"iS": 57043,
 		"oA": 0,
 		"oAP": "\/images\/chalkboard.png",
 		"oF": 0,
@@ -283,6 +283,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/lab.png": {
+		"ft": 32768,
+		"iS": 44338,
+		"oA": 0,
+		"oAP": "\/images\/lab.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/Logo.png": {
 		"ft": 32768,
 		"iS": 1221,
@@ -299,6 +310,17 @@
 		"iS": 539525,
 		"oA": 0,
 		"oAP": "\/images\/northshoreframed.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/northshorelogo.png": {
+		"ft": 32768,
+		"iS": 12708,
+		"oA": 0,
+		"oAP": "\/images\/northshorelogo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,

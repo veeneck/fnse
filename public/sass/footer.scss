@@ -1,6 +1,12 @@
 @import "base.scss";
 
 .pageFooter {
-	background-color: $purple;
-	height: 500px;
+	background-color: $darkGrey;
+}
+
+.pageFooter .container {
+	background-image: url("/images/chalkboard.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 600px;
 }

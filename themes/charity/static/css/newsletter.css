@@ -114,44 +114,44 @@ h2.triggeredCSS3 mark {
   opacity: 1; }
 
 h3.triggerMe mark {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 h3.triggeredCSS3 mark {
   opacity: 1; }
 
 p.triggerMe {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 p.triggeredCSS3 {
   opacity: 1; }
 
 blockquote.triggerMe {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 blockquote.triggeredCSS3 {
   opacity: 1; }
 
 img.triggerMe {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 img.triggeredCSS3 {
@@ -312,7 +312,6 @@ html {
   margin-right: 35px; }
 
 .northshoreframed {
-  margin-top: -50px;
   z-index: 0; }
 
 .button {
@@ -419,44 +418,44 @@ h2.triggeredCSS3 mark {
   opacity: 1; }
 
 h3.triggerMe mark {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 h3.triggeredCSS3 mark {
   opacity: 1; }
 
 p.triggerMe {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 p.triggeredCSS3 {
   opacity: 1; }
 
 blockquote.triggerMe {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 blockquote.triggeredCSS3 {
   opacity: 1; }
 
 img.triggerMe {
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -ms-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   opacity: 0; }
 
 img.triggeredCSS3 {
