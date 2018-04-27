@@ -26,8 +26,8 @@
 .hero .container {
 	background-image: url("/images/lab.png");
 	background-repeat: no-repeat;
-	background-position: left -130px bottom;
-	height: 425px;
+	background-position: left -270px bottom;
+	height: 325px;
 	background-size: 500px auto;
 
     @include breakpoint(condensed-screen) {
@@ -133,7 +133,7 @@
 
 .callToAction blockquote {
     color: #fff;
-    width: 100%;
+    width: 200px;
     margin: 40px 0px 0px auto;
     line-height: 1.5em;
     text-align: right;
