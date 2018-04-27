@@ -529,7 +529,7 @@ body {
 .hero .container {
   background-image: url("/images/lab.png");
   background-repeat: no-repeat;
-  background-position: left -270px bottom;
+  background-position: right 200px bottom;
   height: 325px;
   background-size: 500px auto; }
   @media (min-width: 35em) {
