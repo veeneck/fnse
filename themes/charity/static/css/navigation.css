@@ -71,7 +71,7 @@ html {
     margin-bottom: 0;
     line-height: 1.5rem; }
   html h2, html h3 {
-    font-size: 2.828rem;
+    font-size: 1.2em !important;
     line-height: 3rem;
     margin-top: 3rem;
     font: 100% 'League Gothic', Helvetica, sans-serif;
@@ -247,7 +247,7 @@ html {
     margin-bottom: 0;
     line-height: 1.5rem; }
   html h2, html h3 {
-    font-size: 2.828rem;
+    font-size: 1.2em !important;
     line-height: 3rem;
     margin-top: 3rem;
     font: 100% 'League Gothic', Helvetica, sans-serif;
@@ -601,6 +601,15 @@ nav[role=navigation] ul {
   letter-spacing: 1.1px; }
   nav[role=navigation] ul :last-child {
     margin-right: 0px; }
+  @media (min-width: 35em) {
+    nav[role=navigation] ul {
+      font-size: 80%; } }
+  @media (min-width: 48em) {
+    nav[role=navigation] ul {
+      font-size: 100%; } }
+  @media (min-width: 1200px) {
+    nav[role=navigation] ul {
+      font-size: 100%; } }
 
 nav[role=navigation] li {
   display: inline-block;

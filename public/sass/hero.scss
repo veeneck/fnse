@@ -138,16 +138,17 @@
     margin: 40px 0px 0px auto;
     line-height: 1.5em;
     text-align: right;
-    font-size: 70%;
+    font-size: 95%;
 
     @include breakpoint(condensed-screen) {
         font-size: 1.1em;
-        width: 600px;
+        width: 450px;
         margin: 15px 0px 0px auto;
     }
 
 
     @include breakpoint(normal-screen) {
+        width: 600px;
         font-size: 1.3em;
     }
 

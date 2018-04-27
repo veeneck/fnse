@@ -108,6 +108,18 @@ nav[role=navigation] ul {
     :last-child { 
 		margin-right: 0px;
     }
+
+    @include breakpoint(condensed-screen) {
+        font-size: 80%;
+    }
+
+    @include breakpoint(normal-screen) {
+        font-size: 100%;
+    }
+
+    @include breakpoint(large-screen) {
+        font-size: 100%;
+    }
 }
 
 nav[role=navigation] li {

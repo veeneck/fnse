@@ -71,7 +71,7 @@ html {
     margin-bottom: 0;
     line-height: 1.5rem; }
   html h2, html h3 {
-    font-size: 2.828rem;
+    font-size: 1.2em !important;
     line-height: 3rem;
     margin-top: 3rem;
     font: 100% 'League Gothic', Helvetica, sans-serif;
@@ -247,7 +247,7 @@ html {
     margin-bottom: 0;
     line-height: 1.5rem; }
   html h2, html h3 {
-    font-size: 2.828rem;
+    font-size: 1.2em !important;
     line-height: 3rem;
     margin-top: 3rem;
     font: 100% 'League Gothic', Helvetica, sans-serif;
@@ -613,14 +613,15 @@ body {
   margin: 40px 0px 0px auto;
   line-height: 1.5em;
   text-align: right;
-  font-size: 70%; }
+  font-size: 95%; }
   @media (min-width: 35em) {
     .callToAction blockquote {
       font-size: 1.1em;
-      width: 600px;
+      width: 450px;
       margin: 15px 0px 0px auto; } }
   @media (min-width: 48em) {
     .callToAction blockquote {
+      width: 600px;
       font-size: 1.3em; } }
   @media (min-width: 1200px) {
     .callToAction blockquote {
