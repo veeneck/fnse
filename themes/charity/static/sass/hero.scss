@@ -31,22 +31,22 @@
 	background-size: 500px auto;
 
     @include breakpoint(condensed-screen) {
-        background-size: 600px auto;
+        background-size: 550px auto;
     	background-position: left 0px bottom;
     	background-repeat: no-repeat;
-        height: 445px;
+        height: 440px;
     }
 
 
     @include breakpoint(normal-screen) {
-    	background-size: 750px auto;
-    	background-position: left 50px bottom;
-        height: 550px;
+    	background-size: 700px auto;
+    	background-position: left 25px bottom;
+        height: 540px;
     }
 
     @include breakpoint(large-screen) {
     	background-size: 900px auto;
-        height: 625px;
+        height: 615px;
     }
 }
 
@@ -166,56 +166,4 @@
 .button.nobg {
     background-color: $darkGrey;
     color: $lightGrey;
-}
-
-/*----------------------- Call Outs ------------------------------ */
-
-/// On larger displays, shows callouts.
-@media screen and (min-width: 35em) {
-    /// On larger screen, hide the mobile callouts
-    .mobileCallouts {
-        display: none !important;
-    }
-}
-
-/*----------------------- Mobile Call Outs ------------------------------ */
-
-/// Much like full sized callouts, we have a row of 3 things to focus.
-/// Difference is that this row has to sit below the hero image instead of on top.
-.mobileCallouts {
-    @include flex;
-
-    @extend %clearfix;
-
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.mobileCallouts div {
-    width: 33.3% !important;
-    height: 50px;
-}
-
-.mobileCallouts div a {
-    line-height: 2.1 !important;
-    font-size: 24px !important;
-
-    @include heavyFontStack;
-
-    text-transform: uppercase;
-    text-decoration: none;
-    color: $white;
-}
-
-.mobileCallouts .volunteer {
-    background-color: $green;
-}
-
-.mobileCallouts .share {
-    background-color: $darkYellow;
-}
-
-.mobileCallouts .featured {
-    background-color: $orange;
 }
