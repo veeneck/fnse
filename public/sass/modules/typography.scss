@@ -1,5 +1,18 @@
 @import "constants.scss";
 
+/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
+@mixin breakpoint($point) {
+  @if $point == large-screen {
+    @media (min-width: 1200px) { @content; }
+  }
+  @else if $point == normal-screen {
+    @media (min-width: 48em) { @content; }
+  }
+  @else if $point == condensed-screen {
+    @media (min-width: 35em)  { @content; }
+  }
+}
+
 /*----------------------- Import League Gothic ------------------------------ */
 
 /* Italic */
@@ -66,9 +79,19 @@ html {
         line-height: $leading * 1.1;
         margin-top: $leading;
         margin-bottom: 0;
-        font-size: 110%;
+        font-size: 80%;
         @include proseFontStack();
         font-weight: 300;
+
+        @include breakpoint(condensed-screen) { 
+            font-size: 80%;
+        }
+        @include breakpoint(normal-screen) {
+            font-size: 90%;
+        }
+        @include breakpoint(large-screen) { 
+            font-size: 100%;
+        }
     }
 
     ul, ol {
@@ -118,6 +141,16 @@ html {
             padding: 0px 5px;
             color: $white;
         }
+
+        @include breakpoint(condensed-screen) { 
+            font-size: 1.5em;
+        }
+        @include breakpoint(normal-screen) {
+            font-size: 1.7em;
+        }
+        @include breakpoint(large-screen) { 
+            font-size: 1.9em;
+        }
     }
 
     h3 {
@@ -126,7 +159,6 @@ html {
 
     @media screen and (min-width: 35em) {
         h2, h3 {
-            font-size: 36px !important;
             margin-top: 2 * $leading;
         }
     }

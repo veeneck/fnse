@@ -24,6 +24,9 @@
       padding-left: env(safe-area-inset-left);
       padding-right: env(safe-area-inset-right);
     }
+    @include breakpoint(condensed-screen) { 
+        padding: 0px 30px;
+    }
     @include breakpoint(normal-screen) {
       padding: 0px 30px; 
     }

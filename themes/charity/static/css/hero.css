@@ -35,9 +35,18 @@ html {
     line-height: 1.65rem;
     margin-top: 1.5rem;
     margin-bottom: 0;
-    font-size: 110%;
+    font-size: 80%;
     font-family: 'Lato', sans-serif;
     font-weight: 300; }
+    @media (min-width: 35em) {
+      html p {
+        font-size: 80%; } }
+    @media (min-width: 48em) {
+      html p {
+        font-size: 90%; } }
+    @media (min-width: 1200px) {
+      html p {
+        font-size: 100%; } }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -72,11 +81,19 @@ html {
       background-color: #816C93;
       padding: 0px 5px;
       color: #fff; }
+    @media (min-width: 35em) {
+      html h2, html h3 {
+        font-size: 1.5em; } }
+    @media (min-width: 48em) {
+      html h2, html h3 {
+        font-size: 1.7em; } }
+    @media (min-width: 1200px) {
+      html h2, html h3 {
+        font-size: 1.9em; } }
   html h3 {
     margin-top: 2.25rem; }
   @media screen and (min-width: 35em) {
     html h2, html h3 {
-      font-size: 36px !important;
       margin-top: 3rem; } }
   html h4 {
     font-size: 0.707rem; }
@@ -194,9 +211,18 @@ html {
     line-height: 1.65rem;
     margin-top: 1.5rem;
     margin-bottom: 0;
-    font-size: 110%;
+    font-size: 80%;
     font-family: 'Lato', sans-serif;
     font-weight: 300; }
+    @media (min-width: 35em) {
+      html p {
+        font-size: 80%; } }
+    @media (min-width: 48em) {
+      html p {
+        font-size: 90%; } }
+    @media (min-width: 1200px) {
+      html p {
+        font-size: 100%; } }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -231,11 +257,19 @@ html {
       background-color: #816C93;
       padding: 0px 5px;
       color: #fff; }
+    @media (min-width: 35em) {
+      html h2, html h3 {
+        font-size: 1.5em; } }
+    @media (min-width: 48em) {
+      html h2, html h3 {
+        font-size: 1.7em; } }
+    @media (min-width: 1200px) {
+      html h2, html h3 {
+        font-size: 1.9em; } }
   html h3 {
     margin-top: 2.25rem; }
   @media screen and (min-width: 35em) {
     html h2, html h3 {
-      font-size: 36px !important;
       margin-top: 3rem; } }
   html h4 {
     font-size: 0.707rem; }
@@ -266,6 +300,9 @@ html {
       padding: 0px 30px;
       padding-left: env(safe-area-inset-left);
       padding-right: env(safe-area-inset-right); } }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 30px; } }
   @media (min-width: 48em) {
     .container {
       padding: 0px 30px; } }
@@ -273,12 +310,12 @@ html {
     .container {
       padding: 0px 10px; } }
 
-.hero {
+.hero, .callToAction, .mobileCallouts {
   *zoom: 1; }
-  .hero:before, .hero:after {
+  .hero:before, .callToAction:before, .mobileCallouts:before, .hero:after, .callToAction:after, .mobileCallouts:after {
     content: " ";
     display: table; }
-  .hero:after {
+  .hero:after, .callToAction:after, .mobileCallouts:after {
     clear: both; }
 
 #subsections {
@@ -476,97 +513,132 @@ body {
 /*----------------------- Title and Background ------------------------------ */
 .hero {
   width: 100%;
-  height: 420px;
-  background-color: #313131;
-  background-image: url("/images/raisehand_large.png");
-  background-position: center bottom;
+  height: 100%;
+  background-color: #313131; }
+  @media (min-width: 35em) {
+    .hero {
+      background-image: none;
+      height: 500px; } }
+  @media (min-width: 48em) {
+    .hero {
+      height: 600px; } }
+  @media (min-width: 1200px) {
+    .hero {
+      height: 675px; } }
+
+.hero .container {
+  background-image: url("/images/lab.png");
   background-repeat: no-repeat;
-  background-size: auto 300px; }
+  background-position: left -130px bottom;
+  height: 425px;
+  background-size: 500px auto; }
+  @media (min-width: 35em) {
+    .hero .container {
+      background-size: 600px auto;
+      background-position: left 0px bottom;
+      background-repeat: no-repeat;
+      height: 445px; } }
+  @media (min-width: 48em) {
+    .hero .container {
+      background-size: 750px auto;
+      background-position: left 50px bottom;
+      height: 550px; } }
+  @media (min-width: 1200px) {
+    .hero .container {
+      background-size: 900px auto;
+      height: 625px; } }
+
+.hero .padder {
+  margin-top: 100px; }
+  @media (min-width: 35em) {
+    .hero .padder {
+      margin-top: inherit;
+      margin-right: 0px; } }
+  @media (min-width: 48em) {
+    .hero .padder {
+      margin-right: 50px; } }
+  @media (min-width: 1200px) {
+    .hero .padder {
+      margin-right: 0px; } }
 
 .hero h2 {
   text-align: center; }
+  @media (min-width: 35em) {
+    .hero h2 {
+      text-align: right; } }
 
 .hero p {
   text-align: center;
   padding: 3px 0px;
   color: #fff;
   margin: 0px; }
+  @media (min-width: 35em) {
+    .hero p {
+      text-align: right;
+      font-size: 1em;
+      font-weight: 300; } }
+  @media (min-width: 48em) {
+    .hero p {
+      font-size: 1.1em; } }
+  @media (min-width: 1200px) {
+    .hero p {
+      font-size: 1.2em; } }
 
-@media screen and (min-width: 35em) {
-  .hero {
-    background-image: url("/images/Bookshelf.png");
-    background-size: auto 120px;
-    background-repeat: repeat-x;
-    height: 600px; }
-  .hero h2 {
-    text-align: right; }
-  .hero p {
-    text-align: right;
-    font-size: 24px;
-    font-weight: 300; } }
-
-/*----------------------- Call Outs ------------------------------ */
-.callouts {
+/*----------------------- Call To Action ------------------------------ */
+.callToAction {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
-  text-align: center; }
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 30px; }
+  @media (min-width: 35em) {
+    .callToAction {
+      margin-right: 0px;
+      margin-top: 1.5em;
+      width: 100%; } }
+  @media (min-width: 48em) {
+    .callToAction {
+      margin-top: 2.0em; } }
+  @media (min-width: 1200px) {
+    .callToAction {
+      margin-top: 2.5em; } }
 
-.callouts div {
-  display: none; }
+.callToAction blockquote {
+  color: #fff;
+  width: 400px;
+  margin: 30px 0px 0px auto;
+  line-height: 1.5em;
+  text-align: right;
+  font-size: 90%; }
+  @media (min-width: 35em) {
+    .callToAction blockquote {
+      font-size: 1.1em;
+      width: 600px;
+      margin: 15px 0px 0px auto; } }
+  @media (min-width: 48em) {
+    .callToAction blockquote {
+      font-size: 1.3em; } }
+  @media (min-width: 1200px) {
+    .callToAction blockquote {
+      font-size: 1.5em; } }
 
+.callToAction .button {
+  margin-right: 0px;
+  background-color: #FAE18B;
+  color: #313131;
+  margin-left: 0px; }
+
+.button.nobg {
+  background-color: #313131;
+  color: #F4F4F4; }
+
+/*----------------------- Call Outs ------------------------------ */
 @media screen and (min-width: 35em) {
-  .volunteer {
-    background-image: url("/images/raisehand.png");
-    width: 25%;
-    height: 270px;
-    background-color: #BDA857;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center bottom 50px; }
-  .share {
-    background-image: url("/images/globe.png");
-    width: 25%;
-    height: 270px;
-    background-color: #F4F4F4;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center bottom 50px; }
-  .featured {
-    background-image: url("/images/donate.png");
-    width: 35%;
-    height: 370px;
-    background-color: #FCF3CB;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center bottom 50px;
-    margin: 0px 10px; }
-  .featured a {
-    background-color: #E95328 !important; }
-  .callouts div a {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: #EAAB22;
-    display: inline-block;
-    height: 50px;
-    text-align: center;
-    line-height: 2.1 !important;
-    font-size: 24px !important;
-    font: 100% 'League Gothic', Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff; }
   .mobileCallouts {
-    display: none !important; }
-  .callouts div {
-    display: block; } }
+    display: none !important; } }
 
 /*----------------------- Mobile Call Outs ------------------------------ */
 .mobileCallouts {

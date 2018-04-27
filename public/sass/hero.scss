@@ -2,136 +2,179 @@
 
 /*----------------------- Title and Background ------------------------------ */
 
-/// On mobile, the hero image single and does not repeat
 .hero {
     @extend %clearfix;
 
     width: 100%;
-    height: 420px;
+    height: 100%;
     background-color: $darkGrey;
-    background-image: url("/images/raisehand_large.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: auto 300px;
+
+    @include breakpoint(condensed-screen) {
+    	background-image: none;
+    	height: 500px;
+    }
+
+    @include breakpoint(normal-screen) {
+		height: 600px;
+    }
+
+    @include breakpoint(large-screen) {
+        height: 675px;
+    }
+}
+
+.hero .container {
+	background-image: url("/images/lab.png");
+	background-repeat: no-repeat;
+	background-position: left -130px bottom;
+	height: 425px;
+	background-size: 500px auto;
+
+    @include breakpoint(condensed-screen) {
+        background-size: 600px auto;
+    	background-position: left 0px bottom;
+    	background-repeat: no-repeat;
+        height: 445px;
+    }
+
+
+    @include breakpoint(normal-screen) {
+    	background-size: 750px auto;
+    	background-position: left 50px bottom;
+        height: 550px;
+    }
+
+    @include breakpoint(large-screen) {
+    	background-size: 900px auto;
+        height: 625px;
+    }
+}
+
+.hero .padder {
+	margin-top: 100px;
+    @include breakpoint(condensed-screen) {
+    	margin-top: inherit;
+    	margin-right: 0px;
+    }
+
+    @include breakpoint(normal-screen) {
+    	margin-right: 50px;
+    }
+
+    @include breakpoint(large-screen) {
+    	margin-right: 0px;
+    }
 }
 
 .hero h2 {
-    text-align: center;
+
+  	text-align: center;
+
+    @include breakpoint(condensed-screen) {
+    	text-align: right;
+    }
+
+
+    @include breakpoint(normal-screen) {}
+
+
+    @include breakpoint(large-screen) {}
 }
 
-
 .hero p {
-    text-align: center;
+
+	text-align: center;
     padding: 3px 0px;
     color: $white;
     margin: 0px;
-}
 
-/// Handle larger displays
-@media screen and (min-width: 35em) {
-    /// On large screens, the background repeats along the bottom
-    .hero {
-        background-image: url("/images/Bookshelf.png");
-        background-size: auto 120px;
-        background-repeat: repeat-x;
-        height: 600px;
-    }
-
-    .hero h2 {
-        text-align: right;
-    }
-
-    .hero p {
-        text-align: right;
-        font-size: 24px;
+    @include breakpoint(condensed-screen) {
+    	text-align: right;
+    	font-size: 1em;
         font-weight: 300;
     }
+
+
+    @include breakpoint(normal-screen) {
+    	font-size: 1.1em;
+    }
+
+
+    @include breakpoint(large-screen) {
+    	font-size: 1.2em;
+    }
+}
+
+
+/*----------------------- Call To Action ------------------------------ */
+
+.callToAction {
+    @include flex;
+    @extend %clearfix;
+
+    flex-direction: column;
+    justify-content: flex-end;;
+    margin-right: 30px;
+
+    @include breakpoint(condensed-screen) {
+    	margin-right: 0px;
+    	margin-top: 1.5em;
+    	width: 100%;
+    }
+
+    @include breakpoint(normal-screen) {
+		margin-top: 2.0em;
+    }
+
+    @include breakpoint(large-screen) {
+        margin-top: 2.5em;
+    }
+}
+
+.callToAction blockquote {
+    color: #fff;
+    width: 400px;
+    margin: 30px 0px 0px auto;
+    line-height: 1.5em;
+    text-align: right;
+    font-size: 90%;
+
+    @include breakpoint(condensed-screen) {
+        font-size: 1.1em;
+        width: 600px;
+        margin: 15px 0px 0px auto;
+    }
+
+
+    @include breakpoint(normal-screen) {
+        font-size: 1.3em;
+    }
+
+
+    @include breakpoint(large-screen) {
+        font-size: 1.5em;
+    }
+}
+
+.callToAction .button {
+    margin-right: 0px;
+    background-color: $lightYellow;
+    color: $darkGrey;
+    margin-left: 0px;
+}
+
+.button.nobg {
+    background-color: $darkGrey;
+    color: $lightGrey;
 }
 
 /*----------------------- Call Outs ------------------------------ */
 
-/// Credit: https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/
-
-/// Flexbox of our row of callouts.
-.callouts {
-    @include flex;
-
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    text-align: center;
-}
-
-/// Build a callout.
-@mixin callout($color, $width, $height) {
-    width: $width;
-    height: $height;
-    background-color: $color;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center bottom 50px;
-}
-
-/// On mobile, we don't display callouts. Instead, we have a row underneath for mobile callouts
-.callouts div {
-    display: none;
-}
-
 /// On larger displays, shows callouts.
 @media screen and (min-width: 35em) {
-    .volunteer {
-        background-image: url("/images/raisehand.png");
-
-        @include callout($green, 25%, 270px);
-    }
-
-    .share {
-        background-image: url("/images/globe.png");
-
-        @include callout($lightGrey, 25%, 270px);
-    }
-
-    .featured {
-        background-image: url("/images/donate.png");
-
-        @include callout($paleYellow, 35%, 370px);
-
-        margin: 0px 10px;
-    }
-
-    .featured a {
-        background-color: $orange !important;
-    }
-
-    /// This is ugly trickery to get the a link to sit at the bottom of the callout 
-    /// with the text vertical and horizontal centered.
-    .callouts div a {
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        background-color: $darkYellow;
-        display: inline-block;
-        height: 50px;
-        text-align: center;
-        line-height: 2.1 !important;
-        font-size: 24px !important;
-
-        @include heavyFontStack;
-
-        text-transform: uppercase;
-        text-decoration: none;
-        color: $white;
-    }
-
     /// On larger screen, hide the mobile callouts
     .mobileCallouts {
         display: none !important;
-    }
-
-    /// and show the full sized callouts.
-    .callouts div {
-        display: block;
     }
 }
 
@@ -141,6 +184,8 @@
 /// Difference is that this row has to sit below the hero image instead of on top.
 .mobileCallouts {
     @include flex;
+
+    @extend %clearfix;
 
     align-items: center;
     justify-content: center;
