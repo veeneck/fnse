@@ -29,6 +29,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/footer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/hero.css": {
 		"aP": 1,
 		"bl": 0,
@@ -152,6 +162,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/chalkboard.png": {
+		"ft": 32768,
+		"iS": 42427,
+		"oA": 0,
+		"oAP": "\/images\/chalkboard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/classroom.png": {
+		"ft": 32768,
+		"iS": 69969,
+		"oA": 0,
+		"oAP": "\/images\/classroom.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/donate.png": {
 		"ft": 32768,
 		"iS": 8785,
@@ -160,6 +192,61 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/facebook.png": {
+		"ft": 32768,
+		"iS": 869219,
+		"oA": 0,
+		"oAP": "\/images\/facebook.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/facebook1.png": {
+		"ft": 32768,
+		"iS": 474639,
+		"oA": 0,
+		"oAP": "\/images\/facebook1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/facebook2.png": {
+		"ft": 32768,
+		"iS": 552353,
+		"oA": 0,
+		"oAP": "\/images\/facebook2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/facebook3.png": {
+		"ft": 32768,
+		"iS": 443208,
+		"oA": 0,
+		"oAP": "\/images\/facebook3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/facebook4.png": {
+		"ft": 32768,
+		"iS": 539185,
+		"oA": 0,
+		"oAP": "\/images\/facebook4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -204,6 +291,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/northshoreframed.png": {
+		"ft": 32768,
+		"iS": 539525,
+		"oA": 0,
+		"oAP": "\/images\/northshoreframed.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -258,6 +356,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

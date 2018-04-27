@@ -352,45 +352,6 @@ body {
   margin: 0;
   padding: 0; }
 
-.newsletter {
-  order: 2;
-  background-color: #91C0C7;
-  margin-top: 30px; }
-  @media (min-width: 35em) {
-    .newsletter {
-      order: 0;
-      margin-top: 0px; } }
-
-@media screen and (min-width: 35em) {
-  .newsletter .container {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%; }
-  .newsletter p {
-    color: #fff;
-    font-weight: bold;
-    margin: 15px;
-    text-align: center; }
-  .newsletter form {
-    margin: 15px; }
-  .newsletter input[type=text], select {
-    width: 250px;
-    padding: 15px 20px 10px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; }
-  .newsletter input[type=submit] {
-    width: 100px;
-    background-color: #EAAB22;
-    color: white;
-    padding: 7px 20px;
-    border: none;
-    cursor: pointer;
-    font: 100% 'League Gothic', Helvetica, sans-serif;
-    text-transform: uppercase; } }
+.pageFooter {
+  background-color: #816C93;
+  height: 500px; }

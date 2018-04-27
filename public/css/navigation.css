@@ -32,9 +32,10 @@ html {
   /* Leading paragraph text */
   /* Hug a the block above you */ }
   html p {
-    line-height: 1.5rem;
+    line-height: 1.65rem;
     margin-top: 1.5rem;
     margin-bottom: 0;
+    font-size: 110%;
     font-family: 'Lato', sans-serif;
     font-weight: 300; }
   html ul, html ol {
@@ -46,9 +47,14 @@ html {
       margin-top: 0;
       margin-bottom: 0; }
   html blockquote {
-    line-height: 1.5rem;
+    line-height: 3rem;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2em;
+    color: #E95328; }
   html h2, html h3, html h4, html h5, html h6 {
     /* Change heading typefaces here */
     font-family: sans-serif;
@@ -96,6 +102,106 @@ html {
 /*----------------------- Colors ------------------------------ */
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Import League Gothic ------------------------------ */
+/* Italic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-italic-webfont.eot");
+  src: url("/fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-italic-webfont.woff") format("woff"), url("/fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+/* Regular */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-regular-webfont.eot");
+  src: url("/fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-regular-webfont.woff") format("woff"), url("/fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: sans-serif;
+  font-size: 125%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.65rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 110%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2em;
+    color: #E95328; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem; }
+  html h2, html h3 {
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+    font: 100% 'League Gothic', Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 1.5px; }
+    html h2 mark, html h3 mark {
+      background-color: #816C93;
+      padding: 0px 5px;
+      color: #fff; }
+  html h3 {
+    margin-top: 2.25rem; }
+  @media screen and (min-width: 35em) {
+    html h2, html h3 {
+      font-size: 36px !important;
+      margin-top: 3rem; } }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 30px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
 .container {
   margin: 0px auto;
   max-width: 1200px;
@@ -128,6 +234,10 @@ nav[role=navigation] {
   display: flex;
   flex-direction: column; }
 
+.subsection {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
 .subsection h3 {
   width: 100%;
   text-align: center; }
@@ -135,6 +245,116 @@ nav[role=navigation] {
     .subsection h3 {
       width: 100%;
       text-align: left; } }
+
+.why {
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.why figure {
+  margin: 0px;
+  margin-right: -100px; }
+
+.why .content {
+  align-self: flex-end; }
+
+.why p {
+  margin-right: 35px; }
+
+.button {
+  font: 100% 'League Gothic', Helvetica, sans-serif;
+  background-color: #BDA857;
+  text-align: center;
+  vertical-align: middle;
+  height: 26px;
+  line-height: 26px;
+  margin: 20px 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  float: right; }
+
+.button:hover {
+  background-color: #BDA857;
+  color: #fff; }
+
+.aboutWrapper {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f4f4f4+100 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 );
+  /* IE6-9 */ }
+
+.about .outerContent {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.about figure {
+  margin-left: -100px; }
+
+.about h3 {
+  text-align: right; }
+
+.about p {
+  margin-right: 0px;
+  margin-left: 35px; }
+
+.shareWrapper {
+  margin-bottom: 0px; }
+
+.shareWrapper figure {
+  margin-left: -82px;
+  margin-bottom: -5px; }
+
+.shareWrapper h3 {
+  text-align: center; }
+
+.shareWrapper p {
+  text-align: center; }
+
+.shareWrapper .subsection {
+  margin-top: 30px;
+  margin-bottom: 0px; }
+
+.volunteerWrapper .outerContent {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.volunteerWrapper .content {
+  width: 50%;
+  margin-top: 20px; }
+
+.volunteerWrapper .content p {
+  margin-right: 35px; }
+
+.volunteerWrapper .left {
+  border-right: 3px solid #F4F4F4; }
+
+.hide {
+  display: none; }
 
 body {
   margin: 0;

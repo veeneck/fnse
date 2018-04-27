@@ -1,4 +1,6 @@
 @import "constants.scss";
+@import "animations.scss";
+@import "typography.scss";
 
 /// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
 @mixin breakpoint($point) {
@@ -55,6 +57,11 @@
   flex-direction: column;
 }
 
+.subsection {
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
 /// For titles of subsections, center them on mobile but left align on web
 .subsection h3 {
   width: 100%;
@@ -65,3 +72,121 @@
   }
 }
 
+.why {
+  margin-top: 0px;
+  @include flex;
+}
+
+.why figure {
+  margin: 0px;
+  margin-right: -100px;
+}
+
+.why .content {
+  align-self: flex-end;
+}
+
+.why p {
+  margin-right: 35px;
+}
+
+.northshoreframed {
+
+}
+
+.button {
+   @include heavyFontStack();
+  background-color: $green;
+  text-align: center;
+  vertical-align: middle;
+  height: 26px;
+  line-height: 26px;
+  margin: 20px 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: $white;
+  @include transition(all 0.3s ease-out);
+  text-transform: uppercase;
+  float: right;
+}
+
+.button:hover {
+  background-color: $green;
+  color: $white;
+}
+
+.aboutWrapper {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f4f4f4+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#f4f4f4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%,#f4f4f4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+}
+
+.about .outerContent {
+    @include flex;
+}
+
+.about figure {
+  margin-left: -100px;
+}
+
+.about h3 {
+  text-align: right;
+}
+
+.about p {
+  margin-right: 0px;
+  margin-left: 35px;
+}
+
+.shareWrapper {
+  margin-bottom: 0px;
+}
+
+.shareWrapper .container {
+
+}
+
+.shareWrapper figure {
+  margin-left: -82px;
+  margin-bottom: -5px;
+}
+
+.shareWrapper h3 {
+  text-align: center;
+}
+
+.shareWrapper p {
+  text-align: center;
+}
+
+.shareWrapper .subsection {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.volunteerWrapper .outerContent {
+    @include flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.volunteerWrapper .content {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.volunteerWrapper .content p {
+  margin-right: 35px;
+}
+
+
+.volunteerWrapper .left {
+  border-right: 3px solid $lightGrey;
+}
+
+.hide {
+  display: none;
+}

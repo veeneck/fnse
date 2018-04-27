@@ -63,9 +63,10 @@ html {
 
     /* Copy & Lists */
     p {
-        line-height: $leading;
+        line-height: $leading * 1.1;
         margin-top: $leading;
         margin-bottom: 0;
+        font-size: 110%;
         @include proseFontStack();
         font-weight: 300;
     }
@@ -85,9 +86,14 @@ html {
     }
 
     blockquote {
-        line-height: $leading;
+        line-height: 3rem;
         margin-top: $leading;
         margin-bottom: $leading;
+        @include proseFontStack();
+        font-style: italic;
+        font-weight: 300;
+        font-size: 2em;
+        color: $orange;
     }
 
     /* Headings */
