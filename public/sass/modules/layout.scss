@@ -281,24 +281,53 @@ padding-bottom: 100px;
   margin-top: 40px;
 }
 
+.volunteerWrapper blockquote {
+      font-size: 1.2em;
+    @include breakpoint(condensed-screen) {
+        font-size: 1.5em;
+        margin-top: 0px;
+    }
+
+
+    @include breakpoint(normal-screen) {
+        font-size: 1.8em;
+    }
+
+
+    @include breakpoint(large-screen) {
+        font-size: 2em;
+    }
+}
+
 .volunteerWrapper .outerContent {
     @include flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    @include breakpoint(condensed-screen) {
+       flex-direction: row;
+    }
 }
 
 .volunteerWrapper .content {
-  width: 50%;
+  width: 100%;
+    @include breakpoint(condensed-screen) {
+       width: 50%;
+    }
 }
 
 .volunteerWrapper .content p {
-  margin-right: 35px;
+  margin-right: 0px;
+  @include breakpoint(condensed-screen) {
+       margin-right: 35px;
+    }
 }
 
 
 .volunteerWrapper .left {
-  border-right: 3px solid $lightGrey;
   padding-bottom: 25px;
+    @include breakpoint(condensed-screen) {
+       border-right: 3px solid $lightGrey;
+    }
 }
 
 .hide {
