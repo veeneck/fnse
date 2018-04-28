@@ -316,6 +316,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/northshore_mobile.png": {
+		"ft": 32768,
+		"iS": 245044,
+		"oA": 0,
+		"oAP": "\/images\/northshore_mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/northshoreframed.png": {
 		"ft": 32768,
 		"iS": 539525,

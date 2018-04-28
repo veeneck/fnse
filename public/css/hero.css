@@ -310,12 +310,12 @@ html {
     .container {
       padding: 0px 10px; } }
 
-.hero, .callToAction {
+.why .mobile, .hero, .callToAction {
   *zoom: 1; }
-  .hero:before, .callToAction:before, .hero:after, .callToAction:after {
+  .why .mobile:before, .hero:before, .callToAction:before, .why .mobile:after, .hero:after, .callToAction:after {
     content: " ";
     display: table; }
-  .hero:after, .callToAction:after {
+  .why .mobile:after, .hero:after, .callToAction:after {
     clear: both; }
 
 #subsections {
@@ -343,11 +343,14 @@ html {
 
 .why figure {
   width: 300px;
-  margin-right: -100px;
+  margin-right: -150px;
   float: right;
-  margin-top: -0.5px; }
+  margin-top: -0.5px;
+  display: none; }
   @media (min-width: 35em) {
     .why figure {
+      display: block;
+      margin-right: -100px;
       width: 420px; } }
   @media (min-width: 48em) {
     .why figure {
@@ -355,6 +358,14 @@ html {
   @media (min-width: 1200px) {
     .why figure {
       width: 620px; } }
+
+.why .mobile {
+  margin: 0px 0px 0px -10px;
+  padding: 0px;
+  width: 110%; }
+  @media (min-width: 35em) {
+    .why .mobile {
+      display: none; } }
 
 .why img {
   margin: 0px;
@@ -412,7 +423,8 @@ html {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex; }
+  display: flex;
+  margin-top: 50px; }
 
 .about figure {
   margin-left: -100px; }
