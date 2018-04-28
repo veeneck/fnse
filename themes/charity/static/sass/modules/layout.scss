@@ -167,17 +167,68 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
 }
 
+.aboutWrapper .container {
+      @include breakpoint(condensed-screen) {
+        margin-top: 0px;
+    }
+
+
+    @include breakpoint(normal-screen) {
+        margin-top: 0px;
+    }
+
+
+    @include breakpoint(large-screen) {
+        margin-top: 20px;
+    }
+}
+
+.aboutWrapper blockquote {
+    font-size: 1.2em;
+    @include breakpoint(condensed-screen) {
+        font-size: 1.5em;
+        margin-top: 0px;
+    }
+
+
+    @include breakpoint(normal-screen) {
+        font-size: 1.8em;
+    }
+
+
+    @include breakpoint(large-screen) {
+        font-size: 2em;
+    }
+}
+
 .about .outerContent {
     @include flex;
     margin-top: 50px;
 }
 
 .about figure {
-  margin-left: -100px;
+    display: none;
+    @include breakpoint(condensed-screen) {
+        display: block;
+          margin-left: -500px;
+    }
+
+
+    @include breakpoint(normal-screen) {
+        margin-left: -350px;
+    }
+
+
+    @include breakpoint(large-screen) {
+        margin-left: -100px;
+    }
 }
 
 .about h3 {
-  text-align: right;
+      @include breakpoint(condensed-screen) {
+        text-align: right;
+    }
+
 }
 
 .about p {

@@ -46,7 +46,7 @@ html {
         font-size: 90%; } }
     @media (min-width: 1200px) {
       html p {
-        font-size: 90%; } }
+        font-size: 100%; } }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -222,7 +222,7 @@ html {
         font-size: 90%; } }
     @media (min-width: 1200px) {
       html p {
-        font-size: 90%; } }
+        font-size: 100%; } }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -421,6 +421,31 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 );
   /* IE6-9 */ }
 
+@media (min-width: 35em) {
+  .aboutWrapper .container {
+    margin-top: 0px; } }
+
+@media (min-width: 48em) {
+  .aboutWrapper .container {
+    margin-top: 0px; } }
+
+@media (min-width: 1200px) {
+  .aboutWrapper .container {
+    margin-top: 20px; } }
+
+.aboutWrapper blockquote {
+  font-size: 1.2em; }
+  @media (min-width: 35em) {
+    .aboutWrapper blockquote {
+      font-size: 1.5em;
+      margin-top: 0px; } }
+  @media (min-width: 48em) {
+    .aboutWrapper blockquote {
+      font-size: 1.8em; } }
+  @media (min-width: 1200px) {
+    .aboutWrapper blockquote {
+      font-size: 2em; } }
+
 .about .outerContent {
   display: -webkit-box;
   display: -moz-box;
@@ -430,10 +455,21 @@ html {
   margin-top: 50px; }
 
 .about figure {
-  margin-left: -100px; }
+  display: none; }
+  @media (min-width: 35em) {
+    .about figure {
+      display: block;
+      margin-left: -500px; } }
+  @media (min-width: 48em) {
+    .about figure {
+      margin-left: -350px; } }
+  @media (min-width: 1200px) {
+    .about figure {
+      margin-left: -100px; } }
 
-.about h3 {
-  text-align: right; }
+@media (min-width: 35em) {
+  .about h3 {
+    text-align: right; } }
 
 .about p {
   margin-right: 0px;
