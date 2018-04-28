@@ -81,7 +81,7 @@ html {
         margin-bottom: 0;
         font-size: 80%;
         @include proseFontStack();
-        font-weight: 300;
+        font-weight: 500;
 
         @include breakpoint(condensed-screen) { 
             font-size: 80%;
@@ -143,13 +143,13 @@ html {
         }
 
         @include breakpoint(condensed-screen) { 
-            font-size: 1.5em;
+            font-size: 1.5em !important;
         }
         @include breakpoint(normal-screen) {
-            font-size: 1.7em;
+            font-size: 1.7em !important;
         }
         @include breakpoint(large-screen) { 
-            font-size: 1.9em;
+            font-size: 1.9em !important;
         }
     }
 

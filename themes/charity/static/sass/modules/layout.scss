@@ -77,12 +77,30 @@
 
 .why {
   margin-top: 0px;
-  @include flex;
 }
 
 .why figure {
-  margin: 0px;
+  width: 300px;
   margin-right: -100px;
+  float: right;
+  margin-top: -0.5px;
+
+    @include breakpoint(condensed-screen) { 
+          width: 420px;
+    }
+    @include breakpoint(normal-screen) {
+        width: 500px;
+    }
+    @include breakpoint(large-screen) { 
+        width: 620px;
+    }
+}
+
+.why img {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .why .content {
@@ -104,7 +122,7 @@
   vertical-align: middle;
   height: 26px;
   line-height: 26px;
-  margin: 20px 40px;
+  margin: 60px 15px 20px 40px;
   padding: 10px 20px;
   text-decoration: none;
   color: $white;

@@ -37,7 +37,7 @@ html {
     margin-bottom: 0;
     font-size: 80%;
     font-family: 'Lato', sans-serif;
-    font-weight: 300; }
+    font-weight: 500; }
     @media (min-width: 35em) {
       html p {
         font-size: 80%; } }
@@ -83,13 +83,13 @@ html {
       color: #fff; }
     @media (min-width: 35em) {
       html h2, html h3 {
-        font-size: 1.5em; } }
+        font-size: 1.5em !important; } }
     @media (min-width: 48em) {
       html h2, html h3 {
-        font-size: 1.7em; } }
+        font-size: 1.7em !important; } }
     @media (min-width: 1200px) {
       html h2, html h3 {
-        font-size: 1.9em; } }
+        font-size: 1.9em !important; } }
   html h3 {
     margin-top: 2.25rem; }
   @media screen and (min-width: 35em) {
@@ -213,7 +213,7 @@ html {
     margin-bottom: 0;
     font-size: 80%;
     font-family: 'Lato', sans-serif;
-    font-weight: 300; }
+    font-weight: 500; }
     @media (min-width: 35em) {
       html p {
         font-size: 80%; } }
@@ -259,13 +259,13 @@ html {
       color: #fff; }
     @media (min-width: 35em) {
       html h2, html h3 {
-        font-size: 1.5em; } }
+        font-size: 1.5em !important; } }
     @media (min-width: 48em) {
       html h2, html h3 {
-        font-size: 1.7em; } }
+        font-size: 1.7em !important; } }
     @media (min-width: 1200px) {
       html h2, html h3 {
-        font-size: 1.9em; } }
+        font-size: 1.9em !important; } }
   html h3 {
     margin-top: 2.25rem; }
   @media screen and (min-width: 35em) {
@@ -339,16 +339,28 @@ html {
       text-align: left; } }
 
 .why {
-  margin-top: 0px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; }
+  margin-top: 0px; }
 
 .why figure {
+  width: 300px;
+  margin-right: -100px;
+  float: right;
+  margin-top: -0.5px; }
+  @media (min-width: 35em) {
+    .why figure {
+      width: 420px; } }
+  @media (min-width: 48em) {
+    .why figure {
+      width: 500px; } }
+  @media (min-width: 1200px) {
+    .why figure {
+      width: 620px; } }
+
+.why img {
   margin: 0px;
-  margin-right: -100px; }
+  display: block;
+  width: 100%;
+  height: auto; }
 
 .why .content {
   align-self: flex-end; }
@@ -366,7 +378,7 @@ html {
   vertical-align: middle;
   height: 26px;
   line-height: 26px;
-  margin: 20px 40px;
+  margin: 60px 15px 20px 40px;
   padding: 10px 20px;
   text-decoration: none;
   color: #fff;
