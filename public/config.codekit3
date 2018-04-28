@@ -195,17 +195,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/facebook.png": {
-		"ft": 32768,
-		"iS": 869219,
-		"oA": 0,
-		"oAP": "\/images\/facebook.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/facebook1.png": {
 		"ft": 32768,
 		"iS": 474639,
@@ -321,17 +310,6 @@
 		"iS": 1221,
 		"oA": 0,
 		"oAP": "\/images\/Logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/northshore_mobile.png": {
-		"ft": 32768,
-		"iS": 245044,
-		"oA": 0,
-		"oAP": "\/images\/northshore_mobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
