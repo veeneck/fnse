@@ -376,8 +376,9 @@ html {
 .why .content {
   align-self: flex-end; }
 
-.why p {
-  margin-right: 35px; }
+@media (min-width: 35em) {
+  .why p {
+    margin-right: 35px; } }
 
 .northshoreframed {
   z-index: 0; }

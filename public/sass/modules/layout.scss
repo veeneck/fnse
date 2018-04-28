@@ -122,7 +122,10 @@
 }
 
 .why p {
-  margin-right: 35px;
+    @include breakpoint(condensed-screen) { 
+      margin-right: 35px;
+
+    }
 }
 
 .northshoreframed {
