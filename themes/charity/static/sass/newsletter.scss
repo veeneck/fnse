@@ -1,12 +1,17 @@
 @import "base.scss";
 
 .newsletter {
-	order: 2;
-	background-color: $blue;
+	order: 5;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a5c2c6+1,91c0c7+100 */
+background: #a5c2c6; /* Old browsers */
+background: -moz-linear-gradient(top, #a5c2c6 1%, #91c0c7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a5c2c6 1%,#91c0c7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a5c2c6 1%,#91c0c7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5c2c6', endColorstr='#91c0c7',GradientType=0 ); /* IE6-9 */;
 	margin-top: 30px;
 	z-index: 50;
 	@include breakpoint(condensed-screen) { 
-      	order: 0;
+      	order: 5;
 		margin-top: 0px;
     }
 }

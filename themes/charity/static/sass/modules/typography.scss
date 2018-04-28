@@ -90,7 +90,7 @@ html {
             font-size: 90%;
         }
         @include breakpoint(large-screen) { 
-            font-size: 100%;
+            font-size: 90%;
         }
     }
 
@@ -134,7 +134,7 @@ html {
         margin-top: 2 * $leading;
         @include heavyFontStack();
         font-style: italic;
-        letter-spacing:1.5px;
+        letter-spacing:0px;
 
         mark {
             background-color: $purple;

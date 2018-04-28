@@ -128,7 +128,7 @@
 }
 
 .callToAction blockquote {
-    color: #fff;
+    color: $white;
     width: 200px;
     margin: 40px 0px 0px auto;
     line-height: 1.5em;
@@ -151,6 +151,10 @@
     @include breakpoint(large-screen) {
         font-size: 1.5em;
     }
+}
+
+.callToAction b {
+    color: $paleYellow;
 }
 
 .callToAction .button {
