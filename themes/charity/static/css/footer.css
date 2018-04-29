@@ -618,7 +618,7 @@ body {
 .pageFooter {
   background-image: url("/images/footer.png");
   background-repeat: no-repeat;
-  border-bottom: 75px solid #313131;
+  border-bottom: 25px solid #313131;
   background-position: center bottom;
   height: 500px;
   background-color: #91C0C7; }
