@@ -39,6 +39,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/form.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/form-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/hero.css": {
 		"aP": 1,
 		"bl": 0,
@@ -195,44 +205,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/facebook1.png": {
+	"\/images\/facebook_condensed.png": {
 		"ft": 32768,
-		"iS": 474639,
+		"iS": 935973,
 		"oA": 0,
-		"oAP": "\/images\/facebook1.png",
+		"oAP": "\/images\/facebook_condensed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/facebook2.png": {
+	"\/images\/facebook_mobile.png": {
 		"ft": 32768,
-		"iS": 552353,
+		"iS": 411254,
 		"oA": 0,
-		"oAP": "\/images\/facebook2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/facebook3.png": {
-		"ft": 32768,
-		"iS": 443208,
-		"oA": 0,
-		"oAP": "\/images\/facebook3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/facebook4.png": {
-		"ft": 32768,
-		"iS": 539185,
-		"oA": 0,
-		"oAP": "\/images\/facebook4.png",
+		"oAP": "\/images\/facebook_mobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -310,6 +298,17 @@
 		"iS": 1221,
 		"oA": 0,
 		"oAP": "\/images\/Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/northshore_mobile.png": {
+		"ft": 32768,
+		"iS": 245044,
+		"oA": 0,
+		"oAP": "\/images\/northshore_mobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -452,7 +451,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/form.css",
 		"oF": 0,
 		"oS": 0,

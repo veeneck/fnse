@@ -41,7 +41,7 @@ html {
     @media (min-width: 35em) {
       html p {
         font-size: 80%; } }
-    @media (min-width: 48em) {
+    @media (min-width: 800px) {
       html p {
         font-size: 90%; } }
     @media (min-width: 1200px) {
@@ -79,12 +79,12 @@ html {
     letter-spacing: 0px; }
     html h2 mark, html h3 mark {
       background-color: #816C93;
-      padding: 0px 5px;
+      padding: 0px 5px 0px 0px;
       color: #fff; }
     @media (min-width: 35em) {
       html h2, html h3 {
         font-size: 1.5em !important; } }
-    @media (min-width: 48em) {
+    @media (min-width: 800px) {
       html h2, html h3 {
         font-size: 1.7em !important; } }
     @media (min-width: 1200px) {
@@ -217,7 +217,7 @@ html {
     @media (min-width: 35em) {
       html p {
         font-size: 80%; } }
-    @media (min-width: 48em) {
+    @media (min-width: 800px) {
       html p {
         font-size: 90%; } }
     @media (min-width: 1200px) {
@@ -255,12 +255,12 @@ html {
     letter-spacing: 0px; }
     html h2 mark, html h3 mark {
       background-color: #816C93;
-      padding: 0px 5px;
+      padding: 0px 5px 0px 0px;
       color: #fff; }
     @media (min-width: 35em) {
       html h2, html h3 {
         font-size: 1.5em !important; } }
-    @media (min-width: 48em) {
+    @media (min-width: 800px) {
       html h2, html h3 {
         font-size: 1.7em !important; } }
     @media (min-width: 1200px) {
@@ -303,7 +303,7 @@ html {
   @media (min-width: 35em) {
     .container {
       padding: 0px 30px; } }
-  @media (min-width: 48em) {
+  @media (min-width: 1080px) {
     .container {
       padding: 0px 30px; } }
   @media (min-width: 1200px) {
@@ -340,7 +340,10 @@ html {
 
 /* --------------- WHY NORTHSHORE -----------------*/
 .why {
-  margin-top: 50px; }
+  margin-top: 25px; }
+  @media (min-width: 35em) {
+    .why {
+      margin-top: 50px; } }
 
 .why figure {
   width: 300px;
@@ -353,16 +356,23 @@ html {
       display: block;
       margin-right: -100px;
       width: 420px; } }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .why figure {
-      width: 500px; } }
+      margin-top: -50px;
+      width: 550px;
+      margin-right: -225px; } }
+  @media (min-width: 1080px) {
+    .why figure {
+      margin-top: -50px;
+      width: 550px;
+      margin-right: -150px; } }
   @media (min-width: 1200px) {
     .why figure {
       width: 620px; } }
 
 .why .mobile {
   margin: 0px 0px 0px -10px;
-  padding: 0px;
+  padding: 40px 0px 0px 0px;
   width: 110%; }
   @media (min-width: 35em) {
     .why .mobile {
@@ -425,7 +435,7 @@ html {
   .aboutWrapper .container {
     margin-top: 0px; } }
 
-@media (min-width: 48em) {
+@media (min-width: 1080px) {
   .aboutWrapper .container {
     margin-top: 0px; } }
 
@@ -434,17 +444,23 @@ html {
     margin-top: 20px; } }
 
 .aboutWrapper blockquote {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin-top: 0px; }
   @media (min-width: 35em) {
     .aboutWrapper blockquote {
-      font-size: 1.5em;
-      margin-top: 0px; } }
-  @media (min-width: 48em) {
+      font-size: 1.5em; } }
+  @media (min-width: 1080px) {
     .aboutWrapper blockquote {
       font-size: 1.8em; } }
   @media (min-width: 1200px) {
     .aboutWrapper blockquote {
       font-size: 2em; } }
+
+.about {
+  margin-top: 0px; }
+  @media (min-width: 35em) {
+    .about {
+      margin-top: 20px; } }
 
 .about .outerContent {
   display: -webkit-box;
@@ -460,16 +476,19 @@ html {
     .about figure {
       display: block;
       margin-left: -500px; } }
-  @media (min-width: 48em) {
+  @media (min-width: 1080px) {
     .about figure {
       margin-left: -350px; } }
   @media (min-width: 1200px) {
     .about figure {
       margin-left: -100px; } }
 
-@media (min-width: 35em) {
-  .about h3 {
-    text-align: right; } }
+.about h3 {
+  margin-top: 0px !important; }
+  @media (min-width: 35em) {
+    .about h3 {
+      margin-top: 50px !important;
+      text-align: right; } }
 
 .about p {
   margin-right: 0px;
@@ -492,9 +511,27 @@ html {
   padding-bottom: 100px; }
 
 .shareWrapper figure {
-  margin-left: -95px;
   margin-bottom: -10px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  width: 100%;
+  margin-left: 0px; }
+  @media (min-width: 1200px) {
+    .shareWrapper figure {
+      margin-left: -95px;
+      width: 1400px; } }
+
+.shareWrapper img {
+  width: 100%;
+  content: url(/images/facebook_mobile.png); }
+  @media (min-width: 35em) {
+    .shareWrapper img {
+      content: url(/images/facebook_condensed.png); } }
+  @media (min-width: 1080px) {
+    .shareWrapper img {
+      content: url(/images/facebook_condensed.png); } }
+  @media (min-width: 1200px) {
+    .shareWrapper img {
+      content: url(/images/facebook.png); } }
 
 .shareWrapper h3 {
   text-align: center; }
@@ -516,7 +553,7 @@ html {
     .volunteerWrapper blockquote {
       font-size: 1.5em;
       margin-top: 0px; } }
-  @media (min-width: 48em) {
+  @media (min-width: 1080px) {
     .volunteerWrapper blockquote {
       font-size: 1.8em; } }
   @media (min-width: 1200px) {
@@ -555,6 +592,49 @@ html {
 
 .hide {
   display: none; }
+
+/* --------------- Contact -----------------*/
+.contactWrapper {
+  background-color: #91C0C7; }
+
+.contactWrapper input[type=text], select, textarea {
+  width: 100% !important; }
+
+.contactWrapper .outerContent {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 25px;
+  flex-direction: column; }
+  @media (min-width: 1080px) {
+    .contactWrapper .outerContent {
+      flex-direction: row; } }
+
+.contactWrapper .left {
+  width: 100%;
+  padding-right: 0px; }
+  @media (min-width: 1080px) {
+    .contactWrapper .left {
+      width: 50%;
+      padding-right: 40px; } }
+
+.contactWrapper .right {
+  width: 100%;
+  margin-top: 75px; }
+  @media (min-width: 1080px) {
+    .contactWrapper .right {
+      margin-top: 0px;
+      width: 50%; } }
+
+.contactWrapper img {
+  float: right;
+  padding: 0px 20px 20px 20px; }
+
+.contactWrapper p {
+  margin-top: 0px; }
 
 h2.triggerMe mark {
   -webkit-transition: all 1s ease-out;
@@ -610,6 +690,141 @@ img.triggerMe {
 
 img.triggeredCSS3 {
   opacity: 1; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Import League Gothic ------------------------------ */
+/* Italic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-italic-webfont.eot");
+  src: url("/fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-italic-webfont.woff") format("woff"), url("/fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+/* Regular */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/leaguegothic-regular-webfont.eot");
+  src: url("/fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-regular-webfont.woff") format("woff"), url("/fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: sans-serif;
+  font-size: 125%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.65rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 80%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500; }
+    @media (min-width: 35em) {
+      html p {
+        font-size: 80%; } }
+    @media (min-width: 800px) {
+      html p {
+        font-size: 90%; } }
+    @media (min-width: 1200px) {
+      html p {
+        font-size: 100%; } }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2em;
+    color: #E95328; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem; }
+  html h2, html h3 {
+    font-size: 1.2em !important;
+    line-height: 3rem;
+    margin-top: 3rem;
+    font: 100% 'League Gothic', Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 0px; }
+    html h2 mark, html h3 mark {
+      background-color: #816C93;
+      padding: 0px 5px 0px 0px;
+      color: #fff; }
+    @media (min-width: 35em) {
+      html h2, html h3 {
+        font-size: 1.5em !important; } }
+    @media (min-width: 800px) {
+      html h2, html h3 {
+        font-size: 1.7em !important; } }
+    @media (min-width: 1200px) {
+      html h2, html h3 {
+        font-size: 1.9em !important; } }
+  html h3 {
+    margin-top: 2.25rem; }
+  @media screen and (min-width: 35em) {
+    html h2, html h3 {
+      margin-top: 3rem; } }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 30px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+input[type=text], select, textarea {
+  width: 250px;
+  padding: 15px 20px 10px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+input[type=submit] {
+  width: 100px;
+  background-color: #EAAB22;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  font: 100% 'League Gothic', Helvetica, sans-serif;
+  text-transform: uppercase; }
 
 body {
   margin: 0;

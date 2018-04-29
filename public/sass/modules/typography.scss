@@ -6,7 +6,12 @@
     @media (min-width: 1200px) { @content; }
   }
   @else if $point == normal-screen {
-    @media (min-width: 48em) { @content; }
+    @media (min-width: 800px) {
+        @content;
+    }
+}
+@else if $point == tablet-screen {
+    @media (min-width: 50em) { @content; }
   }
   @else if $point == condensed-screen {
     @media (min-width: 35em)  { @content; }
@@ -138,7 +143,7 @@ html {
 
         mark {
             background-color: $purple;
-            padding: 0px 5px;
+            padding: 0px 5px 0px 0px;
             color: $white;
         }
 

@@ -26,8 +26,8 @@
 .hero .container {
 	background-image: url("/images/lab_mobile.png");
 	background-repeat: no-repeat;
-	background-position: right 225px bottom;
-	height: 325px;
+	background-position: right 200px bottom;
+	height: 425px;
 	background-size: 500px auto;
 
     @include breakpoint(condensed-screen) {
@@ -59,7 +59,7 @@
     }
 
     @include breakpoint(normal-screen) {
-    	margin-right: 50px;
+    	margin-right: 20px;
     }
 
     @include breakpoint(large-screen) {
@@ -109,13 +109,15 @@
     @extend %clearfix;
 
     flex-direction: column;
-    justify-content: flex-end;;
+    justify-content: center;
     margin-right: 30px;
+    width: 100%;
+
 
     @include breakpoint(condensed-screen) {
     	margin-right: 0px;
     	margin-top: 1.5em;
-    	width: 100%;
+    	justify-content: flex-end;
     }
 
     @include breakpoint(normal-screen) {
@@ -129,8 +131,7 @@
 
 .callToAction blockquote {
     color: $white;
-    width: 200px;
-    margin: 40px 0px 0px auto;
+    width: 100%px;
     line-height: 1.5em;
     text-align: right;
     font-size: 95%;
