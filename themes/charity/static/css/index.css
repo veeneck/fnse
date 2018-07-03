@@ -1,0 +1,1399 @@
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
+.module {
+  width: 100%;
+  margin: 150px 0px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 50px; }
+
+.thirdContainer {
+  width: 33%;
+  border-radius: 5px; }
+
+.twoThirdContainer {
+  width: 67%;
+  border-radius: 5px; }
+
+h3:before {
+  content: "";
+  background: #D1E5FB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 150px; }
+
+.coreImage {
+  width: 45%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 5px; }
+
+.copy {
+  width: 55%; }
+
+.copy.left {
+  padding-right: 60px; }
+
+/*----------------------- LINKS ------------------------------ */
+a.button {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 90%;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 25px 0px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  height: 25px;
+  line-height: 25px; }
+
+.button::before {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-right: 10px; }
+
+.button.heart::before {
+  content: url("/images/icons/icon_heart.png"); }
+
+.button.castle::before {
+  content: url("/images/icons/icon_castle.png"); }
+
+.button.hand::before {
+  content: url("/images/icons/icon_hand.png"); }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+/*----------------------- Title and Background ------------------------------ */
+.hero {
+  width: 100%;
+  min-height: 850px;
+  background-image: url("/images/classrom.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+.castle-wall {
+  background-image: url("/images/castle_wall.png");
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  width: 100%;
+  height: 41px;
+  margin-top: -35px;
+  z-index: 100;
+  position: relative; }
+
+.hero h2 {
+  text-align: right; }
+
+.hero .content p {
+  text-align: right;
+  color: #fff;
+  margin: 5px 0px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+.hero .content {
+  max-width: 800px;
+  margin-top: 350px;
+  float: right;
+  z-index: 1;
+  position: relative; }
+
+.hero .container {
+  margin: 0 auto !important; }
+
+.hero .button {
+  float: right; }
+
+.darken-pseudo {
+  position: relative; }
+
+.darken-pseudo:after {
+  content: '' !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block !important;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
+.module {
+  width: 100%;
+  margin: 150px 0px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 50px; }
+
+.thirdContainer {
+  width: 33%;
+  border-radius: 5px; }
+
+.twoThirdContainer {
+  width: 67%;
+  border-radius: 5px; }
+
+h3:before {
+  content: "";
+  background: #D1E5FB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 150px; }
+
+.coreImage {
+  width: 45%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 5px; }
+
+.copy {
+  width: 55%; }
+
+.copy.left {
+  padding-right: 60px; }
+
+/*----------------------- LINKS ------------------------------ */
+a.button {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 90%;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 25px 0px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  height: 25px;
+  line-height: 25px; }
+
+.button::before {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-right: 10px; }
+
+.button.heart::before {
+  content: url("/images/icons/icon_heart.png"); }
+
+.button.castle::before {
+  content: url("/images/icons/icon_castle.png"); }
+
+.button.hand::before {
+  content: url("/images/icons/icon_hand.png"); }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+/*----------------------- Navigation Styles ------------------------------ */
+header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  max-width: 100%;
+  margin: 0px auto 0px auto;
+  font: 100% 'Peace Sans', Helvetica, sans-serif; }
+
+h1 {
+  margin: auto 0px;
+  padding: 0px 0px 0px 20px; }
+
+.navigation {
+  width: 100%;
+  z-index: 100;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: #FAFAFA; }
+
+.nslogo {
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  padding: 15px 20px 10px 20px; }
+
+.donate {
+  margin: auto 25px !important;
+  height: 25px;
+  width: 195px; }
+
+/*----------------------- Hamburger Functionality ------------------------------ */
+div.menu-link {
+  padding: 1em;
+  color: #00295C; }
+
+nav[role=navigation] {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 100%;
+  margin: auto 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+nav[role=navigation].open {
+  max-height: 15em;
+  margin-bottom: 10px;
+  margin-top: 30px; }
+
+nav[role=navigation] ul {
+  padding: 0;
+  letter-spacing: 1.1px; }
+  @media (min-width: 35em) {
+    nav[role=navigation] ul {
+      font-size: 80%; } }
+  @media (min-width: 1080px) {
+    nav[role=navigation] ul {
+      font-size: 100%; } }
+  @media (min-width: 1200px) {
+    nav[role=navigation] ul {
+      font-size: 80%; } }
+
+nav[role=navigation] li {
+  display: inline-block;
+  margin: 0 1em; }
+
+nav[role=navigation] li a {
+  display: inline-block;
+  padding: 0.8em 0px;
+  color: #00295C;
+  text-decoration: none;
+  text-align: right; }
+
+nav[role=navigation] li img {
+  margin-bottom: -8px; }
+
+@media screen and (min-width: 35em) {
+  div.menu-link {
+    display: none; }
+  nav[role=navigation] {
+    max-height: none;
+    margin: auto 0px; }
+  nav[role=navigation] ul {
+    margin: auto 0px;
+    border: 0;
+    text-align: right; }
+  nav[role=navigation] li a {
+    border: 0; } }
+
+/*----------------- Hamburger Animation -----------------*/
+div.menu-link {
+  width: 20px;
+  top: 100px;
+  left: 120px;
+  transition-duration: 0.5s; }
+  div.menu-link .icon {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    top: 25px;
+    background-color: #000; }
+    div.menu-link .icon:before {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background-color: #000;
+      content: "";
+      top: -10px; }
+    div.menu-link .icon:after {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background-color: #000;
+      content: "";
+      top: 10px; }
+  div.menu-link.open .icon {
+    transition-duration: 0.5s;
+    background: transparent; }
+    div.menu-link.open .icon:before {
+      transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px); }
+    div.menu-link.open .icon:after {
+      transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px); }
+  div.menu-link:hover {
+    cursor: pointer; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
+.module {
+  width: 100%;
+  margin: 150px 0px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 50px; }
+
+.thirdContainer {
+  width: 33%;
+  border-radius: 5px; }
+
+.twoThirdContainer {
+  width: 67%;
+  border-radius: 5px; }
+
+h3:before {
+  content: "";
+  background: #D1E5FB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 150px; }
+
+.coreImage {
+  width: 45%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 5px; }
+
+.copy {
+  width: 55%; }
+
+.copy.left {
+  padding-right: 60px; }
+
+/*----------------------- LINKS ------------------------------ */
+a.button {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 90%;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 25px 0px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  height: 25px;
+  line-height: 25px; }
+
+.button::before {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-right: 10px; }
+
+.button.heart::before {
+  content: url("/images/icons/icon_heart.png"); }
+
+.button.castle::before {
+  content: url("/images/icons/icon_castle.png"); }
+
+.button.hand::before {
+  content: url("/images/icons/icon_hand.png"); }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+.friends .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row; }
+
+.friends .coreImage {
+  height: 500px !important; }
+
+.quote {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row; }
+
+.quote .thirdContainer {
+  background-color: #FAFAFA;
+  height: 400px;
+  margin-right: 3px; }
+
+.quote .twoThirdContainer {
+  background-color: #D1E5FB;
+  height: 400px; }
+
+.headshot {
+  margin: auto auto;
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  text-align: center; }
+
+.headshot img {
+  background-color: #fff;
+  border: 5px dashed #3C70AC;
+  height: 100px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 100px;
+  object-fit: cover; }
+
+.quote blockquote {
+  display: block;
+  margin: auto auto;
+  width: 80%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.hasQuote {
+  position: relative; }
+
+.hasQuote::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: url("/images/hasQuoteTop.png"); }
+
+.hasQuote::after {
+  position: absolute;
+  bottom: -6px;
+  right: 0;
+  content: url("/images/hasQuoteBottom.png"); }
+
+body {
+  margin: 0;
+  padding: 0; }

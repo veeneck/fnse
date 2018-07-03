@@ -2,12 +2,8 @@
   <body>
 
   	{{ partial "navigation.html" . }}
-
-  	{{ partial "hero.html" . }}
   
     {{ block "main" . -}}{{- end }}
-
-    {{ partial "footer.html" . }}
 
     {{ template "_internal/google_analytics_async.html" . }}
 

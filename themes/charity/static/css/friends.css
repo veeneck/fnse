@@ -1,19 +1,15 @@
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
-/*----------------------- Import League Gothic ------------------------------ */
-/* Italic */
-@font-face {
-  font-family: 'League Gothic';
-  src: url("/fonts/leaguegothic-italic-webfont.eot");
-  src: url("/fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-italic-webfont.woff") format("woff"), url("/fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
-  font-weight: normal;
-  font-style: italic; }
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
 
-/* Regular */
+.blue {
+  background-color: #3C70AC; }
+
 @font-face {
-  font-family: 'League Gothic';
-  src: url("/fonts/leaguegothic-regular-webfont.eot");
-  src: url("/fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-regular-webfont.woff") format("woff"), url("/fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -47,17 +43,22 @@ html {
     line-height: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
-  html h1, html h2, html h3, html h4, html h5, html h6 {
+  html h2, html h3, html h4, html h5, html h6 {
     /* Change heading typefaces here */
     font-family: sans-serif;
     margin-top: 1.5rem;
     margin-bottom: 0;
-    line-height: 1.5rem; }
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
   html h1 {
-    font-size: 4.242rem;
-    line-height: 4.5rem;
-    margin-top: 3rem; }
+    font-size: 1.5rem; }
   html h2 {
+    color: #fff;
     font-size: 2.828rem;
     line-height: 3rem;
     margin-top: 3rem; }
@@ -85,28 +86,38 @@ html {
 
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
 	opacity: 0;
 }*/
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
-/*----------------------- Import League Gothic ------------------------------ */
-/* Italic */
-@font-face {
-  font-family: 'League Gothic';
-  src: url("/fonts/leaguegothic-italic-webfont.eot");
-  src: url("/fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-italic-webfont.woff") format("woff"), url("/fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
-  font-weight: normal;
-  font-style: italic; }
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
 
-/* Regular */
+.blue {
+  background-color: #3C70AC; }
+
 @font-face {
-  font-family: 'League Gothic';
-  src: url("/fonts/leaguegothic-regular-webfont.eot");
-  src: url("/fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-regular-webfont.woff") format("woff"), url("/fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -140,17 +151,22 @@ html {
     line-height: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
-  html h1, html h2, html h3, html h4, html h5, html h6 {
+  html h2, html h3, html h4, html h5, html h6 {
     /* Change heading typefaces here */
     font-family: sans-serif;
     margin-top: 1.5rem;
     margin-bottom: 0;
-    line-height: 1.5rem; }
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
   html h1 {
-    font-size: 4.242rem;
-    line-height: 4.5rem;
-    margin-top: 3rem; }
+    font-size: 1.5rem; }
   html h2 {
+    color: #fff;
     font-size: 2.828rem;
     line-height: 3rem;
     margin-top: 3rem; }
@@ -177,11 +193,61 @@ html {
     margin-top: 0; }
 
 .module {
+  *zoom: 1; }
+  .module:before, .module:after {
+    content: " ";
+    display: table; }
+  .module:after {
+    clear: both; }
+
+.module {
   width: 100%; }
 
 .container {
-  width: 1200px;
-  margin: 0 auto; }
+  max-width: 1200px;
+  margin: 100px auto; }
+
+h3:before {
+  content: "";
+  background: #D1E5FB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 150px; }
+
+.coreImage {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px; }
+
+.copy {
+  width: 30%; }
+
+.copy p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+/*----------------------- LINKS ------------------------------ */
+a.button {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 90%;
+  text-decoration: none;
+  padding: 15px 15px;
+  margin: 25px 0px;
+  border-radius: 5px;
+  display: inline-block; }
+
+.button.heart::before {
+  content: url("/images/icons/icon_heart.png");
+  margin-right: 10px; }
+
+.button.castle::before {
+  content: url("/images/icons/icon_castle.png");
+  margin-right: 10px; }
 
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
@@ -189,20 +255,16 @@ html {
 }*/
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
-/*----------------------- Import League Gothic ------------------------------ */
-/* Italic */
-@font-face {
-  font-family: 'League Gothic';
-  src: url("/fonts/leaguegothic-italic-webfont.eot");
-  src: url("/fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-italic-webfont.woff") format("woff"), url("/fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
-  font-weight: normal;
-  font-style: italic; }
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
 
-/* Regular */
+.blue {
+  background-color: #3C70AC; }
+
 @font-face {
-  font-family: 'League Gothic';
-  src: url("/fonts/leaguegothic-regular-webfont.eot");
-  src: url("/fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/leaguegothic-regular-webfont.woff") format("woff"), url("/fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("/fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -236,17 +298,22 @@ html {
     line-height: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
-  html h1, html h2, html h3, html h4, html h5, html h6 {
+  html h2, html h3, html h4, html h5, html h6 {
     /* Change heading typefaces here */
     font-family: sans-serif;
     margin-top: 1.5rem;
     margin-bottom: 0;
-    line-height: 1.5rem; }
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
   html h1 {
-    font-size: 4.242rem;
-    line-height: 4.5rem;
-    margin-top: 3rem; }
+    font-size: 1.5rem; }
   html h2 {
+    color: #fff;
     font-size: 2.828rem;
     line-height: 3rem;
     margin-top: 3rem; }
@@ -272,7 +339,10 @@ html {
   html .hug {
     margin-top: 0; }
 
-.navigation {
-  width: 1200px;
-  margin: 0 auto;
-  background-color: #fff; }
+.friends .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row; }

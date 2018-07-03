@@ -29,6 +29,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/core.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/core-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/footer.css": {
 		"aP": 1,
 		"bl": 0,
@@ -49,6 +59,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/friends.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/friends-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/hero.css": {
 		"aP": 1,
 		"bl": 0,
@@ -56,6 +76,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/hero-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/index-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -99,260 +129,146 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/fonts\/leaguegothic-italic-webfont.eot": {
+	"\/fonts\/PeaceSans.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fonts\/leaguegothic-italic-webfont.eot",
+		"oAP": "\/fonts\/PeaceSans.woff",
 		"oF": 0
 		},
-	"\/fonts\/leaguegothic-italic-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/leaguegothic-italic-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/leaguegothic-italic-webfont.ttf": {
+	"\/fonts\/PeaceSans.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fonts\/leaguegothic-italic-webfont.ttf",
+		"oAP": "\/fonts\/PeaceSans.woff2",
 		"oF": 0
 		},
-	"\/fonts\/leaguegothic-italic-webfont.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/leaguegothic-italic-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/leaguegothic-regular-webfont.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/leaguegothic-regular-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/leaguegothic-regular-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/leaguegothic-regular-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/leaguegothic-regular-webfont.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/leaguegothic-regular-webfont.ttf",
-		"oF": 0
-		},
-	"\/fonts\/leaguegothic-regular-webfont.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/leaguegothic-regular-webfont.woff",
-		"oF": 0
-		},
-	"\/images\/Bookshelf.png": {
+	"\/images\/castle_wall.png": {
 		"ft": 32768,
-		"iS": 8915,
+		"iS": 1265,
 		"oA": 0,
-		"oAP": "\/images\/Bookshelf.png",
+		"oAP": "\/images\/castle_wall.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/chalkboard.png": {
-		"ft": 32768,
-		"iS": 57043,
+	"\/images\/classrom.jpg": {
+		"ft": 16384,
+		"iS": 769742,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/chalkboard.png",
+		"oAP": "\/images\/classrom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/facebook.png": {
+		"ft": 32768,
+		"iS": 1560,
+		"oA": 0,
+		"oAP": "\/images\/facebook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/classroom.png": {
+	"\/images\/FNSETextLogo.png": {
 		"ft": 32768,
-		"iS": 69969,
+		"iS": 2113,
 		"oA": 0,
-		"oAP": "\/images\/classroom.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/donate.png": {
-		"ft": 32768,
-		"iS": 8785,
-		"oA": 0,
-		"oAP": "\/images\/donate.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/facebook_condensed.png": {
-		"ft": 32768,
-		"iS": 935973,
-		"oA": 0,
-		"oAP": "\/images\/facebook_condensed.png",
+		"oAP": "\/images\/FNSETextLogo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/facebook_mobile.png": {
+	"\/images\/hasQuoteBottom.png": {
 		"ft": 32768,
-		"iS": 411254,
+		"iS": 1836,
 		"oA": 0,
-		"oAP": "\/images\/facebook_mobile.png",
+		"oAP": "\/images\/hasQuoteBottom.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/footer.png": {
+	"\/images\/hasQuoteTop.png": {
 		"ft": 32768,
-		"iS": 75025,
+		"iS": 1836,
 		"oA": 0,
-		"oAP": "\/images\/footer.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/globe.png": {
-		"ft": 32768,
-		"iS": 18530,
-		"oA": 0,
-		"oAP": "\/images\/globe.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Header BG Mobile.png": {
-		"ft": 32768,
-		"iS": 30713,
-		"oA": 0,
-		"oAP": "\/images\/Header BG Mobile.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Header BG.png": {
-		"ft": 32768,
-		"iS": 66300,
-		"oA": 0,
-		"oAP": "\/images\/Header BG.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/lab.png": {
-		"ft": 32768,
-		"iS": 44338,
-		"oA": 0,
-		"oAP": "\/images\/lab.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/lab_mobile.png": {
-		"ft": 32768,
-		"iS": 47064,
-		"oA": 0,
-		"oAP": "\/images\/lab_mobile.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Logo.png": {
-		"ft": 32768,
-		"iS": 1221,
-		"oA": 0,
-		"oAP": "\/images\/Logo.png",
+		"oAP": "\/images\/hasQuoteTop.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/northshore_mobile.png": {
-		"ft": 32768,
-		"iS": 245044,
+	"\/images\/headshot.jpg": {
+		"ft": 16384,
+		"iS": 6611,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/northshore_mobile.png",
+		"oAP": "\/images\/headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/icons\/icon_castle.png": {
+		"ft": 32768,
+		"iS": 514,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_castle.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/northshoreframed.png": {
+	"\/images\/icons\/icon_hand.png": {
 		"ft": 32768,
-		"iS": 539525,
+		"iS": 848,
 		"oA": 0,
-		"oAP": "\/images\/northshoreframed.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/northshorelogo.png": {
-		"ft": 32768,
-		"iS": 12708,
-		"oA": 0,
-		"oAP": "\/images\/northshorelogo.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/raisehand.png": {
-		"ft": 32768,
-		"iS": 10032,
-		"oA": 0,
-		"oAP": "\/images\/raisehand.png",
+		"oAP": "\/images\/icons\/icon_hand.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/raisehand_large.png": {
+	"\/images\/icons\/icon_heart.png": {
 		"ft": 32768,
-		"iS": 15923,
+		"iS": 495,
 		"oA": 0,
-		"oAP": "\/images\/raisehand_large.png",
+		"oAP": "\/images\/icons\/icon_heart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/KidsBanner.jpg": {
+		"ft": 16384,
+		"iS": 137432,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/KidsBanner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/NorthShoreLogo.png": {
+		"ft": 32768,
+		"iS": 6427,
+		"oA": 0,
+		"oAP": "\/images\/NorthShoreLogo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -379,46 +295,7 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/sass\/base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/base.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/hero.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/hero.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/modules\/animations.scss": {
+	"\/sass\/core\/animations.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -431,7 +308,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/modules\/constants.scss": {
+	"\/sass\/core\/constants.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -444,7 +321,20 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/modules\/form.scss": {
+	"\/sass\/core\/core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/core.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/core\/form.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -457,7 +347,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/modules\/layout.scss": {
+	"\/sass\/core\/layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -470,7 +360,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/modules\/typography.scss": {
+	"\/sass\/core\/typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -483,7 +373,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/navigation.scss": {
+	"\/sass\/index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -491,20 +381,59 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
+		"oAP": "\/css\/index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/modules\/friends.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/friends.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/modules\/hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/modules\/navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
 		"oAP": "\/css\/navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/newsletter.scss": {
+	"\/sass\/modules\/quote.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/newsletter.css",
+		"oA": 1,
+		"oAP": "\/css\/quote.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -516,8 +445,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 546287302,
-	"displayValue": "static",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "FNSE",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-krieger",
 	"iconImageWasSetByUser": 0
 	},

@@ -1,0 +1,133 @@
+@import "constants.scss";
+@import "animations.scss";
+@import "typography.scss";
+
+/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
+@mixin breakpoint($point) {
+    @if $point == large-screen {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $point == normal-screen {
+        @media (min-width: 1080px) {
+            @content;
+        }
+    }
+   @else if $point == tablet-screen {
+        @media (min-width: 50em) {
+            @content;
+        }
+    }
+    @else if $point == condensed-screen {
+        @media (min-width: 35em) {
+            @content;
+        }
+    }
+}
+
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+/// Use with @extend %clearfix
+%clearfix {
+    *zoom: 1;
+
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.module {
+    @extend %clearfix;
+    width: 100%;
+    margin: 150px 0px;
+}
+
+.container {
+    max-width: $maxWidth;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+.thirdContainer {
+    width: 33%;
+    border-radius: $borderRadius;
+}
+
+.twoThirdContainer {
+    width: 67%;
+    border-radius: $borderRadius;
+}
+
+h3:before {
+  content:""; 
+  background: $lightBlue; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  height: 3px; 
+  width: 150px;
+}
+
+.coreImage {
+    width: 45%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: $borderRadius;
+}
+
+.copy {
+    width: 55%;
+}
+
+.copy.left {
+    padding-right: 60px;
+}
+
+/*----------------------- LINKS ------------------------------ */
+
+a.button {
+    color: $white;
+    @include boldFontStack();
+    font-size: 90%;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 25px 0px;
+    border-radius: $borderRadius;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    height: 25px ;
+    line-height: 25px;
+}
+
+.button::before {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.button.heart::before {
+    content: url("/images/icons/icon_heart.png");
+}
+
+.button.castle::before {
+    content: url("/images/icons/icon_castle.png");
+}
+
+.button.hand::before {
+    content: url("/images/icons/icon_hand.png");
+}
+
