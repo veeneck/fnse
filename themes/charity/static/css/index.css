@@ -229,14 +229,38 @@ html {
   width: 67%;
   border-radius: 5px; }
 
+.leftHalfContainer {
+  width: 50%;
+  margin-right: 3px;
+  border-radius: 5px; }
+
+.rightHalfContainer {
+  width: 50%;
+  border-radius: 5px; }
+
 h3:before {
   content: "";
   background: #D1E5FB;
   position: absolute;
   top: 0;
-  left: 0;
   height: 3px;
   width: 150px; }
+
+.right h3 {
+  text-align: right; }
+
+.right h3:before {
+  right: 0; }
+
+h3.white {
+  color: #fff; }
+
+h3.center {
+  text-align: center; }
+
+h3.center:before {
+  left: 50%;
+  margin-left: -75px; }
 
 .coreImage {
   width: 45%;
@@ -249,6 +273,9 @@ h3:before {
 
 .copy.left {
   padding-right: 60px; }
+
+.copy.right {
+  padding-left: 60px; }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -266,11 +293,14 @@ a.button {
   height: 25px;
   line-height: 25px; }
 
+.right a.button {
+  float: right; }
+
 .button::before {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 10px; }
+  margin-right: 15px; }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
@@ -280,6 +310,15 @@ a.button {
 
 .button.hand::before {
   content: url("/images/icons/icon_hand.png"); }
+
+.button.explore::before {
+  content: url("/images/icons/icon_explore.png"); }
+
+.button.lend::before {
+  content: url("/images/icons/icon_lend.png"); }
+
+.button.roller::before {
+  content: url("/images/icons/icon_roller.png"); }
 
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
@@ -662,14 +701,38 @@ html {
   width: 67%;
   border-radius: 5px; }
 
+.leftHalfContainer {
+  width: 50%;
+  margin-right: 3px;
+  border-radius: 5px; }
+
+.rightHalfContainer {
+  width: 50%;
+  border-radius: 5px; }
+
 h3:before {
   content: "";
   background: #D1E5FB;
   position: absolute;
   top: 0;
-  left: 0;
   height: 3px;
   width: 150px; }
+
+.right h3 {
+  text-align: right; }
+
+.right h3:before {
+  right: 0; }
+
+h3.white {
+  color: #fff; }
+
+h3.center {
+  text-align: center; }
+
+h3.center:before {
+  left: 50%;
+  margin-left: -75px; }
 
 .coreImage {
   width: 45%;
@@ -682,6 +745,9 @@ h3:before {
 
 .copy.left {
   padding-right: 60px; }
+
+.copy.right {
+  padding-left: 60px; }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -699,11 +765,14 @@ a.button {
   height: 25px;
   line-height: 25px; }
 
+.right a.button {
+  float: right; }
+
 .button::before {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 10px; }
+  margin-right: 15px; }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
@@ -713,6 +782,15 @@ a.button {
 
 .button.hand::before {
   content: url("/images/icons/icon_hand.png"); }
+
+.button.explore::before {
+  content: url("/images/icons/icon_explore.png"); }
+
+.button.lend::before {
+  content: url("/images/icons/icon_lend.png"); }
+
+.button.roller::before {
+  content: url("/images/icons/icon_roller.png"); }
 
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
@@ -1176,14 +1254,38 @@ html {
   width: 67%;
   border-radius: 5px; }
 
+.leftHalfContainer {
+  width: 50%;
+  margin-right: 3px;
+  border-radius: 5px; }
+
+.rightHalfContainer {
+  width: 50%;
+  border-radius: 5px; }
+
 h3:before {
   content: "";
   background: #D1E5FB;
   position: absolute;
   top: 0;
-  left: 0;
   height: 3px;
   width: 150px; }
+
+.right h3 {
+  text-align: right; }
+
+.right h3:before {
+  right: 0; }
+
+h3.white {
+  color: #fff; }
+
+h3.center {
+  text-align: center; }
+
+h3.center:before {
+  left: 50%;
+  margin-left: -75px; }
 
 .coreImage {
   width: 45%;
@@ -1196,6 +1298,9 @@ h3:before {
 
 .copy.left {
   padding-right: 60px; }
+
+.copy.right {
+  padding-left: 60px; }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -1213,11 +1318,14 @@ a.button {
   height: 25px;
   line-height: 25px; }
 
+.right a.button {
+  float: right; }
+
 .button::before {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 10px; }
+  margin-right: 15px; }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
@@ -1227,6 +1335,15 @@ a.button {
 
 .button.hand::before {
   content: url("/images/icons/icon_hand.png"); }
+
+.button.explore::before {
+  content: url("/images/icons/icon_explore.png"); }
+
+.button.lend::before {
+  content: url("/images/icons/icon_lend.png"); }
+
+.button.roller::before {
+  content: url("/images/icons/icon_roller.png"); }
 
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
@@ -1335,6 +1452,435 @@ html {
 .friends .coreImage {
   height: 500px !important; }
 
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
+.module {
+  width: 100%;
+  margin: 150px 0px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 50px; }
+
+.thirdContainer {
+  width: 33%;
+  border-radius: 5px; }
+
+.twoThirdContainer {
+  width: 67%;
+  border-radius: 5px; }
+
+.leftHalfContainer {
+  width: 50%;
+  margin-right: 3px;
+  border-radius: 5px; }
+
+.rightHalfContainer {
+  width: 50%;
+  border-radius: 5px; }
+
+h3:before {
+  content: "";
+  background: #D1E5FB;
+  position: absolute;
+  top: 0;
+  height: 3px;
+  width: 150px; }
+
+.right h3 {
+  text-align: right; }
+
+.right h3:before {
+  right: 0; }
+
+h3.white {
+  color: #fff; }
+
+h3.center {
+  text-align: center; }
+
+h3.center:before {
+  left: 50%;
+  margin-left: -75px; }
+
+.coreImage {
+  width: 45%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 5px; }
+
+.copy {
+  width: 55%; }
+
+.copy.left {
+  padding-right: 60px; }
+
+.copy.right {
+  padding-left: 60px; }
+
+/*----------------------- LINKS ------------------------------ */
+a.button {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 90%;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 25px 0px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  height: 25px;
+  line-height: 25px; }
+
+.right a.button {
+  float: right; }
+
+.button::before {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-right: 15px; }
+
+.button.heart::before {
+  content: url("/images/icons/icon_heart.png"); }
+
+.button.castle::before {
+  content: url("/images/icons/icon_castle.png"); }
+
+.button.hand::before {
+  content: url("/images/icons/icon_hand.png"); }
+
+.button.explore::before {
+  content: url("/images/icons/icon_explore.png"); }
+
+.button.lend::before {
+  content: url("/images/icons/icon_lend.png"); }
+
+.button.roller::before {
+  content: url("/images/icons/icon_roller.png"); }
+
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Backgrounds ------------------------------ */
+.blueGreen {
+  background-color: #3FB08A; }
+
+.blue {
+  background-color: #3C70AC; }
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+  /* Copy & Lists */
+  /* Headings */
+  /* Tables */
+  /* Code blocks */
+  /* Leading paragraph text */
+  /* Hug a the block above you */ }
+  html p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; }
+  html ul, html ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+    html ul li, html ol li {
+      line-height: 1.5rem; }
+    html ul ul, html ul ol, html ol ul, html ol ol {
+      margin-top: 0;
+      margin-bottom: 0; }
+  html blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00295C;
+    font-style: italic; }
+  html h2, html h3, html h4, html h5, html h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font: 100% 'Peace Sans', Helvetica, sans-serif;
+    color: #00295C;
+    display: block;
+    position: relative;
+    padding-top: 10px; }
+  html h1 {
+    font-size: 1.5rem; }
+  html h2 {
+    color: #fff;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem; }
+  html h3 {
+    font-size: 1.414rem; }
+  html h4 {
+    font-size: 0.707rem; }
+  html h5 {
+    font-size: 0.4713333333rem; }
+  html h6 {
+    font-size: 0.3535rem; }
+  html table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse; }
+    html table td, html table th {
+      padding: 0;
+      line-height: 33px; }
+  html code {
+    vertical-align: bottom; }
+  html .lead {
+    font-size: 1.414rem; }
+  html .hug {
+    margin-top: 0; }
+
+.northshore .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row; }
+
+.northshore .coreImage {
+  height: 450px !important; }
+
 .quote {
   display: -webkit-box;
   display: -moz-box;
@@ -1358,11 +1904,11 @@ html {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  width: 150px;
+  width: 200px;
   text-align: center; }
 
 .headshot img {
-  background-color: #fff;
+  background-color: #D1E5FB;
   border: 5px dashed #3C70AC;
   height: 100px;
   border-radius: 50%;
@@ -1393,6 +1939,99 @@ html {
   bottom: -6px;
   right: 0;
   content: url("/images/hasQuoteBottom.png"); }
+
+.quote strong {
+  color: #00295C;
+  display: block;
+  margin: 10px 0;
+  font-family: 'Open Sans', sans-serif; }
+
+.quote span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #A4A4A4; }
+
+.volunteer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row; }
+
+.volunteer .leftHalfContainer {
+  background-color: #00295C;
+  padding: 150px 100px; }
+
+.volunteer .rightHalfContainer {
+  background-image: url("/images/Volunteer.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 850px; }
+
+.volunteer p {
+  color: #fff; }
+
+.volunteer .leftHalfContainer span {
+  color: #3FB08A;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  display: block;
+  margin: 50px 0px;
+  line-height: 1.5rem; }
+
+.projects {
+  text-align: center; }
+
+.sample-projects {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0px; }
+
+.center-project {
+  margin: 0px 50px; }
+
+.project {
+  width: 352px;
+  height: 508px;
+  background-image: url("/images/banner.png");
+  background-size: cover;
+  background-position: center center; }
+
+.project p {
+  text-align: left;
+  padding: 0px 20px 0px 25px;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 90%; }
+
+.projectImage {
+  width: 332px;
+  height: 250px;
+  z-index: 100;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center center; }
+
+.lunch {
+  background-image: url("/images/healthylunch.jpg"); }
+
+.afterschool {
+  background-image: url("/images/afterschool.jpg"); }
+
+.garden {
+  background-image: url("/images/Garden.png"); }
+
+.projects h4 {
+  margin-top: 20px;
+  margin-bottom: 15px; }
 
 body {
   margin: 0;

@@ -1,0 +1,29 @@
+.volunteer {
+	@include flex();
+	flex-direction: row;
+}
+
+.volunteer .leftHalfContainer {
+	background-color: $darkBlue;
+	padding: 150px 100px;
+}
+
+.volunteer .rightHalfContainer {
+	background-image: url("/images/Volunteer.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 850px;
+}
+
+.volunteer p {
+	color: $white;
+}
+
+.volunteer .leftHalfContainer span {
+	color: $blueGreen;
+	@include altProseStack();
+	font-style: italic;
+	display: block;
+	margin: 50px 0px;
+	line-height: 1.5rem;
+}

@@ -70,14 +70,45 @@
     border-radius: $borderRadius;
 }
 
+.leftHalfContainer {
+    width: 50%;
+    margin-right: 3px;
+    border-radius: $borderRadius;
+}
+
+.rightHalfContainer {
+    width: 50%;
+    border-radius: $borderRadius;
+}
+
 h3:before {
   content:""; 
   background: $lightBlue; 
   position: absolute; 
   top: 0; 
-  left: 0; 
   height: 3px; 
   width: 150px;
+}
+
+.right h3 {
+    text-align: right;
+}
+
+.right h3:before {
+    right: 0;
+}
+
+h3.white {
+    color: $white;
+}
+
+h3.center {
+    text-align: center;
+}
+
+h3.center:before {
+    left: 50%;
+    margin-left: -75px;
 }
 
 .coreImage {
@@ -93,6 +124,10 @@ h3:before {
 
 .copy.left {
     padding-right: 60px;
+}
+
+.copy.right {
+    padding-left: 60px;
 }
 
 /*----------------------- LINKS ------------------------------ */
@@ -112,11 +147,15 @@ a.button {
     line-height: 25px;
 }
 
+.right a.button {
+    float: right;
+}
+
 .button::before {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .button.heart::before {
@@ -129,5 +168,17 @@ a.button {
 
 .button.hand::before {
     content: url("/images/icons/icon_hand.png");
+}
+
+.button.explore::before {
+    content: url("/images/icons/icon_explore.png");
+}
+
+.button.lend::before {
+    content: url("/images/icons/icon_lend.png");
+}
+
+.button.roller::before {
+    content: url("/images/icons/icon_roller.png");
 }
 

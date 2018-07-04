@@ -21,6 +21,11 @@
     font-weight: 900;
 }
 
+@mixin altProseStack {
+   font-family: 'Lato', sans-serif;
+   font-weight: 100;
+}
+
 /*----------------------- Typebase Defaults ------------------------------ */
 
 /*! Typebase.less v0.1.0 | MIT License */

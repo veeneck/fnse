@@ -21,12 +21,12 @@
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 150px;
+	width: 200px;
 	text-align: center;
 }
 
 .headshot img {
-	 background-color:#fff;
+	 background-color:$lightBlue;
     border:5px dashed $blue;    
     height:100px;
     border-radius:50%;
@@ -62,4 +62,16 @@
 	right: 0;
 	content: url("/images/hasQuoteBottom.png");
 
+}
+
+.quote strong {
+	color: $darkBlue;
+	display: block;
+	margin: 10px 0;
+	@include proseFontStack();
+}
+
+.quote span {
+	@include altProseStack();
+	color: $grey;
 }
