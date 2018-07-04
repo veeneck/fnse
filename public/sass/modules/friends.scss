@@ -1,0 +1,11 @@
+@import "../core/core.scss";
+
+.friends .container {
+	@include flex();
+	flex-direction: row;
+}
+
+
+.friends .coreImage {
+	height: 500px !important;
+}

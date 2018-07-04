@@ -1,0 +1,11 @@
+@import "../core/core.scss";
+
+.northshore .container {
+	@include flex();
+	flex-direction: row;
+}
+
+
+.northshore .coreImage {
+	height: 450px !important;
+}

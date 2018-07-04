@@ -1,0 +1,39 @@
+.zoned {
+	@include flex();
+	flex-direction: row;
+}
+
+.zoned .thirdContainer {
+	background-color: $lightGrey;
+	height: 750px;
+}
+
+
+.zoned .twoThirdContainer {
+	height: 750px;
+	margin-right: 3px;
+	background-image: url("/images/zonemap.png");
+    background-size:cover;
+    background-position: top right;
+}
+
+.question {
+	margin: auto auto;
+	display: block;
+	width: 350px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.question strong {
+	color: $darkBlue;
+	display: block;
+	margin: 10px 0;
+	@include proseFontStack();
+}
+
+.question p {
+	text-align: left;
+}

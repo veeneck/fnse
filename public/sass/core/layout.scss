@@ -1,0 +1,192 @@
+@import "constants.scss";
+@import "animations.scss";
+@import "typography.scss";
+
+/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
+@mixin breakpoint($point) {
+    @if $point == large-screen {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $point == normal-screen {
+        @media (min-width: 1080px) {
+            @content;
+        }
+    }
+   @else if $point == tablet-screen {
+        @media (min-width: 50em) {
+            @content;
+        }
+    }
+    @else if $point == condensed-screen {
+        @media (min-width: 35em) {
+            @content;
+        }
+    }
+}
+
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+/// Use with @extend %clearfix
+%clearfix {
+    *zoom: 1;
+
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.module {
+    @extend %clearfix;
+    width: 100%;
+    margin: $moduleMargin 0px;
+}
+
+.container {
+    max-width: $maxWidth;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+.thirdContainer {
+    width: 33%;
+    border-radius: $borderRadius;
+}
+
+.twoThirdContainer {
+    width: 67%;
+    border-radius: $borderRadius;
+}
+
+.leftHalfContainer {
+    width: 50%;
+    margin-right: 3px;
+    border-radius: $borderRadius;
+}
+
+.rightHalfContainer {
+    width: 50%;
+    border-radius: $borderRadius;
+}
+
+h3:before {
+  content:""; 
+  background: $lightBlue; 
+  position: absolute; 
+  top: 0; 
+  height: 3px; 
+  width: 150px;
+}
+
+.right h3 {
+    text-align: right;
+}
+
+.right h3:before {
+    right: 0;
+}
+
+h3.white {
+    color: $white;
+}
+
+h3.center {
+    text-align: center;
+}
+
+h3.center:before {
+    left: 50%;
+    margin-left: -75px;
+}
+
+.coreImage {
+    width: 45%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: $borderRadius;
+}
+
+.copy {
+    width: 55%;
+}
+
+.copy.left {
+    padding-right: 60px;
+}
+
+.copy.right {
+    padding-left: 60px;
+}
+
+/*----------------------- LINKS ------------------------------ */
+
+a.button {
+    color: $white;
+    @include boldFontStack();
+    font-size: 90%;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 25px 0px;
+    border-radius: $borderRadius;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    height: 25px ;
+    line-height: 25px;
+}
+
+.right a.button {
+    float: right;
+}
+
+.button::before {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-right: 15px;
+}
+
+.button.heart::before {
+    content: url("/images/icons/icon_heart.png");
+}
+
+.button.castle::before {
+    content: url("/images/icons/icon_castle.png");
+}
+
+.button.hand::before {
+    content: url("/images/icons/icon_hand.png");
+}
+
+.button.explore::before {
+    content: url("/images/icons/icon_explore.png");
+}
+
+.button.lend::before {
+    content: url("/images/icons/icon_lend.png");
+}
+
+.button.roller::before {
+    content: url("/images/icons/icon_roller.png");
+}
+
+.button.faq::before {
+    content: url("/images/icons/icon_faq.png");
+}
+
+.button.mail::before {
+    content: url("/images/icons/icon_mail.png");
+}
+

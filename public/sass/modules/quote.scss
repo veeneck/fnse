@@ -1,0 +1,77 @@
+.quote {
+	@include flex();
+	flex-direction: row;
+}
+
+.quote .thirdContainer {
+	background-color: $lightGrey;
+	height: 400px;
+	margin-right: 3px;
+}
+
+
+.quote .twoThirdContainer {
+	background-color: $lightBlue;
+	height: 400px;
+}
+
+.headshot {
+	margin: auto auto;
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 200px;
+	text-align: center;
+}
+
+.headshot img {
+	 background-color:$lightBlue;
+    border:5px dashed $blue;    
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    object-fit: cover;
+}
+
+.quote blockquote {
+	display: block;
+	margin: auto auto;
+	width: 80%;
+		position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hasQuote {
+	position: relative;
+}
+
+.hasQuote::before {
+	position: absolute;
+	top: 0;
+    left: 0;
+	content: url("/images/hasQuoteTop.png");
+}
+
+.hasQuote::after {
+	position: absolute;
+	bottom: -6px;
+	right: 0;
+	content: url("/images/hasQuoteBottom.png");
+
+}
+
+.quote strong {
+	color: $darkBlue;
+	display: block;
+	margin: 10px 0;
+	@include proseFontStack();
+}
+
+.quote span {
+	@include altProseStack();
+	color: $grey;
+}

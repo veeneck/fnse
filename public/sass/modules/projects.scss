@@ -1,0 +1,57 @@
+.projects {
+	text-align: center;
+}
+
+.sample-projects {
+	@include flex();
+	flex-direction: row;
+	justify-content: center;
+	margin: 50px 0px;
+}
+
+.center-project {
+	margin: 0px 50px;
+}
+
+.project {
+	width: 352px;
+	height: 508px;
+    background-image: url("/images/banner.png");
+    background-size:cover;
+    background-position: center center;
+}
+
+.project p {
+	text-align: left;
+	padding: 0px 20px 0px 25px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 85%;
+}
+
+.projectImage {
+	width: 326px;
+	height: 250px;
+	z-index: 100;
+	margin-left: 13px;
+	margin-top: 13px;
+	background-size:cover;
+    background-position: center center;
+}
+
+.lunch {
+	background-image: url("/images/healthylunch.jpg");
+}
+
+.afterschool {
+	background-image: url("/images/afterschool.jpg");
+}
+
+.garden {
+	background-image: url("/images/Garden.png");
+}
+
+.projects h4 {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}

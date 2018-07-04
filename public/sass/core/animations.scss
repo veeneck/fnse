@@ -1,0 +1,15 @@
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+/// EXAMPLE
+/*h2.triggerMe mark {
+	@include transition(all 1s ease-out);
+	opacity: 0;
+}*/
+
+

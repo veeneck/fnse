@@ -176,13 +176,6 @@ html {
   html .hug {
     margin-top: 0; }
 
-.module {
-  width: 100%; }
-
-.container {
-  width: 1200px;
-  margin: 0 auto; }
-
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
 	opacity: 0;
@@ -271,8 +264,3 @@ html {
     font-size: 1.414rem; }
   html .hug {
     margin-top: 0; }
-
-.navigation {
-  width: 1200px;
-  margin: 0 auto;
-  background-color: #fff; }
