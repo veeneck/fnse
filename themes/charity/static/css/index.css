@@ -285,7 +285,7 @@ h3.center:before {
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;
@@ -784,7 +784,7 @@ h3.center:before {
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;
@@ -990,8 +990,10 @@ nav[role=navigation] {
   transition: all 0.3s ease-out;
   width: 100%;
   margin: auto 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-weight: 600; }
 
 nav[role=navigation].open {
   max-height: 15em;
@@ -1364,7 +1366,7 @@ h3.center:before {
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;
@@ -1820,7 +1822,7 @@ h3.center:before {
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;

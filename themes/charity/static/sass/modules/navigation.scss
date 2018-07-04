@@ -57,8 +57,9 @@ nav[role=navigation] {
     @include transition(all 0.3s ease-out);
     width: 100%;
     margin: auto 0px;
-    @include proseFontStack();
-    font-weight: 300;
+    @include boldFontStack();
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 // When we want nav to appear, change the height
