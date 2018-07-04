@@ -1,0 +1,49 @@
+.footer {
+	background-color: $black;
+	margin-top: -147px !important;
+	margin-bottom: 0px;
+	border-radius: $borderRadius;
+}
+
+.footer .container {
+	margin-top: $moduleMargin;
+	margin-bottom: $moduleMargin;
+	@include flex();
+	flex-direction: row;
+}
+
+.details {
+	width: 40%;
+	align-self: flex-end;
+	text-align: center;
+}
+
+.details img {
+	margin-bottom: 50px;
+	border-radius: $borderRadius;
+	border: 5px dashed $blue;
+	background-color: $lightBlue;
+}
+
+.contact {
+	color: $white;
+	text-align: right;
+	@include proseFontStack();
+	margin-bottom: 125px;
+}
+
+.contact strong {
+	display: block;
+}
+
+.contact span {
+	display: block;
+}
+
+.address {
+	margin-top: 25px;
+}
+
+.nonprofit {
+	color: $lightBlue;
+}

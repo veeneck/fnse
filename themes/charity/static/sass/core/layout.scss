@@ -51,7 +51,7 @@
 .module {
     @extend %clearfix;
     width: 100%;
-    margin: 150px 0px;
+    margin: $moduleMargin 0px;
 }
 
 .container {
@@ -180,5 +180,13 @@ a.button {
 
 .button.roller::before {
     content: url("/images/icons/icon_roller.png");
+}
+
+.button.faq::before {
+    content: url("/images/icons/icon_faq.png");
+}
+
+.button.mail::before {
+    content: url("/images/icons/icon_mail.png");
 }
 
