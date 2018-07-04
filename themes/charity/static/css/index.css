@@ -277,6 +277,11 @@ h3.center:before {
 .copy.right {
   padding-left: 60px; }
 
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
+
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
@@ -771,6 +776,11 @@ h3.center:before {
 .copy.right {
   padding-left: 60px; }
 
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
+
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
@@ -963,7 +973,7 @@ h1 {
 .donate {
   margin: auto 25px !important;
   height: 25px;
-  width: 195px; }
+  width: 175px; }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
 div.menu-link {
@@ -1345,6 +1355,11 @@ h3.center:before {
 
 .copy.right {
   padding-left: 60px; }
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -1796,6 +1811,11 @@ h3.center:before {
 
 .copy.right {
   padding-left: 60px; }
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
