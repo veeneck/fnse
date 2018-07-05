@@ -127,7 +127,7 @@ h2 {
 
 }
 h3 {
-    font-size: 0.8rem; 
+    font-size: 1rem; 
     @include breakpoint(condensed-screen) {
         font-size: 1rem;
     }
