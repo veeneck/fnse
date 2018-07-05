@@ -15,7 +15,10 @@
 .container {
     max-width: $maxWidth;
     margin: 0px auto;
-    padding: 0px 50px;
+    padding: 0px 20px;
+    @include breakpoint(condensed-screen) {
+        padding: 0px 50px;
+    }
 }
 
 .thirdContainer {
@@ -78,10 +81,6 @@ h3.center:before {
 
 .copy {
     width: 55%;
-}
-
-.copy.left {
-    padding-right: 60px;
 }
 
 .copy.right {

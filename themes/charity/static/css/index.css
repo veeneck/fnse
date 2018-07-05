@@ -280,7 +280,10 @@ html {
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 0px 50px; }
+  padding: 0px 20px; }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 50px; } }
 
 .thirdContainer {
   width: 33%;
@@ -331,9 +334,6 @@ h3.center:before {
 
 .copy {
   width: 55%; }
-
-.copy.left {
-  padding-right: 60px; }
 
 .copy.right {
   padding-left: 60px; }
@@ -877,7 +877,10 @@ html {
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 0px 50px; }
+  padding: 0px 20px; }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 50px; } }
 
 .thirdContainer {
   width: 33%;
@@ -928,9 +931,6 @@ h3.center:before {
 
 .copy {
   width: 55%; }
-
-.copy.left {
-  padding-right: 60px; }
 
 .copy.right {
   padding-left: 60px; }
@@ -1559,7 +1559,10 @@ html {
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 0px 50px; }
+  padding: 0px 20px; }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 50px; } }
 
 .thirdContainer {
   width: 33%;
@@ -1610,9 +1613,6 @@ h3.center:before {
 
 .copy {
   width: 55%; }
-
-.copy.left {
-  padding-right: 60px; }
 
 .copy.right {
   padding-left: 60px; }
@@ -1815,16 +1815,24 @@ textarea {
   width: 80%;
   padding-top: 20px; }
 
-.friends .container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row; }
+.friends .copy {
+  width: 100%; }
 
 .friends .coreImage {
-  height: 500px !important; }
+  height: 200px !important;
+  float: right;
+  width: 45%;
+  padding-left: 5%;
+  padding-bottom: 5%; }
+  @media (min-width: 35em) {
+    .friends .coreImage {
+      height: 300px !important; } }
+  @media (min-width: 1080px) {
+    .friends .coreImage {
+      height: 400px !important; } }
+  @media (min-width: 1200px) {
+    .friends .coreImage {
+      height: 500px !important; } }
 
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
@@ -2108,7 +2116,10 @@ html {
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 0px 50px; }
+  padding: 0px 20px; }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 50px; } }
 
 .thirdContainer {
   width: 33%;
@@ -2159,9 +2170,6 @@ h3.center:before {
 
 .copy {
   width: 55%; }
-
-.copy.left {
-  padding-right: 60px; }
 
 .copy.right {
   padding-left: 60px; }
