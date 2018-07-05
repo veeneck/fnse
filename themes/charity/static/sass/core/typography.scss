@@ -124,7 +124,19 @@ h2 {
 
 }
 h3 {
-  font-size: 1 * $scale * 1rem; }
+    font-size: 0.8rem; 
+    @include breakpoint(condensed-screen) {
+        font-size: 1rem;
+    }
+
+    @include breakpoint(normal-screen) {
+        font-size: 1.3rem;
+    }
+
+    @include breakpoint(large-screen) {
+        font-size: 1 * $scale * 1rem; 
+    }
+}
 h4 {
   font-size: $scale / 2 * 1rem; }
 h5 {
