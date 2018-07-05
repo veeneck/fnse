@@ -1,52 +1,7 @@
 @import "constants.scss";
 @import "animations.scss";
 @import "typography.scss";
-
-/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
-@mixin breakpoint($point) {
-    @if $point == large-screen {
-        @media (min-width: 1200px) {
-            @content;
-        }
-    }
-    @else if $point == normal-screen {
-        @media (min-width: 1080px) {
-            @content;
-        }
-    }
-   @else if $point == tablet-screen {
-        @media (min-width: 50em) {
-            @content;
-        }
-    }
-    @else if $point == condensed-screen {
-        @media (min-width: 35em) {
-            @content;
-        }
-    }
-}
-
-@mixin flex {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-}
-
-/// Use with @extend %clearfix
-%clearfix {
-    *zoom: 1;
-
-    &:before, &:after {
-        content: " ";
-        display: table;
-    }
-
-    &:after {
-        clear: both;
-    }
-}
+@import "mixins.scss";
 
 .module {
     @extend %clearfix;
@@ -141,7 +96,7 @@ h3.center:before {
 a.button {
     color: $white;
     @include boldFontStack();
-    font-size: 90%;
+    font-size: 80%;
     text-decoration: none;
     padding: 15px 20px;
     margin: 25px 0px;
@@ -151,6 +106,9 @@ a.button {
     vertical-align: middle;
     height: 25px ;
     line-height: 25px;
+    @include breakpoint(condensed-screen) {
+        font-size: 90%;
+    }
 }
 
 .right a.button {

@@ -73,7 +73,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -204,7 +204,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -321,7 +321,7 @@ a.button {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  font-size: 90%;
+  font-size: 80%;
   text-decoration: none;
   padding: 15px 20px;
   margin: 25px 0px;
@@ -331,6 +331,9 @@ a.button {
   vertical-align: middle;
   height: 25px;
   line-height: 25px; }
+  @media (min-width: 35em) {
+    a.button {
+      font-size: 90%; } }
 
 .right a.button {
   float: right; }
@@ -444,7 +447,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -624,7 +627,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -755,7 +758,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -872,7 +875,7 @@ a.button {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  font-size: 90%;
+  font-size: 80%;
   text-decoration: none;
   padding: 15px 20px;
   margin: 25px 0px;
@@ -882,6 +885,9 @@ a.button {
   vertical-align: middle;
   height: 25px;
   line-height: 25px; }
+  @media (min-width: 35em) {
+    a.button {
+      font-size: 90%; } }
 
 .right a.button {
   float: right; }
@@ -995,7 +1001,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1264,7 +1270,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1395,7 +1401,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1512,7 +1518,7 @@ a.button {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  font-size: 90%;
+  font-size: 80%;
   text-decoration: none;
   padding: 15px 20px;
   margin: 25px 0px;
@@ -1522,6 +1528,9 @@ a.button {
   vertical-align: middle;
   height: 25px;
   line-height: 25px; }
+  @media (min-width: 35em) {
+    a.button {
+      font-size: 90%; } }
 
 .right a.button {
   float: right; }
@@ -1635,7 +1644,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1771,7 +1780,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1902,7 +1911,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -2019,7 +2028,7 @@ a.button {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  font-size: 90%;
+  font-size: 80%;
   text-decoration: none;
   padding: 15px 20px;
   margin: 25px 0px;
@@ -2029,6 +2038,9 @@ a.button {
   vertical-align: middle;
   height: 25px;
   line-height: 25px; }
+  @media (min-width: 35em) {
+    a.button {
+      font-size: 90%; } }
 
 .right a.button {
   float: right; }
@@ -2142,7 +2154,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
