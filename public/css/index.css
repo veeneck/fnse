@@ -7,6 +7,14 @@
 .blue {
   background-color: #3C70AC; }
 
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -65,9 +73,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -121,6 +138,14 @@ html {
 .blue {
   background-color: #3C70AC; }
 
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -179,9 +204,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -277,10 +311,15 @@ h3.center:before {
 .copy.right {
   padding-left: 60px; }
 
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
+
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;
@@ -338,6 +377,14 @@ a.button {
 
 .blue {
   background-color: #3C70AC; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
 
 @font-face {
   font-family: 'Peace Sans';
@@ -397,9 +444,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -441,10 +497,15 @@ textarea {
 /*----------------------- Title and Background ------------------------------ */
 .hero {
   width: 100%;
-  min-height: 850px;
+  min-height: 650px;
   background-image: url("/images/classrom.jpg");
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  text-align: center; }
+  @media (min-width: 35em) {
+    .hero {
+      text-align: right;
+      min-height: 850px; } }
 
 .castle-wall {
   background-image: url("/images/castle_wall.png");
@@ -456,11 +517,7 @@ textarea {
   z-index: 100;
   position: relative; }
 
-.hero h2 {
-  text-align: right; }
-
 .hero .content p {
-  text-align: right;
   color: #fff;
   margin: 5px 0px 0px 0px;
   font-family: 'Open Sans', sans-serif;
@@ -468,16 +525,16 @@ textarea {
 
 .hero .content {
   max-width: 800px;
-  margin-top: 350px;
+  margin-top: 250px;
   float: right;
   z-index: 1;
   position: relative; }
+  @media (min-width: 35em) {
+    .hero .content {
+      margin-top: 350px; } }
 
 .hero .container {
   margin: 0 auto !important; }
-
-.hero .button {
-  float: right; }
 
 .darken-pseudo {
   position: relative; }
@@ -500,6 +557,14 @@ textarea {
 
 .blue {
   background-color: #3C70AC; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
 
 @font-face {
   font-family: 'Peace Sans';
@@ -559,9 +624,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -615,6 +689,14 @@ html {
 .blue {
   background-color: #3C70AC; }
 
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -673,9 +755,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -771,10 +862,15 @@ h3.center:before {
 .copy.right {
   padding-left: 60px; }
 
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
+
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;
@@ -832,6 +928,14 @@ a.button {
 
 .blue {
   background-color: #3C70AC; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
 
 @font-face {
   font-family: 'Peace Sans';
@@ -891,9 +995,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -941,7 +1054,8 @@ header {
   display: flex;
   max-width: 100%;
   margin: 0px auto 0px auto;
-  font: 100% 'Peace Sans', Helvetica, sans-serif; }
+  font: 100% 'Peace Sans', Helvetica, sans-serif;
+  height: 89px; }
 
 h1 {
   margin: auto 0px;
@@ -958,12 +1072,16 @@ h1 {
 .nslogo {
   background-color: #FAFAFA;
   border-radius: 5px;
-  padding: 15px 20px 10px 20px; }
+  padding: 15px 20px 10px 20px;
+  display: none; }
+  @media (min-width: 1080px) {
+    .nslogo {
+      display: inline-block; } }
 
 .donate {
   margin: auto 25px !important;
   height: 25px;
-  width: 195px; }
+  display: inline-block; }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
 div.menu-link {
@@ -978,10 +1096,12 @@ nav[role=navigation] {
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  width: 100%;
   margin: auto 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 0px; }
 
 nav[role=navigation].open {
   max-height: 15em;
@@ -1015,12 +1135,13 @@ nav[role=navigation] li a {
 nav[role=navigation] li img {
   margin-bottom: -8px; }
 
-@media screen and (min-width: 35em) {
+@media (min-width: 1080px) {
   div.menu-link {
     display: none; }
   nav[role=navigation] {
     max-height: none;
-    margin: auto 0px; }
+    margin: auto 0px;
+    flex-grow: 5; }
   nav[role=navigation] ul {
     margin: auto 0px;
     border: 0;
@@ -1031,22 +1152,23 @@ nav[role=navigation] li img {
 /*----------------- Hamburger Animation -----------------*/
 div.menu-link {
   width: 20px;
-  top: 100px;
-  left: 120px;
-  transition-duration: 0.5s; }
+  top: 20px;
+  right: 20px;
+  transition-duration: 0.5s;
+  position: absolute; }
   div.menu-link .icon {
     transition-duration: 0.5s;
     position: absolute;
     height: 4px;
     width: 30px;
     top: 25px;
-    background-color: #000; }
+    background-color: #00295C; }
     div.menu-link .icon:before {
       transition-duration: 0.5s;
       position: absolute;
       width: 30px;
       height: 4px;
-      background-color: #000;
+      background-color: #00295C;
       content: "";
       top: -10px; }
     div.menu-link .icon:after {
@@ -1054,7 +1176,7 @@ div.menu-link {
       position: absolute;
       width: 30px;
       height: 4px;
-      background-color: #000;
+      background-color: #00295C;
       content: "";
       top: 10px; }
   div.menu-link.open .icon {
@@ -1075,6 +1197,14 @@ div.menu-link {
 
 .blue {
   background-color: #3C70AC; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
 
 @font-face {
   font-family: 'Peace Sans';
@@ -1134,9 +1264,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -1190,6 +1329,14 @@ html {
 .blue {
   background-color: #3C70AC; }
 
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -1248,9 +1395,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -1346,10 +1502,15 @@ h3.center:before {
 .copy.right {
   padding-left: 60px; }
 
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
+
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;
@@ -1407,6 +1568,14 @@ a.button {
 
 .blue {
   background-color: #3C70AC; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
 
 @font-face {
   font-family: 'Peace Sans';
@@ -1466,9 +1635,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -1527,6 +1705,14 @@ textarea {
 .blue {
   background-color: #3C70AC; }
 
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -1585,9 +1771,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -1641,6 +1836,14 @@ html {
 .blue {
   background-color: #3C70AC; }
 
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -1699,9 +1902,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {
@@ -1797,10 +2009,15 @@ h3.center:before {
 .copy.right {
   padding-left: 60px; }
 
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
+  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
+  box-shadow: 0 8px 6px -6px #A4A4A4; }
+
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   font-size: 90%;
   text-decoration: none;
@@ -1858,6 +2075,14 @@ a.button {
 
 .blue {
   background-color: #3C70AC; }
+
+.module, .hero, nav[role=navigation] {
+  *zoom: 1; }
+  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+    content: " ";
+    display: table; }
+  .module:after, .hero:after, nav[role=navigation]:after {
+    clear: both; }
 
 @font-face {
   font-family: 'Peace Sans';
@@ -1917,9 +2142,18 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 2.828rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
     margin-top: 3rem; }
+    @media (min-width: 35em) {
+      html h2 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+    @media (min-width: 1080px) {
+      html h2 {
+        font-size: 2.6rem; } }
+    @media (min-width: 1200px) {
+      html h2 {
+        font-size: 2.828rem; } }
   html h3 {
     font-size: 1.414rem; }
   html h4 {

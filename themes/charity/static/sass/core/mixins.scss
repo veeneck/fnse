@@ -1,0 +1,45 @@
+/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
+@mixin breakpoint($point) {
+    @if $point == large-screen {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $point == normal-screen {
+        @media (min-width: 1080px) {
+            @content;
+        }
+    }
+   @else if $point == tablet-screen {
+        @media (min-width: 50em) {
+            @content;
+        }
+    }
+    @else if $point == condensed-screen {
+        @media (min-width: 35em) {
+            @content;
+        }
+    }
+}
+
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+/// Use with @extend %clearfix
+%clearfix {
+    *zoom: 1;
+
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}

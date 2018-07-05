@@ -6,23 +6,16 @@
     @extend %clearfix;
 
     width: 100%;
-    min-height: 850px;
+    min-height: 650px;
 
     background-image: url("/images/classrom.jpg");
     background-size:cover;
     background-position: center center;
 
+    text-align: center;
     @include breakpoint(condensed-screen) {
-
-    }
-
-
-    @include breakpoint(normal-screen) {
-
-    }
-
-    @include breakpoint(large-screen) {
-
+        text-align: right;
+         min-height: 850px;
     }
 }
 
@@ -51,11 +44,10 @@
 }
 
 .hero h2 {
-    text-align: right;
+
 }
 
 .hero .content p {
-    text-align: right;
     color: $white;
     margin: 5px 0px 0px 0px;
     @include proseFontStack();
@@ -64,10 +56,13 @@
 
 .hero .content {
     max-width: 800px;
-    margin-top: 350px;
+    margin-top: 250px;
     float: right;
     z-index: 1;
     position: relative;
+    @include breakpoint(condensed-screen) {
+        margin-top: 350px;
+    }
 }
 
 .hero .container {
@@ -75,7 +70,7 @@
 }
 
 .hero .button {
-    float: right;
+   
 }
 
 .darken-pseudo {

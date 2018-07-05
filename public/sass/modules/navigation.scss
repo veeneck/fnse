@@ -9,6 +9,7 @@ header {
     max-width: 100%;
     margin: 0px auto 0px auto;
     @include heavyFontStack();
+    height: 89px;
 }
 
 h1 {
@@ -29,12 +30,17 @@ h1 {
 	background-color: $lightGrey;
 	border-radius: $borderRadius;
 	padding: 15px 20px 10px 20px;
+	display: none;
+
+	@include breakpoint(normal-screen) {
+        display: inline-block;
+    }
 }
 
 .donate {
 	margin: auto 25px !important;
 	height: 25px;
-	width: 195px;
+	display: inline-block;
 }
 
 
@@ -55,10 +61,11 @@ nav[role=navigation] {
     overflow: hidden;
     max-height: 0;
     @include transition(all 0.3s ease-out);
-    width: 100%;
     margin: auto 0px;
-    @include proseFontStack();
-    font-weight: 300;
+    @include boldFontStack();
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 0px;
 }
 
 // When we want nav to appear, change the height
@@ -104,7 +111,7 @@ nav[role=navigation] li img {
 }
 
 // Style for larger screens. Hide the menu button, and show the normal navigation menu.
-@media screen and (min-width: 35em) {
+@include breakpoint(normal-screen) {
     div.menu-link {
         display: none;
     }
@@ -112,6 +119,7 @@ nav[role=navigation] li img {
     nav[role=navigation] {
         max-height: none;
         margin: auto 0px;
+        flex-grow: 5;
     }
 
     nav[role=navigation] ul {
@@ -133,8 +141,9 @@ nav[role=navigation] li img {
 @mixin btn($left, $top) {
     width: 20px;
     top: $top;
-    left: $left;
+    right: $left;
     transition-duration: 0.5s;
+    position: absolute;
 }
 
 @mixin icon($height, $width) {
@@ -143,7 +152,7 @@ nav[role=navigation] li img {
     height: $height;
     width: $width;
     top: 25px;
-    background-color: $black;
+    background-color: $darkBlue;
 }
 
 @mixin icon-before($height, $width, $top) {
@@ -151,7 +160,7 @@ nav[role=navigation] li img {
     position: absolute;
     width: $width;
     height: $height;
-    background-color: $black;
+    background-color: $darkBlue;
     content: "";
     top: $top;
 }
@@ -161,13 +170,13 @@ nav[role=navigation] li img {
     position: absolute;
     width: $width;
     height: $height;
-    background-color: $black;
+    background-color: $darkBlue;
     content: "";
     top: $top;
 }
 
 div.menu-link {
-    @include btn(120px, 100px);
+    @include btn(20px, 20px);
 
     .icon {
         @include icon(4px, 30px);

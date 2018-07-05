@@ -1,4 +1,5 @@
 @import "constants.scss";
+@import "mixins.scss";
 
 @font-face {
     font-family: 'Peace Sans';
@@ -38,6 +39,7 @@ $leading: $baseLineHeight * 1rem;
 // Rate of growth for headings
 // I actually like this to be slightly smaller then the leading. Makes for tight headings.
 $scale: 1.414;
+
 
 /* Setup */
 html {
@@ -104,9 +106,22 @@ h1 {
 }
 h2 {
   color: $white;
-  font-size: 2 * $scale * 1rem;
-  line-height: 2 * $leading;
+  font-size: 1.5 * 1rem;
+  
   margin-top: 2 * $leading;
+    @include breakpoint(condensed-screen) {
+        font-size: 2 * 1 * 1rem;
+        line-height: 2 * $leading;
+    }
+
+    @include breakpoint(normal-screen) {
+        font-size: 2 * 1.3 * 1rem;
+    }
+
+    @include breakpoint(large-screen) {
+        font-size: 2 * $scale * 1rem;
+    }
+
 }
 h3 {
   font-size: 1 * $scale * 1rem; }
