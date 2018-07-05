@@ -6,7 +6,10 @@
 .module {
     @extend %clearfix;
     width: 100%;
-    margin: $moduleMargin 0px;
+    margin: 75px 0px;
+    @include breakpoint(condensed-screen) {
+        margin: $moduleMargin 0px;
+    }
 }
 
 .container {

@@ -272,7 +272,10 @@ html {
 
 .module {
   width: 100%;
-  margin: 150px 0px; }
+  margin: 75px 0px; }
+  @media (min-width: 35em) {
+    .module {
+      margin: 150px 0px; } }
 
 .container {
   max-width: 1200px;
@@ -560,11 +563,15 @@ textarea {
   color: #fff;
   margin: 5px 0px 0px 0px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  display: none; }
+  @media (min-width: 35em) {
+    .hero .content p {
+      display: block; } }
 
 .hero .content {
   max-width: 800px;
-  margin-top: 175px;
+  margin-top: 185px;
   float: right;
   z-index: 1;
   position: relative; }
@@ -586,7 +593,7 @@ textarea {
   left: 0;
   right: 0;
   display: block !important;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.35); }
 
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
@@ -862,7 +869,10 @@ html {
 
 .module {
   width: 100%;
-  margin: 150px 0px; }
+  margin: 75px 0px; }
+  @media (min-width: 35em) {
+    .module {
+      margin: 150px 0px; } }
 
 .container {
   max-width: 1200px;
@@ -1541,7 +1551,10 @@ html {
 
 .module {
   width: 100%;
-  margin: 150px 0px; }
+  margin: 75px 0px; }
+  @media (min-width: 35em) {
+    .module {
+      margin: 150px 0px; } }
 
 .container {
   max-width: 1200px;
@@ -2087,7 +2100,10 @@ html {
 
 .module {
   width: 100%;
-  margin: 150px 0px; }
+  margin: 75px 0px; }
+  @media (min-width: 35em) {
+    .module {
+      margin: 150px 0px; } }
 
 .container {
   max-width: 1200px;

@@ -52,11 +52,15 @@
     margin: 5px 0px 0px 0px;
     @include proseFontStack();
     font-weight: 300;
+    display: none;
+    @include breakpoint(condensed-screen) {
+        display: block;
+    }
 }
 
 .hero .content {
     max-width: 800px;
-    margin-top: 175px;
+    margin-top: 185px;
     float: right;
     z-index: 1;
     position: relative;
@@ -85,5 +89,5 @@
   left: 0;
   right: 0;
   display: block !important;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
 }
