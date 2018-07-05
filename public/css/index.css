@@ -2400,11 +2400,19 @@ textarea {
 .quote .thirdContainer {
   background-color: #FAFAFA;
   height: 400px;
-  margin-right: 3px; }
+  margin-right: 3px;
+  display: none; }
+  @media (min-width: 35em) {
+    .quote .thirdContainer {
+      display: block; } }
 
 .quote .twoThirdContainer {
   background-color: #D1E5FB;
-  height: 400px; }
+  height: 400px;
+  width: 100%; }
+  @media (min-width: 35em) {
+    .quote .twoThirdContainer {
+      width: 67%; } }
 
 .headshot {
   margin: auto auto;

@@ -7,12 +7,20 @@
 	background-color: $lightGrey;
 	height: 400px;
 	margin-right: 3px;
+	display: none;
+	@include breakpoint(condensed-screen) {
+		display: block;
+    }
 }
 
 
 .quote .twoThirdContainer {
 	background-color: $lightBlue;
 	height: 400px;
+	width: 100%;
+	@include breakpoint(condensed-screen) {
+		width: 67%;
+    }
 }
 
 .headshot {
