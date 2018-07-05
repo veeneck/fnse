@@ -27,7 +27,7 @@
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -35,6 +35,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -73,7 +76,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -167,7 +170,7 @@ html {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -175,6 +178,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -213,7 +219,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -419,7 +425,7 @@ a.button {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -427,6 +433,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -465,7 +474,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -527,7 +536,7 @@ textarea {
 /*----------------------- Title and Background ------------------------------ */
 .hero {
   width: 100%;
-  min-height: 450px;
+  min-height: 500px;
   background-image: url("/images/classrom.jpg");
   background-size: cover;
   background-position: center center;
@@ -555,7 +564,7 @@ textarea {
 
 .hero .content {
   max-width: 800px;
-  margin-top: 50px;
+  margin-top: 175px;
   float: right;
   z-index: 1;
   position: relative; }
@@ -608,7 +617,7 @@ textarea {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -616,6 +625,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -654,7 +666,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -748,7 +760,7 @@ html {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -756,6 +768,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -794,7 +809,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1000,7 +1015,7 @@ a.button {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -1008,6 +1023,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -1046,7 +1064,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1278,7 +1296,7 @@ div.menu-link {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -1286,6 +1304,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -1324,7 +1345,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1418,7 +1439,7 @@ html {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -1426,6 +1447,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -1464,7 +1488,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1670,7 +1694,7 @@ a.button {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -1678,6 +1702,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -1716,7 +1743,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1815,7 +1842,7 @@ textarea {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -1823,6 +1850,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -1861,7 +1891,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -1955,7 +1985,7 @@ html {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -1963,6 +1993,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -2001,7 +2034,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -2207,7 +2240,7 @@ a.button {
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: 137.5%;
+  font-size: 125%;
   -webkit-font-smoothing: antialiased;
   /* Copy & Lists */
   /* Headings */
@@ -2215,6 +2248,9 @@ html {
   /* Code blocks */
   /* Leading paragraph text */
   /* Hug a the block above you */ }
+  @media (min-width: 35em) {
+    html {
+      font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -2253,7 +2289,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
