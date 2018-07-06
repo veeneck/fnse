@@ -9,14 +9,15 @@
 }
 
 .friends .coreImage {
-	height: 220px !important;
+	height: 300px !important;
 	float: right;
-	width: 45%;
+	width: 100%;
 	padding-left: 20px;
 	padding-bottom: 20px;
 	margin-top: 1.5rem;
 
 	@include breakpoint(condensed-screen) {
+		width: 45%;
 		padding-left: 40px;
 		padding-bottom: 40px;
 		height: 300px !important;

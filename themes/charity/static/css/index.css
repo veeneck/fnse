@@ -272,7 +272,7 @@ html {
 
 .module {
   width: 100%;
-  margin: 75px 0px; }
+  margin: 50px 0px; }
   @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
@@ -894,7 +894,7 @@ html {
 
 .module {
   width: 100%;
-  margin: 75px 0px; }
+  margin: 50px 0px; }
   @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
@@ -1601,7 +1601,7 @@ html {
 
 .module {
   width: 100%;
-  margin: 75px 0px; }
+  margin: 50px 0px; }
   @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
@@ -1897,14 +1897,15 @@ textarea {
   text-align: left; }
 
 .friends .coreImage {
-  height: 220px !important;
+  height: 300px !important;
   float: right;
-  width: 45%;
+  width: 100%;
   padding-left: 20px;
   padding-bottom: 20px;
   margin-top: 1.5rem; }
   @media (min-width: 35em) {
     .friends .coreImage {
+      width: 45%;
       padding-left: 40px;
       padding-bottom: 40px;
       height: 300px !important; } }
@@ -2192,7 +2193,7 @@ html {
 
 .module {
   width: 100%;
-  margin: 75px 0px; }
+  margin: 50px 0px; }
   @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
@@ -2484,15 +2485,19 @@ textarea {
 .northshore {
   text-align: center; }
 
+.northshore p {
+  text-align: left; }
+
 .northshore .coreImage {
-  height: 220px !important;
+  height: 300px !important;
   float: left;
-  width: 45%;
+  width: 100%;
   padding-right: 20px;
   padding-bottom: 20px;
   margin-top: 1.5rem; }
   @media (min-width: 35em) {
     .northshore .coreImage {
+      width: 45%;
       padding-right: 40px;
       padding-bottom: 40px;
       height: 300px !important; } }
@@ -2604,7 +2609,7 @@ textarea {
   text-align: left; }
 
 .volunteer .content {
-  padding: 100px 20px; }
+  padding: 50px 20px; }
   @media (min-width: 35em) {
     .volunteer .content {
       padding: 150px 100px; } }
