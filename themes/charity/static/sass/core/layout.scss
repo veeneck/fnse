@@ -7,7 +7,7 @@
     @extend %clearfix;
     width: 100%;
     margin: 75px 0px;
-    @include breakpoint(condensed-screen) {
+    @include breakpoint(normal-screen) {
         margin: $moduleMargin 0px;
     }
 }
@@ -52,11 +52,36 @@ h3:before {
 }
 
 .right h3 {
-    text-align: right;
+    text-align: center;
+    @include breakpoint(condensed-screen) {
+         text-align: right;
+    }
 }
 
 .right h3:before {
-    right: 0;
+    left: 50%;
+    margin-left: -75px;
+    @include breakpoint(condensed-screen) {
+        right: 0;
+        margin-left: 0px;
+        left: inherit;
+    }
+}
+
+.left h3 {
+    text-align: center;
+    @include breakpoint(condensed-screen) {
+         text-align: left;
+    }
+}
+
+.left h3:before {
+    left: 50%;
+    margin-left: -75px;
+    @include breakpoint(condensed-screen) {
+        left: 0;
+        margin-left: 0px;
+    }
 }
 
 h3.white {
@@ -89,6 +114,10 @@ h3.center:before {
             box-shadow: 0 8px 6px -6px $grey;
 }
 
+.clear {
+    @extend %clearfix;
+}
+
 /*----------------------- LINKS ------------------------------ */
 
 a.button {
@@ -110,7 +139,15 @@ a.button {
 }
 
 .right a.button {
-    float: right;
+    @include breakpoint(condensed-screen) {
+        float: right;
+    }
+}
+
+.left a.button {
+    @include breakpoint(condensed-screen) {
+        float: left;
+    }
 }
 
 .button::before {

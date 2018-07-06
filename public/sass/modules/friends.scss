@@ -1,5 +1,13 @@
 @import "../core/core.scss";
 
+.friends {
+	text-align: center;
+}
+
+.friends p {
+	text-align: left;
+}
+
 .friends .coreImage {
 	height: 220px !important;
 	float: right;

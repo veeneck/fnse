@@ -7,12 +7,12 @@
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -150,12 +150,12 @@ html {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -262,18 +262,18 @@ html {
   html .hug {
     margin-top: 0; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 .module {
   width: 100%;
   margin: 75px 0px; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
 
@@ -311,10 +311,33 @@ h3:before {
   width: 150px; }
 
 .right h3 {
-  text-align: right; }
+  text-align: center; }
+  @media (min-width: 35em) {
+    .right h3 {
+      text-align: right; } }
 
 .right h3:before {
-  right: 0; }
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .right h3:before {
+      right: 0;
+      margin-left: 0px;
+      left: inherit; } }
+
+.left h3 {
+  text-align: center; }
+  @media (min-width: 35em) {
+    .left h3 {
+      text-align: left; } }
+
+.left h3:before {
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .left h3:before {
+      left: 0;
+      margin-left: 0px; } }
 
 h3.white {
   color: #fff; }
@@ -359,8 +382,13 @@ a.button {
     a.button {
       font-size: 90%; } }
 
-.right a.button {
-  float: right; }
+@media (min-width: 35em) {
+  .right a.button {
+    float: right; } }
+
+@media (min-width: 35em) {
+  .left a.button {
+    float: left; } }
 
 .button::before {
   display: inline-block;
@@ -405,12 +433,12 @@ a.button {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -601,12 +629,12 @@ textarea {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -744,12 +772,12 @@ html {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -856,18 +884,18 @@ html {
   html .hug {
     margin-top: 0; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 .module {
   width: 100%;
   margin: 75px 0px; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
 
@@ -905,10 +933,33 @@ h3:before {
   width: 150px; }
 
 .right h3 {
-  text-align: right; }
+  text-align: center; }
+  @media (min-width: 35em) {
+    .right h3 {
+      text-align: right; } }
 
 .right h3:before {
-  right: 0; }
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .right h3:before {
+      right: 0;
+      margin-left: 0px;
+      left: inherit; } }
+
+.left h3 {
+  text-align: center; }
+  @media (min-width: 35em) {
+    .left h3 {
+      text-align: left; } }
+
+.left h3:before {
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .left h3:before {
+      left: 0;
+      margin-left: 0px; } }
 
 h3.white {
   color: #fff; }
@@ -953,8 +1004,13 @@ a.button {
     a.button {
       font-size: 90%; } }
 
-.right a.button {
-  float: right; }
+@media (min-width: 35em) {
+  .right a.button {
+    float: right; } }
+
+@media (min-width: 35em) {
+  .left a.button {
+    float: left; } }
 
 .button::before {
   display: inline-block;
@@ -999,12 +1055,12 @@ a.button {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -1280,12 +1336,12 @@ div.menu-link {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -1423,12 +1479,12 @@ html {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -1535,18 +1591,18 @@ html {
   html .hug {
     margin-top: 0; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 .module {
   width: 100%;
   margin: 75px 0px; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
 
@@ -1584,10 +1640,33 @@ h3:before {
   width: 150px; }
 
 .right h3 {
-  text-align: right; }
+  text-align: center; }
+  @media (min-width: 35em) {
+    .right h3 {
+      text-align: right; } }
 
 .right h3:before {
-  right: 0; }
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .right h3:before {
+      right: 0;
+      margin-left: 0px;
+      left: inherit; } }
+
+.left h3 {
+  text-align: center; }
+  @media (min-width: 35em) {
+    .left h3 {
+      text-align: left; } }
+
+.left h3:before {
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .left h3:before {
+      left: 0;
+      margin-left: 0px; } }
 
 h3.white {
   color: #fff; }
@@ -1632,8 +1711,13 @@ a.button {
     a.button {
       font-size: 90%; } }
 
-.right a.button {
-  float: right; }
+@media (min-width: 35em) {
+  .right a.button {
+    float: right; } }
+
+@media (min-width: 35em) {
+  .left a.button {
+    float: left; } }
 
 .button::before {
   display: inline-block;
@@ -1678,12 +1762,12 @@ a.button {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -1805,6 +1889,12 @@ textarea {
   margin: 25px 0px;
   width: 80%;
   padding-top: 20px; }
+
+.friends {
+  text-align: center; }
+
+.friends p {
+  text-align: left; }
 
 .friends .coreImage {
   height: 220px !important;
@@ -1837,12 +1927,12 @@ textarea {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -1980,12 +2070,12 @@ html {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -2092,18 +2182,18 @@ html {
   html .hug {
     margin-top: 0; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 .module {
   width: 100%;
   margin: 75px 0px; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .module {
       margin: 150px 0px; } }
 
@@ -2141,10 +2231,33 @@ h3:before {
   width: 150px; }
 
 .right h3 {
-  text-align: right; }
+  text-align: center; }
+  @media (min-width: 35em) {
+    .right h3 {
+      text-align: right; } }
 
 .right h3:before {
-  right: 0; }
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .right h3:before {
+      right: 0;
+      margin-left: 0px;
+      left: inherit; } }
+
+.left h3 {
+  text-align: center; }
+  @media (min-width: 35em) {
+    .left h3 {
+      text-align: left; } }
+
+.left h3:before {
+  left: 50%;
+  margin-left: -75px; }
+  @media (min-width: 35em) {
+    .left h3:before {
+      left: 0;
+      margin-left: 0px; } }
 
 h3.white {
   color: #fff; }
@@ -2189,8 +2302,13 @@ a.button {
     a.button {
       font-size: 90%; } }
 
-.right a.button {
-  float: right; }
+@media (min-width: 35em) {
+  .right a.button {
+    float: right; } }
+
+@media (min-width: 35em) {
+  .left a.button {
+    float: left; } }
 
 .button::before {
   display: inline-block;
@@ -2235,12 +2353,12 @@ a.button {
 .blue {
   background-color: #3C70AC; }
 
-.module, .hero, nav[role=navigation] {
+.module, .clear, .hero, nav[role=navigation] {
   *zoom: 1; }
-  .module:before, .hero:before, nav[role=navigation]:before, .module:after, .hero:after, nav[role=navigation]:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     content: " ";
     display: table; }
-  .module:after, .hero:after, nav[role=navigation]:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after {
     clear: both; }
 
 @font-face {
@@ -2362,6 +2480,9 @@ textarea {
   margin: 25px 0px;
   width: 80%;
   padding-top: 20px; }
+
+.northshore {
+  text-align: center; }
 
 .northshore .coreImage {
   height: 220px !important;
@@ -2473,13 +2594,30 @@ textarea {
 
 .volunteer .leftHalfContainer {
   background-color: #00295C;
-  padding: 150px 100px; }
+  width: 100%;
+  text-align: center; }
+  @media (min-width: 1080px) {
+    .volunteer .leftHalfContainer {
+      width: 50%; } }
+
+.volunteer .leftHalfContainer p, .volunteer .leftHalfContainer span {
+  text-align: left; }
+
+.volunteer .content {
+  padding: 100px 20px; }
+  @media (min-width: 35em) {
+    .volunteer .content {
+      padding: 150px 100px; } }
 
 .volunteer .rightHalfContainer {
   background-image: url("/images/Volunteer.jpg");
   background-size: cover;
   background-position: center center;
-  height: 850px; }
+  display: none; }
+  @media (min-width: 1080px) {
+    .volunteer .rightHalfContainer {
+      align-items: stretch;
+      display: flex; } }
 
 .volunteer p {
   color: #fff; }
