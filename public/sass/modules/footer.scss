@@ -6,30 +6,60 @@
 }
 
 .footer .container {
-	margin-top: $moduleMargin;
-	margin-bottom: $moduleMargin;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	@include flex();
-	flex-direction: row;
+	flex-direction: column;
+	@include breakpoint(normal-screen) {
+		flex-direction: row;
+    	align-items: stretch;
+ 		display: flex;
+ 		margin-top: $moduleMargin;
+		margin-bottom: $moduleMargin;
+    }
+}
+
+.footer form {
+	width: 100%;
+	@include breakpoint(normal-screen) {
+        width: 80%;
+    }
+    text-align: center;
 }
 
 .details {
-	width: 40%;
+	width: 100%;
 	align-self: flex-end;
 	text-align: center;
+	margin-top: 50px;
+	@include breakpoint(normal-screen) {
+		margin-top: none;
+		width: 40%;
+    }
 }
 
 .details img {
-	margin-bottom: 50px;
 	border-radius: $borderRadius;
 	border: 5px dashed $blue;
 	background-color: $lightBlue;
+	float: right;
+	height: 150px;
+	margin-left: 20px;
+	@include breakpoint(normal-screen) {
+		height: auto;
+		float: none;
+		margin-bottom: 50px;
+    }
 }
 
 .contact {
 	color: $white;
 	text-align: right;
 	@include proseFontStack();
-	margin-bottom: 125px;
+	@include breakpoint(normal-screen) {
+		margin-bottom: 125px;
+	}
+    
 }
 
 .contact strong {

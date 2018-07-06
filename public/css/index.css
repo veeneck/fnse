@@ -549,16 +549,16 @@ input[type=text], select, textarea {
   display: block;
   height: 50px;
   margin: 25px 0px;
-  width: 80%;
+  width: 100%;
   padding: 5px 20px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 90%; }
+  font-size: 90%;
+  box-sizing: border-box; }
 
 textarea {
   display: block;
   height: 200px;
   margin: 25px 0px;
-  width: 80%;
   padding-top: 20px; }
 
 /*----------------------- Title and Background ------------------------------ */
@@ -1171,16 +1171,16 @@ input[type=text], select, textarea {
   display: block;
   height: 50px;
   margin: 25px 0px;
-  width: 80%;
+  width: 100%;
   padding: 5px 20px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 90%; }
+  font-size: 90%;
+  box-sizing: border-box; }
 
 textarea {
   display: block;
   height: 200px;
   margin: 25px 0px;
-  width: 80%;
   padding-top: 20px; }
 
 /*----------------------- Navigation Styles ------------------------------ */
@@ -1878,16 +1878,16 @@ input[type=text], select, textarea {
   display: block;
   height: 50px;
   margin: 25px 0px;
-  width: 80%;
+  width: 100%;
   padding: 5px 20px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 90%; }
+  font-size: 90%;
+  box-sizing: border-box; }
 
 textarea {
   display: block;
   height: 200px;
   margin: 25px 0px;
-  width: 80%;
   padding-top: 20px; }
 
 .friends {
@@ -2470,16 +2470,16 @@ input[type=text], select, textarea {
   display: block;
   height: 50px;
   margin: 25px 0px;
-  width: 80%;
+  width: 100%;
   padding: 5px 20px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 90%; }
+  font-size: 90%;
+  box-sizing: border-box; }
 
 textarea {
   display: block;
   height: 200px;
   margin: 25px 0px;
-  width: 80%;
   padding-top: 20px; }
 
 .northshore {
@@ -2755,31 +2755,59 @@ textarea {
   border-radius: 5px; }
 
 .footer .container {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-direction: row; }
+  flex-direction: column; }
+  @media (min-width: 1080px) {
+    .footer .container {
+      flex-direction: row;
+      align-items: stretch;
+      display: flex;
+      margin-top: 150px;
+      margin-bottom: 150px; } }
+
+.footer form {
+  width: 100%;
+  text-align: center; }
+  @media (min-width: 1080px) {
+    .footer form {
+      width: 80%; } }
 
 .details {
-  width: 40%;
+  width: 100%;
   align-self: flex-end;
-  text-align: center; }
+  text-align: center;
+  margin-top: 50px; }
+  @media (min-width: 1080px) {
+    .details {
+      margin-top: none;
+      width: 40%; } }
 
 .details img {
-  margin-bottom: 50px;
   border-radius: 5px;
   border: 5px dashed #3C70AC;
-  background-color: #D1E5FB; }
+  background-color: #D1E5FB;
+  float: right;
+  height: 150px;
+  margin-left: 20px; }
+  @media (min-width: 1080px) {
+    .details img {
+      height: auto;
+      float: none;
+      margin-bottom: 50px; } }
 
 .contact {
   color: #fff;
   text-align: right;
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: 125px; }
+  font-family: 'Open Sans', sans-serif; }
+  @media (min-width: 1080px) {
+    .contact {
+      margin-bottom: 125px; } }
 
 .contact strong {
   display: block; }
