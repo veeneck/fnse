@@ -109,9 +109,9 @@ h3.center:before {
 }
 
 .one-edge-shadow {
-    -webkit-box-shadow: 0 8px 6px -6px $grey;
-       -moz-box-shadow: 0 8px 6px -6px $grey;
-            box-shadow: 0 8px 6px -6px $grey;
+    -webkit-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
+       -moz-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
 }
 
 .clear {

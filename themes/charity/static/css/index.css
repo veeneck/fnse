@@ -359,9 +359,9 @@ h3.center:before {
   width: 100%; }
 
 .one-edge-shadow {
-  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
-  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
-  box-shadow: 0 8px 6px -6px #A4A4A4; }
+  -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -566,8 +566,9 @@ textarea {
   width: 100%;
   min-height: 500px;
   background-image: url("/images/classrom.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   text-align: center; }
   @media (min-width: 35em) {
     .hero {
@@ -981,9 +982,9 @@ h3.center:before {
   width: 100%; }
 
 .one-edge-shadow {
-  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
-  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
-  box-shadow: 0 8px 6px -6px #A4A4A4; }
+  -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -1193,7 +1194,10 @@ header {
   max-width: 100%;
   margin: 0px auto 0px auto;
   font: 100% 'Peace Sans', Helvetica, sans-serif;
-  height: 89px; }
+  height: 89px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px; }
 
 h1 {
   margin: auto 0px;
@@ -1201,11 +1205,8 @@ h1 {
 
 .navigation {
   width: 100%;
-  z-index: 100;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  background-color: #FAFAFA; }
+  background-color: #FAFAFA;
+  z-index: 10; }
 
 .nslogo {
   background-color: #FAFAFA;
@@ -1221,112 +1222,179 @@ h1 {
   height: 25px;
   display: inline-block; }
 
-/*----------------------- Hamburger Functionality ------------------------------ */
-div.menu-link {
-  padding: 1em;
-  color: #00295C; }
-
+/*-----------------Dropdown Menu---------------*/
 nav[role=navigation] {
   overflow: hidden;
-  max-height: 0;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  margin: auto 0px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   font-weight: 900;
   width: 0px; }
+  @media (min-width: 1080px) {
+    nav[role=navigation] {
+      flex-grow: 5; } }
 
-nav[role=navigation].open {
-  max-height: 15em;
-  margin-bottom: 10px;
-  margin-top: 30px; }
-
-nav[role=navigation] ul {
+ul.nav {
   padding: 0;
-  letter-spacing: 1.1px; }
+  height: 100%; }
   @media (min-width: 35em) {
-    nav[role=navigation] ul {
+    ul.nav {
       font-size: 80%; } }
   @media (min-width: 1080px) {
-    nav[role=navigation] ul {
-      font-size: 100%; } }
-  @media (min-width: 1200px) {
-    nav[role=navigation] ul {
+    ul.nav {
+      margin: auto 0px;
+      border: 0;
+      text-align: right;
       font-size: 80%; } }
 
-nav[role=navigation] li {
+ul.nav li {
   display: inline-block;
-  margin: 0 1em; }
+  margin: 0 1em;
+  height: 100%;
+  vertical-align: center; }
 
-nav[role=navigation] li a {
-  display: inline-block;
-  padding: 0.8em 0px;
+ul.nav li a {
   color: #00295C;
   text-decoration: none;
-  text-align: right; }
+  text-align: right;
+  margin: auto 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block; }
+  @media (min-width: 1080px) {
+    ul.nav li a {
+      border: 0; } }
 
-nav[role=navigation] li img {
+ul.nav li:hover .dropdown {
+  display: block; }
+
+ul.nav li img {
   margin-bottom: -8px; }
 
-@media (min-width: 1080px) {
-  div.menu-link {
-    display: none; }
-  nav[role=navigation] {
-    max-height: none;
-    margin: auto 0px;
-    flex-grow: 5; }
-  nav[role=navigation] ul {
-    margin: auto 0px;
-    border: 0;
-    text-align: right; }
-  nav[role=navigation] li a {
-    border: 0; } }
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #00295C;
+  padding: 40px 25px 0px 25px;
+  margin-top: 56px;
+  border-radius: 0px 0px 5px 5px; }
 
-/*----------------- Hamburger Animation -----------------*/
+.dropdown li {
+  display: block !important;
+  text-align: center !important;
+  width: 100%;
+  margin-left: 0px !important;
+  margin-bottom: 10px !important; }
+
+.dropdown li a {
+  width: 100%;
+  text-align: center !important;
+  color: #D1E5FB !important; }
+
 div.menu-link {
-  width: 20px;
-  top: 20px;
-  right: 20px;
-  transition-duration: 0.5s;
-  position: absolute; }
-  div.menu-link .icon {
+  padding: 1em;
+  color: #00295C; }
+  @media (min-width: 1080px) {
+    div.menu-link {
+      display: none; } }
+
+.explore {
+  margin-left: -6%; }
+
+.about {
+  margin-left: -4%; }
+
+/*----------------------- Hamburger Functionality ------------------------------ */
+/*
+
+// When we want nav to appear, change the height
+nav[role=navigation].open {
+    max-height: 15em;
+    margin-bottom: 10px;
+    margin-top: $mobileNavMenuVerticalOffset;
+}
+
+
+
+*/
+/*----------------- Hamburger Animation -----------------*/
+/*@mixin btn($left, $top) {
+    width: 20px;
+    top: $top;
+    right: $left;
     transition-duration: 0.5s;
     position: absolute;
-    height: 4px;
-    width: 30px;
-    top: 25px;
-    background-color: #00295C; }
-    div.menu-link .icon:before {
-      transition-duration: 0.5s;
-      position: absolute;
-      width: 30px;
-      height: 4px;
-      background-color: #00295C;
-      content: "";
-      top: -10px; }
-    div.menu-link .icon:after {
-      transition-duration: 0.5s;
-      position: absolute;
-      width: 30px;
-      height: 4px;
-      background-color: #00295C;
-      content: "";
-      top: 10px; }
-  div.menu-link.open .icon {
-    transition-duration: 0.5s;
-    background: transparent; }
-    div.menu-link.open .icon:before {
-      transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px); }
-    div.menu-link.open .icon:after {
-      transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px); }
-  div.menu-link:hover {
-    cursor: pointer; }
+}
 
+@mixin icon($height, $width) {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: $height;
+    width: $width;
+    top: 25px;
+    background-color: $darkBlue;
+}
+
+@mixin icon-before($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $darkBlue;
+    content: "";
+    top: $top;
+}
+
+@mixin icon-after($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $darkBlue;
+    content: "";
+    top: $top;
+}
+
+div.menu-link {
+    @include btn(20px, 20px);
+
+    .icon {
+        @include icon(4px, 30px);
+
+        &:before {
+            @include icon-before(4px, 30px, -10px);
+        }
+
+        &:after {
+            @include icon-after(4px, 30px, 10px);
+        }
+    }
+
+    &.open {
+        .icon {
+            transition-duration: 0.5s;
+            background: transparent;
+
+            &:before {
+                transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
+            }
+
+            &:after {
+                transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
+            }
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}*/
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
 /*----------------------- Backgrounds ------------------------------ */
@@ -1688,9 +1756,9 @@ h3.center:before {
   width: 100%; }
 
 .one-edge-shadow {
-  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
-  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
-  box-shadow: 0 8px 6px -6px #A4A4A4; }
+  -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -2280,9 +2348,9 @@ h3.center:before {
   width: 100%; }
 
 .one-edge-shadow {
-  -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
-  -moz-box-shadow: 0 8px 6px -6px #A4A4A4;
-  box-shadow: 0 8px 6px -6px #A4A4A4; }
+  -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
@@ -2800,7 +2868,7 @@ textarea {
   margin-left: 20px; }
   @media (min-width: 1080px) {
     .details img {
-      height: auto;
+      width: auto;
       float: none;
       margin-bottom: 50px; } }
 

@@ -10,6 +10,9 @@ header {
     margin: 0px auto 0px auto;
     @include heavyFontStack();
     height: 89px;
+    position: -webkit-sticky;
+  	position: sticky;
+  	top: 0px;
 }
 
 h1 {
@@ -19,11 +22,8 @@ h1 {
 
 .navigation {
     width: 100%;
-    z-index: 100;
-    position: -webkit-sticky;
-  	position: sticky;
-  	top: 0px;
   	background-color: $lightGrey;
+  	z-index: 10;
 }
 
 .nslogo {
@@ -43,30 +43,121 @@ h1 {
 	display: inline-block;
 }
 
+/*-----------------Dropdown Menu---------------*/
+
+
+nav[role=navigation] {
+    @extend %clearfix;
+    overflow: hidden;
+    ///max-height: 0;
+    @include transition(all 0.3s ease-out);
+    ///margin: auto 0px;
+    @include boldFontStack();
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 0px;
+
+    @include breakpoint(normal-screen) {
+    	///max-height: none;
+   		///margin: auto 0px;
+    	flex-grow: 5;
+    }
+}
+
+ul.nav {
+    padding: 0;
+    height: 100%;
+
+    @include breakpoint(condensed-screen) {
+        font-size: 80%;
+    }
+
+    @include breakpoint(normal-screen) {
+    	margin: auto 0px;
+        border: 0;
+        text-align: right;
+        font-size: 80%;
+    }
+
+}
+
+ul.nav li {
+    display: inline-block;
+    margin: 0 1em;
+    height: 100%;
+    vertical-align: center;
+}
+
+ul.nav li a {
+    color: $darkBlue;
+    ///text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    margin: auto 0px;
+    	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+    display: inline-block;
+    @include breakpoint(normal-screen) {
+    	border: 0;
+    }
+}
+
+ul.nav li:hover .dropdown {
+    display: block;
+}
+
+ul.nav li img {
+    margin-bottom: -8px;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background-color: $darkBlue;
+	padding: 40px 25px 0px 25px;
+	margin-top: 56px;
+	border-radius: 0px 0px $borderRadius $borderRadius;
+}
+
+.dropdown li {
+	display: block !important;
+	text-align: center !important;
+	width: 100%;
+	margin-left: 0px !important;
+	margin-bottom: 10px !important;
+}
+
+.dropdown li a {
+	width: 100%;
+	text-align: center !important;
+	color: $lightBlue !important;
+}
+
+
+div.menu-link {
+    padding: 1em;
+    color: $darkBlue;
+
+    @include breakpoint(normal-screen) {
+        display: none;
+    }
+}
+
+.explore {
+	margin-left: -6%;
+}
+
+.about {
+	margin-left: -4%;
+}
 
 /*----------------------- Hamburger Functionality ------------------------------ */
 
 /// Credit: https://codepen.io/bradfrost/pen/sHvaz
 
-$mobileNavMenuVerticalOffset: 30px;
-
-div.menu-link {
-    padding: 1em;
-    color: $darkBlue;
-}
-
-// Default plans for small screen. Nav is hidden, and will animate when height changes.
-nav[role=navigation] {
-    @extend %clearfix;
-    overflow: hidden;
-    max-height: 0;
-    @include transition(all 0.3s ease-out);
-    margin: auto 0px;
-    @include boldFontStack();
-    text-transform: uppercase;
-    font-weight: 900;
-    width: 0px;
-}
+/*
 
 // When we want nav to appear, change the height
 nav[role=navigation].open {
@@ -75,70 +166,16 @@ nav[role=navigation].open {
     margin-top: $mobileNavMenuVerticalOffset;
 }
 
-nav[role=navigation] ul {
-    padding: 0;
-    letter-spacing: 1.1px;
 
-    @include breakpoint(condensed-screen) {
-        font-size: 80%;
-    }
 
-    @include breakpoint(normal-screen) {
-        font-size: 100%;
-    }
-
-    @include breakpoint(large-screen) {
-        font-size: 80%;
-    }
-}
-
-nav[role=navigation] li {
-    display: inline-block;
-    margin: 0 1em;
-}
-
-nav[role=navigation] li a {
-    display: inline-block;
-    padding: 0.8em 0px;
-    color: $darkBlue;
-    ///text-transform: uppercase;
-    text-decoration: none;
-    text-align: right;
-}
-
-nav[role=navigation] li img {
-    margin-bottom: -8px;
-}
-
-// Style for larger screens. Hide the menu button, and show the normal navigation menu.
-@include breakpoint(normal-screen) {
-    div.menu-link {
-        display: none;
-    }
-
-    nav[role=navigation] {
-        max-height: none;
-        margin: auto 0px;
-        flex-grow: 5;
-    }
-
-    nav[role=navigation] ul {
-        margin: auto 0px;
-        border: 0;
-        text-align: right;
-    }
-
-    nav[role=navigation] li a {
-        border: 0;
-    }
-}
+*/
 
 /*----------------- Hamburger Animation -----------------*/
 
 /// Credit: https://codepen.io/mblode/pen/evjfn
 
 
-@mixin btn($left, $top) {
+/*@mixin btn($left, $top) {
     width: 20px;
     top: $top;
     right: $left;
@@ -208,4 +245,4 @@ div.menu-link {
     &:hover {
         cursor: pointer;
     }
-}
+}*/
