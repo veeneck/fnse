@@ -1,30 +1,54 @@
 .zoned {
 	@include flex();
-	flex-direction: row;
+	flex-direction: column;
+	@include breakpoint(normal-screen) {
+		flex-direction: row;
+    	align-items: stretch;
+ 		display: flex;
+    }
 }
 
 .zoned .thirdContainer {
+	@extend %clearfix;
 	background-color: $lightGrey;
-	height: 750px;
+	width: 100%;
+	@include breakpoint(normal-screen) {
+		width: 33%;
+	}
+	display: flex;
 }
 
 
 .zoned .twoThirdContainer {
-	height: 750px;
+	height: 400px;
 	margin-right: 3px;
 	background-image: url("/images/zonemap.png");
     background-size:cover;
-    background-position: top right;
+    background-position: center center;
+    width: 100%;
+	@include breakpoint(normal-screen) {
+		background-position: top right;
+		width: 67%;
+		height: 750px;
+	}
+	display: flex;
 }
 
 .question {
-	margin: auto auto;
 	display: block;
-	width: 350px;
+	width: 100%;
+	padding: 50px 20px;
+    @include breakpoint(condensed-screen) {
+        padding: 50px 50px;
+    }
 	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	@include breakpoint(normal-screen) {
+		padding: inherit;
+		position: relative;
+		margin: auto auto;
+		width: 350px;
+	}
+
 }
 
 .question strong {
@@ -37,3 +61,4 @@
 .question p {
 	text-align: left;
 }
+
