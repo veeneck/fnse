@@ -46,7 +46,7 @@
 	border: 5px dashed $blue;
 	background-color: $lightBlue;
 	float: right;
-	height: 150px;
+	width: 33%;
 	margin-left: 20px;
 	@include breakpoint(normal-screen) {
 		height: auto;
@@ -67,10 +67,18 @@
 
 .contact strong {
 	display: block;
+	font-size: 70%;
+	@include breakpoint(normal-screen) {
+		font-size: inherit;
+	}
 }
 
 .contact span {
 	display: block;
+	font-size: 70%;
+	@include breakpoint(normal-screen) {
+		font-size: inherit;
+	}
 }
 
 .address {

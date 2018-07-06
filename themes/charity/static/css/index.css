@@ -2796,7 +2796,7 @@ textarea {
   border: 5px dashed #3C70AC;
   background-color: #D1E5FB;
   float: right;
-  height: 150px;
+  width: 33%;
   margin-left: 20px; }
   @media (min-width: 1080px) {
     .details img {
@@ -2813,10 +2813,18 @@ textarea {
       margin-bottom: 125px; } }
 
 .contact strong {
-  display: block; }
+  display: block;
+  font-size: 70%; }
+  @media (min-width: 1080px) {
+    .contact strong {
+      font-size: inherit; } }
 
 .contact span {
-  display: block; }
+  display: block;
+  font-size: 70%; }
+  @media (min-width: 1080px) {
+    .contact span {
+      font-size: inherit; } }
 
 .address {
   margin-top: 25px; }
