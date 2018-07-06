@@ -333,10 +333,7 @@ h3.center:before {
   border-radius: 5px; }
 
 .copy {
-  width: 55%; }
-
-.copy.right {
-  padding-left: 60px; }
+  width: 100%; }
 
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
@@ -930,10 +927,7 @@ h3.center:before {
   border-radius: 5px; }
 
 .copy {
-  width: 55%; }
-
-.copy.right {
-  padding-left: 60px; }
+  width: 100%; }
 
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
@@ -1612,10 +1606,7 @@ h3.center:before {
   border-radius: 5px; }
 
 .copy {
-  width: 55%; }
-
-.copy.right {
-  padding-left: 60px; }
+  width: 100%; }
 
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
@@ -1814,9 +1805,6 @@ textarea {
   margin: 25px 0px;
   width: 80%;
   padding-top: 20px; }
-
-.friends .copy {
-  width: 100%; }
 
 .friends .coreImage {
   height: 220px !important;
@@ -2175,10 +2163,7 @@ h3.center:before {
   border-radius: 5px; }
 
 .copy {
-  width: 55%; }
-
-.copy.right {
-  padding-left: 60px; }
+  width: 100%; }
 
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px #A4A4A4;
@@ -2378,16 +2363,27 @@ textarea {
   width: 80%;
   padding-top: 20px; }
 
-.northshore .container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row; }
-
 .northshore .coreImage {
-  height: 450px !important; }
+  height: 220px !important;
+  float: left;
+  width: 45%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 1.5rem; }
+  @media (min-width: 35em) {
+    .northshore .coreImage {
+      padding-right: 40px;
+      padding-bottom: 40px;
+      height: 300px !important; } }
+  @media (min-width: 1080px) {
+    .northshore .coreImage {
+      padding-right: 60px;
+      padding-bottom: 60px;
+      height: 450px !important;
+      margin-top: -75px; } }
+  @media (min-width: 1200px) {
+    .northshore .coreImage {
+      height: 450px !important; } }
 
 .quote {
   display: -webkit-box;
@@ -2581,7 +2577,8 @@ textarea {
   color: #00295C;
   display: block;
   margin: 10px 0;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900; }
 
 .question p {
   text-align: left; }
