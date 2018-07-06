@@ -2750,9 +2750,12 @@ textarea {
 
 .footer {
   background-color: #000;
-  margin-top: -147px !important;
+  margin-top: -47px !important;
   margin-bottom: 0px;
   border-radius: 5px; }
+  @media (min-width: 1080px) {
+    .footer {
+      margin-top: -147px !important; } }
 
 .footer .container {
   margin-top: 50px;

@@ -1,6 +1,9 @@
 .footer {
 	background-color: $black;
-	margin-top: -147px !important;
+	margin-top: -47px !important;
+	@include breakpoint(normal-screen) {
+		margin-top: -147px !important;
+    }
 	margin-bottom: 0px;
 	border-radius: $borderRadius;
 }
