@@ -49,17 +49,13 @@ h1 {
 nav[role=navigation] {
     @extend %clearfix;
     overflow: hidden;
-    ///max-height: 0;
     @include transition(all 0.3s ease-out);
-    ///margin: auto 0px;
     @include boldFontStack();
-    text-transform: uppercase;
     font-weight: 900;
     width: 0px;
 
     @include breakpoint(normal-screen) {
-    	///max-height: none;
-   		///margin: auto 0px;
+    	text-transform: uppercase;
     	flex-grow: 5;
     }
 }
@@ -94,7 +90,7 @@ ul.nav li a {
     text-decoration: none;
     text-align: right;
     margin: auto 0px;
-    	position: relative;
+    position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 
@@ -108,6 +104,17 @@ ul.nav li:hover .dropdown {
     display: block;
 }
 
+/*ul.nav li:hover a.topmenu::before {
+  content:""; 
+  background: $lightBlue; 
+  position: absolute; 
+  top: 0; 
+  height: 3px; 
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+}*/
+
 ul.nav li img {
     margin-bottom: -8px;
 }
@@ -116,14 +123,20 @@ ul.nav li img {
 	display: none;
 	position: absolute;
 	background-color: $darkBlue;
-	padding: 40px 25px 0px 25px;
 	margin-top: 56px;
+	padding: 40px 25px 0px 25px;
 	border-radius: 0px 0px $borderRadius $borderRadius;
+
+	@include breakpoint(normal-screen) {
+    	-webkit-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
+       	-moz-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
+        box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
+    }
 }
 
 .dropdown li {
 	display: block !important;
-	text-align: center !important;
+	text-align: center;
 	width: 100%;
 	margin-left: 0px !important;
 	margin-bottom: 10px !important;
@@ -133,7 +146,31 @@ ul.nav li img {
 	width: 100%;
 	text-align: center !important;
 	color: $lightBlue !important;
+	display: inline-block;
 }
+
+.dropdown li a:hover {
+	color: $white !important;
+}
+
+/*.verticalbanner:after,.verticalbanner:before {
+    content: '';
+    position: absolute;
+    border-top: 45px solid $darkBlue; // angle degree, reduce to reduce degree of angles
+    height: 0; // no height, no content, just border
+    width: 0;
+    top: 100%;
+}
+.verticalbanner:after { // right angle
+    border-left: 150px solid transparent;
+    right:0;
+    border-radius: 0px 0px $borderRadius $borderRadius;
+}
+.verticalbanner:before { // left angle
+    border-right: 150px solid transparent;
+    left:0;
+    border-radius: 0px 0px $borderRadius $borderRadius;
+}*/
 
 
 div.menu-link {
@@ -146,36 +183,69 @@ div.menu-link {
 }
 
 .explore {
-	margin-left: -6%;
+	@include breakpoint(normal-screen) {
+		margin-left: -80px;
+	}
 }
 
 .about {
-	margin-left: -4%;
+	@include breakpoint(normal-screen) {
+		margin-left: -60px;
+	}
+}
+
+.volunteermenu {
+	@include breakpoint(normal-screen) {
+		margin-left: -50px;
+	}
 }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
 
 /// Credit: https://codepen.io/bradfrost/pen/sHvaz
 
-/*
+
 
 // When we want nav to appear, change the height
 nav[role=navigation].open {
-    max-height: 15em;
     margin-bottom: 10px;
-    margin-top: $mobileNavMenuVerticalOffset;
+    margin-top: 88px;
+    width: 100%;
+    position: absolute;
+    background-color: $white;
 }
 
+.open .dropdown {
+	position: relative !important;
+	display: block !important;
+	background-color: $white;
+	margin-top: 0px;
+	padding-top: 10px !important;
+	z-index: 10;
+}
 
+.open .dropdown li {
+	text-align: left;
+}
 
-*/
+.open ul.nav li {
+	display: block !important;
+}
+
+.open .dropdown li a {
+    display: block !important;
+    text-align: left !important;
+    color: $black !important;
+    font-weight: 600 !important;
+}
+
 
 /*----------------- Hamburger Animation -----------------*/
 
 /// Credit: https://codepen.io/mblode/pen/evjfn
 
 
-/*@mixin btn($left, $top) {
+@mixin btn($left, $top) {
     width: 20px;
     top: $top;
     right: $left;
@@ -245,4 +315,4 @@ div.menu-link {
     &:hover {
         cursor: pointer;
     }
-}*/
+}

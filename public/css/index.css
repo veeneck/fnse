@@ -582,7 +582,7 @@ textarea {
   width: 100%;
   height: 41px;
   margin-top: -35px;
-  z-index: 100;
+  z-index: 5;
   position: relative; }
 
 .hero .content p {
@@ -1232,11 +1232,11 @@ nav[role=navigation] {
   transition: all 0.3s ease-out;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
   font-weight: 900;
   width: 0px; }
   @media (min-width: 1080px) {
     nav[role=navigation] {
+      text-transform: uppercase;
       flex-grow: 5; } }
 
 ul.nav {
@@ -1274,6 +1274,16 @@ ul.nav li a {
 ul.nav li:hover .dropdown {
   display: block; }
 
+/*ul.nav li:hover a.topmenu::before {
+  content:""; 
+  background: $lightBlue; 
+  position: absolute; 
+  top: 0; 
+  height: 3px; 
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+}*/
 ul.nav li img {
   margin-bottom: -8px; }
 
@@ -1281,13 +1291,18 @@ ul.nav li img {
   display: none;
   position: absolute;
   background-color: #00295C;
-  padding: 40px 25px 0px 25px;
   margin-top: 56px;
+  padding: 40px 25px 0px 25px;
   border-radius: 0px 0px 5px 5px; }
+  @media (min-width: 1080px) {
+    .dropdown {
+      -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); } }
 
 .dropdown li {
   display: block !important;
-  text-align: center !important;
+  text-align: center;
   width: 100%;
   margin-left: 0px !important;
   margin-bottom: 10px !important; }
@@ -1295,8 +1310,30 @@ ul.nav li img {
 .dropdown li a {
   width: 100%;
   text-align: center !important;
-  color: #D1E5FB !important; }
+  color: #D1E5FB !important;
+  display: inline-block; }
 
+.dropdown li a:hover {
+  color: #fff !important; }
+
+/*.verticalbanner:after,.verticalbanner:before {
+    content: '';
+    position: absolute;
+    border-top: 45px solid $darkBlue; // angle degree, reduce to reduce degree of angles
+    height: 0; // no height, no content, just border
+    width: 0;
+    top: 100%;
+}
+.verticalbanner:after { // right angle
+    border-left: 150px solid transparent;
+    right:0;
+    border-radius: 0px 0px $borderRadius $borderRadius;
+}
+.verticalbanner:before { // left angle
+    border-right: 150px solid transparent;
+    left:0;
+    border-radius: 0px 0px $borderRadius $borderRadius;
+}*/
 div.menu-link {
   padding: 1em;
   color: #00295C; }
@@ -1304,97 +1341,86 @@ div.menu-link {
     div.menu-link {
       display: none; } }
 
-.explore {
-  margin-left: -6%; }
+@media (min-width: 1080px) {
+  .explore {
+    margin-left: -80px; } }
 
-.about {
-  margin-left: -4%; }
+@media (min-width: 1080px) {
+  .about {
+    margin-left: -60px; } }
+
+@media (min-width: 1080px) {
+  .volunteermenu {
+    margin-left: -50px; } }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
-/*
-
-// When we want nav to appear, change the height
 nav[role=navigation].open {
-    max-height: 15em;
-    margin-bottom: 10px;
-    margin-top: $mobileNavMenuVerticalOffset;
-}
+  margin-bottom: 10px;
+  margin-top: 88px;
+  width: 100%;
+  position: absolute;
+  background-color: #fff; }
 
+.open .dropdown {
+  position: relative !important;
+  display: block !important;
+  background-color: #fff;
+  margin-top: 0px;
+  padding-top: 10px !important;
+  z-index: 10; }
 
+.open .dropdown li {
+  text-align: left; }
 
-*/
+.open ul.nav li {
+  display: block !important; }
+
+.open .dropdown li a {
+  display: block !important;
+  text-align: left !important;
+  color: #000 !important;
+  font-weight: 600 !important; }
+
 /*----------------- Hamburger Animation -----------------*/
-/*@mixin btn($left, $top) {
-    width: 20px;
-    top: $top;
-    right: $left;
-    transition-duration: 0.5s;
-    position: absolute;
-}
-
-@mixin icon($height, $width) {
-    transition-duration: 0.5s;
-    position: absolute;
-    height: $height;
-    width: $width;
-    top: 25px;
-    background-color: $darkBlue;
-}
-
-@mixin icon-before($height, $width, $top) {
-    transition-duration: 0.5s;
-    position: absolute;
-    width: $width;
-    height: $height;
-    background-color: $darkBlue;
-    content: "";
-    top: $top;
-}
-
-@mixin icon-after($height, $width, $top) {
-    transition-duration: 0.5s;
-    position: absolute;
-    width: $width;
-    height: $height;
-    background-color: $darkBlue;
-    content: "";
-    top: $top;
-}
-
 div.menu-link {
-    @include btn(20px, 20px);
+  width: 20px;
+  top: 20px;
+  right: 20px;
+  transition-duration: 0.5s;
+  position: absolute; }
+  div.menu-link .icon {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    top: 25px;
+    background-color: #00295C; }
+    div.menu-link .icon:before {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background-color: #00295C;
+      content: "";
+      top: -10px; }
+    div.menu-link .icon:after {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background-color: #00295C;
+      content: "";
+      top: 10px; }
+  div.menu-link.open .icon {
+    transition-duration: 0.5s;
+    background: transparent; }
+    div.menu-link.open .icon:before {
+      transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px); }
+    div.menu-link.open .icon:after {
+      transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px); }
+  div.menu-link:hover {
+    cursor: pointer; }
 
-    .icon {
-        @include icon(4px, 30px);
-
-        &:before {
-            @include icon-before(4px, 30px, -10px);
-        }
-
-        &:after {
-            @include icon-after(4px, 30px, 10px);
-        }
-    }
-
-    &.open {
-        .icon {
-            transition-duration: 0.5s;
-            background: transparent;
-
-            &:before {
-                transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
-            }
-
-            &:after {
-                transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
-            }
-        }
-    }
-
-    &:hover {
-        cursor: pointer;
-    }
-}*/
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
 /*----------------------- Backgrounds ------------------------------ */
