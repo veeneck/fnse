@@ -1359,7 +1359,10 @@ nav[role=navigation].open {
   margin-top: 88px;
   width: 100%;
   position: absolute;
-  background-color: #fff; }
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
 
 .open .dropdown {
   position: relative !important;
@@ -1367,14 +1370,24 @@ nav[role=navigation].open {
   background-color: #fff;
   margin-top: 0px;
   padding-top: 10px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   z-index: 10;
   font-size: 70% !important; }
 
 .open .dropdown li {
   text-align: left; }
 
+.open ul.nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
 .open ul.nav li {
-  display: block !important; }
+  display: block !important;
+  flex-grow: 1; }
 
 .open .dropdown li a {
   display: block !important;
