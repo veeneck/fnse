@@ -54,7 +54,6 @@ h1 img {
 .donate {
 	height: 25px;
 	display: inline-block;
-	padding-top: 15px !important;
 	margin: auto 0px !important;
 	@include breakpoint(condensed-screen) {
          margin: auto 25px !important;
