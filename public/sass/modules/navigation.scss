@@ -66,7 +66,7 @@ h1 img {
 nav[role=navigation] {
     @extend %clearfix;
     overflow: hidden;
-    @include transition(all 0.3s ease-out);
+    ///@include transition(all 0.3s ease-out);
     @include boldFontStack();
     font-weight: 900;
     width: 0px;
