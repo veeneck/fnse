@@ -1375,7 +1375,7 @@ div.menu-link {
 /*----------------------- Hamburger Functionality ------------------------------ */
 nav[role=navigation].open {
   margin-bottom: 10px;
-  margin-top: 88px;
+  margin-top: 75px;
   width: 100%;
   position: absolute;
   background-color: #fff;
@@ -1406,7 +1406,8 @@ nav[role=navigation].open {
   flex-wrap: wrap; }
 
 .open ul.nav li {
-  display: block !important; }
+  display: block !important;
+  flex-grow: 1; }
 
 .open .dropdown li a {
   display: block !important;

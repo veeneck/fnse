@@ -226,7 +226,7 @@ div.menu-link {
 // When we want nav to appear, change the height
 nav[role=navigation].open {
     margin-bottom: 10px;
-    margin-top: 88px;
+    margin-top: 75px;
     width: 100%;
     position: absolute;
     background-color: $white;
@@ -254,10 +254,12 @@ nav[role=navigation].open {
 .open ul.nav {
 	@include flex();
 	flex-wrap: wrap;
+	///justify-content: space-evenly;
 }
 
 .open ul.nav li {
 	display: block !important;
+	flex-grow: 1;
 }
 
 .open .dropdown li a {
