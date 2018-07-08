@@ -62,13 +62,13 @@ nav[role=navigation] {
 
 ul.nav {
     padding: 0;
-    height: 100%;
 
     @include breakpoint(condensed-screen) {
         font-size: 80%;
     }
 
     @include breakpoint(normal-screen) {
+    	height: 100%;
     	margin: auto 0px;
         border: 0;
         text-align: right;
@@ -237,6 +237,19 @@ nav[role=navigation].open {
     text-align: left !important;
     color: $black !important;
     font-weight: 600 !important;
+}
+
+ul.nav li.facebookmobile {
+	@include breakpoint(normal-screen) {
+		display: none !important;
+	}
+}
+
+.open ul.nav li.facebook {
+	display: none !important;
+	@include breakpoint(normal-screen) {
+		display: inherit !important;
+	}
 }
 
 

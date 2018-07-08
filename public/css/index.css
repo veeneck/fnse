@@ -1240,13 +1240,13 @@ nav[role=navigation] {
       flex-grow: 5; } }
 
 ul.nav {
-  padding: 0;
-  height: 100%; }
+  padding: 0; }
   @media (min-width: 35em) {
     ul.nav {
       font-size: 80%; } }
   @media (min-width: 1080px) {
     ul.nav {
+      height: 100%;
       margin: auto 0px;
       border: 0;
       text-align: right;
@@ -1380,6 +1380,16 @@ nav[role=navigation].open {
   text-align: left !important;
   color: #000 !important;
   font-weight: 600 !important; }
+
+@media (min-width: 1080px) {
+  ul.nav li.facebookmobile {
+    display: none !important; } }
+
+.open ul.nav li.facebook {
+  display: none !important; }
+  @media (min-width: 1080px) {
+    .open ul.nav li.facebook {
+      display: inherit !important; } }
 
 /*----------------- Hamburger Animation -----------------*/
 div.menu-link {
