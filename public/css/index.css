@@ -370,17 +370,19 @@ a.button {
   font-weight: 900;
   font-size: 70%;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 10px 20px;
   margin: 25px 0px;
   border-radius: 5px;
   display: inline-block;
   position: relative;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px; }
+  vertical-align: middle; }
   @media (min-width: 35em) {
     a.button {
-      font-size: 90%; } }
+      font-size: 90%;
+      padding: 15px 20px; } }
+  @media (min-width: 1080px) {
+    a.button {
+      padding: 15px 20px; } }
 
 @media (min-width: 35em) {
   .right a.button {
@@ -564,7 +566,7 @@ textarea {
 /*----------------------- Title and Background ------------------------------ */
 .hero {
   width: 100%;
-  min-height: 500px;
+  height: 75vh;
   background-image: url("/images/classrom.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -597,13 +599,13 @@ textarea {
 
 .hero .content {
   max-width: 800px;
-  margin-top: 185px;
-  float: right;
+  margin-top: 70%;
   z-index: 1;
   position: relative; }
   @media (min-width: 35em) {
     .hero .content {
-      margin-top: 350px; } }
+      margin-top: 350px;
+      float: right; } }
 
 .hero .container {
   margin: 0 auto !important; }
@@ -993,17 +995,19 @@ a.button {
   font-weight: 900;
   font-size: 70%;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 10px 20px;
   margin: 25px 0px;
   border-radius: 5px;
   display: inline-block;
   position: relative;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px; }
+  vertical-align: middle; }
   @media (min-width: 35em) {
     a.button {
-      font-size: 90%; } }
+      font-size: 90%;
+      padding: 15px 20px; } }
+  @media (min-width: 1080px) {
+    a.button {
+      padding: 15px 20px; } }
 
 @media (min-width: 35em) {
   .right a.button {
@@ -1194,14 +1198,26 @@ header {
   max-width: 100%;
   margin: 0px auto 0px auto;
   font: 100% 'Peace Sans', Helvetica, sans-serif;
-  height: 89px;
+  height: 75px;
   position: -webkit-sticky;
   position: sticky;
   top: 0px; }
+  @media (min-width: 35em) {
+    header {
+      height: 89px; } }
 
 h1 {
   margin: auto 0px;
   padding: 0px 0px 0px 20px; }
+
+h1 img {
+  width: 80%; }
+  @media (min-width: 35em) {
+    h1 img {
+      width: 90%; } }
+  @media (min-width: 1080px) {
+    h1 img {
+      width: 100%; } }
 
 .navigation {
   width: 100%;
@@ -1218,9 +1234,13 @@ h1 {
       display: inline-block; } }
 
 .donate {
-  margin: auto 25px !important;
   height: 25px;
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 15px !important;
+  margin: auto 0px !important; }
+  @media (min-width: 35em) {
+    .donate {
+      margin: auto 25px !important; } }
 
 /*-----------------Dropdown Menu---------------*/
 nav[role=navigation] {
@@ -1373,7 +1393,7 @@ nav[role=navigation].open {
   padding-left: 0px !important;
   padding-right: 0px !important;
   z-index: 10;
-  font-size: 70% !important; }
+  font-size: 80% !important; }
 
 .open .dropdown li {
   text-align: left; }
@@ -1383,17 +1403,20 @@ nav[role=navigation].open {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .open ul.nav li {
-  display: block !important;
-  flex-grow: 1; }
+  display: block !important; }
 
 .open .dropdown li a {
   display: block !important;
   text-align: left !important;
   color: #000 !important;
   font-weight: 600 !important; }
+
+.open .volunteerlist {
+  order: 2; }
 
 @media (min-width: 1080px) {
   ul.nav li.facebookmobile {
@@ -1408,10 +1431,17 @@ nav[role=navigation].open {
 /*----------------- Hamburger Animation -----------------*/
 div.menu-link {
   width: 20px;
-  top: 20px;
+  top: 12px;
   right: 20px;
   transition-duration: 0.5s;
   position: absolute; }
+  @media (min-width: 35em) {
+    div.menu-link {
+      width: 20px;
+      top: 20px;
+      right: 20px;
+      transition-duration: 0.5s;
+      position: absolute; } }
   div.menu-link .icon {
     transition-duration: 0.5s;
     position: absolute;
@@ -1817,17 +1847,19 @@ a.button {
   font-weight: 900;
   font-size: 70%;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 10px 20px;
   margin: 25px 0px;
   border-radius: 5px;
   display: inline-block;
   position: relative;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px; }
+  vertical-align: middle; }
   @media (min-width: 35em) {
     a.button {
-      font-size: 90%; } }
+      font-size: 90%;
+      padding: 15px 20px; } }
+  @media (min-width: 1080px) {
+    a.button {
+      padding: 15px 20px; } }
 
 @media (min-width: 35em) {
   .right a.button {
@@ -2409,17 +2441,19 @@ a.button {
   font-weight: 900;
   font-size: 70%;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 10px 20px;
   margin: 25px 0px;
   border-radius: 5px;
   display: inline-block;
   position: relative;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px; }
+  vertical-align: middle; }
   @media (min-width: 35em) {
     a.button {
-      font-size: 90%; } }
+      font-size: 90%;
+      padding: 15px 20px; } }
+  @media (min-width: 1080px) {
+    a.button {
+      padding: 15px 20px; } }
 
 @media (min-width: 35em) {
   .right a.button {

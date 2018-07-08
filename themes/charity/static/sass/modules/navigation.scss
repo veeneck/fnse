@@ -9,15 +9,29 @@ header {
     max-width: 100%;
     margin: 0px auto 0px auto;
     @include heavyFontStack();
-    height: 89px;
+    height: 75px;
     position: -webkit-sticky;
   	position: sticky;
   	top: 0px;
+  	@include breakpoint(condensed-screen) {
+         height: 89px;
+    }
 }
 
 h1 {
     margin: auto 0px;
     padding: 0px 0px 0px 20px;
+}
+
+h1 img {
+	width: 80%;
+
+    @include breakpoint(condensed-screen) {
+         width: 90%;
+    }
+	@include breakpoint(normal-screen) {
+        width: 100%;
+    }
 }
 
 .navigation {
@@ -38,9 +52,13 @@ h1 {
 }
 
 .donate {
-	margin: auto 25px !important;
 	height: 25px;
 	display: inline-block;
+	padding-top: 15px !important;
+	margin: auto 0px !important;
+	@include breakpoint(condensed-screen) {
+         margin: auto 25px !important;
+    }
 }
 
 /*-----------------Dropdown Menu---------------*/
@@ -227,7 +245,7 @@ nav[role=navigation].open {
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 	z-index: 10;
-	font-size: 70% !important;
+	font-size: 80% !important;
 }
 
 .open .dropdown li {
@@ -236,12 +254,11 @@ nav[role=navigation].open {
 
 .open ul.nav {
 	@include flex();
-	///flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .open ul.nav li {
 	display: block !important;
-	flex-grow: 1;
 }
 
 .open .dropdown li a {
@@ -249,6 +266,10 @@ nav[role=navigation].open {
     text-align: left !important;
     color: $black !important;
     font-weight: 600 !important;
+}
+
+.open .volunteerlist {
+	order: 2;
 }
 
 ul.nav li.facebookmobile {
@@ -308,7 +329,10 @@ ul.nav li.facebookmobile {
 }
 
 div.menu-link {
-    @include btn(20px, 20px);
+    @include btn(20px, 12px);
+    @include breakpoint(condensed-screen) {
+         @include btn(20px, 20px);
+    }
 
     .icon {
         @include icon(4px, 30px);

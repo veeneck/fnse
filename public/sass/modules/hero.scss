@@ -6,7 +6,7 @@
     @extend %clearfix;
 
     width: 100%;
-    min-height: 500px;
+    height: 75vh;
 
     background-image: url("/images/classrom.jpg");
     background-repeat: no-repeat;
@@ -61,12 +61,12 @@
 
 .hero .content {
     max-width: 800px;
-    margin-top: 185px;
-    float: right;
+    margin-top: 70%;
     z-index: 1;
     position: relative;
     @include breakpoint(condensed-screen) {
         margin-top: 350px;
+        float: right;
     }
 }
 
