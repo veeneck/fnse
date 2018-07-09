@@ -18,14 +18,14 @@
 	@include flex();
 	flex-direction: row;
 	justify-content: center;
-	width: 1200px;
+	width: 1000px;
 	@include breakpoint(normal-screen) {
 		width: 100%;
 	}
 }
 
 .project {
-	width: 400px;
+	width: 300px;
 	background-color: $lightGrey;
 	flex-grow: 1;
 	border-radius: $borderRadius;

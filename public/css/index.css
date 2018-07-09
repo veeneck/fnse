@@ -2811,13 +2811,13 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 1200px; }
+  width: 1000px; }
   @media (min-width: 1080px) {
     .sample-projects {
       width: 100%; } }
 
 .project {
-  width: 400px;
+  width: 300px;
   background-color: #FAFAFA;
   flex-grow: 1;
   border-radius: 5px; }
