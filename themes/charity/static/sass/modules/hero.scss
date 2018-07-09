@@ -21,7 +21,8 @@
 }
 
 .castle-wall {
-	background-image: url("/images/castle_wall.png");
+  background-image: url("/images/castle_wall_mobile.png");
+	background-image: url("/images/castle_wall_mobile.png");
 	background-repeat: repeat-x;
 	background-position: bottom center;
 	width: 100%;
@@ -31,17 +32,10 @@
     position: relative;
 
     @include breakpoint(condensed-screen) {
-
+      background-image: url("/images/castle_wall.png");
     }
 
 
-    @include breakpoint(normal-screen) {
-
-    }
-
-    @include breakpoint(large-screen) {
-
-    }
 }
 
 .hero h2 {
@@ -61,7 +55,7 @@
 
 .hero .content {
     max-width: 800px;
-    margin-top: 225px;
+    margin-top: 250px;
     z-index: 1;
     position: relative;
     @include breakpoint(condensed-screen) {

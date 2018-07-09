@@ -186,6 +186,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/castle_wall_mobile.png": {
+		"ft": 32768,
+		"iS": 1265,
+		"oA": 0,
+		"oAP": "\/images\/castle_wall_mobile.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/classrom.jpg": {
 		"ft": 16384,
 		"iS": 769742,
