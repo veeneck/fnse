@@ -2801,7 +2801,10 @@ textarea {
   margin: 50px 0px; }
 
 .center-project {
-  margin: 0px 50px; }
+  margin: 0px 250px; }
+  @media (min-width: 1080px) {
+    .center-project {
+      margin: 0px 50px; } }
 
 .sample-projects {
   display: -webkit-box;

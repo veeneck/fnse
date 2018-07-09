@@ -11,7 +11,10 @@
 }
 
 .center-project {
-	margin: 0px 50px;
+	margin: 0px 25px;
+	@include breakpoint(normal-screen) {
+		margin: 0px 50px;
+	}
 }
 
 .sample-projects {
