@@ -1,5 +1,6 @@
 .projects {
 	text-align: center;
+	overflow: hidden;
 }
 
 .sample-projects {
@@ -13,30 +14,43 @@
 	margin: 0px 50px;
 }
 
-.project {
-	width: 352px;
-	height: 508px;
-    background-image: url("/images/banner.png");
-    background-size:cover;
-    background-position: center center;
+.sample-projects {
+	@include flex();
+	flex-direction: row;
+	justify-content: center;
+	width: 1200px;
+	@include breakpoint(normal-screen) {
+		width: 100%;
+	}
 }
+
+.project {
+	width: 400px;
+	background-color: $lightGrey;
+	flex-grow: 1;
+	border-radius: $borderRadius;
+	@include breakpoint(normal-screen) {
+		width: 30%;
+		max-width: 30%;
+	}
+}
+
 
 .project p {
 	text-align: left;
-	padding: 0px 20px 0px 25px;
-	margin-left: 5px;
-	margin-top: 5px;
 	font-size: 85%;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding: 5px 25px 10px 25px;
 }
 
 .projectImage {
-	width: 326px;
+	width: 100%;
 	height: 250px;
 	z-index: 100;
-	margin-left: 13px;
-	margin-top: 13px;
 	background-size:cover;
     background-position: center center;
+    border-radius: $borderRadius $borderRadius 0 0 ;
 }
 
 .lunch {
@@ -55,3 +69,4 @@
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
+
