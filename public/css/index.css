@@ -370,7 +370,7 @@ a.button {
   font-weight: 900;
   font-size: 80%;
   text-decoration: none;
-  padding: 10px 20px 6px 20px;
+  padding: 10px 12px 6px 12px;
   margin: 25px 0px;
   border-radius: 4px;
   display: inline-block;
@@ -437,7 +437,10 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 15px; }
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
@@ -1040,7 +1043,7 @@ a.button {
   font-weight: 900;
   font-size: 80%;
   text-decoration: none;
-  padding: 10px 20px 6px 20px;
+  padding: 10px 12px 6px 12px;
   margin: 25px 0px;
   border-radius: 4px;
   display: inline-block;
@@ -1107,7 +1110,10 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 15px; }
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
@@ -1949,7 +1955,7 @@ a.button {
   font-weight: 900;
   font-size: 80%;
   text-decoration: none;
-  padding: 10px 20px 6px 20px;
+  padding: 10px 12px 6px 12px;
   margin: 25px 0px;
   border-radius: 4px;
   display: inline-block;
@@ -2016,7 +2022,10 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 15px; }
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
@@ -2584,7 +2593,7 @@ a.button {
   font-weight: 900;
   font-size: 80%;
   text-decoration: none;
-  padding: 10px 20px 6px 20px;
+  padding: 10px 12px 6px 12px;
   margin: 25px 0px;
   border-radius: 4px;
   display: inline-block;
@@ -2651,7 +2660,10 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 15px; }
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
