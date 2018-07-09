@@ -80,6 +80,9 @@
 	padding: 0;
 	list-style: none;
 	cursor: default;
+	@include breakpoint(normal-screen) {
+		display: none;
+	}
 }
 
 .dotstyle li {

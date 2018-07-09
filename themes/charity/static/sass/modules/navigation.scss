@@ -9,7 +9,7 @@ header {
     max-width: 100%;
     margin: 0px auto 0px auto;
     @include heavyFontStack();
-    height: 75px;
+    height: 60px;
     position: -webkit-sticky;
   	position: sticky;
   	top: 0px;
@@ -118,6 +118,7 @@ ul.nav li a {
 }
 
 ul.nav li:hover .dropdown {
+	@include transition(all 0.3s ease-out);
     display: block;
 }
 
@@ -143,6 +144,7 @@ ul.nav li img {
 	margin-top: 56px;
 	padding: 40px 25px 0px 25px;
 	border-radius: 0px 0px $borderRadius $borderRadius;
+	@include transition(all 0.3s ease-out);
 
 	@include breakpoint(normal-screen) {
     	-webkit-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
@@ -164,6 +166,7 @@ ul.nav li img {
 	text-align: center !important;
 	color: $lightBlue !important;
 	display: inline-block;
+	@include transition(all 0.3s);
 }
 
 .dropdown li a:hover {
@@ -286,6 +289,10 @@ ul.nav li.facebookmobile {
 	}
 }
 
+.facebook img {
+	width: 30px;
+}
+
 .open .volunteerlist, .open .reachout {
 	margin-top: 15px;
 }
@@ -334,7 +341,7 @@ ul.nav li.facebookmobile {
 }
 
 div.menu-link {
-    @include btn(20px, 12px);
+    @include btn(15px, 5px);
     @include breakpoint(condensed-screen) {
          @include btn(20px, 20px);
     }
