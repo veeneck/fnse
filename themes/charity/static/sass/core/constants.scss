@@ -15,6 +15,8 @@ $grey: #A4A4A4;
 $darkBlue: #00295C;
 $blue: #3C70AC;
 $lightBlue: #D1E5FB;
+$purple: #6566B5;
+$red: #C51E20;
 
 /*----------------------- Font Color ------------------------------ */
 
@@ -30,6 +32,14 @@ $lightBlue: #D1E5FB;
 
 .blue {
 	background-color: $blue;
+}
+
+.purple {
+	background-color: $purple;
+}
+
+.red {
+	background-color: $red;
 }
 
 
