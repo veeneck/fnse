@@ -51,3 +51,5 @@ fields:
   name: image
   label: Image
   description: The image to use for the module.
+pages:
+- content/modules/fnse/aboutfriends.md
