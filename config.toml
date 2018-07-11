@@ -2,3 +2,6 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Friends of North Shore Elementary"
 theme = "charity"
+
+[context.production.environment]
+  HUGO_VERSION = "0.40.2"
