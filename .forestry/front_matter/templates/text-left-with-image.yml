@@ -1,0 +1,53 @@
+---
+label: Text Left with Image
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the module.
+  config:
+    required: true
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  config:
+    required: true
+  default: module
+- type: text
+  name: text_left
+  label: Module Type
+  default: text_left
+  config:
+    required: true
+  hidden: true
+- type: text
+  name: id
+  label: ID
+  description: The id used to reference this in code.
+  hidden: true
+  config:
+    required: true
+- type: text
+  name: class_name
+  label: Class Name
+  description: The CSS class name applied to the module.
+  hidden: true
+  config:
+    required: true
+- type: text
+  label: Button Text
+  name: button
+  description: The text on the button.
+  config:
+    required: true
+- type: text
+  name: button_icon
+  label: Button Icon
+  description: The icon to show on the button.
+- type: file
+  name: image
+  label: Image
+  description: The image to use for the module.
