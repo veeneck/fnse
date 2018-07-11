@@ -3,18 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2014-03-27T14:59:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2014-03-27T14:59:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/modules/fnse/aboutfriends/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/northshore/aboutnorthshore/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2014-03-27T14:59:46+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/modules/common/volunteer/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/modules/common/spotlight/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/modules/common/testimonial/</loc>
   </url>
   
 </urlset>

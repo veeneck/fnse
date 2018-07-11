@@ -1,6 +1,8 @@
 .projects {
 	text-align: center;
 	overflow: hidden;
+	background-color: $darkBlue;
+	border-radius: $borderRadius;
 }
 
 .sample-projects {
@@ -29,13 +31,15 @@
 
 .project {
 	width: 300px;
-	background-color: $lightGrey;
+	background-color: $white;
+	background-clip: padding-box;
 	flex-grow: 1;
-	border-radius: $borderRadius;
+	border-radius: $borderRadius $borderRadius 0px 0px;
 	@include breakpoint(normal-screen) {
 		width: 30%;
 		max-width: 30%;
 	}
+	///border-bottom: 40px dotted $white;
 }
 
 

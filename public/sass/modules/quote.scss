@@ -18,10 +18,13 @@
 	background-color: $lightBlue;
 	height: 400px;
 	width: 100%;
+	text-align: left;
 	@include breakpoint(condensed-screen) {
 		width: 67%;
     }
 }
+
+/* --------------- HEADSHOT, NAME, DESCRIPTION ---------------*/
 
 .headshot {
 	margin: auto auto;
@@ -51,7 +54,23 @@
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	font-size: 120%;
+	line-height: 1.8rem;
 }
+
+.quote strong {
+	color: $darkBlue;
+	display: block;
+	margin: 10px 0;
+	@include boldFontStack();
+}
+
+.quote span {
+	@include altProseStack();
+	color: $grey;
+}
+
+/* ------------ BACKGROUND QUOTE "" VISUALS ---------------*/
 
 .hasQuote {
 	position: relative;
@@ -70,16 +89,4 @@
 	right: 0;
 	content: url("/images/hasQuoteBottom.png");
 
-}
-
-.quote strong {
-	color: $darkBlue;
-	display: block;
-	margin: 10px 0;
-	@include proseFontStack();
-}
-
-.quote span {
-	@include altProseStack();
-	color: $grey;
 }

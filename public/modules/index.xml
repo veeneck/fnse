@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modules on Friends of North Shore Elementary</title>
+    <link>/modules/</link>
+    <description>Recent content in Modules on Friends of North Shore Elementary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Friends</title>
+      <link>/modules/fnse/aboutfriends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/fnse/aboutfriends/</guid>
+      <description>Friends of North Shore Elementary (FNSE) was founded from sidewalk conversations in 2015. Neighbors with preschool aged children were asking themselves,&amp;ldquo;Why are families in one neighborhood attending over 10 different elementary schools instead of North Shore Elementary, our zoned school?&amp;rdquo; The interest in this idea was incredibly strong, and it was clear that many individuals wanted to support their neighborhood school. With the purpose to help bring positive focus and contribution to North Shore Elementary, FNSE incorporated as a non-profit in December 2015 and was established as a 501&amp;copy;(3) a few months later.</description>
+    </item>
+    
+    <item>
+      <title>About North Shore</title>
+      <link>/modules/northshore/aboutnorthshore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/northshore/aboutnorthshore/</guid>
+      <description>North Shore Elementary is a red brick school shaded by century-old oak trees, located at the north end of Coffee Pot Bayou in a quiet residential setting. It is rich in history and tradition but also is moving forward to prepare its students for the future. Come have a look at our neighborhood gem and meet the staff, schedule a tour, or learn about the new family experience.</description>
+    </item>
+    
+    <item>
+      <title>Get Involved</title>
+      <link>/modules/common/volunteer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/common/volunteer/</guid>
+      <description>We would love to have you get engaged. There is something for everyone. Depending on your interest and availability there are a variety of ways to get involved with both North Shore Elementary and FNSE.
+Become a lunch PAL, meeting with an identified student in need once a week for an hour.</description>
+    </item>
+    
+    <item>
+      <title>Spotlight</title>
+      <link>/modules/common/spotlight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/common/spotlight/</guid>
+      <description>Content</description>
+    </item>
+    
+    <item>
+      <title>Testimonial</title>
+      <link>/modules/common/testimonial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/common/testimonial/</guid>
+      <description>Content</description>
+    </item>
+    
+  </channel>
+</rss>

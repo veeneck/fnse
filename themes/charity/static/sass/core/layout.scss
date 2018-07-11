@@ -3,15 +3,37 @@
 @import "typography.scss";
 @import "mixins.scss";
 
+
+/* -------------- CORE LAYOUT ------------- */
+
+/* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {
     @extend %clearfix;
-    width: 100%;
-    margin: 30px 0px;
+    width: 100%; 
+    margin: $mobileModuleMargin 0px;
     @include breakpoint(normal-screen) {
         margin: $moduleMargin 0px;
     }
+    text-align: center;
 }
 
+.padded-module {
+    margin: 0px !important;
+    padding: $mobileModuleMargin 0px;
+    @include breakpoint(normal-screen) {
+        padding: $moduleMargin 0px;
+    }
+}
+
+.no-padding {
+
+}
+
+.no-margin {
+    margin: 3px 0px !important;
+}
+
+/* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
     max-width: $maxWidth;
     margin: 0px auto;
@@ -20,6 +42,26 @@
         padding: 0px 50px;
     }
 }
+
+/* On mobile, the image should sit on top of the text. */
+.coreImage {
+    width: 100%;
+    margin-top: 1.5rem;
+    object-fit: cover;
+    border-radius: $borderRadius;
+
+    /* Wrap the text around the image. */
+    @include breakpoint(condensed-screen) {
+        width: 45%;
+    }
+
+    /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */
+    @include breakpoint(normal-screen) {
+        margin-top: -75px;
+    }
+}
+
+/* -------------- THIRDS MODULE ------------- */
 
 .thirdContainer {
     width: 33%;
@@ -31,6 +73,8 @@
     border-radius: $borderRadius;
 }
 
+/* -------------- HALVES MODULE ------------- */
+
 .leftHalfContainer {
     width: 50%;
     margin-right: 3px;
@@ -41,6 +85,9 @@
     width: 50%;
     border-radius: $borderRadius;
 }
+
+/* -------------- UNVERIFIED ---------------- */
+
 
 h3:before {
   content:""; 
@@ -95,13 +142,6 @@ h3.center {
 h3.center:before {
     left: 50%;
     margin-left: -75px;
-}
-
-.coreImage {
-    width: 45%;
-    height: 450px;
-    object-fit: cover;
-    border-radius: $borderRadius;
 }
 
 .copy {

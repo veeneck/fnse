@@ -1,15 +1,18 @@
+{{ $randomNumber :=  index (seq ($.Site.Data.testimonials | len)  | shuffle) 0 }}
+{{ $testimonial := (index $.Site.Data.testimonials ($randomNumber | string)) }}
+
 <section class="quote module">
 
 	<div class="thirdContainer">
 		<div class="headshot">
-			<img src="/images/headshot.jpg" />
-			<strong>Jessica Jones</strong>
-			<span>Mom to 2nd grader</span>
+			<img src="{{ $testimonial.image }}" />
+			<strong>{{ $testimonial.name }}</strong>
+			<span>{{ $testimonial.role }}</span>
 		</div>
 	</div>
 
 	<div class="twoThirdContainer hasQuote">
-		<blockquote>I'm constantly amazed by the teachers and staff at North Shore elementary. Their commitment, responsiveness, and desire to educate make me proud to send my kids there.</blockquote>
+		<blockquote>{{ $testimonial.body }}</blockquote>
 	</div>
 
 </section>

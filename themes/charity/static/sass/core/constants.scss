@@ -3,6 +3,7 @@
 $maxWidth: 1200px;
 $borderRadius: 4px;
 $moduleMargin: 150px;
+$mobileModuleMargin: 30px;
 
 /*----------------------- Colors ------------------------------ */
 
@@ -14,6 +15,12 @@ $grey: #A4A4A4;
 $darkBlue: #00295C;
 $blue: #3C70AC;
 $lightBlue: #D1E5FB;
+
+/*----------------------- Font Color ------------------------------ */
+
+.white-font {
+	color: $white;
+}
 
 /*----------------------- Backgrounds ------------------------------ */
 

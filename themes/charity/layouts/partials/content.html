@@ -1,0 +1,23 @@
+
+	{{ range $key, $value := .Params.modules }}
+		{{ range where $.Site.Pages ".Params.id" $value }}
+			{{ $type := .Params.module_type }}
+
+			{{ if (eq $type "text_left") }}
+			    {{ partial "text_left.html" . }}
+			{{ end }}
+
+			{{ if (eq $type "text_right") }}
+			    {{ partial "text_right.html" . }}
+			{{ end }}
+
+			{{ if (eq $type "testimonial") }}
+			    {{ partial "quote.html" . }}
+			{{ end }}
+
+			{{ if (eq $type "spotlight") }}
+			    {{ partial "projects.html" . }}
+			{{ end }}
+			
+		{{ end }}
+	{{ end }}

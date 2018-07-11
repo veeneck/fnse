@@ -129,6 +129,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/text_left.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/text_left-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/typography.css": {
 		"aP": 1,
 		"bl": 0,
@@ -574,6 +584,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/modules\/custom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/custom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/modules\/footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -583,19 +606,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/modules\/friends.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/friends.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -626,19 +636,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/modules\/northshore.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/northshore.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/modules\/projects.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -665,7 +662,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/modules\/volunteer.scss": {
+	"\/sass\/modules\/text_left.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -673,7 +670,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/volunteer.css",
+		"oAP": "\/css\/text_left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/modules\/text_right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/text_right.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

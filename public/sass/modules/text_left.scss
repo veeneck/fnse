@@ -1,0 +1,30 @@
+@import "../core/core.scss";
+
+.text_left p {
+	text-align: left;
+}
+
+/* On mobile, the image should sit on top of the text. */
+.text_left .coreImage {
+	height: 300px;
+
+	/* Wrap the text around the image. */
+	@include breakpoint(condensed-screen) {
+		float: right;
+		height: 300px;
+		padding: 0px 0px 40px 40px;
+    }
+
+    /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */
+    @include breakpoint(normal-screen) {
+    	height: 600px;
+    	padding: 0px 0px 60px 60px;
+    }
+}
+
+/* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
+.no_button.text_left .coreImage {
+	@include breakpoint(normal-screen) {
+		height: 500px;
+	}
+}
