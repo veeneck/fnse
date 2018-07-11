@@ -1,5 +1,5 @@
 ---
-label: About Friends
+label: Text Left w/ Image
 hide_body: false
 is_partial: false
 fields:
@@ -38,8 +38,7 @@ fields:
   type: text
   hidden: button_icon
   default: ''
-- name: image
+- type: file
   label: Image
-  type: text
-  hidden: image
-  default: ''
+  name: image
+  description: Image to use with the module.
