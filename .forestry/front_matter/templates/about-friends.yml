@@ -1,0 +1,45 @@
+---
+label: About Friends
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: title
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: type
+  default: ''
+- name: id
+  label: Id
+  type: text
+  hidden: id
+  default: ''
+- name: module_type
+  label: Module type
+  type: text
+  hidden: module_type
+  default: ''
+- name: class_name
+  label: Class name
+  type: text
+  hidden: class_name
+  default: ''
+- name: button
+  label: Button
+  type: text
+  hidden: button
+  default: ''
+- name: button_icon
+  label: Button icon
+  type: text
+  hidden: button_icon
+  default: ''
+- name: image
+  label: Image
+  type: text
+  hidden: image
+  default: ''
