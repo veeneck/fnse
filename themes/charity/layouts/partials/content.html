@@ -15,8 +15,8 @@
 			    {{ partial "quote.html" . }}
 			{{ end }}
 
-			{{ if (eq $type "spotlight") }}
-			    {{ partial "projects.html" . }}
+			{{ if (eq $type "carousel") }}
+			    {{ partial "carousel.html" . }}
 			{{ end }}
 			
 		{{ end }}
