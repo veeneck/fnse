@@ -6,4 +6,4 @@ module_type: spotlight
 class_name: spotlight
 
 ---
-Content
+Interesting things to know about North Shore Elementary.
