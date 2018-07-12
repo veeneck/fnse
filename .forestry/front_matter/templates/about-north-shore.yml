@@ -41,7 +41,7 @@ fields:
 - name: image
   label: Image
   type: file
-  hidden: image
+  hidden: false
   default: ''
 pages:
 - content/modules/northshore/aboutnorthshore.md
