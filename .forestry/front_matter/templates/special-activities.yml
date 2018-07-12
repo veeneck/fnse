@@ -1,0 +1,30 @@
+---
+label: Special Activities
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: title
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: description
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: type
+  default: ''
+- name: image
+  label: Image
+  type: file
+  hidden: image
+  default: ''
+- name: link
+  label: Link
+  type: text
+  hidden: link
+  default: ''
