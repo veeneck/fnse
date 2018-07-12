@@ -7,29 +7,24 @@ fields:
   label: Title
   type: text
   hidden: title
-  default: ''
+  default: Testimonial
 - name: type
   label: Type
   type: text
   hidden: type
-  default: ''
+  default: module
 - name: id
   label: Id
   type: text
   hidden: id
-  default: ''
+  default: modules/common/testimonial.md
 - name: module_type
   label: Module type
   type: text
   hidden: module_type
-  default: ''
+  default: testimonial
 - name: class_name
   label: Class name
   type: text
   hidden: class_name
-  default: ''
-- name: image
-  label: Image
-  type: file
-  hidden: image
-  default: ''
+  default: quote
