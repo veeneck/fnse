@@ -6,7 +6,7 @@ fields:
 - name: title
   label: Title
   type: text
-  hidden: title
+  hidden: false
   default: ''
 - name: type
   label: Type
@@ -26,5 +26,10 @@ fields:
 - name: modules
   label: Modules
   type: list
-  hidden: modules
+  hidden: false
   default: ''
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: modules
