@@ -33,3 +33,5 @@ fields:
     source:
       type: pages
       section: modules
+pages:
+- content/fnse.md

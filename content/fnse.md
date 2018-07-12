@@ -1,9 +1,11 @@
 ---
 title: Friends of North Shore Elementary
 type: page
-date: 2014-03-27T14:59:46+00:00
-url: /about
+date: 2014-03-27 14:59:46 +0000
+url: "/about"
 modules:
-  - aboutfriends
+- modules/northshore/aboutnorthshore.md
+- aboutfriends
+
 ---
 hello world
