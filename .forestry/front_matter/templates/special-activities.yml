@@ -30,3 +30,4 @@ fields:
   default: ''
 pages:
 - content/sources/highlights/specialactivities.md
+- content/sources/highlights/coolthings.md
