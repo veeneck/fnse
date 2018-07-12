@@ -1,30 +1,30 @@
 ---
-label: Special Activities
+label: Highlight
 hide_body: false
 is_partial: false
 fields:
 - name: title
   label: Title
   type: text
-  hidden: title
+  hidden: false
   default: ''
 - name: description
   label: Description
   type: text
-  hidden: description
+  hidden: false
   default: ''
 - name: type
   label: Type
   type: text
   hidden: type
-  default: ''
+  default: highlight
 - name: image
   label: Image
   type: file
-  hidden: image
+  hidden: false
   default: ''
 - name: link
   label: Link
   type: text
-  hidden: link
+  hidden: false
   default: ''
