@@ -6,7 +6,7 @@ fields:
 - name: title
   label: Title
   type: text
-  hidden: title
+  hidden: false
   default: Testimonial
 - name: type
   label: Type
