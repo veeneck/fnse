@@ -5,7 +5,4 @@ tags:
 - highlight
 image: "/images/afterschool.jpg"
 link: "/about"
-undefined:
-- highlight
-
 ---
