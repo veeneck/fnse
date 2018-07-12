@@ -10,7 +10,7 @@
 
 			{{ range $key, $value := (index .Site.Taxonomies.tags  .Params.data_source ) }}
 				<div class="project {{ if eq $key 1 }}center-project{{ end }}">
-					<div class="projectImage lunch">&nbsp;</div>
+					<img class="projectImage" src="{{ .Params.image }}" />
 					<h4>{{ .Title }}</h4>
 					<p>{{ .Description }}</p>
 					<a href="#" class="button blue roller">MORE</a>
