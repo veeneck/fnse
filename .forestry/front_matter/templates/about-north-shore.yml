@@ -43,3 +43,5 @@ fields:
   type: file
   hidden: image
   default: ''
+pages:
+- content/modules/northshore/aboutnorthshore.md
