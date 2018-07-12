@@ -2,8 +2,10 @@
 title: Special Activities
 description: Interesting things to know about North Shore Elementary.
 tags:
-  - highlight
+- highlight
 image: "/images/afterschool.jpg"
 link: "/about"
+undefined:
+- highlight
 
 ---
