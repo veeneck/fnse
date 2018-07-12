@@ -26,12 +26,29 @@
   </url>
   
   <url>
+    <loc>/sources/highlights/coolthings/</loc>
+  </url>
+  
+  <url>
     <loc>/modules/common/volunteer/</loc>
   </url>
   
   <url>
     <loc>/modules/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/sources/highlights/schoolgrade/</loc>
+  </url>
+  
+  <url>
+    <loc>/sources/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/sources/highlights/specialactivities/</loc>
   </url>
   
   <url>
