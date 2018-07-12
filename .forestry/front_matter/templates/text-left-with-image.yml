@@ -53,3 +53,4 @@ fields:
   description: The image to use for the module.
 pages:
 - content/modules/fnse/aboutfriends.md
+- content/modules/common/volunteer.md
