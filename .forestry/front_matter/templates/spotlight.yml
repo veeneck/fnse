@@ -8,6 +8,9 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  name: description
+  label: Description
 - name: type
   label: Type
   type: text
