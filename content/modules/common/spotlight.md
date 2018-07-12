@@ -8,4 +8,4 @@ class_name: spotlight
 data_source: highlight
 
 ---
-This is a carousel module that showcases top things of interest at North Shore.
+This is a carousel module that showcases top things of interest at North Shore. Data is pulled from Sources->Highlights.
