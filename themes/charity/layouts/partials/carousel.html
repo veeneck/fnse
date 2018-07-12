@@ -8,7 +8,7 @@
 
 		<div class="sample-projects">
 
-			{{ range $key, $value := .Site.Taxonomies.tags.highlight }}
+			{{ range $key, $value := (index .Site.Taxonomies.tags  .Params.data_source ) }}
 				<div class="project {{ if eq $key 1 }}center-project{{ end }}">
 					<div class="projectImage lunch">&nbsp;</div>
 					<h4>{{ .Title }}</h4>
