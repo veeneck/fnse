@@ -1,18 +1,18 @@
 ---
-label: About North Shore
+label: Text Right w/ Image
 hide_body: false
 is_partial: false
 fields:
 - name: title
   label: Title
   type: text
-  hidden: title
+  hidden: false
   default: ''
 - name: type
   label: Type
   type: text
-  hidden: type
-  default: ''
+  hidden: true
+  default: module
 - name: id
   label: Id
   type: text
@@ -21,23 +21,23 @@ fields:
 - name: module_type
   label: Module type
   type: text
-  hidden: module_type
-  default: ''
+  hidden: false
+  default: text_right
 - name: class_name
   label: Class name
   type: text
   hidden: class_name
-  default: ''
+  default: northshore
 - name: button
   label: Button
   type: text
-  hidden: button
-  default: ''
+  hidden: false
+  default: EXPLORE
 - name: button_icon
   label: Button icon
   type: text
-  hidden: button_icon
-  default: ''
+  hidden: false
+  default: explore
 - name: image
   label: Image
   type: file
