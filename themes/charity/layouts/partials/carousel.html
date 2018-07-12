@@ -8,34 +8,22 @@
 
 		<div class="sample-projects">
 
-			<div class="project">
-				<div class="projectImage lunch">&nbsp;</div>
-				<h4>Healthy Lunches</h4>
-				<p>We’ve brought more options to the lunch room through the healthy lunch iniative program.</p>
-				<a href="#" class="button blue roller">MORE</a>
-			</div>
-
-			<div class="project center-project">
-				<div class="projectImage garden">&nbsp;</div>
-				<h4>Gardening</h4>
-				<p>Students can now elect to spend time outdoors and garden during their free activites hour.</p>
-				<a href="#" class="button blue roller">MORE</a>
-			</div>
-
-			<div class="project">
-				<div class="projectImage afterschool">&nbsp;</div>
-				<h4>After School Activities</h4>
-				<p>Over 8 after school programs have been added to allow children to explore their interests.</p>
-				<a href="#" class="button blue roller">MORE</a>
-			</div>
+			{{ range $key, $value := .Site.Taxonomies.tags.highlight }}
+				<div class="project {{ if eq $key 1 }}center-project{{ end }}">
+					<div class="projectImage lunch">&nbsp;</div>
+					<h4>{{ .Title }}</h4>
+					<p>{{ .Description }}</p>
+					<a href="#" class="button blue roller">MORE</a>
+				</div>
+			{{ end }}
 
 		</div>
 
 		<div class="dotstyle dotstyle-fillup">
 			<ul>
-				<li class="current"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Products</a></li>
+				<li class="current"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
 			</ul>
 		</div>
 
