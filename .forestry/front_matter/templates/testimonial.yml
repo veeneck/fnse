@@ -28,3 +28,5 @@ fields:
   type: text
   hidden: class_name
   default: quote
+pages:
+- content/modules/common/testimonial.md
