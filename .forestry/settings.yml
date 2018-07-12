@@ -10,9 +10,6 @@ sections:
 - path: content/modules
   label: Modules
   create: all
-- path: content/pages
-  label: Pages
-  create: all
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''

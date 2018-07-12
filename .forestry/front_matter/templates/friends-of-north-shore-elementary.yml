@@ -1,0 +1,30 @@
+---
+label: Friends of North Shore Elementary
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: title
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: type
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: date
+  default: ''
+- name: url
+  label: Url
+  type: text
+  hidden: url
+  default: ''
+- name: modules
+  label: Modules
+  type: list
+  hidden: modules
+  default: ''
