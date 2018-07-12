@@ -1,6 +1,6 @@
 ---
 title: Get Involved
-id: volunteer
+id: modules/common/volunteer.md
 type: module
 module_type: text_left
 class_name: volunteer

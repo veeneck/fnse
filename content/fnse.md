@@ -4,8 +4,7 @@ type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/about"
 modules:
-- modules/northshore/aboutnorthshore.md
-- aboutfriends
+- modules/fnse/aboutfriends.md
 
 ---
 hello world

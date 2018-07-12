@@ -1,6 +1,6 @@
 ---
 title: About North Shore
-id: aboutnorthshore
+id: modules/northshore/aboutnorthshore.md
 type: module
 module_type: text_right
 class_name: northshore

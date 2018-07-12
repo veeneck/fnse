@@ -1,6 +1,6 @@
 ---
 title: About Friends
-id: aboutfriends
+id: modules/fnse/aboutfriends.md
 type: module
 module_type: text_left
 class_name: friends

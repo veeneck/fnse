@@ -1,6 +1,6 @@
 ---
 title: Testimonial
-id: testimonial
+id: modules/common/testimonial.md
 type: module
 module_type: testimonial
 class_name: quote
