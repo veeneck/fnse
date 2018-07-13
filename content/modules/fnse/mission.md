@@ -5,6 +5,9 @@ type: module
 module_type: center_list
 class_name: mission
 goals:
+- title: Fundraising
+  class: fundraising
+  description: Provide a strategic roadmap to increase financial support.
 - title: School Programming
   class: programming
   description: Working with faculty to assess the current school day, curriculum,
