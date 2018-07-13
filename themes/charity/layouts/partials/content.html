@@ -19,6 +19,9 @@
 		    {{ partial "text_right.html"  (dict "module" . "buttonClass" ($.Scratch.Get "noButton"))  }}
 		{{ end }}
 
+		{{ if (eq $type "half_half") }}
+		    {{ partial "half_half.html"  (dict "module" . "buttonClass" ($.Scratch.Get "noButton"))  }}
+		{{ end }}
 
 		{{ if (eq $type "center_list") }}
 		    {{ partial "center_list.html" . }}
@@ -34,7 +37,5 @@
 		
 	{{ end }}
 {{ end }}
-
-{{ partial "zoned.html" . }}
 
 {{ partial "footer.html" . }}

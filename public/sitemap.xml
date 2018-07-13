@@ -68,12 +68,20 @@
   </url>
   
   <url>
+    <loc>/modules/common/faq1/</loc>
+  </url>
+  
+  <url>
     <loc>/sources/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/modules/common/spotlight/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/fnse/stayintouch/</loc>
   </url>
   
   <url>

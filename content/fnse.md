@@ -11,6 +11,8 @@ modules:
 - modules/common/testimonial.md
 - modules/fnse/mission.md
 - modules/fnse/goals.md
+- modules/fnse/stayintouch.md
 - modules/why/whynse.md
+- modules/common/faq1.md
 ---
 hello world

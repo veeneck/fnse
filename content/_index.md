@@ -15,6 +15,7 @@ modules:
 - modules/northshore/aboutnorthshore.md
 - modules/common/spotlight.md
 - modules/common/volunteer.md
+- modules/common/faq1.md
 
 ---
 hello world

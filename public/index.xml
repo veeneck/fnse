@@ -112,12 +112,30 @@ Become a lunch PAL, meeting with an identified student in need once a week for a
     </item>
     
     <item>
+      <title>Questions?</title>
+      <link>/modules/common/faq1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/common/faq1/</guid>
+      <description>Am I zoned for North Shore? While the map overlay serves as a rough guide, you can check your exact address here to see if you&#39;re zoned for North Shore. Have additional questions? Head on over to our FAQ to learn more about the school, performance, teachers, events, tours and Friends of North Shore.</description>
+    </item>
+    
+    <item>
       <title>Spotlight</title>
       <link>/modules/common/spotlight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/modules/common/spotlight/</guid>
       <description>This is a carousel module that showcases top things of interest at North Shore. Data is pulled from Sources-&amp;gt;Highlights.</description>
+    </item>
+    
+    <item>
+      <title>Stay Informed</title>
+      <link>/modules/fnse/stayintouch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/fnse/stayintouch/</guid>
+      <description>Our primary means of communication is through our Facebook page. Beyond that, we meet approximately once a month to discuss our roadmap. This meeting is open (?) and takes place (when / where ?). If you have any questions, please feel free to contact us. You may also find relevant information on the North Shore Elementary site or on their Twitter feed.</description>
     </item>
     
     <item>

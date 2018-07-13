@@ -2,7 +2,7 @@
 title: Why Choose North Shore?
 id: modules/why/whynse.md
 type: module
-module_type: text_right
+module_type: text_left
 class_name: why
 button: EXPLORE
 button_icon: castle

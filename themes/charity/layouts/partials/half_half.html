@@ -1,22 +1,23 @@
-<section class="volunteer module no-margin">
+<section class="half_half module no-margin {{ $.module.Params.class_name }} {{ $.buttonClass }} {{ $.module.Params.alignment }}">
 
 	<div class="leftHalfContainer">
-		<div class="content left">
-			<h3>Looking to Volunteer?</h3>
+		<div class="wrapper">
 
-			<p>We would love to have you get engaged. There is something for everyone.  Depending on your interest and availability there are a variety of ways to get involved with both North Shore Elementary and FNSE.</p>
+			<h3>{{ $.module.Title }}</h3>
 
-			<span>Become a lunch PAL, meeting with an identified student in need once a week for an hour.</span>
+			<p>{{ $.module.Content }}</p>
 
-			<a href="#" class="button blue lend">LEND A HAND</a>
-
-			<div class="clear"></div>
+			{{ if eq $.buttonClass "" }}
+				{{ if isset $.module.Params "button" }}
+					<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
+				{{ end }}
+			{{ end }}
 
 		</div>
 	</div>
 
 	<div class="rightHalfContainer">
-		&nbsp;
+		<img src="{{ $.module.Params.image }}" class="halfImage" />
 	</div>
 
 </section>

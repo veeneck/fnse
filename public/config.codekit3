@@ -69,6 +69,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/half_half.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/half_half-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/hero.css": {
 		"aP": 1,
 		"bl": 0,
@@ -757,6 +767,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/modules\/half_half.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/half_half.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/modules\/hero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -818,19 +841,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/text_right.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/modules\/zoned.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/zoned.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
