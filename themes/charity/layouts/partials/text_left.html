@@ -11,7 +11,7 @@
 			<p>{{ $.module.Content }}</p>
 
 			{{ if eq $.buttonClass "" }}
-			<a href="$.module.Params.link" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
+			<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
 			{{ end }}
 
 		</div>

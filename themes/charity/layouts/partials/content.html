@@ -1,9 +1,10 @@
 {{ partial "hero.html" . }}
 
-{{ $.Scratch.Set "noButton" "" }}
-
 {{ range $key, $value := .Params.modules }}
 	{{ range where $.Site.Pages ".Params.id" $value }}
+
+		{{ $.Scratch.Set "noButton" "" }}
+
 		{{ $type := .Params.module_type }}
 
 		{{ if eq .Params.link $.Page.Params.url }}
@@ -18,6 +19,11 @@
 		    {{ partial "text_right.html"  (dict "module" . "buttonClass" ($.Scratch.Get "noButton"))  }}
 		{{ end }}
 
+
+		{{ if (eq $type "center_list") }}
+		    {{ partial "center_list.html" . }}
+		{{ end }}
+
 		{{ if (eq $type "testimonial") }}
 		    {{ partial "quote.html" . }}
 		{{ end }}
@@ -28,3 +34,7 @@
 		
 	{{ end }}
 {{ end }}
+
+{{ partial "zoned.html" . }}
+
+{{ partial "footer.html" . }}

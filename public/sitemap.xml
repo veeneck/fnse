@@ -60,6 +60,10 @@
   </url>
   
   <url>
+    <loc>/modules/fnse/goals/</loc>
+  </url>
+  
+  <url>
     <loc>/modules/fnse/mission/</loc>
   </url>
   
@@ -84,6 +88,10 @@
   
   <url>
     <loc>/modules/common/testimonial/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/why/whynse/</loc>
   </url>
   
 </urlset>

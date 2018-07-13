@@ -6,6 +6,18 @@
 
 		<p class="white-font">{{ .Description }}</p>
 
+		<ul>
+			{{ range $key, $value := .Params.list_items }}
+				<li class="list_item">
+					<div>
+						<div class="shield {{ $value.class }}"></div>
+						<strong>{{ $value.title }}</strong>
+						<span>{{ $value.description }}</span>
+					</div>
+				</li>
+			{{ end }}
+		</ul>
+
 	</div>
 
 </section>

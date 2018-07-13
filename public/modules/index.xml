@@ -39,12 +39,21 @@ Become a lunch PAL, meeting with an identified student in need once a week for a
     </item>
     
     <item>
+      <title>Our Goal</title>
+      <link>/modules/fnse/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/fnse/goals/</guid>
+      <description>Content</description>
+    </item>
+    
+    <item>
       <title>Our Mission</title>
       <link>/modules/fnse/mission/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/modules/fnse/mission/</guid>
-      <description>The mission of Friends of North Shore Elementary is to partner with the school, families, and faculty to identify needs and provide sustainable resources to ensure it is a dynamic, engaging and successful public school that proudly serves families in the Northeast region of St. Petersburg. our vision is for North Shore Elementary School to be a valued community asset of the Northeast region of St. Petersburg, a key factor in attracting families and businesses to our region, and a point of pride and involvement for our neighborhood’s citizens regardless of whether they have children attending the school.</description>
+      <description>Our mission is to partner with North Shore Elementary in their work to ensure it is a dynamic, engaging and successful public school that proudly serves families in the Northeast region of St. Petersburg. We envision that North Shore Elementary is a dynamic, engaging, and successful school that it is a key driver for families and businesses to locate to the area.</description>
     </item>
     
     <item>
@@ -63,6 +72,15 @@ Become a lunch PAL, meeting with an identified student in need once a week for a
       
       <guid>/modules/common/testimonial/</guid>
       <description>This is a testimonial module. All data for testimonials is pulled elsewhere. This is just to added a testimonial widget to a page.</description>
+    </item>
+    
+    <item>
+      <title>Why Choose North Shore?</title>
+      <link>/modules/why/whynse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/why/whynse/</guid>
+      <description>North Shore Elementary has been proudly serving students for over 90 years and is the alma mater to many of today’s leaders in St. Petersburg. It is a small school with character, compassion, diversity, and ingenuity that continues to define what successful public education should and can look like. With approximately 350 students (between 3 to 4 classes per grade) the small size of North Shore allows for all teachers and staff to know all students, not just the ones in their classes.</description>
     </item>
     
   </channel>

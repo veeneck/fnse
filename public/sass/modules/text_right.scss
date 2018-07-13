@@ -28,3 +28,9 @@
 		height: 400px;
 	}
 }
+
+.why .coreImage {
+	@include breakpoint(normal-screen) {
+    	height: 600px !important;
+    }
+}

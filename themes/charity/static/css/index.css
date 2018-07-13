@@ -3299,6 +3299,10 @@ textarea {
   .no_button.text_right .coreImage {
     height: 400px; } }
 
+@media (min-width: 1080px) {
+  .why .coreImage {
+    height: 600px !important; } }
+
 .quote {
   display: -webkit-box;
   display: -moz-box;
@@ -3522,6 +3526,75 @@ textarea {
   overflow: hidden;
   background-color: #00295C;
   border-radius: 4px; }
+
+.center_list ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap; }
+
+.center_list li {
+  width: 30%;
+  margin: 50px 1.5%; }
+
+@media (min-width: 35em) {
+  .center_list p {
+    width: 75%;
+    padding: 0px 12%; } }
+
+.shield {
+  height: 140px;
+  width: 100%;
+  background-image: url("/images/blue_shield.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/* --------------- LIST ITEM, NAME, DESCRIPTION ---------------*/
+.list_item {
+  text-align: center; }
+
+.list_item strong {
+  color: #fff;
+  display: block;
+  margin: 25px 0px 10px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900; }
+
+.list_item span {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  text-align: left;
+  font-size: 90%; }
+
+/* --------------- CUSTOM ICONS ---------------*/
+.shield::before {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 175px; }
+
+.teacher::before {
+  content: url("/images/icons/icon_teacher.png"); }
+
+.piggy::before {
+  content: url("/images/icons/icon_piggy.png"); }
+
+.programming::before {
+  content: url("/images/icons/icon_graduate.png"); }
+
+.volunteer::before {
+  content: url("/images/icons/icon_volunteer.png"); }
+
+.megaphone::before {
+  content: url("/images/icons/icon_megaphone.png"); }
+
+.school::before {
+  content: url("/images/icons/icon_school.png"); }
 
 body {
   margin: 0;

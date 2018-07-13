@@ -185,6 +185,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/blue_shield.png": {
+		"ft": 32768,
+		"iS": 8008,
+		"oA": 0,
+		"oAP": "\/images\/blue_shield.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/castle_wall.png": {
 		"ft": 32768,
 		"iS": 1265,
@@ -213,6 +224,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/classrom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/classroom_small.JPG": {
+		"ft": 16384,
+		"iS": 172363,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/classroom_small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -256,6 +278,17 @@
 		"iS": 257850,
 		"oA": 0,
 		"oAP": "\/images\/Garden.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/grey_shield.png": {
+		"ft": 32768,
+		"iS": 6431,
+		"oA": 0,
+		"oAP": "\/images\/grey_shield.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -339,6 +372,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/icon_graduate.png": {
+		"ft": 32768,
+		"iS": 1655,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_graduate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/icon_hand.png": {
 		"ft": 32768,
 		"iS": 848,
@@ -383,6 +427,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/icon_megaphone.png": {
+		"ft": 32768,
+		"iS": 1701,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_megaphone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/icon_more.png": {
 		"ft": 32768,
 		"iS": 442,
@@ -394,11 +449,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/icon_piggy.png": {
+		"ft": 32768,
+		"iS": 1882,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_piggy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/icon_roller.png": {
 		"ft": 32768,
 		"iS": 535,
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_roller.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/icon_school.png": {
+		"ft": 32768,
+		"iS": 1376,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_school.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/icon_teacher.png": {
+		"ft": 32768,
+		"iS": 1744,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_teacher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/icon_volunteer.png": {
+		"ft": 32768,
+		"iS": 1677,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_volunteer.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
