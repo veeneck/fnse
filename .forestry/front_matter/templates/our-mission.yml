@@ -6,7 +6,7 @@ fields:
 - name: title
   label: Title
   type: text
-  hidden: title
+  hidden: false
   default: ''
 - name: id
   label: Id
@@ -26,7 +26,7 @@ fields:
 - name: class_name
   label: Class name
   type: text
-  hidden: class_name
+  hidden: false
   default: ''
 - name: goals
   label: Goals
@@ -47,5 +47,5 @@ fields:
     type: text
     hidden: description
     default: ''
-  hidden: goals
+  hidden: false
   default: ''
