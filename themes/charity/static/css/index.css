@@ -3517,6 +3517,12 @@ textarea {
 .dotstyle-fillup li.current a::after {
   height: 100%; }
 
+.center_list {
+  text-align: center;
+  overflow: hidden;
+  background-color: #00295C;
+  border-radius: 4px; }
+
 body {
   margin: 0;
   padding: 0; }

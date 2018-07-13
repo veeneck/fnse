@@ -60,6 +60,10 @@
   </url>
   
   <url>
+    <loc>/modules/fnse/mission/</loc>
+  </url>
+  
+  <url>
     <loc>/sources/</loc>
     <priority>0</priority>
   </url>

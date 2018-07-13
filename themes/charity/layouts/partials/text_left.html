@@ -1,4 +1,4 @@
-<section class="text_left module {{ $.module.Params.class_name }}">
+<section class="text_left module {{ $.module.Params.class_name }} {{ $.buttonClass }}">
 
 	<div class="container">
 
@@ -10,7 +10,9 @@
 
 			<p>{{ $.module.Content }}</p>
 
-			<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
+			{{ if eq $.buttonClass "" }}
+			<a href="$.module.Params.link" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
+			{{ end }}
 
 		</div>
 
