@@ -35,17 +35,17 @@ fields:
   - name: title
     label: Title
     type: text
-    hidden: title
+    hidden: false
     default: ''
   - name: class
     label: Class
     type: text
-    hidden: class
+    hidden: false
     default: ''
   - name: description
     label: Description
     type: text
-    hidden: description
+    hidden: false
     default: ''
   hidden: false
   default: ''
