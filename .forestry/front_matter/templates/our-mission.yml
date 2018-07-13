@@ -1,0 +1,51 @@
+---
+label: Our Mission
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: title
+  default: ''
+- name: id
+  label: Id
+  type: text
+  hidden: id
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: type
+  default: ''
+- name: module_type
+  label: Module type
+  type: text
+  hidden: module_type
+  default: ''
+- name: class_name
+  label: Class name
+  type: text
+  hidden: class_name
+  default: ''
+- name: goals
+  label: Goals
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: title
+    default: ''
+  - name: class
+    label: Class
+    type: text
+    hidden: class
+    default: ''
+  - name: description
+    label: Description
+    type: text
+    hidden: description
+    default: ''
+  hidden: goals
+  default: ''
