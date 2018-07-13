@@ -383,6 +383,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/icon_more.png": {
+		"ft": 32768,
+		"iS": 442,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_more.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/icon_roller.png": {
 		"ft": 32768,
 		"iS": 535,
@@ -436,6 +447,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/placeholder.jpg": {
+		"ft": 16384,
+		"iS": 313670,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/Volunteer.jpg": {

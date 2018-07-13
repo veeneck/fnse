@@ -1,16 +1,16 @@
-<section class="text_left module {{ .Params.class_name }}">
+<section class="text_left module {{ $.module.Params.class_name }}">
 
 	<div class="container">
 
 		<div class="copy left">
 
-			<h3>{{ .Title }}</h3>
+			<h3>{{ $.module.Title }}</h3>
 
-			<img src="{{ .Params.image }}" class="coreImage" height="600px;" />
+			<img src="{{ $.module.Params.image }}" class="coreImage" />
 
-			<p>{{ .Content }}</p>
+			<p>{{ $.module.Content }}</p>
 
-			<a href="#" class="button blue {{ .Params.button_icon }}">{{ .Params.button}}</a>
+			<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
 
 		</div>
 

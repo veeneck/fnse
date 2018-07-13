@@ -532,6 +532,9 @@ a.button {
 .button.mail::before {
   content: url("/images/icons/icon_mail.png"); }
 
+.button.more::before {
+  content: url("/images/icons/icon_more.png"); }
+
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
 	opacity: 0;
@@ -687,7 +690,6 @@ textarea {
 .hero {
   width: 100%;
   height: 450px;
-  background-image: url("/images/classrom.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -696,6 +698,12 @@ textarea {
     .hero {
       text-align: right;
       min-height: 850px; } }
+
+.classroom {
+  background-image: url("/images/classrom.jpg"); }
+
+.placeholder {
+  background-image: url("/images/placeholder.jpg"); }
 
 .castle-wall {
   background-image: url("/images/castle_wall_mobile.png");
@@ -1280,6 +1288,9 @@ a.button {
 
 .button.mail::before {
   content: url("/images/icons/icon_mail.png"); }
+
+.button.more::before {
+  content: url("/images/icons/icon_more.png"); }
 
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
@@ -2400,6 +2411,9 @@ a.button {
 .button.mail::before {
   content: url("/images/icons/icon_mail.png"); }
 
+.button.more::before {
+  content: url("/images/icons/icon_more.png"); }
+
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);
 	opacity: 0;
@@ -3107,6 +3121,9 @@ a.button {
 
 .button.mail::before {
   content: url("/images/icons/icon_mail.png"); }
+
+.button.more::before {
+  content: url("/images/icons/icon_more.png"); }
 
 /*h2.triggerMe mark {
 	@include transition(all 1s ease-out);

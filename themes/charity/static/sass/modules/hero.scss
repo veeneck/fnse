@@ -8,7 +8,6 @@
     width: 100%;
     height: 450px;
 
-    background-image: url("/images/classrom.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -18,6 +17,15 @@
         text-align: right;
          min-height: 850px;
     }
+}
+
+
+.classroom {
+  background-image: url("/images/classrom.jpg");
+}
+
+.placeholder {
+  background-image: url("/images/placeholder.jpg");
 }
 
 .castle-wall {

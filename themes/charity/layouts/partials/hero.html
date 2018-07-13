@@ -1,13 +1,14 @@
-
-
-<section class="hero darken-pseudo">
+{{ if isset .Params "hero_title" }}
+<section class="hero darken-pseudo {{ .Params.hero_class }}">
 
 	<div class="container">
 
 		<div class="content">
-			<h2>Considering North Shore Elementary?</h2>
-			<p>We're happy to promote our local gem.</p>
-			<a href="#" class="button blue castle">WHY CHOOSE NORTH SHORE</a>
+			<h2>{{ .Params.hero_title }}</h2>
+			<p>{{ .Params.hero_subtitle }}</p>
+			{{ if isset .Params "hero_button_text" }}
+				<a href="{{ .Params.hero_link }}" class="button blue {{ .Params.hero_button_icon }}">{{ .Params.hero_button_text }}</a>
+			{{ end }}
 		</div>
 
 	</div>
@@ -15,5 +16,4 @@
 </section>
 
 <div class="castle-wall">&nbsp;</div>
-
-
+{{ end }}

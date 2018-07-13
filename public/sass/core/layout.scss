@@ -276,5 +276,9 @@ a.button {
     content: url("/images/icons/icon_mail.png");
 }
 
+.button.more::before {
+    content: url("/images/icons/icon_more.png");
+}
+
 
 

@@ -11,29 +11,29 @@
     
     
     <item>
-      <title>Cool Things</title>
-      <link>/sources/highlights/coolthings/</link>
+      <title>Exceptional Students</title>
+      <link>/sources/highlights/specialactivities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sources/highlights/coolthings/</guid>
+      <guid>/sources/highlights/specialactivities/</guid>
       <description></description>
     </item>
     
     <item>
       <title>School Grade</title>
-      <link>/sources/highlights/schoolgrade/</link>
+      <link>/sources/highlights/aboutschoolgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sources/highlights/schoolgrade/</guid>
+      <guid>/sources/highlights/aboutschoolgrade/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Special Activities</title>
-      <link>/sources/highlights/specialactivities/</link>
+      <title>Unique Programs</title>
+      <link>/sources/highlights/coolthings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sources/highlights/specialactivities/</guid>
+      <guid>/sources/highlights/coolthings/</guid>
       <description></description>
     </item>
     

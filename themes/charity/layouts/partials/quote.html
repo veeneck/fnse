@@ -1,18 +1,18 @@
-{{ $randomNumber :=  index (seq ($.Site.Data.testimonials | len)  | shuffle) 0 }}
-{{ $testimonial := (index $.Site.Data.testimonials ($randomNumber | string)) }}
-
+{{ $data := (index $.Site.Taxonomies.tags  .Params.data_source ) }}
+{{ $randomNumber :=  index (seq ($data | len)  | shuffle) 0 }}
+{{ $testimonial := (index $data $randomNumber) }}
 <section class="quote module">
 
 	<div class="thirdContainer">
 		<div class="headshot">
-			<img src="{{ $testimonial.image }}" />
-			<strong>{{ $testimonial.name }}</strong>
-			<span>{{ $testimonial.role }}</span>
+			<img src="{{ $testimonial.Params.image }}" />
+			<strong>{{ $testimonial.Params.name }}</strong>
+			<span>{{ $testimonial.Params.role }}</span>
 		</div>
 	</div>
 
 	<div class="twoThirdContainer hasQuote">
-		<blockquote>{{ $testimonial.body }}</blockquote>
+		<blockquote>{{ $testimonial.Params.body }}</blockquote>
 	</div>
 
 </section>

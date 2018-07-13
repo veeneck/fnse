@@ -12,12 +12,57 @@
     
     
     <item>
+      <title>School Grade</title>
+      <link>/sources/highlights/aboutschoolgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sources/highlights/aboutschoolgrade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unique Programs</title>
+      <link>/sources/highlights/coolthings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sources/highlights/coolthings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exceptional Students</title>
+      <link>/sources/highlights/specialactivities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sources/highlights/specialactivities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>About FNSE</title>
       <link>/about/</link>
       <pubDate>Thu, 27 Mar 2014 14:59:46 +0000</pubDate>
       
       <guid>/about/</guid>
       <description>hello world</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/sources/testimonials/a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sources/testimonials/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/sources/testimonials/b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sources/testimonials/b/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -39,15 +84,6 @@
     </item>
     
     <item>
-      <title>Cool Things</title>
-      <link>/sources/highlights/coolthings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sources/highlights/coolthings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Get Involved</title>
       <link>/modules/common/volunteer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -55,24 +91,6 @@
       <guid>/modules/common/volunteer/</guid>
       <description>We would love to have you get engaged. There is something for everyone. Depending on your interest and availability there are a variety of ways to get involved with both North Shore Elementary and FNSE.
 Become a lunch PAL, meeting with an identified student in need once a week for an hour.</description>
-    </item>
-    
-    <item>
-      <title>School Grade</title>
-      <link>/sources/highlights/schoolgrade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sources/highlights/schoolgrade/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Special Activities</title>
-      <link>/sources/highlights/specialactivities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sources/highlights/specialactivities/</guid>
-      <description></description>
     </item>
     
     <item>
