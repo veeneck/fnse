@@ -5,6 +5,7 @@ id: modules/fnse/goals.md
 type: module
 module_type: center_list
 class_name: goals
+color: blue_list
 list_items:
 - title: School Programming
   class: programming

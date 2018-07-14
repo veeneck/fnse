@@ -5,6 +5,9 @@
 		<div class="copy right">
 
 			<h3>{{ $.module.Title }}</h3>
+			{{ if isset $.module.Params "subtitle" }}
+			<span class="subtitle">{{ $.module.Params.subtitle }}</span>
+			{{ end }}
 
 			<img src="{{ $.module.Params.image }}" class="coreImage" height="600px;" />
 
@@ -12,7 +15,7 @@
 
 			{{ if eq $.buttonClass "" }}
 				{{ if isset $.module.Params "button" }}
-			<a href="$.module.Params.link" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
+			<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
 				{{ end }}
 			{{ end }}
 

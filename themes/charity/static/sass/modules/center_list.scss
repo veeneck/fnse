@@ -1,8 +1,20 @@
 .center_list {
 	text-align: center;
 	overflow: hidden;
-	background-color: $darkBlue;
 	border-radius: $borderRadius;
+}
+
+.center_list p {
+	text-align: left;
+}
+
+.grey_list {
+	background-color: $lightGrey;	
+}
+
+.blue_list {
+	font-color: $white;
+	background-color: $darkBlue;
 }
 
 .center_list ul {
@@ -27,10 +39,18 @@
 .shield {
 	height: 140px;
 	width: 100%;
-	background-image: url("/images/blue_shield.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+.grey_list .shield {
+	background-image: url("/images/grey_shield.png");
+}
+
+.blue_list .shield {
+	background-image: url("/images/blue_shield.png");
+}
+
 
 /* --------------- LIST ITEM, NAME, DESCRIPTION ---------------*/
 
@@ -43,7 +63,6 @@
 }
 
 .list_item strong {
-	color: $white;
 	display: block;
 	margin: 25px 0px 10px 0px;
 	@include boldFontStack();
@@ -52,7 +71,6 @@
 .list_item span {
 	display: block;
 	@include altProseStack();
-	color: $white;
 	text-align: left;
 	font-size: 90%;
 }
@@ -75,10 +93,6 @@
 
 .programming::before {
     content: url("/images/icons/icon_graduate.png");
-}
-
-.volunteer::before {
-    content: url("/images/icons/icon_volunteer.png");
 }
 
 .megaphone::before {

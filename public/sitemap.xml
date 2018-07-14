@@ -20,6 +20,11 @@
   </url>
   
   <url>
+    <loc>/nse/</loc>
+    <lastmod>2014-03-27T14:59:46+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2014-03-27T14:59:46+00:00</lastmod>
   </url>
@@ -33,6 +38,10 @@
   </url>
   
   <url>
+    <loc>/modules/northshore/afterschool/</loc>
+  </url>
+  
+  <url>
     <loc>/modules/fnse/aboutfriends/</loc>
   </url>
   
@@ -41,8 +50,16 @@
   </url>
   
   <url>
+    <loc>/modules/northshore/castle/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/modules/northshore/exceptional/</loc>
   </url>
   
   <url>
@@ -52,6 +69,10 @@
   <url>
     <loc>/tags/highlight/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/modules/northshore/coolthings/</loc>
   </url>
   
   <url>
@@ -65,6 +86,10 @@
   
   <url>
     <loc>/modules/fnse/mission/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/northshore/pta/</loc>
   </url>
   
   <url>

@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>About North Shore</title>
+      <link>/nse/</link>
+      <pubDate>Thu, 27 Mar 2014 14:59:46 +0000</pubDate>
+      
+      <guid>/nse/</guid>
+      <description>hello world</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/sources/testimonials/a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -63,6 +72,15 @@
       
       <guid>/sources/testimonials/b/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>7th Hour</title>
+      <link>/modules/northshore/afterschool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/northshore/afterschool/</guid>
+      <description>At North Shore Elementary they have realized that not everything they want included in a school day fits into the 6 hour schedule. Therefore they have worked hard to bring in programming as part of the “7th Hour” or before and after-school enrichment programs. Currently there are 13 after school opportunities including: Dance, Drama, Band, Crazy 8’s, Challenge Island, Mad Science, STEM, TedEd, Girlfriends Club, Yoga, Soccer, Walking Club, and Spanish.</description>
     </item>
     
     <item>
@@ -84,6 +102,24 @@
     </item>
     
     <item>
+      <title>Castle Apprentice Program</title>
+      <link>/modules/northshore/castle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/northshore/castle/</guid>
+      <description>C.A.P. is the acronym for the Castle Apprenticeship Program, previously called the “Schoolwide Enrichment Model” (SEM) that North Shore Elementary piloted in 2016. CAP is a research-based program out of the University of Connecticut that focuses on giving every child exposure to gifted curriculum and project based learning. This is an opportunity for all students to explore an area of interest in a nontraditional setting. CAP is traditionally experienced as an 8-week session.</description>
+    </item>
+    
+    <item>
+      <title>Exceptional Students</title>
+      <link>/modules/northshore/exceptional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/northshore/exceptional/</guid>
+      <description>This is a description of both ASD Programming as well as the Gifted Programming</description>
+    </item>
+    
+    <item>
       <title>Get Involved</title>
       <link>/modules/common/volunteer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -91,6 +127,15 @@
       <guid>/modules/common/volunteer/</guid>
       <description>We would love to have you get engaged. There is something for everyone. Depending on your interest and availability there are a variety of ways to get involved with both North Shore Elementary and FNSE.
 Become a lunch PAL, meeting with an identified student in need once a week for an hour.</description>
+    </item>
+    
+    <item>
+      <title>Highlights</title>
+      <link>/modules/northshore/coolthings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/northshore/coolthings/</guid>
+      <description>This is a carousel module that showcases top things of interest at North Shore. Data is pulled from Sources-&amp;gt;Highlights.</description>
     </item>
     
     <item>
@@ -109,6 +154,16 @@ Become a lunch PAL, meeting with an identified student in need once a week for a
       
       <guid>/modules/fnse/mission/</guid>
       <description>Our mission is to partner with North Shore Elementary in their work to ensure it is a dynamic, engaging and successful public school that proudly serves families in the Northeast region of St. Petersburg. We envision that North Shore Elementary is a dynamic, engaging, and successful school that it is a key driver for families and businesses to locate to the area.</description>
+    </item>
+    
+    <item>
+      <title>Parent Teacher Association</title>
+      <link>/modules/northshore/pta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/northshore/pta/</guid>
+      <description>With the culture of the PTA being kind, inclusive, collaborative, trustworthy, available, and inspiring, general meetings are held every other month. Additionally, there are a number of committee to get involved in, Fall Festival, Turkey Trot, Educational Garden, Families Socials, to name a few, it is an easy way to get connected to the school community and have a voice in how we can better educate students.
+In the coming year the PTA is looking to help support teachers and encourage participation in continuing education programs, provide scholarships and free opportunities for after school enrichments, as well as provide on-going program support for school-wide events like the One School One Book, Knight Readers, grade level field trips, and Bully Prevention.</description>
     </item>
     
     <item>

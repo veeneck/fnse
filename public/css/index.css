@@ -1473,8 +1473,17 @@ div.menu-link {
 .center_list {
   text-align: center;
   overflow: hidden;
-  background-color: #00295C;
   border-radius: 4px; }
+
+.center_list p {
+  text-align: left; }
+
+.grey_list {
+  background-color: #FAFAFA; }
+
+.blue_list {
+  font-color: #fff;
+  background-color: #00295C; }
 
 .center_list ul {
   display: -webkit-box;
@@ -1498,16 +1507,20 @@ div.menu-link {
 .shield {
   height: 140px;
   width: 100%;
-  background-image: url("/images/blue_shield.png");
   background-repeat: no-repeat;
   background-position: center center; }
+
+.grey_list .shield {
+  background-image: url("/images/grey_shield.png"); }
+
+.blue_list .shield {
+  background-image: url("/images/blue_shield.png"); }
 
 /* --------------- LIST ITEM, NAME, DESCRIPTION ---------------*/
 .list_item {
   text-align: center; }
 
 .list_item strong {
-  color: #fff;
   display: block;
   margin: 25px 0px 10px 0px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -1517,7 +1530,6 @@ div.menu-link {
   display: block;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  color: #fff;
   text-align: left;
   font-size: 90%; }
 
@@ -1535,9 +1547,6 @@ div.menu-link {
 
 .programming::before {
   content: url("/images/icons/icon_graduate.png"); }
-
-.volunteer::before {
-  content: url("/images/icons/icon_volunteer.png"); }
 
 .megaphone::before {
   content: url("/images/icons/icon_megaphone.png"); }

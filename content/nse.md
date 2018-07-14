@@ -1,0 +1,20 @@
+---
+title: About North Shore
+type: page
+date: 2014-03-27 14:59:46 +0000
+url: "/nse"
+hero_class: placeholder
+hero_title: The North Shore Elementary Experience
+hero_subtitle: What you can expect to find at North Shore Elementary.
+modules:
+- modules/northshore/aboutnorthshore.md
+- modules/northshore/pta.md
+- modules/northshore/afterschool.md
+- modules/common/testimonial.md
+- modules/northshore/castle.md
+- modules/nse/highlights.md
+- modules/northshore/exceptional.md
+- modules/why/whynse.md
+- modules/common/faq1.md
+---
+hello world

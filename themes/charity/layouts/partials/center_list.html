@@ -1,10 +1,10 @@
-<section class="center_list {{ .Params.class_name }} module padded-module">
+<section class="center_list {{ .Params.class_name }} {{ .Params.color }} module padded-module">
 
 	<div class="container">
 
-		<h3 class="center white">{{ .Title }}</h3>
+		<h3 class="center">{{ .Title }}</h3>
 
-		<p class="white-font">{{ .Description }}</p>
+		<p>{{ .Description }}</p>
 
 		<ul>
 			{{ range $key, $value := .Params.list_items }}
@@ -17,6 +17,8 @@
 				</li>
 			{{ end }}
 		</ul>
+
+		{{ .Content }}
 
 	</div>
 
