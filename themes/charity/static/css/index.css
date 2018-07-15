@@ -1,9 +1,9 @@
-.module, .clear, .hero, nav[role=navigation], .half_half .rightHalfContainer {
+.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .half_half .rightHalfContainer:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .half_half .rightHalfContainer:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .half_half .rightHalfContainer:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -262,6 +262,19 @@ h3.center {
 h3.center:before {
   left: 50%;
   margin-left: -75px; }
+
+.subtitle {
+  color: #A4A4A4;
+  display: block;
+  margin: 10px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900; }
+
+.right .subtitle {
+  text-align: center; }
+  @media (min-width: 35em) {
+    .right .subtitle {
+      text-align: right; } }
 
 .copy {
   width: 100%; }
@@ -377,12 +390,12 @@ a.button {
 .button.more::before {
   content: url("/images/icons/icon_more.png"); }
 
-.module, .clear, .hero, nav[role=navigation], .half_half .rightHalfContainer {
+.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .half_half .rightHalfContainer:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .half_half .rightHalfContainer:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .half_half .rightHalfContainer:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -641,6 +654,19 @@ h3.center {
 h3.center:before {
   left: 50%;
   margin-left: -75px; }
+
+.subtitle {
+  color: #A4A4A4;
+  display: block;
+  margin: 10px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900; }
+
+.right .subtitle {
+  text-align: center; }
+  @media (min-width: 35em) {
+    .right .subtitle {
+      text-align: right; } }
 
 .copy {
   width: 100%; }
@@ -836,8 +862,6 @@ header {
   margin: 0px auto 0px auto;
   font: 100% 'Peace Sans', Helvetica, sans-serif;
   height: 60px;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0px; }
   @media (min-width: 35em) {
     header {
@@ -1235,8 +1259,32 @@ div.menu-link {
   .nseinfo .coreImage {
     height: 600px !important; } }
 
+.text_left ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-left: 0px; }
+
+.text_left li {
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: #FAFAFA;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100; }
+
 .text_right p {
   text-align: left; }
+
+sup {
+  font-size: 50%; }
 
 /* On mobile, the image should sit on top of the text. */
 .text_right .coreImage {
@@ -1261,6 +1309,30 @@ div.menu-link {
 @media (min-width: 1080px) {
   .why .coreImage {
     height: 600px !important; } }
+
+@media (min-width: 1080px) {
+  .afterschool .coreImage {
+    height: 500px !important; } }
+
+.text_right ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly; }
+
+.text_right li {
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: #FAFAFA;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100; }
 
 .quote {
   display: -webkit-box;
@@ -1550,7 +1622,7 @@ div.menu-link {
 
 /* --------------- PTA ---------------*/
 .pta li {
-  width: 24%;
+  width: 23.5%;
   background-color: #fff;
   padding: 50px 4%;
   border-radius: 4px; }

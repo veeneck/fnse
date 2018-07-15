@@ -17,6 +17,14 @@
 			{{ end }}
 
 		</div>
+		
+		{{ if isset $.module.Params "list_items" }}
+			<ul>
+			{{ range $key, $value := $.module.Params.list_items }}
+				<li>{{ $value.title }}</li>
+			{{ end }}
+			</ul>
+		{{ end }}
 
 	</div>
 

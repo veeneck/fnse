@@ -2,6 +2,10 @@
 	text-align: left;
 }
 
+sup {
+	font-size: 50%;
+}
+
 /* On mobile, the image should sit on top of the text. */
 .text_right .coreImage {
 	height: 300px;
@@ -31,4 +35,29 @@
 	@include breakpoint(normal-screen) {
     	height: 600px !important;
     }
+}
+
+.afterschool .coreImage {
+	@include breakpoint(normal-screen) {
+    	height: 500px !important;
+    }
+}
+
+.text_right ul {
+	@extend %clearfix;
+	list-style: none;
+	@include flex();
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.text_right li {
+	border-radius: $borderRadius;
+	///border: 3px solid $grey;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	background-color: $lightGrey;
+	@include altProseStack();
 }

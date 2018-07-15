@@ -96,10 +96,11 @@
 }
 
 .pta li {
-	width: 24%;
+	width: 23.5%;
 	background-color: $white;
 	padding: 50px 4%;
 	border-radius: $borderRadius;
+	///border: 3px solid $grey;
 }
 
 .pta li:nth-child(2) {

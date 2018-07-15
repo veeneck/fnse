@@ -32,3 +32,23 @@
     	height: 600px !important;
     }
 }
+
+.text_left ul {
+	@extend %clearfix;
+	list-style: none;
+	@include flex();
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-evenly;
+	padding-left: 0px;
+}
+
+.text_left li {
+	border-radius: $borderRadius;
+	///border: 3px solid $grey;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	background-color: $lightGrey;
+	@include altProseStack();
+}

@@ -144,6 +144,20 @@ h3.center:before {
     margin-left: -75px;
 }
 
+.subtitle {
+    color: $grey;
+    display: block;
+    margin: 10px 0;
+    @include boldFontStack();
+}
+
+.right .subtitle {
+    text-align: center;
+    @include breakpoint(condensed-screen) {
+         text-align: right;
+    }
+}
+
 .copy {
     width: 100%;
 }
