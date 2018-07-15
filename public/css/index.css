@@ -169,6 +169,9 @@ textarea {
 .no-margin {
   margin: 3px 0px !important; }
 
+.grey_module {
+  background-color: #FAFAFA; }
+
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
   max-width: 1200px;
@@ -544,6 +547,9 @@ textarea {
 
 .no-margin {
   margin: 3px 0px !important; }
+
+.grey_module {
+  background-color: #FAFAFA; }
 
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
@@ -1225,6 +1231,10 @@ div.menu-link {
   .no_button.text_left .coreImage {
     height: 500px; } }
 
+@media (min-width: 1080px) {
+  .nseinfo .coreImage {
+    height: 600px !important; } }
+
 .text_right p {
   text-align: left; }
 
@@ -1481,9 +1491,15 @@ div.menu-link {
 .grey_list {
   background-color: #FAFAFA; }
 
+.grey_list strong {
+  color: #00295C; }
+
 .blue_list {
-  font-color: #fff;
+  color: #fff;
   background-color: #00295C; }
+
+.blue_list h3 {
+  color: #fff; }
 
 .center_list ul {
   display: -webkit-box;
@@ -1493,16 +1509,16 @@ div.menu-link {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-left: 0px; }
+
+.center_list li:nth-child(2) {
+  margin: 50px 5%; }
 
 .center_list li {
-  width: 30%;
-  margin: 50px 1.5%; }
-
-@media (min-width: 35em) {
-  .center_list p {
-    width: 75%;
-    padding: 0px 12%; } }
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 30%; }
 
 .shield {
   height: 140px;
@@ -1530,8 +1546,17 @@ div.menu-link {
   display: block;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  text-align: left;
-  font-size: 90%; }
+  text-align: left; }
+
+/* --------------- PTA ---------------*/
+.pta li {
+  width: 24%;
+  background-color: #fff;
+  padding: 50px 4%;
+  border-radius: 4px; }
+
+.pta li:nth-child(2) {
+  margin: 50px 2%; }
 
 /* --------------- CUSTOM ICONS ---------------*/
 .shield::before {
@@ -1547,6 +1572,15 @@ div.menu-link {
 
 .programming::before {
   content: url("/images/icons/icon_graduate.png"); }
+
+.graduate::before {
+  content: url("/images/icons/icon_whitecap.png"); }
+
+.sustain::before {
+  content: url("/images/icons/icon_sustain.png"); }
+
+.community::before {
+  content: url("/images/icons/icon_community.png"); }
 
 .megaphone::before {
   content: url("/images/icons/icon_megaphone.png"); }

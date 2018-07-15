@@ -12,9 +12,17 @@
 	background-color: $lightGrey;	
 }
 
+.grey_list strong {
+	color: $darkBlue;
+}
+
 .blue_list {
-	font-color: $white;
+	color: $white;
 	background-color: $darkBlue;
+}
+
+.blue_list h3 {
+	color: $white;
 }
 
 .center_list ul {
@@ -22,17 +30,23 @@
 	flex-direction: row;
 	list-style-type: none;
 	flex-wrap: wrap;
+	padding-left: 0px;
+}
+
+.center_list li:nth-child(2) {
+	margin: 50px 5%;
 }
 
 .center_list li {
+	margin-top: 50px;
+	margin-bottom: 50px;
 	width: 30%;
-	margin: 50px 1.5%;
 }
 
 .center_list p {
 	@include breakpoint(condensed-screen) {
-		width: 75%;
-		padding: 0px 12%;
+		///width: 100%;
+		///padding: 0px 12%;
     }
 }
 
@@ -72,7 +86,24 @@
 	display: block;
 	@include altProseStack();
 	text-align: left;
-	font-size: 90%;
+	///font-size: 90%;
+}
+
+/* --------------- PTA ---------------*/
+
+.ptaprograms {
+
+}
+
+.pta li {
+	width: 24%;
+	background-color: $white;
+	padding: 50px 4%;
+	border-radius: $borderRadius;
+}
+
+.pta li:nth-child(2) {
+	margin: 50px 2%;
 }
 
 /* --------------- CUSTOM ICONS ---------------*/
@@ -93,6 +124,18 @@
 
 .programming::before {
     content: url("/images/icons/icon_graduate.png");
+}
+
+.graduate::before {
+    content: url("/images/icons/icon_whitecap.png");
+}
+
+.sustain::before {
+    content: url("/images/icons/icon_sustain.png");
+}
+
+.community::before {
+    content: url("/images/icons/icon_community.png");
 }
 
 .megaphone::before {

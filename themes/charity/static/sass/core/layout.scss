@@ -29,6 +29,10 @@
     margin: 3px 0px !important;
 }
 
+.grey_module {
+    background-color: $lightGrey;
+}
+
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
     max-width: $maxWidth;

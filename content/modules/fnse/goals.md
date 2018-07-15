@@ -18,4 +18,3 @@ list_items:
   description: Engage with local businesses, elected officials, and individuals regarding oppurtunities.
 
 ---
-Content

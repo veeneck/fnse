@@ -360,6 +360,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/icon_community.png": {
+		"ft": 32768,
+		"iS": 1321,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_community.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/icon_explore.png": {
 		"ft": 32768,
 		"iS": 1791,
@@ -492,6 +503,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/icon_sustain.png": {
+		"ft": 32768,
+		"iS": 1240,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_sustain.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/icon_teacher.png": {
 		"ft": 32768,
 		"iS": 1744,
@@ -508,6 +530,17 @@
 		"iS": 1677,
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_volunteer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/icon_whitecap.png": {
+		"ft": 32768,
+		"iS": 1128,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon_whitecap.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
