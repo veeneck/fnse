@@ -8,12 +8,14 @@
 
 		<div class="sample-projects">
 
-			{{ range $key, $value := (index .Site.Taxonomies.tags  .Params.data_source ) }}
+			{{ range $key, $value := .Params.list_items }}
 				<div class="project {{ if eq $key 1 }}center-project{{ end }}">
-					<img class="projectImage" src="{{ .Params.image }}" />
-					<h4>{{ .Title }}</h4>
-					<p>{{ .Description }}</p>
-					<a href="#" class="button blue more">MORE</a>
+					<img class="projectImage" src="{{ $value.image }}" />
+					<h4>{{ $value.title }}</h4>
+					<p>{{ $value.description }}</p>
+					{{ if isset $value "link" }}
+						<a href="{{ $value.link }}" class="button blue more">MORE</a>
+					{{ end }}
 				</div>
 			{{ end }}
 

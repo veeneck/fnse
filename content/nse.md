@@ -4,7 +4,7 @@ type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/nse"
 hero_class: placeholder
-hero_title: The North Shore Elementary Experience
+hero_title: Experience North Shore Elementary
 hero_subtitle: What you can expect to find at North Shore Elementary.
 modules:
 - modules/northshore/nsegeneralinfo.md

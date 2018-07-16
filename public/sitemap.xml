@@ -3,18 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/sources/highlights/aboutschoolgrade/</loc>
-  </url>
-  
-  <url>
-    <loc>/sources/highlights/coolthings/</loc>
-  </url>
-  
-  <url>
-    <loc>/sources/highlights/specialactivities/</loc>
-  </url>
-  
-  <url>
     <loc>/about/</loc>
     <lastmod>2014-03-27T14:59:46+00:00</lastmod>
   </url>
@@ -27,14 +15,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2014-03-27T14:59:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/sources/testimonials/a/</loc>
-  </url>
-  
-  <url>
-    <loc>/sources/testimonials/b/</loc>
   </url>
   
   <url>
@@ -71,11 +51,6 @@
   </url>
   
   <url>
-    <loc>/tags/highlight/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/modules/northshore/coolthings/</loc>
   </url>
   
@@ -101,11 +76,6 @@
   </url>
   
   <url>
-    <loc>/sources/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/modules/common/spotlight/</loc>
   </url>
   
@@ -115,11 +85,6 @@
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/testimonial/</loc>
     <priority>0</priority>
   </url>
   
