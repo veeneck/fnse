@@ -16,7 +16,7 @@
     /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */
     @include breakpoint(normal-screen) {
     	height: 600px;
-    	padding: 0px 0px 60px 60px;
+    	padding: 0px 0px 60px 100px;
     }
 }
 
@@ -30,6 +30,12 @@
 .nseinfo .coreImage {
 	@include breakpoint(normal-screen) {
     	height: 600px !important;
+    }
+}
+
+.gem .coreImage {
+	@include breakpoint(normal-screen) {
+    	height: 650px !important;
     }
 }
 
@@ -51,4 +57,8 @@
 	margin: 10px 20px;
 	background-color: $lightGrey;
 	@include altProseStack();
+}
+
+.volunteerinfo .coreImage {
+	height: 500px;
 }

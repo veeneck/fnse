@@ -3,7 +3,7 @@ title: Testimonial
 id: modules/common/testimonial.md
 type: module
 module_type: testimonial
-class_name: quote
+class_name: quote no-margin
 image: "/images/KidsBanner.jpg"
 data_source: testimonial
 list_items:

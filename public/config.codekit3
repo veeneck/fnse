@@ -184,6 +184,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/aerial.jpg": {
+		"ft": 16384,
+		"iS": 53762,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/aerial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/afterschool.jpg": {
 		"ft": 16384,
 		"iS": 294343,
@@ -193,6 +204,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/band.png": {
+		"ft": 32768,
+		"iS": 1218882,
+		"oA": 0,
+		"oAP": "\/images\/band.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/banner.png": {
@@ -250,7 +272,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/classroom_small.JPG": {
+	"\/images\/classroom_small.jpg": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 0,
@@ -259,6 +281,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/cooper.jpg": {
+		"ft": 16384,
+		"iS": 82368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cooper.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/courtyard.jpg": {
+		"ft": 16384,
+		"iS": 51795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/courtyard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/facebook.png": {
@@ -303,6 +347,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/garden2.jpg": {
+		"ft": 16384,
+		"iS": 44137,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/garden2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/grey_shield.png": {
@@ -569,6 +624,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/kindergarden.png": {
+		"ft": 32768,
+		"iS": 2509446,
+		"oA": 0,
+		"oAP": "\/images\/kindergarden.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/NorthShore.jpg": {
 		"ft": 16384,
 		"iS": 46890,
@@ -600,6 +666,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/nsevolunteer.jpg": {
+		"ft": 16384,
+		"iS": 164711,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/nsevolunteer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/placeholder.jpg": {

@@ -1,7 +1,7 @@
 {{ $data := .Params.list_items }}
 {{ $randomNumber :=  index (seq ($data | len)  | shuffle) 0 }}
-{{ $testimonial := (index $data $randomNumber) }}
-<section class="quote module">
+{{ $testimonial := (index $data (sub $randomNumber 1)) }}
+<section class="quote module {{ .Params.class_name }}">
 
 	<div class="thirdContainer">
 		<div class="headshot">

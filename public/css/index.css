@@ -174,7 +174,7 @@ textarea {
 
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0px auto;
   padding: 0px 20px; }
   @media (min-width: 35em) {
@@ -566,7 +566,7 @@ textarea {
 
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0px auto;
   padding: 0px 20px; }
   @media (min-width: 35em) {
@@ -1248,7 +1248,7 @@ div.menu-link {
   @media (min-width: 1080px) {
     .text_left .coreImage {
       height: 600px;
-      padding: 0px 0px 60px 60px; } }
+      padding: 0px 0px 60px 100px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
 @media (min-width: 1080px) {
@@ -1258,6 +1258,10 @@ div.menu-link {
 @media (min-width: 1080px) {
   .nseinfo .coreImage {
     height: 600px !important; } }
+
+@media (min-width: 1080px) {
+  .gem .coreImage {
+    height: 650px !important; } }
 
 .text_left ul {
   list-style: none;
@@ -1280,6 +1284,9 @@ div.menu-link {
   font-family: 'Lato', sans-serif;
   font-weight: 100; }
 
+.volunteerinfo .coreImage {
+  height: 500px; }
+
 .text_right p {
   text-align: left; }
 
@@ -1299,7 +1306,7 @@ sup {
   @media (min-width: 1080px) {
     .text_right .coreImage {
       height: 450px;
-      padding: 0px 60px 60px 0px; } }
+      padding: 0px 100px 60px 0px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
 @media (min-width: 1080px) {
@@ -1629,6 +1636,10 @@ sup {
 
 .pta li:nth-child(2) {
   margin: 50px 2%; }
+
+/* --------------- VOLUNTEER WAYS ---------------*/
+.ways p {
+  text-align: center; }
 
 /* --------------- CUSTOM ICONS ---------------*/
 .shield::before {

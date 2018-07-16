@@ -6,6 +6,7 @@ module_type: text_left
 class_name: volunteer
 button: LEND A HAND
 button_icon: lend
+link: /volunteer
 image: "/images/Volunteer.jpg"
 
 ---

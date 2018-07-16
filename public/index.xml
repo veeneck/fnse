@@ -30,12 +30,48 @@
     </item>
     
     <item>
+      <title>Volunteer</title>
+      <link>/volunteer/</link>
+      <pubDate>Thu, 27 Mar 2014 14:59:46 +0000</pubDate>
+      
+      <guid>/volunteer/</guid>
+      <description>hello world</description>
+    </item>
+    
+    <item>
+      <title>Why Choose North Shore</title>
+      <link>/why/</link>
+      <pubDate>Thu, 27 Mar 2014 14:59:46 +0000</pubDate>
+      
+      <guid>/why/</guid>
+      <description>hello world</description>
+    </item>
+    
+    <item>
       <title>7&lt;sup&gt;th&lt;/sup&gt; Hour</title>
       <link>/modules/northshore/afterschool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/modules/northshore/afterschool/</guid>
       <description>At North Shore Elementary, they have realized that not everything they want included in a school day fits into the 6 hour schedule. Therefore, they have worked hard to bring in programming as part of the “7th Hour”, or before and after-school enrichment programs. Some programs are free (costs covered by PTA), and some are fee for service with scholarships available for families. The goal of the 7th hour is to enrich the students school day in a way that is accessible to all families and benefiting the entire North Shore Elementary community.</description>
+    </item>
+    
+    <item>
+      <title>A Bright Future</title>
+      <link>/modules/why/brightfuture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/why/brightfuture/</guid>
+      <description>There has already been noticable progress with the implementation of programs like 7th Hour and opportunities for exceptional students. Not to mention, a ton of cool things are happening around campus. Then, add in physical upgrades to the campus, boosting classrooms, and continued learning for teachers and it becomes easy to see how much potential North Shore Elementary has in the coming years.</description>
+    </item>
+    
+    <item>
+      <title>A Local Gem</title>
+      <link>/modules/why/localgem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/why/localgem/</guid>
+      <description>North Shore Elementary has been proudly serving students for over 90 years and is the alma mater to many of today’s leaders in St. Petersburg. It is a small school with character, compassion, diversity, and ingenuity that continues to define what successful public education should and can look like. With approximately 350 students, the small size of North Shore allows for all teachers and staff to know all students, not just the ones in their classes.</description>
     </item>
     
     <item>
@@ -66,12 +102,30 @@
     </item>
     
     <item>
+      <title>Community</title>
+      <link>/modules/why/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/why/community/</guid>
+      <description>There is something incredibly rewarding about sending your child to the school next door. Friends, activites and events are nearby. You see the same faces, and grow to care for and respect your neighbors. Coincidentally, this has created an incredibly active group of parents and community members making up both the Parent and Teacher Association (PTA) and School Advisory Committee (SAC) who continue to support and challenge the school to be the best it can be.</description>
+    </item>
+    
+    <item>
       <title>Exceptional Students</title>
       <link>/modules/northshore/exceptional/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/modules/northshore/exceptional/</guid>
-      <description>This is a description of both ASD Programming as well as the Gifted Programming</description>
+      <description>Currently North Shore Elementary has 53 students enrolled in its gifted program and houses a full-time gifted Teacher. Students in the gifted program meet daily with the other students in their grade level and the gifted teacher and engage with an innovative project-based learning gifted curriculum. Unlike many other schools North Shore screens all incoming Kindergarteners for the gifted program, and then has identified students tested by the district. By doing this the school eliminates teacher and parent bias when testing for the gifted program and is better able to serve all students.</description>
+    </item>
+    
+    <item>
+      <title>Faculty &amp; Staff</title>
+      <link>/modules/why/faculty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/why/faculty/</guid>
+      <description>Principle Cooper Dawson has been a principal in the Pinellas County School system since 2005 and spent the prior 10 years in the classroom. She holds a Master’s Degree in Education from the University of South Florida, and brings with her a wealth of experience and knowledge. She has created a caring a nurturing environment, motivating staff and students to work as a community alway in the pursuit of excellence. She continues to make great strides in re-establishing North Shore Elementary as a dynamic, engaging, and successful school.</description>
     </item>
     
     <item>
@@ -100,6 +154,15 @@ Become a lunch PAL, meeting with an identified student in need once a week for a
       
       <guid>/modules/northshore/coolthings/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>How We Started</title>
+      <link>/modules/fnse/fnsegeneralinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/fnse/fnsegeneralinfo/</guid>
+      <description>Friends of North Shore Elementary (FNSE) was founded from sidewalk conversations in 2015. Neighbors with preschool aged children were asking themselves,&amp;ldquo;Why are families in one neighborhood attending over 10 different elementary schools instead of North Shore Elementary, our zoned school?&amp;rdquo; The interest in this idea was incredibly strong, and it was clear that many individuals wanted to support their neighborhood school. With the purpose to help bring positive focus and contribution to North Shore Elementary, FNSE incorporated as a non-profit in December 2015 and was established as a 501&amp;copy;(3) a few months later.</description>
     </item>
     
     <item>
@@ -163,6 +226,42 @@ Become a lunch PAL, meeting with an identified student in need once a week for a
       
       <guid>/modules/common/testimonial/</guid>
       <description>This is a testimonial module. All data for testimonials is pulled elsewhere. This is just to added a testimonial widget to a page.</description>
+    </item>
+    
+    <item>
+      <title>The School Grade</title>
+      <link>/modules/why/schoolgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/why/schoolgrade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Volunteer at the School</title>
+      <link>/modules/volunteer/nsevolunteer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/volunteer/nsevolunteer/</guid>
+      <description>There are plenty of ways to get involved at North Shore Elementary. We encourage all parents to attend our PTA meetings and share their thoughts. Additionally, community members are welcome to join the Student Advisory Council and lend their expertise. As for traditional volunteering, the school is actively looking for help in areas like mentoring, supervision, tutoring and front office assistance. To volunteer on campus, you must fill out paperwork with Mrs.</description>
+    </item>
+    
+    <item>
+      <title>Volunteer for FNSE</title>
+      <link>/modules/volunteer/volunteerinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/volunteer/volunteerinfo/</guid>
+      <description>At Friends of North Shore, our goal is to identify needs of the school and offer our support to make sure those needs are met. From fundraising, networking, promotion to our time, we&amp;rsquo;ll do what&amp;rsquo;s necessary to ensure a successful experience for our children. If you&amp;rsquo;re interested in helping out, please look at some ouf our needs below, and consider contacting us. Even if a need is not listed on this site, but you have a specific skill to offer, we would love to hear from you.</description>
+    </item>
+    
+    <item>
+      <title>Ways to Get Involved</title>
+      <link>/modules/volunteer/ways/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/volunteer/ways/</guid>
+      <description>If you can contribute to one of the intiatives above, or have ideas on how to help, please reach out to us.</description>
     </item>
     
     <item>

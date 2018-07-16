@@ -20,7 +20,7 @@ sup {
     /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */
     @include breakpoint(normal-screen) {
     	height: 450px;
- 		padding: 0px 60px 60px 0px;
+ 		padding: 0px 100px 60px 0px;
     }
 }
 

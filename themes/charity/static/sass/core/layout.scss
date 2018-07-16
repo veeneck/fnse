@@ -41,6 +41,9 @@
     @include breakpoint(condensed-screen) {
         padding: 0px 50px;
     }
+    @include breakpoint(large-screen) {
+        // figure out how to layout left_text and right_tex the best here
+    }
 }
 
 /* On mobile, the image should sit on top of the text. */

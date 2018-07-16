@@ -18,7 +18,25 @@
   </url>
   
   <url>
+    <loc>/volunteer/</loc>
+    <lastmod>2014-03-27T14:59:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why/</loc>
+    <lastmod>2014-03-27T14:59:46+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/modules/northshore/afterschool/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/why/brightfuture/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/why/localgem/</loc>
   </url>
   
   <url>
@@ -39,7 +57,15 @@
   </url>
   
   <url>
+    <loc>/modules/why/community/</loc>
+  </url>
+  
+  <url>
     <loc>/modules/northshore/exceptional/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/why/faculty/</loc>
   </url>
   
   <url>
@@ -52,6 +78,10 @@
   
   <url>
     <loc>/modules/northshore/coolthings/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/fnse/fnsegeneralinfo/</loc>
   </url>
   
   <url>
@@ -90,6 +120,22 @@
   
   <url>
     <loc>/modules/common/testimonial/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/why/schoolgrade/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/volunteer/nsevolunteer/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/volunteer/volunteerinfo/</loc>
+  </url>
+  
+  <url>
+    <loc>/modules/volunteer/ways/</loc>
   </url>
   
   <url>

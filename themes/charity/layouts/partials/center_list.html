@@ -20,6 +20,10 @@
 
 		{{ .Content }}
 
+		{{ if isset .Params "button" }}
+			<a href="{{ .Params.link }}" class="button blue {{ .Params.button_icon }}">{{ .Params.button}}</a>
+		{{ end }}
+
 	</div>
 
 </section>
