@@ -10,9 +10,10 @@ modules:
 - modules/fnse/fnsegeneralinfo.md
 - modules/fnse/mission.md
 - modules/fnse/goals.md
-- modules/common/testimonial.md
-- modules/common/volunteer.md
 - modules/fnse/stayintouch.md
+- modules/common/volunteer.md
+- modules/common/testimonial.md
+- modules/fnse/events.md
 - modules/why/whynse.md
 - modules/common/faq1.md
 ---

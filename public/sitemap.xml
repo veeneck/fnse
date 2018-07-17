@@ -66,6 +66,10 @@
   </url>
   
   <url>
+    <loc>/modules/fnse/events/</loc>
+  </url>
+  
+  <url>
     <loc>/modules/northshore/exceptional/</loc>
   </url>
   
