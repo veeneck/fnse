@@ -1,9 +1,9 @@
-.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer {
+.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -390,12 +390,12 @@ a.button {
 .button.more::before {
   content: url("/images/icons/icon_more.png"); }
 
-.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer {
+.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -1735,6 +1735,44 @@ sup {
 .half_half.right .leftHalfContainer {
   order: 2;
   margin-right: 0px !important; }
+
+.faq strong {
+  color: #A4A4A4;
+  display: block;
+  margin: 50px 0px -20px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 110%; }
+
+.faq .toc {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+
+.faq ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column !important;
+  flex-wrap: wrap;
+  width: 50% !important;
+  padding-left: 0px;
+  text-align: left; }
+
+.faq li {
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: #FAFAFA;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100; }
 
 body {
   margin: 0;

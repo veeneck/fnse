@@ -4,7 +4,7 @@
 
 		<h3 class="center">{{ .Title }}</h3>
 
-		<p class="desc">{{ .Description }}</p>
+		<p class="desc">{{ .Description | safeHTML }}</p>
 
 		<ul>
 			{{ range $key, $value := .Params.list_items }}

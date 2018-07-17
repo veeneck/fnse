@@ -1,0 +1,82 @@
+{{ partial "hero.html" . }}
+
+
+<section class="module text_left faq">
+
+	<div class="container toc">
+
+		{{ range $key, $value := .Site.Taxonomies.tags.faq }}
+			<ul> {{ $value.Title }} 
+			{{ range $subkey, $item := $value.Params.list_items }}
+				<li><a href="#">{{ $item.question }}</a></li>
+			{{ end }}
+			</ul>
+		{{ end }}
+
+	</div>
+
+</section>
+
+{{ range $key, $value := .Site.Taxonomies.tags.faq }}
+
+	<section class="module text_left faq {{ if eq $key 0 }}grey_module padded-module{{ end }}">
+
+		<div class="container">
+
+			<div class="copy left">
+
+				<h3>{{ $value.Title }}</h3>
+
+				{{ range $subkey, $item := $value.Params.list_items }}
+					<p><strong>{{$item.question}}</strong></p>
+					<p>{{ $item.answer }}</p><a href="#">Back to top</a>
+				{{ end }}
+
+			</div>
+
+		</div>
+
+	</section>
+
+{{ end }}
+
+
+{{ range $key, $value := .Params.modules }}
+	{{ range where $.Site.Pages ".Params.id" $value }}
+
+		{{ $.Scratch.Set "noButton" "" }}
+
+		{{ $type := .Params.module_type }}
+
+		{{ if eq .Params.link $.Page.Params.url }}
+			{{ $.Scratch.Set "noButton" "no_button" }}
+		{{ end }}
+
+		{{ if (eq $type "text_left") }}
+		    {{ partial "text_left.html" (dict "module" . "buttonClass" ($.Scratch.Get "noButton")) }}
+		{{ end }}
+
+		{{ if (eq $type "text_right") }}
+		    {{ partial "text_right.html"  (dict "module" . "buttonClass" ($.Scratch.Get "noButton"))  }}
+		{{ end }}
+
+		{{ if (eq $type "half_half") }}
+		    {{ partial "half_half.html"  (dict "module" . "buttonClass" ($.Scratch.Get "noButton"))  }}
+		{{ end }}
+
+		{{ if (eq $type "center_list") }}
+		    {{ partial "center_list.html" . }}
+		{{ end }}
+
+		{{ if (eq $type "testimonial") }}
+		    {{ partial "quote.html" . }}
+		{{ end }}
+
+		{{ if (eq $type "carousel") }}
+		    {{ partial "carousel.html"  . }}
+		{{ end }}
+		
+	{{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}

@@ -1,5 +1,13 @@
 {{ define "main" -}}
 
-	{{ partial "content.html" . }}
+	{{ if eq  $.Page.Params.url "/faq" }}
+
+		{{ partial "faq.html" . }}
+
+	{{ else }}
+
+		{{ partial "content.html" . }}
+
+	{{ end }}
 
 {{- end }}

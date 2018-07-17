@@ -1,0 +1,33 @@
+.faq strong {
+	color: $grey;
+	display: block;
+	margin: 50px 0px -20px 0px;
+	@include boldFontStack();
+	font-size: 110%;
+}
+
+.faq .toc {
+	@include flex();
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.faq ul {
+	@extend %clearfix;
+	list-style: none;
+	@include flex();
+	flex-direction: column !important;
+	flex-wrap: wrap;
+	width: 50% !important;
+	padding-left: 0px;
+	text-align: left;
+}
+
+.faq li {
+	border-radius: $borderRadius;
+	///border: 3px solid $grey;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	background-color: $lightGrey;
+	@include altProseStack();
+}
