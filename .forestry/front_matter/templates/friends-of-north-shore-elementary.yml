@@ -34,5 +34,5 @@ fields:
       type: pages
       section: modules
 pages:
-- content/fnse.md
 - content/_index.md
+- content/fnse.md
