@@ -5,40 +5,64 @@
 
 	<div class="container toc">
 
-		{{ range $key, $value := .Site.Taxonomies.tags.faq }}
-			<ul> {{ $value.Title }} 
-			{{ range $subkey, $item := $value.Params.list_items }}
-				<li><a href="#">{{ $item.question }}</a></li>
+		<ul> 
+			{{ range $key, $value := .Site.Taxonomies.tags.fnsefaq }}
+				<li><a href="#">{{ $value.Title }}</a></li>
 			{{ end }}
-			</ul>
-		{{ end }}
+		</ul>
+
+		<ul> 
+			{{ range $key, $value := .Site.Taxonomies.tags.nsefaq }}
+				<li><a href="#">{{ $value.Title }}</a></li>
+			{{ end }}
+		</ul>
 
 	</div>
 
 </section>
 
-{{ range $key, $value := .Site.Taxonomies.tags.faq }}
 
-	<section class="module text_left faq {{ if eq $key 0 }}grey_module padded-module{{ end }}">
+<section class="module text_left faq grey_module padded-module">
 
-		<div class="container">
+	<div class="container">
 
-			<div class="copy left">
+		<div class="copy left">
 
-				<h3>{{ $value.Title }}</h3>
+			{{ range $key, $value := .Site.Taxonomies.tags.fnsefaq }}
 
-				{{ range $subkey, $item := $value.Params.list_items }}
-					<p><strong>{{$item.question}}</strong></p>
-					<p>{{ $item.answer }}</p><a href="#">Back to top</a>
-				{{ end }}
+				<h3>Questions About FNSE</h3>
 
-			</div>
+				<p><strong>{{ $value.Title }}</strong></p>
+				<p>{{ $value.Content }}</p><a href="#">Back to top</a>
+
+			{{ end }}
 
 		</div>
 
-	</section>
+	</div>
 
-{{ end }}
+</section>
+
+<section class="module text_left faq">
+
+	<div class="container">
+
+		<div class="copy left">
+
+			{{ range $key, $value := .Site.Taxonomies.tags.nsefaq }}
+
+				<h3>Questions About North Shore Elementary</h3>
+
+				<p><strong>{{ $value.Title }}</strong></p>
+				<p>{{ $value.Content }}</p><a href="#">Back to top</a>
+
+			{{ end }}
+
+		</div>
+
+	</div>
+
+</section>
 
 
 {{ range $key, $value := .Params.modules }}
