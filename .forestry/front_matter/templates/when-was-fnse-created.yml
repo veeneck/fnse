@@ -15,6 +15,7 @@ fields:
   default:
   - fnsefaq
 pages:
+- content/modules/faq/when-are-meetings-held-.md
 - content/modules/faq/how-has-fnse-contributed-so-far-.md
 - content/modules/faq/how-are-donations-used-.md
 - content/modules/faq/fnsecreated.md
