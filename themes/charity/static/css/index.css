@@ -1791,6 +1791,53 @@ sup {
   order: 2;
   margin-right: 0px !important; }
 
+.intouch .grid {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%; }
+
+.intouch .grid_item {
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 1px;
+  height: 33%;
+  width: 33%; }
+
+.grid1 {
+  background-image: url("/images/grid1.jpg"); }
+
+.grid2 {
+  background-image: url("/images/grid2.jpg"); }
+
+.grid3 {
+  background-image: url("/images/grid3.jpg"); }
+
+.grid4 {
+  background-image: url("/images/grid4.jpg"); }
+
+.grid5 {
+  background-image: url("/images/grid5.jpg"); }
+
+.grid6 {
+  background-image: url("/images/grid6.jpg"); }
+
+.grid7 {
+  background-image: url("/images/grid7.jpg"); }
+
+.grid8 {
+  background-image: url("/images/grid8.jpg"); }
+
+.grid9 {
+  background-image: url("/images/grid9.jpg"); }
+
 .faq strong.question {
   color: #3A3A3A;
   display: block;

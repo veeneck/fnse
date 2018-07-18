@@ -73,5 +73,59 @@
 	margin-right: 0px !important;
 }
 
+.intouch .grid {
+	@include flex();
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+}
+
+.intouch .grid_item {
+	border-radius: $borderRadius;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	margin: 1px;
+	height: 33%;
+	width: 33%;
+}
+
+.grid1 {
+	background-image: url("/images/grid1.jpg");
+}
+
+.grid2 {
+	background-image: url("/images/grid2.jpg");
+}
+
+.grid3 {
+	background-image: url("/images/grid3.jpg");
+}
+
+.grid4 {
+	background-image: url("/images/grid4.jpg");
+}
+
+.grid5 {
+	background-image: url("/images/grid5.jpg");
+}
+
+.grid6 {
+	background-image: url("/images/grid6.jpg");
+}
+
+.grid7 {
+	background-image: url("/images/grid7.jpg");
+}
+
+.grid8 {
+	background-image: url("/images/grid8.jpg");
+}
+
+.grid9 {
+	background-image: url("/images/grid9.jpg");
+}
+
 
 
