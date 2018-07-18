@@ -5,7 +5,7 @@ id: modules/northshore/afterschool.md
 type: module
 module_type: text_right
 class_name: afterschool
-image: "/images/7thhour.jpg"
+image: "/images/play.jpg"
 list_items:
 - title: Dance
 - title: Drama

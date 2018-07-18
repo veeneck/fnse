@@ -789,17 +789,18 @@ a.button {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  text-align: center; }
+  text-align: center;
+  border-radius: 4px; }
   @media (min-width: 35em) {
     .hero {
       text-align: right;
-      min-height: 850px; } }
+      min-height: 72vh; } }
 
 .classroom {
   background-image: url("/images/classrom.jpg"); }
 
 .faqhero {
-  background-image: url("/images/Volunteer.jpg"); }
+  background-image: url("/images/VolunteerLarge.jpg"); }
 
 .placeholder {
   background-image: url("/images/placeholder.jpg"); }
@@ -835,8 +836,18 @@ a.button {
   position: relative; }
   @media (min-width: 35em) {
     .hero .content {
-      margin-top: 350px;
-      float: right; } }
+      margin-top: 50%;
+      float: right;
+      position: absolute;
+      bottom: 15%;
+      right: 50px; } }
+  @media (min-width: 1200px) {
+    .hero .content {
+      right: 12%; } }
+
+@media (min-width: 35em) {
+  .nocta .content {
+    bottom: 25%; } }
 
 .hero .container {
   margin: 0 auto !important; }
@@ -910,11 +921,10 @@ nav[role=navigation] {
   overflow: hidden;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  font-weight: 900;
+  font-weight: 600;
   width: 0px; }
   @media (min-width: 1080px) {
     nav[role=navigation] {
-      text-transform: uppercase;
       flex-grow: 5; } }
 
 ul.nav {
@@ -1674,6 +1684,12 @@ sup {
 .school::before {
   content: url("/images/icons/icon_school.png"); }
 
+.network::before {
+  content: url("/images/icons/icon_network.png"); }
+
+.tools::before {
+  content: url("/images/icons/icon_tools.png"); }
+
 .half_half {
   display: -webkit-box;
   display: -moz-box;
@@ -1717,7 +1733,10 @@ sup {
   @media (min-width: 1080px) {
     .half_half .rightHalfContainer {
       width: 50%;
-      max-width: 50%; } }
+      max-width: 50%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover; } }
 
 .halfImage {
   width: 100%;
@@ -1739,13 +1758,13 @@ sup {
   order: 2;
   margin-right: 0px !important; }
 
-.faq strong {
-  color: #A4A4A4;
+.faq strong.question {
+  color: #3A3A3A;
   display: block;
   margin: 50px 0px -20px 0px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  font-size: 110%; }
+  font-size: 120%; }
 
 .faq .toc {
   display: -webkit-box;

@@ -1,9 +1,9 @@
-.faq strong {
-	color: $grey;
+.faq strong.question {
+	color: $darkGrey;
 	display: block;
 	margin: 50px 0px -20px 0px;
 	@include boldFontStack();
-	font-size: 110%;
+	font-size: 120%;
 }
 
 .faq .toc {

@@ -41,6 +41,9 @@
 	@include breakpoint(normal-screen) {
 		width: 50%;
 		max-width: 50%;
+		    background-repeat: no-repeat;
+		    background-position: center center;
+		    background-size: cover;
 	}
 	display: flex;
 }

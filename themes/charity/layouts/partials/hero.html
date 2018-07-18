@@ -1,5 +1,5 @@
 {{ if isset .Params "hero_title" }}
-<section class="hero darken-pseudo {{ .Params.hero_class }}">
+<section class="hero darken-pseudo {{ .Params.hero_class }} {{ if (not (isset .Params "hero_button_text")) }}nocta{{end}}">
 
 	<div class="container">
 

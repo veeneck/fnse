@@ -15,8 +15,9 @@
     text-align: center;
     @include breakpoint(condensed-screen) {
         text-align: right;
-         min-height: 850px;
+         min-height: 72vh;
     }
+    border-radius: $borderRadius;
 }
 
 
@@ -26,7 +27,7 @@
 
 
 .faqhero {
-  background-image: url("/images/Volunteer.jpg");
+  background-image: url("/images/VolunteerLarge.jpg");
 }
 
 .placeholder {
@@ -72,8 +73,20 @@
     z-index: 1;
     position: relative;
     @include breakpoint(condensed-screen) {
-        margin-top: 350px;
+        margin-top: 50%;
         float: right;
+        position: absolute;
+        bottom: 15%;
+        right: 50px;
+    }
+    @include breakpoint(large-screen) {
+        right: 12%;
+    }
+}
+
+.nocta .content {
+    @include breakpoint(condensed-screen) {
+      bottom: 25%;
     }
 }
 

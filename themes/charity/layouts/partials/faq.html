@@ -28,12 +28,12 @@
 
 		<div class="copy left">
 
+			<h3>Questions About FNSE</h3>
+
 			{{ range $key, $value := .Site.Taxonomies.tags.fnsefaq }}
 
-				<h3>Questions About FNSE</h3>
-
-				<p><strong>{{ $value.Title }}</strong></p>
-				<p>{{ $value.Content }}</p><a href="#">Back to top</a>
+				<p><strong class="question">{{ $value.Title }}</strong></p>
+				<p>{{ $value.Content }}</p>
 
 			{{ end }}
 
@@ -49,12 +49,12 @@
 
 		<div class="copy left">
 
+			<h3>Questions About North Shore Elementary</h3>
+
 			{{ range $key, $value := .Site.Taxonomies.tags.nsefaq }}
 
-				<h3>Questions About North Shore Elementary</h3>
-
-				<p><strong>{{ $value.Title }}</strong></p>
-				<p>{{ $value.Content }}</p><a href="#">Back to top</a>
+				<p><strong class="question">{{ $value.Title }}</strong></p>
+				<p>{{ $value.Content }}</p>
 
 			{{ end }}
 

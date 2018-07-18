@@ -67,11 +67,11 @@ nav[role=navigation] {
     overflow: hidden;
     ///@include transition(all 0.3s ease-out);
     @include boldFontStack();
-    font-weight: 900;
+    font-weight: 600;
     width: 0px;
 
     @include breakpoint(normal-screen) {
-    	text-transform: uppercase;
+    	///text-transform: uppercase;
     	flex-grow: 5;
     }
 }

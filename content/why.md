@@ -10,8 +10,8 @@ modules:
 - modules/why/localgem.md
 - modules/why/community.md
 - modules/why/faculty.md
-- modules/common/testimonial.md
 - modules/why/schoolgrade.md
+- modules/common/testimonial.md
 - modules/why/brightfuture.md
 - modules/fnse/aboutfriends.md
 - modules/common/faq1.md
