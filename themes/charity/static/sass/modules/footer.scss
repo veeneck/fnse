@@ -22,6 +22,7 @@
 	width: 100%;
 	@include breakpoint(normal-screen) {
         width: 80%;
+        margin-right: 50px;
     }
     text-align: center;
 }
@@ -33,7 +34,7 @@
 	margin-top: 50px;
 	@include breakpoint(normal-screen) {
 		margin-top: none;
-		width: 40%;
+		width: 50%;
     }
 }
 
@@ -83,4 +84,36 @@
 
 .nonprofit {
 	color: $lightBlue;
+}
+
+
+.sitecontent {
+	@include flex();
+	flex-direction: row;
+	padding: 75px 0px;
+	justify-content: space-evenly;
+	background-color: $white;
+}
+
+.sitecontent img {
+	width: 283px;
+	height: 255px;
+}
+
+.sitecontent ul {
+	color: $darkGrey;
+	@include boldFontStack();
+	list-style-type: none;
+	margin-top: 0px;
+}
+
+.sitecontent li {
+	@include altProseStack();
+	font-size: 85%;
+	margin: 10px 0px;
+}
+
+.sitecontent a {
+	color: $blue;
+	text-decoration: none;
 }

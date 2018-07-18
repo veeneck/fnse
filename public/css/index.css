@@ -1192,7 +1192,8 @@ div.menu-link {
   text-align: center; }
   @media (min-width: 1080px) {
     .footer form {
-      width: 80%; } }
+      width: 80%;
+      margin-right: 50px; } }
 
 .details {
   width: 100%;
@@ -1202,7 +1203,7 @@ div.menu-link {
   @media (min-width: 1080px) {
     .details {
       margin-top: none;
-      width: 40%; } }
+      width: 50%; } }
 
 .details img {
   border-radius: 4px;
@@ -1244,6 +1245,38 @@ div.menu-link {
 
 .nonprofit {
   color: #D1E5FB; }
+
+.sitecontent {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  padding: 75px 0px;
+  justify-content: space-evenly;
+  background-color: #fff; }
+
+.sitecontent img {
+  width: 283px;
+  height: 255px; }
+
+.sitecontent ul {
+  color: #3A3A3A;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  list-style-type: none;
+  margin-top: 0px; }
+
+.sitecontent li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 85%;
+  margin: 10px 0px; }
+
+.sitecontent a {
+  color: #3C70AC;
+  text-decoration: none; }
 
 .text_left p {
   text-align: left; }
