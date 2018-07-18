@@ -12,4 +12,5 @@ fields:
   label: Tags
   type: tag_list
   hidden: false
-  default: ''
+  default:
+  - fnsefaq
