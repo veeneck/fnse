@@ -12,7 +12,8 @@ fields:
   label: Tags
   type: tag_list
   hidden: false
-  default: ''
+  default:
+  - nsefaq
 pages:
 - content/modules/faq/north-shore-elementary-is-a-currently-a-b-school--and-in-recent-history-a-d-school.-how-is-it-a-good-school-with-a-low-school-grade-.md
 - content/modules/faq/schoolpopulation.md
