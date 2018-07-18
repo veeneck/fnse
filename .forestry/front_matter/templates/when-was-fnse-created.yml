@@ -14,3 +14,5 @@ fields:
   hidden: false
   default:
   - fnsefaq
+pages:
+- content/modules/faq/fnsecreated.md
