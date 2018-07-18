@@ -6,7 +6,12 @@
 
 			<h3>{{ $.module.Title }}</h3>
 
-			<img src="{{ $.module.Params.image }}" class="coreImage" />
+			<figure>
+				<img src="{{ $.module.Params.image }}" class="coreImage" />
+			 	<figcaption>
+			 		{{ $.module.Params.caption }}
+			 	</figcaption>
+			</figure>
 
 			<p>{{ $.module.Content }}</p>
 

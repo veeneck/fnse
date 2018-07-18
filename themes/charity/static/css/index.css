@@ -184,17 +184,29 @@ textarea {
 /* On mobile, the image should sit on top of the text. */
 .coreImage {
   width: 100%;
-  margin-top: 1.5rem;
+  height: 100%;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 4px; }
+
+figure {
+  width: 100%;
+  margin: 1.5rem 0px 0px 0px;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
-    .coreImage {
+    figure {
       width: 45%; } }
   @media (min-width: 1080px) {
-    .coreImage {
+    figure {
       margin-top: -75px; } }
+
+figcaption {
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #3A3A3A;
+  font-size: 80%;
+  margin-top: 10px; }
 
 /* -------------- THIRDS MODULE ------------- */
 .thirdContainer {
@@ -576,17 +588,29 @@ textarea {
 /* On mobile, the image should sit on top of the text. */
 .coreImage {
   width: 100%;
-  margin-top: 1.5rem;
+  height: 100%;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 4px; }
+
+figure {
+  width: 100%;
+  margin: 1.5rem 0px 0px 0px;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
-    .coreImage {
+    figure {
       width: 45%; } }
   @media (min-width: 1080px) {
-    .coreImage {
+    figure {
       margin-top: -75px; } }
+
+figcaption {
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #3A3A3A;
+  font-size: 80%;
+  margin-top: 10px; }
 
 /* -------------- THIRDS MODULE ------------- */
 .thirdContainer {
@@ -952,6 +976,9 @@ ul.nav li a {
     ul.nav li a {
       border: 0; } }
 
+ul.nav li a.selected {
+  font-weight: 900 !important; }
+
 ul.nav li:hover .dropdown {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -1273,31 +1300,31 @@ div.menu-link {
   text-align: left; }
 
 /* On mobile, the image should sit on top of the text. */
-.text_left .coreImage {
+.text_left figure {
   height: 300px;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
-    .text_left .coreImage {
+    .text_left figure {
       float: right;
       height: 300px;
       padding: 0px 0px 40px 40px; } }
   @media (min-width: 1080px) {
-    .text_left .coreImage {
+    .text_left figure {
       height: 600px;
       padding: 0px 0px 60px 100px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
 @media (min-width: 1080px) {
-  .no_button.text_left .coreImage {
+  .no_button.text_left figure {
     height: 500px; } }
 
 @media (min-width: 1080px) {
-  .nseinfo .coreImage {
+  .nseinfo figure {
     height: 600px !important; } }
 
 @media (min-width: 1080px) {
-  .gem .coreImage {
+  .gem figure {
     height: 650px !important; } }
 
 .text_left ul {
@@ -1321,8 +1348,11 @@ div.menu-link {
   font-family: 'Lato', sans-serif;
   font-weight: 100; }
 
-.volunteerinfo .coreImage {
+.volunteerinfo figure {
   height: 500px; }
+
+.text_left figcaption {
+  float: right; }
 
 .text_right p {
   text-align: left; }
@@ -1331,31 +1361,31 @@ sup {
   font-size: 50%; }
 
 /* On mobile, the image should sit on top of the text. */
-.text_right .coreImage {
+.text_right figure {
   height: 300px;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
-    .text_right .coreImage {
+    .text_right figure {
       float: left;
       height: 300px;
       padding: 0px 40px 40px 0px; } }
   @media (min-width: 1080px) {
-    .text_right .coreImage {
+    .text_right figure {
       height: 450px;
       padding: 0px 100px 60px 0px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
 @media (min-width: 1080px) {
-  .no_button.text_right .coreImage {
+  .no_button.text_right figure {
     height: 400px; } }
 
 @media (min-width: 1080px) {
-  .why .coreImage {
+  .why figure {
     height: 600px !important; } }
 
 @media (min-width: 1080px) {
-  .afterschool .coreImage {
+  .afterschool figure {
     height: 500px !important; } }
 
 .text_right ul {
@@ -1377,6 +1407,9 @@ sup {
   background-color: #FAFAFA;
   font-family: 'Lato', sans-serif;
   font-weight: 100; }
+
+.text_right figcaption {
+  float: left; }
 
 .quote {
   display: -webkit-box;

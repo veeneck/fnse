@@ -283,7 +283,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/classroom_small.jpg": {
+	"\/images\/classroom_small.JPG": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 0,
@@ -1228,19 +1228,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/text_right.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

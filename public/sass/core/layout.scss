@@ -49,9 +49,14 @@
 /* On mobile, the image should sit on top of the text. */
 .coreImage {
     width: 100%;
-    margin-top: 1.5rem;
+    height: 100%;
     object-fit: cover;
     border-radius: $borderRadius;
+}
+
+figure {
+    width: 100%;
+    margin: 1.5rem 0px 0px 0px;
 
     /* Wrap the text around the image. */
     @include breakpoint(condensed-screen) {
@@ -62,6 +67,14 @@
     @include breakpoint(normal-screen) {
         margin-top: -75px;
     }
+}
+
+figcaption {
+    font-style: italic;
+    @include altProseStack();
+    color: $darkGrey;
+    font-size: 80%;
+    margin-top: 10px;
 }
 
 /* -------------- THIRDS MODULE ------------- */

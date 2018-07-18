@@ -9,7 +9,12 @@
 			<span class="subtitle">{{ $.module.Params.subtitle }}</span>
 			{{ end }}
 
-			<img src="{{ $.module.Params.image }}" class="coreImage" height="600px;" />
+			<figure>
+				<img src="{{ $.module.Params.image }}" class="coreImage" />
+			 	<figcaption>
+			 		{{ $.module.Params.caption }}
+			 	</figcaption>
+			</figure>
 
 			<p>{{ $.module.Content }}</p>
 

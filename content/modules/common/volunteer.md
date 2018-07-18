@@ -8,6 +8,6 @@ button: LEND A HAND
 button_icon: lend
 link: /volunteer
 image: "/images/Volunteer.jpg"
-
+caption: This is a caption
 ---
 <p>We would love to have you get engaged. There is something for everyone.  Depending on your interest and availability there are a variety of ways to get involved with both North Shore Elementary and FNSE.</p><span>Become a lunch PAL, meeting with an identified student in need once a week for an hour.</span>

@@ -7,7 +7,7 @@ sup {
 }
 
 /* On mobile, the image should sit on top of the text. */
-.text_right .coreImage {
+.text_right  figure {
 	height: 300px;
 
 	/* Wrap the text around the image. */
@@ -25,19 +25,19 @@ sup {
 }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
-.no_button.text_right .coreImage {
+.no_button.text_right  figure {
 	@include breakpoint(normal-screen) {
 		height: 400px;
 	}
 }
 
-.why .coreImage {
+.why  figure {
 	@include breakpoint(normal-screen) {
     	height: 600px !important;
     }
 }
 
-.afterschool .coreImage {
+.afterschool figure {
 	@include breakpoint(normal-screen) {
     	height: 500px !important;
     }
@@ -60,4 +60,8 @@ sup {
 	margin: 10px 20px;
 	background-color: $lightGrey;
 	@include altProseStack();
+}
+
+.text_right figcaption {
+	float: left;
 }
