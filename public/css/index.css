@@ -876,10 +876,12 @@ header {
   margin: 0px auto 0px auto;
   font: 100% 'Peace Sans', Helvetica, sans-serif;
   height: 60px;
+  position: absolute;
   top: 0px; }
   @media (min-width: 35em) {
     header {
-      height: 89px; } }
+      height: 89px;
+      position: relative; } }
 
 h1 {
   margin: auto 0px;
@@ -1082,16 +1084,14 @@ nav[role=navigation].open {
   text-align: left; }
 
 .open ul.nav {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap; }
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px; }
 
 .open ul.nav li {
   display: block !important;
-  flex-grow: 1; }
+  margin: 25px 0px; }
 
 .open .dropdown li a {
   display: block !important;

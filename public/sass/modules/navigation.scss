@@ -9,11 +9,12 @@ header {
     margin: 0px auto 0px auto;
     @include heavyFontStack();
     height: 60px;
-    //position: -webkit-sticky;
-  	//position: sticky;
+    position: absolute;
+  	///position: sticky;
   	top: 0px;
   	@include breakpoint(condensed-screen) {
          height: 89px;
+         position: relative;
     }
 }
 
@@ -254,14 +255,18 @@ nav[role=navigation].open {
 }
 
 .open ul.nav {
-	@include flex();
-	flex-wrap: wrap;
+	//@include flex();
+	//flex-wrap: wrap;
 	///justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .open ul.nav li {
 	display: block !important;
-	flex-grow: 1;
+    margin: 25px 0px;
 }
 
 .open .dropdown li a {
