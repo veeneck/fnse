@@ -9,6 +9,7 @@ hero_subtitle: We're happy to promote our local gem.
 hero_button_text: WHY CHOOSE NORTH SHORE
 hero_button_icon: castle
 hero_link: /why
+image: /images/classrom.jpg
 modules:
 - modules/fnse/aboutfriends.md
 - modules/common/testimonial.md
@@ -16,6 +17,5 @@ modules:
 - modules/common/spotlight.md
 - modules/common/volunteer.md
 - modules/common/faq1.md
-
 ---
 hello world

@@ -184,6 +184,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/aboutfnse.jpg": {
+		"ft": 16384,
+		"iS": 100805,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/aboutfnse.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/aerial.jpg": {
 		"ft": 16384,
 		"iS": 53762,
@@ -272,7 +283,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/classroom_small.JPG": {
+	"\/images\/classroom_small.jpg": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 0,
@@ -789,6 +800,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/informed4.jpg": {
+		"ft": 16384,
+		"iS": 137671,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/informed4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/KidsBanner.jpg": {
 		"ft": 16384,
 		"iS": 137432,
@@ -875,6 +897,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/recess.png": {
+		"ft": 32768,
+		"iS": 709743,
+		"oA": 0,
+		"oAP": "\/images\/recess.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/staff.jpg": {

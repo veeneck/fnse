@@ -6,6 +6,7 @@ url: "/faq"
 hero_class: placeholder
 hero_title: Have Questions?
 hero_subtitle: We'll attempt to answer them.
+image: /images/informed4.jpg
 modules:
 - modules/fnse/stayintouch.md
 - modules/fnse/aboutfriends.md

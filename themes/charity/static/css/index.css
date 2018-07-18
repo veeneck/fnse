@@ -796,15 +796,6 @@ a.button {
       text-align: right;
       min-height: 72vh; } }
 
-.classroom {
-  background-image: url("/images/classrom.jpg"); }
-
-.faqhero {
-  background-image: url("/images/VolunteerLarge.jpg"); }
-
-.placeholder {
-  background-image: url("/images/placeholder.jpg"); }
-
 .castle-wall {
   background-image: url("/images/castle_wall_mobile.png");
   background-image: url("/images/castle_wall_mobile.png");
@@ -863,7 +854,7 @@ a.button {
   left: 0;
   right: 0;
   display: block !important;
-  background-color: rgba(0, 0, 0, 0.35); }
+  background-color: rgba(0, 0, 0, 0.2); }
 
 /*----------------------- Navigation Styles ------------------------------ */
 header {
