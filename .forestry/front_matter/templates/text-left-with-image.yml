@@ -60,15 +60,15 @@ fields:
   name: caption
   label: Caption
   description: A caption to go underneath the image.
-- type: field_group
+- type: field_group_list
   name: list_items
   label: List Items
-  description: Optional list of items to display at the end of the module.
+  description: Optional list items to display at the end of the module.
   fields:
   - type: text
     name: title
     label: Title
-    description: The list item.
+    description: List item.
 pages:
 - content/modules/why/faculty.md
 - content/modules/why/whynse.md
