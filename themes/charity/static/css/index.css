@@ -296,6 +296,13 @@ h3:before {
   -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
 
+/*----------MAPKIT------------*/
+.mk-map-view > * {
+  left: 0; }
+
+.mk-zoom-controls .mk-icon {
+  left: 0; }
+
 /*----------------------- LINKS ------------------------------ */
 a.button {
   color: #fff;
@@ -699,6 +706,13 @@ h3:before {
   -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
+
+/*----------MAPKIT------------*/
+.mk-map-view > * {
+  left: 0; }
+
+.mk-zoom-controls .mk-icon {
+  left: 0; }
 
 /*----------------------- LINKS ------------------------------ */
 a.button {
