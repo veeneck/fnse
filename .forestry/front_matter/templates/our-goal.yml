@@ -64,6 +64,10 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: text
+  name: button
+  label: Button
+  description: Optional button text.
 pages:
 - content/modules/volunteer/ways.md
 - content/modules/fnse/goals.md
