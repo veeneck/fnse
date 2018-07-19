@@ -188,6 +188,16 @@ h3:before {
     @extend %clearfix;
 }
 
+/*----------MAPKIT------------*/
+
+.mk-map-view>* {
+    left: 0;
+}
+
+.mk-zoom-controls .mk-icon {
+    left: 0;
+}
+
 /*----------------------- LINKS ------------------------------ */
 
 a.button {
