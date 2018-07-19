@@ -60,7 +60,7 @@ fields:
   - name: image
     label: Image
     type: file
-    hidden: false
+    hidden: true
     default: ''
   hidden: false
   default: ''
