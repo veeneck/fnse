@@ -64,3 +64,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- content/modules/fnse/goals.md
