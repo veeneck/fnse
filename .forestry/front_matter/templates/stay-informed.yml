@@ -38,3 +38,5 @@ fields:
   type: text
   hidden: true
   default: ''
+pages:
+- content/modules/fnse/stayintouch.md
