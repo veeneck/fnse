@@ -18,24 +18,43 @@
 
 
 	{{ if eq $.module.Params.class_name "intouch" }}
-	<div class="rightHalfContainer">
-		<div class="grid">
-			<div class="grid_item grid1"></div>
-			<div class="grid_item grid2"></div>
-			<div class="grid_item grid3"></div>
-			<div class="grid_item grid4"></div>
-			<div class="grid_item grid5"></div>
-			<div class="grid_item grid6"></div>
-			<div class="grid_item grid7"></div>
-			<div class="grid_item grid8"></div>
-			<div class="grid_item grid9"></div>
+		<div class="rightHalfContainer">
+			<div class="grid">
+				<div class="grid_item grid1"></div>
+				<div class="grid_item grid2"></div>
+				<div class="grid_item grid3"></div>
+				<div class="grid_item grid4"></div>
+				<div class="grid_item grid5"></div>
+				<div class="grid_item grid6"></div>
+				<div class="grid_item grid7"></div>
+				<div class="grid_item grid8"></div>
+				<div class="grid_item grid9"></div>
+			</div>
 		</div>
-	</div>
+	{{ else if eq $.module.Params.class_name "mapkit" }}
+		<div class="rightHalfContainer">
+			<div id="map"></div> 
+		</div>
+
+			<script>
+			mapkit.init({
+			    authorizationCallback: function(done) {
+			        done('eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlhKVDlBRDVOQVkifQ.eyJpc3MiOiJSSzNUOUJZU0o4IiwiaWF0IjoxNTMyMDIxMzgzLCJleHAiOjE1MzAwMDg0NTUxMDZ9.9WOGLjY3F3DnDC_CtQgF-X60-gzWxfNCaen0l14OLM51vGYleOvK2flS0h62PJxJLe97DL3A4Bb66C_QBPSGRA');
+			    }
+			});
+
+			var Cupertino = new mapkit.CoordinateRegion(
+			new mapkit.Coordinate(37.3316850890998, -122.030067374026),
+			new mapkit.CoordinateSpan(0.167647972, 0.354985255)
+			);
+
+			var map = new mapkit.Map("map");
+			map.region = Cupertino;
+			</script>
 	{{ else }}
-	<div class="rightHalfContainer" style="background-image: url('{{ $.module.Params.image }}');">
+		<div class="rightHalfContainer" style="background-image: url('{{ $.module.Params.image }}');">
 
-	</div>
-
+		</div>
 	{{ end }}
 
 
