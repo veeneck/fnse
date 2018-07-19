@@ -6,7 +6,7 @@ url: "/why"
 hero_class: placeholder
 hero_title: Why Choose North Shore Elementary
 hero_subtitle: This neighborhood school in St. Petersburg, FL has plenty to offer.
-image: /images/NorthShore.jpg
+image: "/images/NorthShore.jpg"
 modules:
 - modules/why/localgem.md
 - modules/why/community.md
@@ -16,5 +16,6 @@ modules:
 - modules/why/brightfuture.md
 - modules/fnse/aboutfriends.md
 - modules/common/faq5.md
+
 ---
 hello world
