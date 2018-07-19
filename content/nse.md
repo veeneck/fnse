@@ -14,9 +14,10 @@ modules:
 - modules/common/testimonial.md
 - modules/northshore/castle.md
 - modules/northshore/exceptional.md
-- modules/nse/highlights.md
+- modules/why/whynse.md
 - modules/why/whynse.md
 - modules/common/faq3.md
+hero_button_text: ''
 
 ---
 hello world
