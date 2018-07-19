@@ -6,7 +6,7 @@
 		<div class="content">
 			<h2>{{ .Params.hero_title }}</h2>
 			<p>{{ .Params.hero_subtitle }}</p>
-			{{ if isset .Params "hero_button_text" }}
+			{{ if and (isset .Params "hero_button_text") (ne .Params.hero_button_text "") }}
 				<a href="{{ .Params.hero_link }}" class="button blue {{ .Params.hero_button_icon }}">{{ .Params.hero_button_text }}</a>
 			{{ end }}
 		</div>
