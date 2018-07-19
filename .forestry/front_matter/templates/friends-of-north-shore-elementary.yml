@@ -23,6 +23,23 @@ fields:
   type: text
   hidden: url
   default: ''
+- type: text
+  default: ''
+  label: Hero Title
+  name: hero_title
+  description: The large description over the image.
+- type: text
+  label: Hero Subtitle
+  name: hero_subtitle
+  description: The smaller subtitle over the image.
+- type: text
+  label: Hero Button Text
+  name: hero_button_text
+  description: Optionally add text to show on the button if there is one.
+- type: file
+  label: Hero Image
+  name: hero_image
+  description: The main image at the top of the page
 - name: modules
   label: Modules
   type: list
