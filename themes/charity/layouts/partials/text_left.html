@@ -1,10 +1,10 @@
-<section class="text_left module {{ $.module.Params.class_name }} {{ $.buttonClass }} {{ $.module.Params.color }}">
+<section class="text_left module {{ $.module.Params.class_name }} {{ $.buttonClass }} {{ $.module.Params.color }}" id="{{ replace $.module.Title " " "" }}">
 
 	<div class="container">
 
 		<div class="copy left">
 
-			<h3>{{ $.module.Title }}</h3>
+			{{ partial "module_header.html" $.module }}
 
 			<figure>
 				<img src="{{ $.module.Params.image }}" class="coreImage" />

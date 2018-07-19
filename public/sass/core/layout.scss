@@ -147,15 +147,15 @@ h3:before {
     }
 }
 
-h3.white {
+.carousel h3 {
     color: $white;
 }
 
-h3.center {
+.center h3 {
     text-align: center;
 }
 
-h3.center:before {
+.center h3:before {
     left: 50%;
     margin-left: -75px;
 }

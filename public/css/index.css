@@ -265,13 +265,13 @@ h3:before {
       left: 0;
       margin-left: 0px; } }
 
-h3.white {
+.carousel h3 {
   color: #fff; }
 
-h3.center {
+.center h3 {
   text-align: center; }
 
-h3.center:before {
+.center h3:before {
   left: 50%;
   margin-left: -75px; }
 
@@ -669,13 +669,13 @@ h3:before {
       left: 0;
       margin-left: 0px; } }
 
-h3.white {
+.carousel h3 {
   color: #fff; }
 
-h3.center {
+.center h3 {
   text-align: center; }
 
-h3.center:before {
+.center h3:before {
   left: 50%;
   margin-left: -75px; }
 

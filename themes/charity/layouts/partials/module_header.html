@@ -1,0 +1,5 @@
+<h3>{{ .Title | safeHTML }}</h3>
+
+{{ if isset .Params "subtitle" }}
+	<span class="subtitle">{{ .Params.subtitle }}</span>
+{{ end }}

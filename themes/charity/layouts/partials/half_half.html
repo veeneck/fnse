@@ -1,9 +1,9 @@
-<section class="half_half module no-margin {{ $.module.Params.class_name }} {{ $.buttonClass }} {{ $.module.Params.alignment }}">
+<section class="half_half module no-margin {{ $.module.Params.class_name }} {{ $.buttonClass }} {{ $.module.Params.alignment }}" id="{{ replace $.module.Title " " "" }}">
 
 	<div class="leftHalfContainer">
 		<div class="wrapper">
 
-			<h3>{{ $.module.Title }}</h3>
+			{{ partial "module_header.html" $.module }}
 
 			<p>{{ $.module.Content }}</p>
 

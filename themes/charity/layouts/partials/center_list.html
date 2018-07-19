@@ -1,8 +1,8 @@
-<section class="center_list {{ .Params.class_name }} {{ .Params.color }} module padded-module">
+<section class="center_list  center {{ .Params.class_name }} {{ .Params.color }} module padded-module" id="{{ replace .Title " " "" }}">
 
 	<div class="container">
 
-		<h3 class="center">{{ .Title }}</h3>
+		{{ partial "module_header.html" . }}
 
 		<p class="desc">{{ .Description | safeHTML }}</p>
 

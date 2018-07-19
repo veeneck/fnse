@@ -1,7 +1,7 @@
 ---
 title: Highlights
 description: Just a few of the great programs that can be found at North Shore Elementary.
-id: modules/nse/highlights.md
+id: modules/northshore/coolthings.md
 type: module
 module_type: carousel
 class_name: highlight

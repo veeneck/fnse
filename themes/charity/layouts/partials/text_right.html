@@ -1,13 +1,10 @@
-<section class="text_right module {{ $.module.Params.class_name }} {{ $.buttonClass }} {{ $.module.Params.color }}">
+<section class="text_right module {{ $.module.Params.class_name }} {{ $.buttonClass }} {{ $.module.Params.color }}" id="{{ replace $.module.Title " " "" }}">
 
 	<div class="container">
 
 		<div class="copy right">
 
-			<h3>{{ $.module.Title | safeHTML }}</h3>
-			{{ if isset $.module.Params "subtitle" }}
-			<span class="subtitle">{{ $.module.Params.subtitle }}</span>
-			{{ end }}
+			{{ partial "module_header.html" $.module }}
 
 			<figure>
 				<img src="{{ $.module.Params.image }}" class="coreImage" />

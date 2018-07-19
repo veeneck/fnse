@@ -1,5 +1,5 @@
 ---
-title: Castle Apprentice Program
+title: Castle Apprenticeship
 id: modules/northshore/castle.md
 type: module
 module_type: text_left
