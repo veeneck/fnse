@@ -34,7 +34,7 @@ fields:
 - name: class_name
   label: Class name
   type: text
-  hidden: false
+  hidden: true
   default: ''
 pages:
 - content/modules/common/spotlight.md
