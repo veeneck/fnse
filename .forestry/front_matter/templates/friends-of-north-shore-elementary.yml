@@ -51,5 +51,6 @@ fields:
       type: pages
       section: modules
 pages:
+- content/nse.md
 - content/_index.md
 - content/fnse.md
