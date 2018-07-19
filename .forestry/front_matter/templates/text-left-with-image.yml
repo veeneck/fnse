@@ -58,6 +58,7 @@ fields:
   description: A caption to go underneath the image.
 pages:
 - content/modules/why/whynse.md
+- content/modules/volunteer/volunteerinfo.md
 - content/modules/volunteer/nsevolunteer.md
 - content/modules/fnse/aboutfriends.md
 - content/modules/common/volunteer.md
