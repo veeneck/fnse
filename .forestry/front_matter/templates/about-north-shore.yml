@@ -21,7 +21,7 @@ fields:
 - name: module_type
   label: Module type
   type: text
-  hidden: false
+  hidden: true
   default: text_right
 - name: class_name
   label: Class name
@@ -36,7 +36,7 @@ fields:
 - name: button_icon
   label: Button icon
   type: text
-  hidden: false
+  hidden: true
   default: explore
 - name: image
   label: Image
