@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- path: content/questions
+  label: Questions
+  create: all
 - path: content
   label: Pages
   create: all

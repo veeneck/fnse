@@ -42,7 +42,7 @@ fields:
   name: button
   description: The text on the button.
   config:
-    required: true
+    required: false
 - type: text
   name: button_icon
   label: Button Icon
