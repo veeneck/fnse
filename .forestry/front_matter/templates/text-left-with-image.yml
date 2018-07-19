@@ -10,6 +10,10 @@ fields:
   config:
     required: true
 - type: text
+  name: subtitle
+  label: Subtitle
+  description: Optional subtitle.
+- type: text
   name: type
   label: Type
   hidden: true
