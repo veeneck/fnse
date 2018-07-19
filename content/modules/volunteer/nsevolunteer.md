@@ -1,6 +1,6 @@
 ---
 title: Volunteer at the School
-id: modules/fnse/nsevolunteer.md
+id: modules/volunteer/nsevolunteer.md
 type: module
 module_type: text_left
 class_name: nsevolunteer

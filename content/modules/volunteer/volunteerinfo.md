@@ -1,6 +1,6 @@
 ---
 title: Volunteer for FNSE
-id: modules/fnse/volunteerinfo.md
+id: modules/volunteer/volunteerinfo.md
 type: module
 module_type: text_left
 class_name: volunteerinfo
