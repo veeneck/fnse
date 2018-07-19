@@ -47,15 +47,17 @@ fields:
   name: caption
   label: Caption
   description: A description of the image.
-- type: field_group
-  label: List Items
-  name: list_items
-  description: Optional list of items to display at the end of the module.
+- type: field_group_list
   fields:
   - type: text
     name: title
     label: Title
-    description: One item in the list.
+    description: A list item.
+  label: List Items
+  name: list_items
+  description: Optional list items to display at the end of the module.
+  config:
+    labelField: title
 pages:
 - content/modules/northshore/aboutnorthshore.md
 - content/modules/why/community.md
