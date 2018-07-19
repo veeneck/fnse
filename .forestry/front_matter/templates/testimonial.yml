@@ -37,35 +37,29 @@ fields:
   label: List items
   type: field_group_list
   fields:
-  - name: title
-    label: Title
+  - name: name
+    label: Name
     type: text
     hidden: false
     default: ''
-  - name: class
-    label: Class
+    description: The name of the person being quoted.
+  - name: role
+    label: Role
     type: text
     hidden: false
     default: ''
-  - name: description
-    label: Description
+    description: 'Example: Mom to 2nd grader.'
+  - name: body
+    label: Body
     type: textarea
     hidden: false
     default: ''
+    description: The actual quote to use.
   - name: image
     label: Image
     type: file
     hidden: false
     default: ''
-  - name: question
-    label: Question
-    type: text
-    hidden: false
-    default: ''
-  - name: answer
-    label: Answer
-    type: textarea
-    hidden: false
-    default: ''
+    description: A headshot of the person.
   hidden: false
   default: ''
