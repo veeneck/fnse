@@ -63,3 +63,5 @@ fields:
     description: A headshot of the person.
   hidden: false
   default: ''
+pages:
+- content/modules/common/testimonial.md
