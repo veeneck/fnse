@@ -57,6 +57,7 @@ fields:
   label: Caption
   description: A caption to go underneath the image.
 pages:
+- content/modules/why/faculty.md
 - content/modules/why/whynse.md
 - content/modules/volunteer/volunteerinfo.md
 - content/modules/volunteer/nsevolunteer.md
