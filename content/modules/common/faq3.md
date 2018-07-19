@@ -7,7 +7,7 @@ image: "/images/zonemap.png"
 alignment: right
 button: READ THE FAQ
 button_icon: faq
-link: "/faq"
+link: "/why#TheSchoolGrade"
 
 ---
-<p><strong>Am I zoned for North Shore?</strong> While the map overlay serves as a rough guide, you can check your exact address here to see if you're zoned for North Shore. Have additional questions? Head on over to our FAQ to learn more about the school, performance, teachers, events, tours and Friends of North Shore.</p>
+<p><strong>What is North Shore's school grade?</strong> The school currently rated a B by Pinellas County. While that is something to be proud of, we also recommend parents understand how it is calculated, and also look into other aspects of the school to ensure the entire education is well rounded. head on over to our FAQ to read about this and other aspects of North Shore Elementary.</p>
