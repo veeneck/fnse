@@ -59,3 +59,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- content/modules/common/spotlight.md
