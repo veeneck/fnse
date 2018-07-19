@@ -70,4 +70,5 @@ fields:
   description: Optional button text.
 pages:
 - content/modules/volunteer/ways.md
+- content/modules/why/schoolgrade.md
 - content/modules/fnse/goals.md
