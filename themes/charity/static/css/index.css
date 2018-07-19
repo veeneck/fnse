@@ -265,7 +265,7 @@ h3:before {
       left: 0;
       margin-left: 0px; } }
 
-.carousel h3 {
+.carousel h3, .footer h3 {
   color: #fff; }
 
 .center h3 {
@@ -676,7 +676,7 @@ h3:before {
       left: 0;
       margin-left: 0px; } }
 
-.carousel h3 {
+.carousel h3, .footer h3 {
   color: #fff; }
 
 .center h3 {
