@@ -1,5 +1,5 @@
 ---
-label: Spotlight
+label: Carousel
 hide_body: false
 is_partial: false
 fields:
@@ -11,22 +11,22 @@ fields:
 - name: id
   label: Id
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: type
   label: Type
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: module_type
   label: Module type
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: class_name
   label: Class name
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: description
   label: Description
