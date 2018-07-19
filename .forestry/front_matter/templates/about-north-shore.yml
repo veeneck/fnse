@@ -8,6 +8,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: Optional subtitle.
 - name: type
   label: Type
   type: text
