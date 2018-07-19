@@ -69,6 +69,8 @@ fields:
     name: title
     label: Title
     description: List item.
+  config:
+    labelField: title
 pages:
 - content/modules/why/faculty.md
 - content/modules/why/whynse.md
