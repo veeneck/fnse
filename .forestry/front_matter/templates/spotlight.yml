@@ -1,0 +1,71 @@
+---
+label: Spotlight
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: id
+  label: Id
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: module_type
+  label: Module type
+  type: text
+  hidden: false
+  default: ''
+- name: class_name
+  label: Class name
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: list_items
+  label: List items
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: class
+    label: Class
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  - name: question
+    label: Question
+    type: text
+    hidden: false
+    default: ''
+  - name: answer
+    label: Answer
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
