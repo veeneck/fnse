@@ -73,6 +73,11 @@
 	margin-right: 0px !important;
 }
 
+.schoolgrade .rightHalfContainer {
+	background-size: contain;
+	background-color: $lightBlue;
+}
+
 .intouch .grid {
 	@include flex();
 	flex-direction: row;

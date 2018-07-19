@@ -932,6 +932,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/SchoolGrade.png": {
+		"ft": 32768,
+		"iS": 22031,
+		"oA": 0,
+		"oAP": "\/images\/SchoolGrade.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/staff.jpg": {
 		"ft": 16384,
 		"iS": 79244,

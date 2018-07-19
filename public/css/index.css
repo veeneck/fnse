@@ -1829,6 +1829,10 @@ sup {
   order: 2;
   margin-right: 0px !important; }
 
+.schoolgrade .rightHalfContainer {
+  background-size: contain;
+  background-color: #D1E5FB; }
+
 .intouch .grid {
   display: -webkit-box;
   display: -moz-box;
