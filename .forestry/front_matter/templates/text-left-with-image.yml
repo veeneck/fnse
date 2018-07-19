@@ -59,6 +59,7 @@ fields:
 pages:
 - content/modules/why/faculty.md
 - content/modules/why/whynse.md
+- content/modules/why/localgem.md
 - content/modules/volunteer/volunteerinfo.md
 - content/modules/volunteer/nsevolunteer.md
 - content/modules/fnse/aboutfriends.md
