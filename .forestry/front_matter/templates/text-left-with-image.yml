@@ -51,6 +51,9 @@ fields:
   name: image
   label: Image
   description: The image to use for the module.
+- type: text
+  name: caption
+  label: Caption
 pages:
 - content/modules/fnse/aboutfriends.md
 - content/modules/common/volunteer.md
