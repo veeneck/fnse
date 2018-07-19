@@ -43,5 +43,9 @@ fields:
   type: file
   hidden: false
   default: ''
+- type: text
+  name: caption
+  label: Caption
+  description: A description of the image.
 pages:
 - content/modules/northshore/aboutnorthshore.md
