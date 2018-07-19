@@ -47,6 +47,7 @@ fields:
   name: button_icon
   label: Button Icon
   description: The icon to show on the button.
+  hidden: true
 - type: file
   name: image
   label: Image
