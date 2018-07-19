@@ -169,13 +169,13 @@
 	<div class="thirdContainer">
 		<div class="headshot">
 			<img src="/images/headshot.jpg" />
-			<strong>Jessica Stork</strong>
-			<span>Mom to 3rd Grader</span>
+			<strong>Jessica Jones</strong>
+			<span>Mom to 2nd Grader</span>
 		</div>
 	</div>
 
 	<div class="twoThirdContainer hasQuote">
-		<blockquote>North Shore Elementary keeps surprising me with their improvements and progress. Wonderful school and staff!</blockquote>
+		<blockquote>I&#39;m constantly amazed by the teachers and staff at North Shore elementary. Their commitment, responsiveness, and desire to educate make me proud to send my kids there.</blockquote>
 	</div>
 
 </section>
@@ -425,12 +425,36 @@
 			});
 
 			var Cupertino = new mapkit.CoordinateRegion(
-			new mapkit.Coordinate(27.793377, -82.631521),
-			new mapkit.CoordinateSpan(0.167647972, 0.354985255)
+			new mapkit.Coordinate(27.796160959738796,-82.6322125086437),
+			new mapkit.CoordinateSpan(0.058, 0.058)
 			);
 
 			var map = new mapkit.Map("map");
 			map.region = Cupertino;
+
+			var MarkerAnnotation = mapkit.MarkerAnnotation;
+       		var school = new mapkit.Coordinate(27.8036124, -82.63232749999997)
+       		var schoolAnnotation = new MarkerAnnotation(school, { color: "#FFFFFF", title: "North Shore Elementary", glyphText: "🏰" });
+       		schoolAnnotation.size = [100, 100];
+       		map.addAnnotation(schoolAnnotation);
+
+       		var points = [ [27.771179518808168,-82.63216656745908], [27.771046616166533, -82.65481514038083], [27.781127769882147, -82.65487951339719], [27.78116573856317, -82.63856095375058], [27.821095516386848,-82.63856095375058], [27.821209380502705,-82.6205365091705], [27.816783732938067,-82.61612478857091], [27.8060795479485,-82.61556688909582], [27.805201117723303,-82.6099449790006], [27.795444887796346,-82.60492388372472], [27.79244047913533,-82.6073216089855], [27.789858846331658,-82.61204229685171], [27.788416142474595,-82.62217031809195],  [27.777450848222355,-82.62651030187658], [27.7774128782445,-82.63007227544836] ];
+
+			
+			points = points.map(function(point) {
+			    return new mapkit.Coordinate(point[0], point[1]);
+			});
+			var style = new mapkit.Style({
+			    strokeColor: "#3C70AC",
+			    strokeOpacity: 1,
+			    lineWidth: 3,
+			    lineJoin: "round",
+			    lineDash: [10, 10, 10, 10, 10, 10]
+			});
+
+			var rectangle = new mapkit.PolygonOverlay([points], { style: style });
+			map.addOverlay(rectangle);
+
 			</script>
 	
 
