@@ -20,4 +20,4 @@ list_items:
   image: "/images/headshot.jpg"
 
 ---
-This is a testimonial module. All data for testimonials is pulled elsewhere. This is just to added a testimonial widget to a page.
+This is a testimonial module.
