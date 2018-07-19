@@ -33,6 +33,8 @@ fields:
   type: file
   hidden: false
   default: ''
+  description: The image to use. Stay In touch has a custom image. Every other Half
+    half module will respect what is uploaded here.
 - name: alignment
   label: Alignment
   type: text
