@@ -65,4 +65,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/modules/volunteer/ways.md
 - content/modules/fnse/goals.md
