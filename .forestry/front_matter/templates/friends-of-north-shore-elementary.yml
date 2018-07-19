@@ -38,7 +38,7 @@ fields:
   description: Optionally add text to show on the button if there is one.
 - type: file
   label: Hero Image
-  name: hero_image
+  name: image
   description: The main image at the top of the page
 - name: modules
   label: Modules
