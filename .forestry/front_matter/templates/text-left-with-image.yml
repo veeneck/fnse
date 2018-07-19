@@ -54,6 +54,7 @@ fields:
 - type: text
   name: caption
   label: Caption
+  description: A caption to go underneath the image.
 pages:
 - content/modules/fnse/aboutfriends.md
 - content/modules/common/volunteer.md
