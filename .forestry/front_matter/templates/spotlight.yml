@@ -61,3 +61,4 @@ fields:
   default: ''
 pages:
 - content/modules/common/spotlight.md
+- content/modules/fnse/events.md
