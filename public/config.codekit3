@@ -272,6 +272,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/class.jpg": {
+		"ft": 16384,
+		"iS": 92473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/class.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/classrom.jpg": {
 		"ft": 16384,
 		"iS": 769742,
@@ -283,7 +294,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/classroom_small.JPG": {
+	"\/images\/classroom_small.jpg": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 0,
@@ -542,6 +553,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/healthylunch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/homework.jpg": {
+		"ft": 16384,
+		"iS": 122672,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/homework.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -930,6 +952,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/repair.jpg": {
+		"ft": 16384,
+		"iS": 168562,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/repair.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/SchoolGrade.png": {
