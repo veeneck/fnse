@@ -10,7 +10,7 @@
 
 			{{ range $key, $value := .Site.Taxonomies.tags.fnsefaq }}
 
-				<p><a href="" class="question">{{ $value.Title }}</a></p>
+				<p><a href="" class="question arrow-right">{{ $value.Title }}</a></p>
 				<div class="answer hide">{{ $value.Content }}</div>
 
 			{{ end }}
@@ -31,7 +31,7 @@
 
 			{{ range $key, $value := .Site.Taxonomies.tags.nsefaq }}
 
-				<p><a href="" class="question">{{ $value.Title }}</a></p>
+				<p><a href="" class="question arrow-right">{{ $value.Title }}</a></p>
 				<div class="answer hide">{{ $value.Content }}</div>
 
 			{{ end }}

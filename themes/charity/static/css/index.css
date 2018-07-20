@@ -1896,11 +1896,28 @@ sup {
   background-color: #00295C;
   border-radius: 4px;
   padding: 20px 100px 20px 25px;
-  text-decoration: none; }
+  text-decoration: none;
+  position: relative; }
 
 .alt.faq a.question {
   background-color: #D1E5FB;
   color: #00295C; }
+
+.arrow-down::after {
+  content: '\25bc';
+  padding-left: 0.5em;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.arrow-right::after {
+  content: '\25ba';
+  padding-left: 0.5em;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .alt h3 {
   color: #fff; }

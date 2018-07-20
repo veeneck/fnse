@@ -67,6 +67,8 @@ $(document).ready(function() {
 
 	$('.question').click(function(event)  {
 		event.preventDefault();
+		$(this).toggleClass("arrow-right");
+		$(this).toggleClass("arrow-down");
 		$(this).parent().next().toggleClass("hide");
 		return false;
 	});
