@@ -1,9 +1,27 @@
-.faq strong.question {
-	color: $darkGrey;
+.faq a.question {
+	color: $white;
 	display: block;
 	margin: 50px 0px -20px 0px;
-	@include boldFontStack();
-	font-size: 120%;
+	@include altProseStack();
+	font-size: 100%;
+	background-color: $darkBlue;
+	border-radius: $borderRadius;
+	padding: 20px 100px 20px 25px;
+	text-decoration: none;
+}
+
+.alt.faq a.question {
+	background-color: $lightBlue;
+	color: $darkBlue;
+}
+
+.alt h3 {
+	color: $white;
+}
+
+.alt .answer {
+	color: $white;
+	margin-top: 50px;
 }
 
 .faq .toc {
@@ -30,4 +48,8 @@
 	margin: 10px 20px;
 	background-color: $lightGrey;
 	@include altProseStack();
+}
+
+.hide {
+	display: none;
 }

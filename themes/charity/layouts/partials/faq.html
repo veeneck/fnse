@@ -1,28 +1,6 @@
 {{ partial "hero.html" . }}
 
-
 <section class="module text_left faq">
-
-	<div class="container toc">
-
-		<ul> 
-			{{ range $key, $value := .Site.Taxonomies.tags.fnsefaq }}
-				<li><a href="#">{{ $value.Title }}</a></li>
-			{{ end }}
-		</ul>
-
-		<ul> 
-			{{ range $key, $value := .Site.Taxonomies.tags.nsefaq }}
-				<li><a href="#">{{ $value.Title }}</a></li>
-			{{ end }}
-		</ul>
-
-	</div>
-
-</section>
-
-
-<section class="module text_left faq grey_module padded-module">
 
 	<div class="container">
 
@@ -32,8 +10,8 @@
 
 			{{ range $key, $value := .Site.Taxonomies.tags.fnsefaq }}
 
-				<p><strong class="question">{{ $value.Title }}</strong></p>
-				<p>{{ $value.Content }}</p>
+				<p><a href="" class="question">{{ $value.Title }}</a></p>
+				<div class="answer hide">{{ $value.Content }}</div>
 
 			{{ end }}
 
@@ -43,7 +21,7 @@
 
 </section>
 
-<section class="module text_left faq">
+<section class="module text_left faq blue_module padded-module alt">
 
 	<div class="container">
 
@@ -53,8 +31,8 @@
 
 			{{ range $key, $value := .Site.Taxonomies.tags.nsefaq }}
 
-				<p><strong class="question">{{ $value.Title }}</strong></p>
-				<p>{{ $value.Content }}</p>
+				<p><a href="" class="question">{{ $value.Title }}</a></p>
+				<div class="answer hide">{{ $value.Content }}</div>
 
 			{{ end }}
 

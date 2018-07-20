@@ -172,6 +172,9 @@ textarea {
 .grey_module {
   background-color: #FAFAFA; }
 
+.blue_module {
+  background-color: #00295C; }
+
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
   max-width: 1300px;
@@ -582,6 +585,9 @@ textarea {
 
 .grey_module {
   background-color: #FAFAFA; }
+
+.blue_module {
+  background-color: #00295C; }
 
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
@@ -1880,13 +1886,28 @@ sup {
 .grid9 {
   background-image: url("/images/grid9.jpg"); }
 
-.faq strong.question {
-  color: #3A3A3A;
+.faq a.question {
+  color: #fff;
   display: block;
   margin: 50px 0px -20px 0px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
-  font-size: 120%; }
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 100%;
+  background-color: #00295C;
+  border-radius: 4px;
+  padding: 20px 100px 20px 25px;
+  text-decoration: none; }
+
+.alt.faq a.question {
+  background-color: #D1E5FB;
+  color: #00295C; }
+
+.alt h3 {
+  color: #fff; }
+
+.alt .answer {
+  color: #fff;
+  margin-top: 50px; }
 
 .faq .toc {
   display: -webkit-box;
@@ -1917,6 +1938,9 @@ sup {
   background-color: #FAFAFA;
   font-family: 'Lato', sans-serif;
   font-weight: 100; }
+
+.hide {
+  display: none; }
 
 body {
   margin: 0;

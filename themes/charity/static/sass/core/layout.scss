@@ -33,6 +33,10 @@
     background-color: $lightGrey;
 }
 
+.blue_module {
+    background-color: $darkBlue;
+}
+
 /* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
 .container {
     max-width: $maxWidth;

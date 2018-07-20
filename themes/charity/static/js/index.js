@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 
 		// Select all links with hashes
-	$('a[href*="#"]')
+	/*$('a[href*="#"]')
 	  // Remove links that don't actually link to anything
 	  .not('[href="#"]')
 	  .not('[href="#0"]')
@@ -54,7 +54,7 @@ $(document).ready(function() {
 	        });
 	      }
 	    }
-	  });
+	  });*/
 
 
 	$(".triggerMe").inViewport(function(px){
@@ -63,6 +63,12 @@ $(document).ready(function() {
 
 	$(".northshoreframed").delay(200).queue(function(){
     	$(this).addClass("triggeredCSS3").dequeue();
+	});
+
+	$('.question').click(function(event)  {
+		event.preventDefault();
+		$(this).parent().next().toggleClass("hide");
+		return false;
 	});
 
 });
