@@ -8,4 +8,4 @@ image: "/images/kindergarden.png"
 caption: This is a caption
 
 ---
-There is something incredibly rewarding about sending your child to the school next door. Friends, activites and events are nearby. You see the same faces, and grow to care for and respect your neighbors. Coincidentally, this has created an incredibly active group of parents and community members making up both the [Parent and Teacher Association](#) (PTA) and [School Advisory Committee](#) (SAC) who continue to support and challenge the school to be the best it can be.
+There is something incredibly rewarding about sending your child to the school next door. Friends, activites and events are nearby. You see the same faces, and grow to care for and respect your neighbors. Coincidentally, this has created an incredibly active group of parents and community members making up both the [Parent and Teacher Association](/nse#ParentTeacherAssociation) (PTA) and [School Advisory Committee](/nse#7<sup>th</sup>Hour) (SAC) who continue to support and challenge the school to be the best it can be.
