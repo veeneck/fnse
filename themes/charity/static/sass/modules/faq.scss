@@ -24,6 +24,7 @@
     right: 25px;
     top: 50%;
 	transform: translateY(-50%);
+	color: $white;
   }
 }
 
@@ -35,7 +36,15 @@
     right: 25px;
     top: 50%;
 	transform: translateY(-50%);
+	@include transition(all 0.3s ease-out);
+	color: $blue;
   }
+}
+
+.alt .arrow-down {
+	&::after {
+		color: $darkBlue !important; 
+	}
 }
 
 .alt h3 {

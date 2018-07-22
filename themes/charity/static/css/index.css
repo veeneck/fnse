@@ -1909,7 +1909,8 @@ sup {
   position: absolute;
   right: 25px;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  color: #fff; }
 
 .arrow-right::after {
   content: '\25ba';
@@ -1917,7 +1918,16 @@ sup {
   position: absolute;
   right: 25px;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: #3C70AC; }
+
+.alt .arrow-down::after {
+  color: #00295C !important; }
 
 .alt h3 {
   color: #fff; }
