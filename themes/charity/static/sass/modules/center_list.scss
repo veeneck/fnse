@@ -27,20 +27,33 @@
 
 .center_list ul {
 	@include flex();
-	flex-direction: row;
+	flex-direction: column;
 	list-style-type: none;
 	flex-wrap: wrap;
 	padding-left: 0px;
+
+	@include breakpoint(condensed-screen) {
+		flex-direction: row;
+	}
 }
 
 .center_list li:nth-child(2) {
-	margin: 50px 5%;
+	margin: 10px 0px;
+	@include breakpoint(condensed-screen) {
+		margin: 50px 5%;
+	}
 }
 
 .center_list li {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: 30%;
+	 @extend %clearfix;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	@include breakpoint(condensed-screen) {
+		width: 30%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 }
 
 .center_list p {
@@ -52,9 +65,17 @@
 
 .shield {
 	height: 140px;
-	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: contain;
+	float: left;
+	width: 25%;
+	margin-right: 20px;
+	@include breakpoint(condensed-screen) {
+		width: 100%;
+		float: none;
+		margin-right: 0px;
+	}
 }
 
 .grey_list .shield {
@@ -80,6 +101,7 @@
 	display: block;
 	margin: 25px 0px 10px 0px;
 	@include boldFontStack();
+	padding-top: 5px;
 }
 
 .list_item span {
@@ -96,15 +118,21 @@
 }
 
 .pta li {
-	width: 23.5%;
 	background-color: $white;
-	padding: 50px 4%;
+	padding: 2% 4%;
+	width: 92%;
 	border-radius: $borderRadius;
 	///border: 3px solid $grey;
+	@include breakpoint(condensed-screen) {
+		width: 23.5%;
+		padding: 50px 4%;
+	}
 }
 
 .pta li:nth-child(2) {
-	margin: 50px 2%;
+	@include breakpoint(condensed-screen) {
+		margin: 50px 2%;
+	}
 }
 
 /* --------------- VOLUNTEER WAYS ---------------*/

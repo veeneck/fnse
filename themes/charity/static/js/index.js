@@ -73,6 +73,13 @@ $(document).ready(function() {
 		return false;
 	});
 
+	if(window.location.hash) {
+  		var el = $(window.location.hash)
+  		el.toggleClass("arrow-right");
+		el.toggleClass("arrow-down");
+		el.parent().next().toggleClass("hide");
+	} 
+
 });
 
 ;(function($, win) {

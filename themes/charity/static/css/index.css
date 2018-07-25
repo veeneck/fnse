@@ -1,9 +1,9 @@
-.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer, .faq ul {
+.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -412,12 +412,12 @@ a.button {
 .button.more::before {
   content: url("/images/icons/icon_more.png"); }
 
-.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .half_half .rightHalfContainer, .faq ul {
+.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -1676,24 +1676,43 @@ sup {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style-type: none;
   flex-wrap: wrap;
   padding-left: 0px; }
+  @media (min-width: 35em) {
+    .center_list ul {
+      flex-direction: row; } }
 
 .center_list li:nth-child(2) {
-  margin: 50px 5%; }
+  margin: 10px 0px; }
+  @media (min-width: 35em) {
+    .center_list li:nth-child(2) {
+      margin: 50px 5%; } }
 
 .center_list li {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 30%; }
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%; }
+  @media (min-width: 35em) {
+    .center_list li {
+      width: 30%;
+      margin-top: 50px;
+      margin-bottom: 50px; } }
 
 .shield {
   height: 140px;
-  width: 100%;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  background-size: contain;
+  float: left;
+  width: 25%;
+  margin-right: 20px; }
+  @media (min-width: 35em) {
+    .shield {
+      width: 100%;
+      float: none;
+      margin-right: 0px; } }
 
 .grey_list .shield {
   background-image: url("/images/grey_shield.png"); }
@@ -1709,7 +1728,8 @@ sup {
   display: block;
   margin: 25px 0px 10px 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+  padding-top: 5px; }
 
 .list_item span {
   display: block;
@@ -1719,13 +1739,18 @@ sup {
 
 /* --------------- PTA ---------------*/
 .pta li {
-  width: 23.5%;
   background-color: #fff;
-  padding: 50px 4%;
+  padding: 2% 4%;
+  width: 92%;
   border-radius: 4px; }
+  @media (min-width: 35em) {
+    .pta li {
+      width: 23.5%;
+      padding: 50px 4%; } }
 
-.pta li:nth-child(2) {
-  margin: 50px 2%; }
+@media (min-width: 35em) {
+  .pta li:nth-child(2) {
+    margin: 50px 2%; } }
 
 /* --------------- VOLUNTEER WAYS ---------------*/
 .ways p {
@@ -1781,19 +1806,24 @@ sup {
       display: flex; } }
 
 .half_half .wrapper {
-  margin: auto auto;
   display: block;
   position: relative;
-  width: 70%;
-  text-align: left;
+  width: 100%;
+  text-align: center;
   padding: 50px 20px; }
   @media (min-width: 35em) {
     .half_half .wrapper {
+      text-align: left;
+      width: 70%;
+      margin: auto auto;
       padding: 150px 100px; } }
   @media (min-width: 1080px) {
     .half_half .wrapper {
       top: 50%;
       transform: translateY(-50%); } }
+
+.wrapper p {
+  text-align: left; }
 
 .half_half .leftHalfContainer {
   background-color: #FAFAFA;

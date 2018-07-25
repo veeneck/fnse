@@ -9,19 +9,25 @@
 }
 
 .half_half .wrapper {
-	margin: auto auto;
 	display: block;
 	position: relative;
-	width: 70%;
-	text-align: left;
+	width: 100%;
+	text-align: center;
 	padding: 50px 20px;
     @include breakpoint(condensed-screen) {
+    	text-align: left;
+    	width: 70%;
+    	margin: auto auto;
         padding: 150px 100px;
     }
     @include breakpoint(normal-screen) {
     	top: 50%;
 		transform: translateY(-50%);
     }
+}
+
+.wrapper p {
+	text-align: left;
 }
 
 .half_half .leftHalfContainer {
