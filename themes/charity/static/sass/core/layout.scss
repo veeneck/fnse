@@ -79,6 +79,10 @@ figcaption {
     color: $darkGrey;
     font-size: 80%;
     margin-top: 10px;
+    display: none;
+    @include breakpoint(condensed-screen) {
+        display: block;
+    }   
 }
 
 /* -------------- THIRDS MODULE ------------- */
