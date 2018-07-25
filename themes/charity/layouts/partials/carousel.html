@@ -21,7 +21,7 @@
 
 		</div>
 
-		{{ if isset .Params "button" }}
+		{{ if and (isset .Params "button") (ne .Params.button "") }}
 			<a href="{{ .Params.link }}" class="button blue {{ .Params.button_icon }}">{{ .Params.button}}</a>
 		{{ end }}
 
