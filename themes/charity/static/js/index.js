@@ -110,7 +110,10 @@ $(document).ready(function() {
 		      settings: {
 		        slidesToShow: 1,
 		        slidesToScroll: 1,
-		        dots: true
+		        dots: true,
+		         dotsClass: "dotstyle",
+		        	  centerMode: true,
+  			variableWidth: true,
 		      }
 		    }
 		    // You can unslick at a given breakpoint now by adding:
