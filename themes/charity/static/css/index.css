@@ -936,7 +936,7 @@ h1 img {
 
 .navigation {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fff;
   z-index: 10; }
 
 .nslogo {
@@ -959,9 +959,8 @@ h1 img {
 /*-----------------Dropdown Menu---------------*/
 nav[role=navigation] {
   overflow: hidden;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
-  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
   width: 0px; }
   @media (min-width: 1080px) {
     nav[role=navigation] {

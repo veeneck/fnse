@@ -38,7 +38,7 @@ h1 img {
 
 .navigation {
     width: 100%;
-  	background-color: $lightGrey;
+  	background-color: $white;
   	z-index: 10;
 }
 
@@ -69,8 +69,8 @@ nav[role=navigation] {
     @extend %clearfix;
     overflow: hidden;
     ///@include transition(all 0.3s ease-out);
-    @include boldFontStack();
-    font-weight: 600;
+    @include altProseStack();
+    ///font-weight: 600;
     width: 0px;
 
     @include breakpoint(normal-screen) {
