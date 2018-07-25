@@ -15,7 +15,8 @@
     text-align: center;
     @include breakpoint(condensed-screen) {
         text-align: right;
-         min-height: 72vh;
+         height: 90vh;
+         margin-top: -139px;
     }
     border-radius: $borderRadius;
 }

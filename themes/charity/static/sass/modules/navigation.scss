@@ -6,7 +6,6 @@
 header {
     @include flex();
     max-width: 100%;
-    margin: 0px auto 0px auto;
     @include heavyFontStack();
     height: 60px;
     position: absolute;
@@ -15,6 +14,9 @@ header {
   	@include breakpoint(condensed-screen) {
          height: 89px;
          position: relative;
+         border-radius: $borderRadius;
+         margin: 50px auto 0px auto;
+         max-width: 90%;
     }
 }
 

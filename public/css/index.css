@@ -838,7 +838,8 @@ a.button {
   @media (min-width: 35em) {
     .hero {
       text-align: right;
-      min-height: 72vh; } }
+      height: 90vh;
+      margin-top: -139px; } }
 
 .castle-wall {
   background-image: url("/images/castle_wall_mobile.png");
@@ -908,7 +909,6 @@ header {
   display: -webkit-flex;
   display: flex;
   max-width: 100%;
-  margin: 0px auto 0px auto;
   font: 100% 'Peace Sans', Helvetica, sans-serif;
   height: 60px;
   position: absolute;
@@ -916,7 +916,10 @@ header {
   @media (min-width: 35em) {
     header {
       height: 89px;
-      position: relative; } }
+      position: relative;
+      border-radius: 4px;
+      margin: 50px auto 0px auto;
+      max-width: 90%; } }
 
 h1 {
   margin: auto 0px;
