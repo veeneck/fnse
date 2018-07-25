@@ -100,7 +100,6 @@ $(document).ready(function() {
 		        slidesToShow: 1,
 		        slidesToScroll: 1,
 		        dots: true,
-		        dotsClass: "dotstyle",
 		        	  centerMode: true,
   			variableWidth: true,
 		      }
