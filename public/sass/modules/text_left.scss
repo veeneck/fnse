@@ -48,15 +48,19 @@
 	width: 100%;
 	justify-content: space-evenly;
 	padding-left: 0px;
+	margin-left: 0px;
 }
 
 .text_left li {
 	border-radius: $borderRadius;
 	///border: 3px solid $grey;
 	padding: 10px 20px;
-	margin: 10px 20px;
+	margin: 5px 5px;
 	background-color: $lightGrey;
 	@include altProseStack();
+	@include breakpoint(condensed-screen) {
+		margin: 10px 20px;
+	}
 }
 
 .volunteerinfo figure {

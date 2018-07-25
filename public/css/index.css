@@ -1369,15 +1369,19 @@ div.menu-link {
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
-  padding-left: 0px; }
+  padding-left: 0px;
+  margin-left: 0px; }
 
 .text_left li {
   border-radius: 4px;
   padding: 10px 20px;
-  margin: 10px 20px;
+  margin: 5px 5px;
   background-color: #FAFAFA;
   font-family: 'Lato', sans-serif;
   font-weight: 100; }
+  @media (min-width: 35em) {
+    .text_left li {
+      margin: 10px 20px; } }
 
 .volunteerinfo figure {
   height: 500px; }
@@ -1429,15 +1433,20 @@ sup {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-left: 0px;
+  padding-left: 0px; }
 
 .text_right li {
   border-radius: 4px;
   padding: 10px 20px;
-  margin: 10px 20px;
+  margin: 5px 5px;
   background-color: #FAFAFA;
   font-family: 'Lato', sans-serif;
   font-weight: 100; }
+  @media (min-width: 35em) {
+    .text_right li {
+      margin: 10px 20px; } }
 
 .text_right figcaption {
   float: left; }
