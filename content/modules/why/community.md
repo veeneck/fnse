@@ -1,5 +1,5 @@
 ---
-title: Community!
+title: Community
 id: modules/why/community.md
 type: module
 module_type: text_right
