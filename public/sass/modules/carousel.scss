@@ -31,7 +31,7 @@
 }
 
 .project {
-	width: 350px;
+	width: 300px;
 	background-color: $white;
 	background-clip: padding-box;
 	background-repeat: no-repeat;
@@ -66,66 +66,94 @@
 	margin-bottom: 15px;
 }
 
-ul.dotstyle{
-	position: relative;
-	display: inline-block;
-	margin: 20px 0px 25px 0px;
-	padding: 0;
-	list-style: none;
-	cursor: default;
-	@include breakpoint(normal-screen) {
-		display: none;
-	}
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
 }
 
-.dotstyle li {
-	position: relative;
-	display: block;
-	float: left;
-	margin: 0 16px;
-	width: 10px;
-	height: 10px;
-	cursor: pointer;
+.slick-dots
+{
+    position: absolute;
+    bottom: -40px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 20px 0px 0px 0px;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .75;
+    color: $lightBlue;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+	opacity: 1;
+    color: $white;
 }
 
-.dotstyle li button {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	outline: none;
-	border-radius: 50%;;
-	text-indent: -999em;
-	cursor: pointer; /* make the text accessible to screen readers */
-	position: absolute;
-}
-
-/* Fill up */
-.dotstyle-fillup li a {
-	overflow: hidden;
-	background-color: rgba(0,0,0,0);
-	box-shadow: inset 0 0 0 1px $lightBlue;
-	transition: background 0.3s;
-}
-
-.dotstyle-fillup li a::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	height: 0;
-	left: 0;
-	width: 100%;
-	background-color: $blue;
-	box-shadow: 0 0 1px $blue;
-	transition: height 0.3s;
-}
-
-.dotstyle-fillup li a:hover,
-.dotstyle-fillup li a:focus {
-	background-color: rgba(0,0,0,0.2);
-}
-
-.dotstyle-fillup li.current a::after {
-	height: 100%;
-}
 
