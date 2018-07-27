@@ -11,10 +11,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
 
     text-align: center;
     @include breakpoint(condensed-screen) {
+      background-attachment: fixed;
         text-align: right;
          height: 90vh;
          margin-top: -139px;
