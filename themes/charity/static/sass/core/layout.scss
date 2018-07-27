@@ -60,12 +60,16 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+    visibility: hidden;
+
    @include transition(all 0.3s);
 }
 
 .coreImage.triggeredCSS3 {
    -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+    visibility: visible;
+
 }
 
 figure {
@@ -306,16 +310,21 @@ a.button {
     vertical-align: middle;
     line-height: normal;
     margin-right: 10px;
-         -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  visibility: hidden;
 
      @include breakpoint(condensed-screen) {
         margin-right: 15px;
 
     }
+}
+
+.button.triggerMe::before  {
+         -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  visibility: hidden;
+    -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .button.triggeredCSS3::before {

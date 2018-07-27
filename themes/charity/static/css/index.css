@@ -378,6 +378,7 @@ textarea {
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -386,7 +387,8 @@ textarea {
 
 .coreImage.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
+  animation-name: fadeIn;
+  visibility: visible; }
 
 figure {
   width: 100%;
@@ -589,15 +591,19 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 10px;
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
+
+.button.triggerMe::before {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  visibility: hidden; }
-  @media (min-width: 35em) {
-    .button::before {
-      margin-right: 15px; } }
+  visibility: hidden;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s; }
 
 .button.triggeredCSS3::before {
   -webkit-animation-name: jackInTheBox;
@@ -1014,6 +1020,7 @@ textarea {
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -1022,7 +1029,8 @@ textarea {
 
 .coreImage.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
+  animation-name: fadeIn;
+  visibility: visible; }
 
 figure {
   width: 100%;
@@ -1225,15 +1233,19 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 10px;
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
+
+.button.triggerMe::before {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  visibility: hidden; }
-  @media (min-width: 35em) {
-    .button::before {
-      margin-right: 15px; } }
+  visibility: hidden;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s; }
 
 .button.triggeredCSS3::before {
   -webkit-animation-name: jackInTheBox;
