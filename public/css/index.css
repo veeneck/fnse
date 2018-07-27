@@ -593,14 +593,16 @@ a.button {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+  visibility: hidden; }
   @media (min-width: 35em) {
     .button::before {
       margin-right: 15px; } }
 
 .button.triggeredCSS3::before {
   -webkit-animation-name: jackInTheBox;
-  animation-name: jackInTheBox; }
+  animation-name: jackInTheBox;
+  visibility: visible; }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
@@ -1227,14 +1229,16 @@ a.button {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+  visibility: hidden; }
   @media (min-width: 35em) {
     .button::before {
       margin-right: 15px; } }
 
 .button.triggeredCSS3::before {
   -webkit-animation-name: jackInTheBox;
-  animation-name: jackInTheBox; }
+  animation-name: jackInTheBox;
+  visibility: visible; }
 
 .button.heart::before {
   content: url("/images/icons/icon_heart.png"); }
