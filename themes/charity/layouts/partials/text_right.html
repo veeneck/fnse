@@ -7,7 +7,7 @@
 			{{ partial "module_header.html" $.module }}
 
 			<figure>
-				<img src="{{ $.module.Params.image }}" class="coreImage" />
+				<img src="{{ $.module.Params.image }}" class="coreImage triggerMe" />
 			 	<figcaption>
 			 		{{ $.module.Params.caption }}
 			 	</figcaption>
@@ -17,7 +17,7 @@
 
 			{{ if eq $.buttonClass "" }}
 				{{ if and (isset $.module.Params "button") (ne $.module.Params.button "") }}
-			<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
+			<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }} triggerMe">{{ $.module.Params.button}}</a>
 				{{ end }}
 			{{ end }}
 

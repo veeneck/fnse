@@ -9,7 +9,7 @@
 
 			{{ if eq $.buttonClass "" }}
 				{{ if isset $.module.Params "button" }}
-					<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}">{{ $.module.Params.button}}</a>
+					<a href="{{ $.module.Params.link }}" class="button blue {{ $.module.Params.button_icon }}  triggerMe">{{ $.module.Params.button}}</a>
 				{{ end }}
 			{{ end }}
 
@@ -77,7 +77,7 @@
 
 			</script>
 	{{ else }}
-		<div class="rightHalfContainer" style="background-image: url('{{ $.module.Params.image }}');">
+		<div class="rightHalfContainer triggerMe" style="background-image: url('{{ $.module.Params.image }}');">
 
 		</div>
 	{{ end }}

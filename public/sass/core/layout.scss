@@ -56,6 +56,16 @@
     height: 100%;
     object-fit: cover;
     border-radius: $borderRadius;
+     -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+   @include transition(all 0.3s);
+}
+
+.coreImage.triggeredCSS3 {
+   -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
 figure {
@@ -120,6 +130,15 @@ h3:before {
   top: 0; 
   height: 3px; 
   width: 150px;
+           -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+h3.triggeredCSS3:before {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
 }
 
 .right h3 {
@@ -132,6 +151,7 @@ h3:before {
 .right h3:before {
     left: 50%;
     margin-left: -75px;
+
     @include breakpoint(condensed-screen) {
         right: 0;
         margin-left: 0px;
@@ -286,10 +306,20 @@ a.button {
     vertical-align: middle;
     line-height: normal;
     margin-right: 10px;
+         -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
      @include breakpoint(condensed-screen) {
         margin-right: 15px;
 
     }
+}
+
+.button.triggeredCSS3::before {
+      -webkit-animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
 }
 
 .button.heart::before {

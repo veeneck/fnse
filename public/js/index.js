@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 
 		// Select all links with hashes
-	/*$('a[href*="#"]')
+	$('a[href*="#"]')
 	  // Remove links that don't actually link to anything
 	  .not('[href="#"]')
 	  .not('[href="#0"]')
@@ -54,7 +54,7 @@ $(document).ready(function() {
 	        });
 	      }
 	    }
-	  });*/
+	  });
 
 
 	$(".triggerMe").inViewport(function(px){
