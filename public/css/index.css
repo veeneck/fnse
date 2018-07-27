@@ -378,6 +378,7 @@ textarea {
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -386,7 +387,8 @@ textarea {
 
 .coreImage.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
+  animation-name: fadeIn;
+  visibility: visible; }
 
 figure {
   width: 100%;
@@ -589,15 +591,19 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 10px;
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
+
+.button.triggerMe::before {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  visibility: hidden; }
-  @media (min-width: 35em) {
-    .button::before {
-      margin-right: 15px; } }
+  visibility: hidden;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s; }
 
 .button.triggeredCSS3::before {
   -webkit-animation-name: jackInTheBox;
@@ -1014,6 +1020,7 @@ textarea {
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -1022,7 +1029,8 @@ textarea {
 
 .coreImage.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
+  animation-name: fadeIn;
+  visibility: visible; }
 
 figure {
   width: 100%;
@@ -1225,15 +1233,19 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  margin-right: 10px;
+  margin-right: 10px; }
+  @media (min-width: 35em) {
+    .button::before {
+      margin-right: 15px; } }
+
+.button.triggerMe::before {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  visibility: hidden; }
-  @media (min-width: 35em) {
-    .button::before {
-      margin-right: 15px; } }
+  visibility: hidden;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s; }
 
 .button.triggeredCSS3::before {
   -webkit-animation-name: jackInTheBox;
@@ -1274,7 +1286,7 @@ body.fouroh {
 /*----------------------- Title and Background ------------------------------ */
 .hero {
   width: 100%;
-  height: 450px;
+  height: 90vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1737,21 +1749,37 @@ div.menu-link {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   padding: 75px 0px;
-  justify-content: space-evenly;
   background-color: #fff; }
+  @media (min-width: 1080px) {
+    .sitecontent {
+      justify-content: space-evenly;
+      flex-direction: row; } }
 
 .sitecontent img {
   width: 283px;
-  height: 255px; }
+  height: 255px;
+  margin: 0 auto;
+  margin-bottom: 35px; }
+  @media (min-width: 1080px) {
+    .sitecontent img {
+      margin: 0px 0px 0px 50px; } }
 
 .sitecontent ul {
   color: #3A3A3A;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   list-style-type: none;
-  margin-top: 0px; }
+  margin: 15px auto;
+  width: 60%;
+  text-align: center;
+  padding: 0px; }
+  @media (min-width: 1080px) {
+    .sitecontent ul {
+      width: auto;
+      text-align: left; } }
 
 .sitecontent li {
   font-family: 'Lato', sans-serif;

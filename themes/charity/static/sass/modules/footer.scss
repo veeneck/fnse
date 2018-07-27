@@ -89,22 +89,38 @@
 
 .sitecontent {
 	@include flex();
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
 	padding: 75px 0px;
-	justify-content: space-evenly;
 	background-color: $white;
+	@include breakpoint(normal-screen) {
+		justify-content: space-evenly;
+		flex-direction: row;
+	}
 }
 
 .sitecontent img {
 	width: 283px;
 	height: 255px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	@include breakpoint(normal-screen) {
+		margin: 0px 0px 0px 50px;
+	}
 }
 
 .sitecontent ul {
 	color: $darkGrey;
 	@include boldFontStack();
 	list-style-type: none;
-	margin-top: 0px;
+	margin: 15px auto;
+	width: 60%;
+	text-align: center;
+	padding: 0px;
+	@include breakpoint(normal-screen) {
+		width: auto;
+		text-align: left;
+	}
 }
 
 .sitecontent li {
