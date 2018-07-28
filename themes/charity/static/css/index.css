@@ -238,10 +238,17 @@ html {
       font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     margin-bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300; }
+    font-weight: 300;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  html p.triggeredCSS3 {
+    margin-top: 1.5rem; }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -893,10 +900,17 @@ html {
       font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     margin-bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300; }
+    font-weight: 300;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  html p.triggeredCSS3 {
+    margin-top: 1.5rem; }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }

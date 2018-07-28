@@ -60,10 +60,15 @@ html {
 /* Copy & Lists */
 p {
   line-height: $leading;
-  margin-top: $leading;
+  margin-top: $leading + 1;
   margin-bottom: 0;
   @include proseFontStack();
   font-weight: 300;
+  @include transition(all 1s);
+}
+
+p.triggeredCSS3 {
+  margin-top: $leading;
 }
 
 ul, ol {
