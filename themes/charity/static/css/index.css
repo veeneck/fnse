@@ -1356,13 +1356,14 @@ body.fouroh {
 .content-bottom {
   z-index: 1;
   position: absolute;
-  bottom: 100px; }
+  bottom: 100px;
+  left: 0; }
   @media (min-width: 35em) {
     .content-bottom {
-      position: absolute;
       top: 47%;
       right: 50px;
-      width: 800px; } }
+      left: inherit;
+      max-width: 800px; } }
 
 @media (min-width: 35em) {
   .nocta .content {
