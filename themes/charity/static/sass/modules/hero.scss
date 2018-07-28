@@ -71,7 +71,7 @@
 .content-bottom {
     z-index: 1;
     position: absolute;
-    bottom: 125px;
+    bottom: 100px;
    @include breakpoint(condensed-screen) {
     position: absolute;
     top: 47%;
