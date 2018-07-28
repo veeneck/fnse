@@ -89,7 +89,8 @@ figure {
 }
 
 figure.triggeredCSS3 {
-      @include breakpoint(normal-screen) {
+    margin-top: -25px;
+    @include breakpoint(normal-screen) {
         margin-top: -75px;
     }
 }

@@ -407,9 +407,11 @@ figure {
     figure {
       margin-top: 0px; } }
 
-@media (min-width: 1080px) {
-  figure.triggeredCSS3 {
-    margin-top: -75px; } }
+figure.triggeredCSS3 {
+  margin-top: -25px; }
+  @media (min-width: 1080px) {
+    figure.triggeredCSS3 {
+      margin-top: -75px; } }
 
 figcaption {
   font-style: italic;
@@ -1058,9 +1060,11 @@ figure {
     figure {
       margin-top: 0px; } }
 
-@media (min-width: 1080px) {
-  figure.triggeredCSS3 {
-    margin-top: -75px; } }
+figure.triggeredCSS3 {
+  margin-top: -25px; }
+  @media (min-width: 1080px) {
+    figure.triggeredCSS3 {
+      margin-top: -75px; } }
 
 figcaption {
   font-style: italic;
