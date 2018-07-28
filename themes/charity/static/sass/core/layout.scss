@@ -76,9 +76,11 @@ figure {
     width: 100%;
     margin: 1.5rem 0px 0px 0px;
      @include transition(all 1s);
+     padding-top: 25px;
 
     /* Wrap the text around the image. */
     @include breakpoint(condensed-screen) {
+        padding-top: 0px;
         width: 45%;
     }
 
@@ -89,7 +91,7 @@ figure {
 }
 
 figure.triggeredCSS3 {
-    margin-top: -25px;
+    padding-top: 0px;
     @include breakpoint(normal-screen) {
         margin-top: -75px;
     }

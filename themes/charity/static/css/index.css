@@ -398,17 +398,19 @@ figure {
   -ms-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+  padding-top: 25px;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
     figure {
+      padding-top: 0px;
       width: 45%; } }
   @media (min-width: 1080px) {
     figure {
       margin-top: 0px; } }
 
 figure.triggeredCSS3 {
-  margin-top: -25px; }
+  padding-top: 0px; }
   @media (min-width: 1080px) {
     figure.triggeredCSS3 {
       margin-top: -75px; } }
@@ -1051,17 +1053,19 @@ figure {
   -ms-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+  padding-top: 25px;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
     figure {
+      padding-top: 0px;
       width: 45%; } }
   @media (min-width: 1080px) {
     figure {
       margin-top: 0px; } }
 
 figure.triggeredCSS3 {
-  margin-top: -25px; }
+  padding-top: 0px; }
   @media (min-width: 1080px) {
     figure.triggeredCSS3 {
       margin-top: -75px; } }
