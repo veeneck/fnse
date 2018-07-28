@@ -1356,7 +1356,7 @@ body.fouroh {
 .content-bottom {
   z-index: 1;
   position: absolute;
-  bottom: 150px; }
+  bottom: 125px; }
   @media (min-width: 35em) {
     .content-bottom {
       position: absolute;
