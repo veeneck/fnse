@@ -238,10 +238,17 @@ html {
       font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     margin-bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300; }
+    font-weight: 300;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  html p.triggeredCSS3 {
+    margin-top: 1.5rem; }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -531,6 +538,21 @@ h3.triggeredCSS3:before {
   left: 0; }
 
 /*----------------------- LINKS ------------------------------ */
+section a {
+  color: #3C70AC;
+  text-decoration: none;
+  border-bottom: 1px solid #3C70AC; }
+
+.blue_module a, .blue_list a {
+  color: #D1E5FB;
+  border-bottom: 1px solid #D1E5FB; }
+
+section a:hover {
+  border-bottom: 1px dashed #3C70AC; }
+
+.blue_module a:hover, .blue_list a:hover {
+  border-bottom: 1px dashed #D1E5FB; }
+
 a.button {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
@@ -590,7 +612,8 @@ a.button {
     opacity: 1;
 }*/
 .button:hover {
-  background-color: #00295C; }
+  background-color: #00295C;
+  border: none; }
 
 @media (min-width: 35em) {
   .right a.button {
@@ -610,8 +633,8 @@ a.button {
       margin-right: 15px; } }
 
 .button.triggerMe::before {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   visibility: hidden;
@@ -893,10 +916,17 @@ html {
       font-size: 137.5%; } }
   html p {
     line-height: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     margin-bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300; }
+    font-weight: 300;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  html p.triggeredCSS3 {
+    margin-top: 1.5rem; }
   html ul, html ol {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
@@ -1186,6 +1216,21 @@ h3.triggeredCSS3:before {
   left: 0; }
 
 /*----------------------- LINKS ------------------------------ */
+section a {
+  color: #3C70AC;
+  text-decoration: none;
+  border-bottom: 1px solid #3C70AC; }
+
+.blue_module a, .blue_list a {
+  color: #D1E5FB;
+  border-bottom: 1px solid #D1E5FB; }
+
+section a:hover {
+  border-bottom: 1px dashed #3C70AC; }
+
+.blue_module a:hover, .blue_list a:hover {
+  border-bottom: 1px dashed #D1E5FB; }
+
 a.button {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
@@ -1245,7 +1290,8 @@ a.button {
     opacity: 1;
 }*/
 .button:hover {
-  background-color: #00295C; }
+  background-color: #00295C;
+  border: none; }
 
 @media (min-width: 35em) {
   .right a.button {
@@ -1265,8 +1311,8 @@ a.button {
       margin-right: 15px; } }
 
 .button.triggerMe::before {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   visibility: hidden;
@@ -1356,13 +1402,14 @@ body.fouroh {
 .content-bottom {
   z-index: 1;
   position: absolute;
-  bottom: 150px; }
+  bottom: 100px;
+  left: 0; }
   @media (min-width: 35em) {
     .content-bottom {
-      position: absolute;
       top: 47%;
       right: 50px;
-      width: 800px; } }
+      left: inherit;
+      max-width: 800px; } }
 
 @media (min-width: 35em) {
   .nocta .content {
@@ -1483,6 +1530,9 @@ ul.nav li a {
   @media (min-width: 1080px) {
     ul.nav li a {
       border: 0; } }
+
+ul.nav li a:hover {
+  color: #3C70AC; }
 
 ul.nav li a.selected {
   font-weight: 900 !important; }

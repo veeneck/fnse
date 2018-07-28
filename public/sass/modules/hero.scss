@@ -71,12 +71,13 @@
 .content-bottom {
     z-index: 1;
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
+    left: 0;
    @include breakpoint(condensed-screen) {
-    position: absolute;
     top: 47%;
     right: 50px;
-    width: 800px;
+    left: inherit;
+    max-width: 800px;
   }
     
 }

@@ -241,6 +241,25 @@ h3.triggeredCSS3:before {
 
 /*----------------------- LINKS ------------------------------ */
 
+section a {
+    color: $blue;
+    text-decoration: none;
+    border-bottom: 1px solid $blue;
+}
+
+.blue_module a, .blue_list a {
+    color: $lightBlue;
+    border-bottom: 1px solid $lightBlue;
+}
+
+section a:hover {
+    border-bottom: 1px dashed $blue;
+}
+
+.blue_module a:hover, .blue_list a:hover {
+    border-bottom: 1px dashed $lightBlue;
+}
+
 a.button {
     color: $white;
     @include boldFontStack();
@@ -300,6 +319,7 @@ a.button {
 
 .button:hover {
     background-color: $darkBlue;
+    border: none;
 }
 
 .right a.button {
@@ -327,8 +347,8 @@ a.button {
 }
 
 .button.triggerMe::before  {
-         -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+         -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   visibility: hidden;

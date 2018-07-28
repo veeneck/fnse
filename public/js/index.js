@@ -61,6 +61,10 @@ $(document).ready(function() {
 	    if(px) $(this).addClass("triggeredCSS3") ;
 	});
 
+	$("p").inViewport(function(px){
+	    if(px) $(this).addClass("triggeredCSS3") ;
+	});
+
 	$(".northshoreframed").delay(200).queue(function(){
     	$(this).addClass("triggeredCSS3").dequeue();
 	});
