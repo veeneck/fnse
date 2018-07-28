@@ -6,6 +6,9 @@ url: "/nse"
 hero_class: placeholder
 hero_title: Experience North Shore Elementary
 hero_subtitle: What you can expect to find at North Shore Elementary.
+hero_button_text: READ MORE
+hero_button_icon: more
+hero_link: "#GeneralInformation"
 image: "/images/recess.png"
 modules:
 - modules/northshore/nsegeneralinfo.md
@@ -17,7 +20,6 @@ modules:
 - modules/northshore/coolthings.md
 - modules/why/whynse.md
 - modules/common/faq3.md
-hero_button_text: ''
 
 ---
 hello world

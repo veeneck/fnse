@@ -15,7 +15,9 @@ modules:
 - modules/common/testimonial.md
 - modules/northshore/aboutnorthshore.md
 - modules/common/faq4.md
-hero_button_text: ''
+hero_button_text: READ MORE
+hero_button_icon: more
+hero_link: "#VolunteerforFNSE"
 
 ---
 hello world

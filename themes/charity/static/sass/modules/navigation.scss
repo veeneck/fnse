@@ -14,10 +14,18 @@ header {
   	@include breakpoint(condensed-screen) {
          height: 89px;
          position: relative;
-         border-radius: $borderRadius;
-         margin: 50px auto 0px auto;
-         max-width: 90%;
+         ///border-radius: $borderRadius;
+         //border-top: 1px solid $blue;
+         border-bottom: 3px solid $blue;
+         margin: 0px auto 0px auto;
+         max-width: 100%;
     }
+         /*-webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+      -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;*/
 }
 
 h1 {
@@ -88,7 +96,7 @@ ul.nav {
 
     @include breakpoint(normal-screen) {
     	height: 100%;
-    	margin: auto 0px;
+    	margin: auto 10px auto 0px;
         border: 0;
         text-align: right;
         font-size: 80%;
@@ -115,6 +123,7 @@ ul.nav li a {
     display: inline-block;
     @include breakpoint(normal-screen) {
     	border: 0;
+        font-size: 90%;
     }
 }
 

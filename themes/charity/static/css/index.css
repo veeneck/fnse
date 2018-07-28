@@ -21,7 +21,7 @@
   background-color: #3C70AC; }
 
 .purple {
-  background-color: #6566B5; }
+  background-color: #00295C; }
 
 .red {
   background-color: #C51E20; }
@@ -213,6 +213,29 @@
   -webkit-animation-name: tada;
   animation-name: tada; }
 
+/* ---------------- */
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -262,7 +285,6 @@ html {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
     color: #00295C;
     font-style: italic; }
   html h2, html h3, html h4, html h5, html h6 {
@@ -292,7 +314,8 @@ html {
         font-size: 2.6rem; } }
     @media (min-width: 1200px) {
       html h2 {
-        font-size: 3.1108rem; } }
+        font-size: 3.1108rem;
+        line-height: 3.3rem; } }
   html h3 {
     font-size: 1rem; }
     @media (min-width: 35em) {
@@ -699,7 +722,7 @@ body.fouroh {
   background-color: #3C70AC; }
 
 .purple {
-  background-color: #6566B5; }
+  background-color: #00295C; }
 
 .red {
   background-color: #C51E20; }
@@ -891,6 +914,29 @@ body.fouroh {
   -webkit-animation-name: tada;
   animation-name: tada; }
 
+/* ---------------- */
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown; }
+
 @font-face {
   font-family: 'Peace Sans';
   src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
@@ -940,7 +986,6 @@ html {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
     color: #00295C;
     font-style: italic; }
   html h2, html h3, html h4, html h5, html h6 {
@@ -970,7 +1015,8 @@ html {
         font-size: 2.6rem; } }
     @media (min-width: 1200px) {
       html h2 {
-        font-size: 3.1108rem; } }
+        font-size: 3.1108rem;
+        line-height: 3.3rem; } }
   html h3 {
     font-size: 1rem; }
     @media (min-width: 35em) {
@@ -1368,8 +1414,7 @@ body.fouroh {
     .hero {
       background-attachment: fixed;
       text-align: right;
-      height: 90vh;
-      margin-top: -139px; } }
+      height: 85vh; } }
 
 .castle-wall {
   background-image: url("/images/castle_wall_mobile.png");
@@ -1409,7 +1454,7 @@ body.fouroh {
       top: 47%;
       right: 50px;
       left: inherit;
-      max-width: 800px; } }
+      max-width: 1000px; } }
 
 @media (min-width: 35em) {
   .nocta .content {
@@ -1445,14 +1490,20 @@ header {
   font: 100% 'Peace Sans', Helvetica, sans-serif;
   height: 60px;
   position: absolute;
-  top: 0px; }
+  top: 0px;
+  /*-webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+      -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;*/ }
   @media (min-width: 35em) {
     header {
       height: 89px;
       position: relative;
-      border-radius: 4px;
-      margin: 50px auto 0px auto;
-      max-width: 90%; } }
+      border-bottom: 3px solid #3C70AC;
+      margin: 0px auto 0px auto;
+      max-width: 100%; } }
 
 h1 {
   margin: auto 0px;
@@ -1507,7 +1558,7 @@ ul.nav {
   @media (min-width: 1080px) {
     ul.nav {
       height: 100%;
-      margin: auto 0px;
+      margin: auto 10px auto 0px;
       border: 0;
       text-align: right;
       font-size: 80%; } }
@@ -1529,7 +1580,8 @@ ul.nav li a {
   display: inline-block; }
   @media (min-width: 1080px) {
     ul.nav li a {
-      border: 0; } }
+      border: 0;
+      font-size: 90%; } }
 
 ul.nav li a:hover {
   color: #3C70AC; }

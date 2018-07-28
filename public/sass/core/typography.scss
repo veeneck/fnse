@@ -87,7 +87,7 @@ blockquote {
   margin-top: $leading;
   margin-bottom: $leading;
   @include proseFontStack();
-  font-weight: 600;
+  ///font-weight: 600;
   color: $darkBlue;
   font-style: italic;
 }
@@ -126,6 +126,7 @@ h2 {
 
     @include breakpoint(large-screen) {
         font-size: 2.2 * $scale * 1rem;
+        line-height: $leading * 2.2;
     }
 
 }
