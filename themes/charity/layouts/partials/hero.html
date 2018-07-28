@@ -4,11 +4,13 @@
 	<div class="container">
 
 		<div class="content">
-			<h2>{{ .Params.hero_title }}</h2>
-			<p>{{ .Params.hero_subtitle }}</p>
-			{{ if and (isset .Params "hero_button_text") (ne .Params.hero_button_text "") }}
-				<a href="{{ .Params.hero_link }}" class="button blue {{ .Params.hero_button_icon }} triggerMe">{{ .Params.hero_button_text }}</a>
-			{{ end }}
+			<div class="content-bottom">
+				<h2>{{ .Params.hero_title }}</h2>
+				<p>{{ .Params.hero_subtitle }}</p>
+				{{ if and (isset .Params "hero_button_text") (ne .Params.hero_button_text "") }}
+					<a href="{{ .Params.hero_link }}" class="button blue {{ .Params.hero_button_icon }} triggerMe">{{ .Params.hero_button_text }}</a>
+				{{ end }}
+			</div>
 		</div>
 
 	</div>

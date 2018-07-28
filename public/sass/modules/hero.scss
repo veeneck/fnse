@@ -56,20 +56,29 @@
 }
 
 .hero .content {
-    max-width: 800px;
-    margin-top: 50vh;
-    z-index: 1;
-    position: relative;
+    ///max-width: 800px;
+    ///margin-top: 50vh;
+    //z-index: 1;
+    ///position: relative;
+    height: 60vh;
+    width: 100%;
     @include breakpoint(condensed-screen) {
-        margin-top: 50%;
-        float: right;
-        position: absolute;
-        bottom: 15%;
-        right: 50px;
     }
     @include breakpoint(large-screen) {
-        right: 12%;
     }
+}
+
+.content-bottom {
+    z-index: 1;
+    position: absolute;
+    bottom: 150px;
+   @include breakpoint(condensed-screen) {
+    position: absolute;
+    top: 47%;
+    right: 50px;
+    width: 800px;
+  }
+    
 }
 
 .nocta .content {
@@ -80,6 +89,9 @@
 
 .hero .container {
     margin: 0 auto !important;
+    width: 90%;
+    height: 100%;
+    position: relative;
 }
 
 .hero .button {

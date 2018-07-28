@@ -274,7 +274,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -285,7 +285,7 @@ html {
         font-size: 2.6rem; } }
     @media (min-width: 1200px) {
       html h2 {
-        font-size: 2.828rem; } }
+        font-size: 3.1108rem; } }
   html h3 {
     font-size: 1rem; }
     @media (min-width: 35em) {
@@ -929,7 +929,7 @@ html {
     font-size: 1.5rem; }
   html h2 {
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     margin-top: 3rem; }
     @media (min-width: 35em) {
       html h2 {
@@ -940,7 +940,7 @@ html {
         font-size: 2.6rem; } }
     @media (min-width: 1200px) {
       html h2 {
-        font-size: 2.828rem; } }
+        font-size: 3.1108rem; } }
   html h3 {
     font-size: 1rem; }
     @media (min-width: 35em) {
@@ -1350,27 +1350,29 @@ body.fouroh {
       display: block; } }
 
 .hero .content {
-  max-width: 800px;
-  margin-top: 50vh;
+  height: 60vh;
+  width: 100%; }
+
+.content-bottom {
   z-index: 1;
-  position: relative; }
+  position: absolute;
+  bottom: 150px; }
   @media (min-width: 35em) {
-    .hero .content {
-      margin-top: 50%;
-      float: right;
+    .content-bottom {
       position: absolute;
-      bottom: 15%;
-      right: 50px; } }
-  @media (min-width: 1200px) {
-    .hero .content {
-      right: 12%; } }
+      top: 47%;
+      right: 50px;
+      width: 800px; } }
 
 @media (min-width: 35em) {
   .nocta .content {
     bottom: 25%; } }
 
 .hero .container {
-  margin: 0 auto !important; }
+  margin: 0 auto !important;
+  width: 90%;
+  height: 100%;
+  position: relative; }
 
 .darken-pseudo {
   position: relative; }
