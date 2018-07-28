@@ -75,6 +75,7 @@
 figure {
     width: 100%;
     margin: 1.5rem 0px 0px 0px;
+     @include transition(all 1s);
 
     /* Wrap the text around the image. */
     @include breakpoint(condensed-screen) {
@@ -83,6 +84,12 @@ figure {
 
     /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */
     @include breakpoint(normal-screen) {
+        margin-top: 0px;
+    }
+}
+
+figure.triggeredCSS3 {
+      @include breakpoint(normal-screen) {
         margin-top: -75px;
     }
 }

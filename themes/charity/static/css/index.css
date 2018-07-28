@@ -393,6 +393,11 @@ textarea {
 figure {
   width: 100%;
   margin: 1.5rem 0px 0px 0px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
@@ -400,7 +405,11 @@ figure {
       width: 45%; } }
   @media (min-width: 1080px) {
     figure {
-      margin-top: -75px; } }
+      margin-top: 0px; } }
+
+@media (min-width: 1080px) {
+  figure.triggeredCSS3 {
+    margin-top: -75px; } }
 
 figcaption {
   font-style: italic;
@@ -1035,6 +1044,11 @@ textarea {
 figure {
   width: 100%;
   margin: 1.5rem 0px 0px 0px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   /* Wrap the text around the image. */
   /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
   @media (min-width: 35em) {
@@ -1042,7 +1056,11 @@ figure {
       width: 45%; } }
   @media (min-width: 1080px) {
     figure {
-      margin-top: -75px; } }
+      margin-top: 0px; } }
+
+@media (min-width: 1080px) {
+  figure.triggeredCSS3 {
+    margin-top: -75px; } }
 
 figcaption {
   font-style: italic;
@@ -1357,7 +1375,7 @@ body.fouroh {
   left: 0;
   right: 0;
   display: block !important;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.3); }
 
 /*----------------------- Navigation Styles ------------------------------ */
 header {

@@ -80,6 +80,7 @@ $(document).ready(function() {
 		el.parent().next().toggleClass("hide");
 	} 
 
+
 	  $('.sample-projects').slick({
 		  infinite: false,
 		  speed: 300,
@@ -121,7 +122,24 @@ $(document).ready(function() {
 		  ]
 	  });
 
+
+
 });
+
+// This would make images parallax themselves if backgorund-image were used instead of img tag
+	/*var velocity = 0.05;
+
+function update(){ 
+var pos = $(window).scrollTop(); 
+$('.coreImage').each(function() { 
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = $element.height()-18;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+   }); 
+   };
+
+ $(window).bind('scroll', update);*/
 
 ;(function($, win) {
   $.fn.inViewport = function(cb) {
