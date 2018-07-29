@@ -1,91 +1,57 @@
+{{ range $index, $value := .Params.modules }}
 
-<section class="center_list grey_list pta padded-module faqlist center">
+	{{ if eq $index 1}}
 
-	<div class="container">
+	<div class="castle-wall">&nbsp;</div>
 
-		<h3 class="">Frequently Asked Questions</h3>
+	<section class="module text_left faq" id="QuestionsAboutFNSE">
 
-		<ul>
-			<li class="list_item">
-				<div>
-					<div class="shield sustain"></div>
-					<strong>FNSE</strong>
-					<span>Have questions about our organization, donations, meetings, or other conerns?</span>
-					<a href="#QuestionsAboutFNSE" class="button blue more triggerMe">MORE</a>
-				</div>
-			</li>
-			<li class="list_item">
-				<div>
-					<div class="shield graduate"></div>
-					<strong>North Shore Elementary</strong>
-					<span>Looking to learn more about the school, programs, staff and what's in store?</span>
-					<a href="#QuestionsAboutNorthShoreElementary" class="button blue more triggerMe">MORE</a>
-				</div>
-			</li>
-			<li class="list_item">
-				<div>
-					<div class="shield community"></div>
-					<strong>Contact Us</strong>
-					<span>Please reach out to us if one of your questions wasn't answered, or with feedback.</span>
-					<a href="#contact" class="button blue more triggerMe">MORE</a>
-				</div>
-			</li>
-		</ul>
+		<div class="container">
 
-	</div>
+			<div class="copy left">
 
-</section>
+				<h3>Questions About FNSE</h3>
 
-<div class="castle-wall">&nbsp;</div>
+				{{ range $key, $faq := $.Site.Taxonomies.tags.fnsefaq }}
 
-<section class="module text_left faq" id="QuestionsAboutFNSE">
+					<p><a href="" class="question arrow-right" id="fnse{{ $key }}">{{ $faq.Title }}</a></p>
+					<div class="answer hide">{{ $faq.Content }}</div>
 
-	<div class="container">
+				{{ end }}
 
-		<div class="copy left">
-
-			<h3>Questions About FNSE</h3>
-
-			{{ range $key, $value := .Site.Taxonomies.tags.fnsefaq }}
-
-				<p><a href="" class="question arrow-right" id="fnse{{ $key }}">{{ $value.Title }}</a></p>
-				<div class="answer hide">{{ $value.Content }}</div>
-
-			{{ end }}
+			</div>
 
 		</div>
 
-	</div>
+		<p class="clear">&nbsp;</p>
 
-	<p class="clear">&nbsp;</p>
+	</section>
 
-</section>
+	<section class="module text_left faq blue_module padded-module alt" id="QuestionsAboutNorthShoreElementary">
 
-<section class="module text_left faq blue_module padded-module alt" id="QuestionsAboutNorthShoreElementary">
+		<div class="container">
 
-	<div class="container">
+			<div class="copy left">
 
-		<div class="copy left">
+				<h3>Questions About North Shore Elementary</h3>
 
-			<h3>Questions About North Shore Elementary</h3>
+				{{ range $key, $faq := $.Site.Taxonomies.tags.nsefaq }}
 
-			{{ range $key, $value := .Site.Taxonomies.tags.nsefaq }}
+					<p><a href="" class="question arrow-right" id="nse{{ $key }}">{{ $faq.Title }}</a></p>
+					<div class="answer hide">{{ $faq.Content }}</div>
 
-				<p><a href="" class="question arrow-right" id="nse{{ $key }}">{{ $value.Title }}</a></p>
-				<div class="answer hide">{{ $value.Content }}</div>
+				{{ end }}
 
-			{{ end }}
+			</div>
 
 		</div>
 
-	</div>
+		<p class="clear">&nbsp;</p>
 
-	<p class="clear">&nbsp;</p>
+	</section>
 
-</section>
+	{{ end }}
 
-
-{{ range $key, $value := .Params.modules }}
 	{{ range where $.Site.Pages ".Params.id" $value }}
 
 		{{ $.Scratch.Set "noButton" "" }}

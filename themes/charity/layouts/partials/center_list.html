@@ -13,6 +13,9 @@
 						<div class="shield {{ $value.class }}"></div>
 						<strong>{{ $value.title }}</strong>
 						<span>{{ $value.description }}</span>
+						{{ if isset $value "link" }}
+							<a href="{{ $value.link }}" class="button blue more triggerMe">MORE</a>
+						{{ end }}
 					</div>
 				</li>
 			{{ end }}

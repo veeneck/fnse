@@ -11,6 +11,7 @@ hero_button_icon: more
 hero_link: "#faqlist"
 image: "/images/informed4.jpg"
 modules:
+- modules/quesitons/faqchoices.md
 - modules/fnse/stayintouch.md
 - modules/fnse/aboutfriends.md
 - modules/common/testimonial.md
