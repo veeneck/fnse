@@ -9,7 +9,7 @@
 		<div class="sample-projects">
 
 			{{ range $key, $value := .Params.list_items }}
-				<div class="project {{ if eq $key 1 }}center-project{{ end }}">
+				<div class="project {{ if eq $key 1 }}center-project{{ end }} triggerMe">
 					<img class="projectImage" src="{{ $value.image }}" />
 					<h4>{{ $value.title }}</h4>
 					<p>{{ $value.description }}</p>

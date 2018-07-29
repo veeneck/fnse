@@ -44,6 +44,27 @@
 	}
 }
 
+.center_list li.triggeredCSS3 {
+-webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  visibility: visible;
+}
+
+.center_list li:nth-child(1) {
+	    -webkit-animation-delay: 0s;
+  	animation-delay: 0s;
+}
+
+.center_list li:nth-child(2) {
+	    -webkit-animation-delay: 0.2s;
+  	animation-delay: 0.2s;
+}
+
+.center_list li:nth-child(3) {
+	    -webkit-animation-delay: 0.4s;
+  	animation-delay: 0.4s;
+}
+
 .center_list li {
 	 @extend %clearfix;
 	margin-top: 10px;
@@ -54,6 +75,12 @@
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
+
+			-webkit-animation-duration: 1.5s;
+  	animation-duration: 1.5s;
+  	-webkit-animation-fill-mode: both;
+  	animation-fill-mode: both;
+  	visibility: hidden;
 }
 
 .center_list p {

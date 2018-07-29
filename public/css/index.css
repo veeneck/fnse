@@ -1408,8 +1408,7 @@ body.fouroh {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  text-align: center;
-  border-radius: 4px; }
+  text-align: center; }
   @media (min-width: 35em) {
     .hero {
       background-attachment: fixed;
@@ -2170,11 +2169,33 @@ sup {
   background-color: #fff;
   background-clip: padding-box;
   background-repeat: no-repeat;
-  border-radius: 4px 4px 0px 0px; }
+  border-radius: 4px 4px 0px 0px;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  visibility: hidden; }
   @media (min-width: 1080px) {
     .project {
       width: 30%;
       max-width: 30%; } }
+
+.project.triggeredCSS3 {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  visibility: visible; }
+
+.project:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.project:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.project:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
 
 .project p {
   text-align: left;
@@ -2300,10 +2321,32 @@ sup {
     .center_list li:nth-child(2) {
       margin: 50px 5%; } }
 
+.center_list li.triggeredCSS3 {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  visibility: visible; }
+
+.center_list li:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.center_list li:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.center_list li:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
 .center_list li {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 100%; }
+  width: 100%;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  visibility: hidden; }
   @media (min-width: 35em) {
     .center_list li {
       width: 30%;
@@ -2532,7 +2575,8 @@ sup {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  border-radius: 0px; }
 
 .faq a.question {
   color: #fff;

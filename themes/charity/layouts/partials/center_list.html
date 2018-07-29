@@ -8,7 +8,7 @@
 
 		<ul>
 			{{ range $key, $value := .Params.list_items }}
-				<li class="list_item">
+				<li class="list_item triggerMe">
 					<div>
 						<div class="shield {{ $value.class }}"></div>
 						<strong>{{ $value.title }}</strong>

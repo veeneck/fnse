@@ -41,6 +41,32 @@
 		width: 30%;
 		max-width: 30%;
 	}
+	-webkit-animation-duration: 1.5s;
+  	animation-duration: 1.5s;
+  	-webkit-animation-fill-mode: both;
+  	animation-fill-mode: both;
+  	visibility: hidden;
+}
+
+.project.triggeredCSS3 {
+-webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  visibility: visible;
+}
+
+.project:nth-child(1) {
+	    -webkit-animation-delay: 0s;
+  	animation-delay: 0s;
+}
+
+.project:nth-child(2) {
+	    -webkit-animation-delay: 0.2s;
+  	animation-delay: 0.2s;
+}
+
+.project:nth-child(3) {
+	    -webkit-animation-delay: 0.4s;
+  	animation-delay: 0.4s;
 }
 
 
@@ -155,5 +181,7 @@
 	opacity: 1;
     color: $white;
 }
+
+
 
 
