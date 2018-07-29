@@ -8,7 +8,7 @@ hero_title: Have Questions?
 hero_subtitle: We'll attempt to answer them.
 hero_button_text: READ MORE
 hero_button_icon: more
-hero_link: "#QuestionsAboutFNSE"
+hero_link: "#faqlist"
 image: "/images/informed4.jpg"
 modules:
 - modules/fnse/stayintouch.md

@@ -2526,6 +2526,13 @@ sup {
 .grid9 {
   background-image: url("/images/grid9.jpg"); }
 
+.faqlist {
+  background-color: #A4A4A4;
+  background-image: url("/images/placeholder.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
 .faq a.question {
   color: #fff;
   display: block;

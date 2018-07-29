@@ -1,3 +1,11 @@
+.faqlist {
+	background-color: $grey;
+	background-image: url('/images/placeholder.jpg');
+	    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 .faq a.question {
 	color: $white;
 	display: block;
