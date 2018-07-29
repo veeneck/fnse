@@ -2531,7 +2531,8 @@ sup {
   background-image: url("/images/placeholder.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .faq a.question {
   color: #fff;
