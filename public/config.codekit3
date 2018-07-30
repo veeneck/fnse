@@ -833,6 +833,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/instagram.png": {
+		"ft": 32768,
+		"iS": 5845,
+		"oA": 0,
+		"oAP": "\/images\/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/KidsBanner.jpg": {
 		"ft": 16384,
 		"iS": 137432,
@@ -996,6 +1007,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/twitter.png": {
+		"ft": 32768,
+		"iS": 3018,
+		"oA": 0,
+		"oAP": "\/images\/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Volunteer.jpg": {

@@ -260,6 +260,10 @@ section a:hover {
     border-bottom: 1px dashed $lightBlue;
 }
 
+.blue_list .button:hover {
+    background-color: $lightBlue;
+}
+
 a.button {
     color: $white;
     @include boldFontStack();
@@ -268,6 +272,7 @@ a.button {
     padding: 10px 12px 6px 12px;
     margin: 25px 0px;
     border-radius: $borderRadius;
+    border: none;
     display: inline-block;
     position: relative;
     vertical-align: middle;
@@ -319,7 +324,7 @@ a.button {
 
 .button:hover {
     background-color: $darkBlue;
-    border: none;
+    border: none !important;
 }
 
 .right a.button {

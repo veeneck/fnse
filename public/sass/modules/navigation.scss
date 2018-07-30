@@ -11,12 +11,12 @@ header {
     position: absolute;
   	///position: sticky;
   	top: 0px;
+    border-bottom: 3px solid $blue;
   	@include breakpoint(condensed-screen) {
          height: 89px;
          position: relative;
          ///border-radius: $borderRadius;
          //border-top: 1px solid $blue;
-         border-bottom: 3px solid $blue;
          margin: 0px auto 0px auto;
          max-width: 100%;
     }
