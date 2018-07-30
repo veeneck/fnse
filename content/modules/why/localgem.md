@@ -4,7 +4,7 @@ id: modules/why/localgem.md
 type: module
 module_type: text_left
 class_name: gem
-image: "/images/courtyard.jpg"
+image: "/images/table.jpg"
 caption: This is a caption
 
 ---

@@ -4,7 +4,7 @@ id: modules/northshore/nsegeneralinfo.md
 type: module
 module_type: text_left
 class_name: nseinfo
-image: "/images/NorthShore.jpg"
+image: "/images/knight.jpg"
 caption: This is a caption
 
 ---

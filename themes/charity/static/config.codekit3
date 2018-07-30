@@ -239,6 +239,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/basketball.jpg": {
+		"ft": 16384,
+		"iS": 2889068,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/basketball.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bball2.jpg": {
+		"ft": 16384,
+		"iS": 3323350,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/bball2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/blue_shield.png": {
 		"ft": 32768,
 		"iS": 8008,
@@ -248,6 +270,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bluedoor.jpg": {
+		"ft": 16384,
+		"iS": 11643070,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/bluedoor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/brick.jpg": {
+		"ft": 16384,
+		"iS": 5492721,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/brick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/castle_wall.png": {
@@ -294,7 +338,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/classroom_small.JPG": {
+	"\/images\/classroom_small.jpg": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 0,
@@ -333,6 +377,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/drone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/entry.jpg": {
+		"ft": 16384,
+		"iS": 3857501,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/entry.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -866,6 +921,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/knight.jpg": {
+		"ft": 16384,
+		"iS": 2917493,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/knight.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/MapIcon.png": {
 		"ft": 32768,
 		"iS": 7345,
@@ -890,7 +956,7 @@
 		},
 	"\/images\/NorthShore.jpg": {
 		"ft": 16384,
-		"iS": 46890,
+		"iS": 3917935,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/NorthShore.jpg",
@@ -932,6 +998,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/picnic.jpg": {
+		"ft": 16384,
+		"iS": 3572984,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/picnic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/placeholder.jpg": {
 		"ft": 16384,
 		"iS": 313670,
@@ -949,6 +1026,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/play.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/playground.jpg": {
+		"ft": 16384,
+		"iS": 5008962,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/playground.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -976,6 +1064,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/School1.jpg": {
+		"ft": 16384,
+		"iS": 2720882,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/School1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/school2.jpg": {
+		"ft": 16384,
+		"iS": 2314261,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/school2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/SchoolGrade.png": {
 		"ft": 32768,
 		"iS": 22031,
@@ -985,6 +1095,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/schoolright.jpg": {
+		"ft": 16384,
+		"iS": 4124224,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/schoolright.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/staff.jpg": {
@@ -1004,6 +1125,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/students.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/table.jpg": {
+		"ft": 16384,
+		"iS": 4109009,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/table.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1040,6 +1172,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/wall.jpg": {
+		"ft": 16384,
+		"iS": 2045725,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/zonemap.png": {

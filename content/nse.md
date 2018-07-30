@@ -9,7 +9,7 @@ hero_subtitle: What you can expect to find at North Shore Elementary.
 hero_button_text: READ MORE
 hero_button_icon: more
 hero_link: "#GeneralInformation"
-image: "/images/recess.png"
+image: "/images/School1.jpg"
 modules:
 - modules/northshore/nsegeneralinfo.md
 - modules/northshore/pta.md

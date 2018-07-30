@@ -9,7 +9,7 @@ hero_subtitle: This neighborhood school in St. Petersburg, FL has plenty to offe
 hero_button_text: READ MORE
 hero_button_icon: more
 hero_link: "#ALocalGem"
-image: "/images/NorthShore.jpg"
+image: "/images/schoolright.jpg"
 modules:
 - modules/why/localgem.md
 - modules/why/community.md

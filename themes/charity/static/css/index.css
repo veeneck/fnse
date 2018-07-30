@@ -1979,6 +1979,10 @@ div.menu-link {
   padding: 0px;
   width: 30px; }
 
+.sitecontent a:hover {
+  border-bottom: none;
+  color: #00295C; }
+
 .text_left p {
   text-align: left; }
 
