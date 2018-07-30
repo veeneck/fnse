@@ -1455,13 +1455,15 @@ body.fouroh {
   z-index: 1;
   position: absolute;
   bottom: 100px;
-  left: 0; }
+  left: 0;
+  padding: 0px 20px; }
   @media (min-width: 35em) {
     .content-bottom {
       top: 47%;
       right: 50px;
       left: inherit;
-      max-width: 1000px; } }
+      max-width: 1000px;
+      padding: 0px; } }
 
 @media (min-width: 35em) {
   .nocta .content {

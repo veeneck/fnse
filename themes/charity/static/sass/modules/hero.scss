@@ -73,11 +73,13 @@
     position: absolute;
     bottom: 100px;
     left: 0;
+    padding: 0px 20px;
    @include breakpoint(condensed-screen) {
     top: 47%;
     right: 50px;
     left: inherit;
     max-width: 1000px;
+    padding: 0px;
   }
     
 }
