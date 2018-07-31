@@ -95,7 +95,6 @@
 	@include breakpoint(normal-screen) {
 		flex-direction: row;
 	}
-	border-bottom: 3px solid $blue;
 	margin-bottom: 0px !important;
 }
 
@@ -191,4 +190,21 @@
 .sitecontent a:hover {
 	border-bottom: none;
 	color: $darkBlue;
+}
+
+.credits {
+	color: $white;
+	padding: 10px;
+	background-color: $blue;
+	font-size: 70%;
+	text-align: center;
+	border-radius: $borderRadius;
+	margin-top: 3px;
+	@include breakpoint(normal-screen) {
+		text-align: right;
+	}
+}
+
+.credits a {
+	color: $lightBlue;
 }

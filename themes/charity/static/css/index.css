@@ -1892,7 +1892,6 @@ div.menu-link {
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
-  border-bottom: 3px solid #3C70AC;
   margin-bottom: 0px !important; }
   @media (min-width: 1080px) {
     .sitecontent {
@@ -1984,6 +1983,21 @@ div.menu-link {
 .sitecontent a:hover {
   border-bottom: none;
   color: #00295C; }
+
+.credits {
+  color: #fff;
+  padding: 10px;
+  background-color: #3C70AC;
+  font-size: 70%;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 3px; }
+  @media (min-width: 1080px) {
+    .credits {
+      text-align: right; } }
+
+.credits a {
+  color: #D1E5FB; }
 
 .text_left p {
   text-align: left; }

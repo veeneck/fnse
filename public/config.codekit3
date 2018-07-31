@@ -338,7 +338,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/classroom_small.jpg": {
+	"\/images\/classroom_small.JPG": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 0,
@@ -929,7 +929,7 @@
 		"oAP": "\/images\/knight.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/MapIcon.png": {
@@ -962,7 +962,7 @@
 		"oAP": "\/images\/NorthShore.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/NorthShoreLogo.png": {
@@ -1020,6 +1020,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/plaque.jpg": {
+		"ft": 16384,
+		"iS": 1384881,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/plaque.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/play.jpg": {
 		"ft": 16384,
 		"iS": 107243,
@@ -1072,7 +1083,7 @@
 		"oAP": "\/images\/School1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/school2.jpg": {
@@ -1105,7 +1116,7 @@
 		"oAP": "\/images\/schoolright.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/staff.jpg": {
@@ -1138,7 +1149,7 @@
 		"oAP": "\/images\/table.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/twitter.png": {
