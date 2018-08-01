@@ -170,9 +170,8 @@ function initGlideCarousel() {
 	    },
 	    600: {
 	      perView: 1,
-	      peek: { before: 20, after: 100 },
+	      peek: { before: 20, after: 75 },
 	      gap: 20,
-	      focusAt: 'center'
 	    }
 	  }
 	}).mount()
