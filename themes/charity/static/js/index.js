@@ -15,6 +15,7 @@ function loadPage() {
 	initMobileListeners();
 	initFAQListeners();
 	initGlideCarousel();
+	initMapKit();
 }
 
 
@@ -157,6 +158,51 @@ function addClass(el, className) {
 
 function hasClass(el, className) {
     return el.classList ? el.classList.contains(className) : new RegExp('\\b'+ className+'\\b').test(el.className);
+}
+
+/* ----------- MAPKIT IMPLEMENTATION --------------- */
+
+function initMapKit() {
+	var hasMap = document.getElementById("map");
+	if(hasMap != null) {
+		mapkit.init({
+		    authorizationCallback: function(done) {
+		        done('eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlhKVDlBRDVOQVkifQ.eyJpc3MiOiJSSzNUOUJZU0o4IiwiaWF0IjoxNTMyMDIxMzgzLCJleHAiOjE1MzAwMDg0NTUxMDZ9.9WOGLjY3F3DnDC_CtQgF-X60-gzWxfNCaen0l14OLM51vGYleOvK2flS0h62PJxJLe97DL3A4Bb66C_QBPSGRA');
+		    }
+		});
+
+		var Cupertino = new mapkit.CoordinateRegion(
+		new mapkit.Coordinate(27.796160959738796,-82.6322125086437),
+		new mapkit.CoordinateSpan(0.057, 0.057)
+		);
+
+		var map = new mapkit.Map("map");
+		map.region = Cupertino;
+
+		var MarkerAnnotation = mapkit.MarkerAnnotation;
+   		var school = new mapkit.Coordinate(27.8036124, -82.63232749999997)
+   		var schoolAnnotation = new MarkerAnnotation(school, { color: "#FFFFFF", title: "North Shore Elementary", glyphText: "🏰" });
+   		schoolAnnotation.size = [100, 100];
+   		 schoolAnnotation.selected = "true";
+   		map.addAnnotation(schoolAnnotation);
+
+   		var points = [ [27.771179518808168,-82.63216656745908], [27.771046616166533, -82.65481514038083], [27.781127769882147, -82.65487951339719], [27.78116573856317, -82.63856095375058], [27.821095516386848,-82.63856095375058], [27.821209380502705,-82.6205365091705], [27.816783732938067,-82.61612478857091], [27.8060795479485,-82.61556688909582], [27.805201117723303,-82.6099449790006], [27.795444887796346,-82.60492388372472], [27.79244047913533,-82.6073216089855], [27.789858846331658,-82.61204229685171], [27.788416142474595,-82.62217031809195],  [27.777450848222355,-82.62651030187658], [27.7774128782445,-82.63007227544836] ];
+
+		// map the raw coordinates to Coordinates:
+		points = points.map(function(point) {
+		    return new mapkit.Coordinate(point[0], point[1]);
+		});
+		var style = new mapkit.Style({
+		    strokeColor: "#3C70AC",
+		    strokeOpacity: 1,
+		    lineWidth: 3,
+		    lineJoin: "round",
+		    lineDash: [10, 10, 10, 10, 10, 10]
+		});
+
+		var rectangle = new mapkit.PolygonOverlay([points], { style: style });
+		map.addOverlay(rectangle);
+	}
 }
 
 /* ----------- GLIDE JS ---------- */
