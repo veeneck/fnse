@@ -28,9 +28,21 @@ The best way to familiarize yourself with the code is to understand Hugo. The tu
 
 ## Notes on the Content
 
+- explain front matter for pages, modules, faq. explain any tags used, or hidden front matter this is hidden on admin panel but available to developers.
+- explain how to create a new module
+
 ## Notes on the CSS
 
+- ideas behind core, glide, modules organization. reference the style guide below.
+
 ## Notes on the JavaScript
+
+no jquery. most of it straight forward and the code is commented. a few dependencies, which include:
+
+- lazyload (discussed below) https://www.andreaverlicchi.eu/lazyload/
+- https://glidejs.com for carousel
+- https://github.com/zengabor/zenscroll for smooth scrolling. discuss how firefox does this in CSS, as will others when they implement
+- maptkitjs. used https://mapkitjs.rubeng.nl/#/ to create key. tied to my developer account. 
 
 ## Responsive Concerns
 
@@ -45,6 +57,8 @@ Talk about SEO
 Style guide for the site, and anyone who may want to make a separate document
 
 Colors, Assets, Fonts, Marketing stuff all in one place?
+
+Use a style guide generator for my own consistency? Make a living style guide?
 
 ## Performance
 
