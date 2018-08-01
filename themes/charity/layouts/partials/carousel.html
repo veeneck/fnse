@@ -12,7 +12,7 @@
 				<ul class="glide__slides">
 
 				{{ range $key, $value := .Params.list_items }}
-					<li class="project {{ if eq $key 1 }}center-project{{ end }} triggerMe glide__slide">
+					<li class="project triggerMe glide__slide">
 						<img class="projectImage" src="{{ $value.image }}" />
 						<h4>{{ $value.title }}</h4>
 						<p>{{ $value.description }}</p>
