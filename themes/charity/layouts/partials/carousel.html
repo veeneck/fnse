@@ -6,19 +6,30 @@
 
 		<p class="white-font">{{ .Description }}</p>
 
-		<div class="sample-projects">
+		<div class="glide">
+			<div class="sample-projects glide__track"  data-glide-el="track">
 
-			{{ range $key, $value := .Params.list_items }}
-				<div class="project {{ if eq $key 1 }}center-project{{ end }} triggerMe">
-					<img class="projectImage" src="{{ $value.image }}" />
-					<h4>{{ $value.title }}</h4>
-					<p>{{ $value.description }}</p>
-					{{ if isset $value "link" }}
-						<a href="{{ $value.link }}" class="button blue more triggerMe">MORE</a>
-					{{ end }}
-				</div>
-			{{ end }}
+				<ul class="glide__slides">
 
+				{{ range $key, $value := .Params.list_items }}
+					<li class="project {{ if eq $key 1 }}center-project{{ end }} triggerMe glide__slide">
+						<img class="projectImage" src="{{ $value.image }}" />
+						<h4>{{ $value.title }}</h4>
+						<p>{{ $value.description }}</p>
+						{{ if isset $value "link" }}
+							<a href="{{ $value.link }}" class="button blue more triggerMe">MORE</a>
+						{{ end }}
+					</li>
+				{{ end }}
+
+				</ul>
+
+			</div>
+			<div class="glide__bullets" data-glide-el="controls[nav]">
+			    <button class="glide__bullet" data-glide-dir="=0"></button>
+			    <button class="glide__bullet" data-glide-dir="=1"></button>
+			    <button class="glide__bullet" data-glide-dir="=2"></button>
+			  </div>
 		</div>
 
 		{{ if and (isset .Params "button") (ne .Params.button "") }}

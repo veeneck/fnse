@@ -11,6 +11,10 @@
 @import "modules/half_half.scss";
 @import "modules/faq.scss";
 
+@import "glide/_variables.scss";
+@import "glide/glide.core.scss";
+@import "glide/glide.theme.scss";
+
 body {
   margin: 0;
   padding: 0;

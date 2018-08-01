@@ -359,6 +359,7 @@ a.button {
   visibility: hidden;
     -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
+  -webkit-transform-style: preserve-3d;
 }
 
 .button.triggeredCSS3::before {
