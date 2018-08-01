@@ -170,7 +170,7 @@ function initGlideCarousel() {
 	    },
 	    600: {
 	      perView: 1,
-	      peek: { before: 20, after: 75 },
+	      peek: { before: 20, after: 50 },
 	      gap: 20,
 	      swipeThreshold: 25
 	    }
