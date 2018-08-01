@@ -36,7 +36,7 @@
 			<div id="map"></div> 
 		</div>
 	{{ else }}
-		<div class="rightHalfContainer triggerMe" style="background-image: url('{{ $.module.Params.image }}');">
+		<div class="rightHalfContainer triggerMe lazy" data-src="{{ $.module.Params.image }}">
 
 		</div>
 	{{ end }}

@@ -11,6 +11,7 @@ function ready(fn) {
 }
 
 function loadPage() {
+	initLazyLoad();
 	bringElementsIntoView();
 	initMobileListeners();
 	initFAQListeners();
@@ -208,6 +209,27 @@ function initMapKit() {
 		var rectangle = new mapkit.PolygonOverlay([points], { style: style });
 		map.addOverlay(rectangle);
 	}
+}
+
+/* ----------- LAZYLOAD JS ----------- */
+
+/*
+https://www.andreaverlicchi.eu/lazyload/
+*/
+
+/*(function(w, d){
+	var b = d.getElementsByTagName('body')[0];
+	var s = d.createElement("script"); s.async = true;
+	var v = !("IntersectionObserver" in w) ? "8.12.0" : "10.12.0";
+	s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
+	w.lazyLoadOptions = {}; // Your options here. See "recipes" for more information about async.
+	b.appendChild(s);
+}(window, document));*/
+
+function initLazyLoad() {
+	var myLazyLoad = new LazyLoad({
+    	elements_selector: ".lazy"
+	});
 }
 
 /* ----------- GLIDE JS ---------- */

@@ -15,6 +15,7 @@
 
   
   <script src="/js/index-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.12.0/lazyload.min.js"></script>
 
   
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,900|Open+Sans:300,400,600,600i" rel="stylesheet">
@@ -25,9 +26,6 @@
 
   
   <link href="" rel="alternate" type="application/rss+xml" title="Friends of North Shore Elementary" />
-
-  
-  <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
 
   
   <noscript>
@@ -81,7 +79,7 @@
     
 
 		
-<section class="hero darken-pseudo faqhero " style="background-image: url('/images/VolunteerLarge.jpg');">
+<section class="hero darken-pseudo faqhero  lazy" data-src="/images/VolunteerLarge.jpg">
 
 	<div class="container">
 
@@ -123,7 +121,7 @@
 
 
 			<figure class="triggerMe">
-				<img src="/images/students.jpg" class="coreImage  triggerMe" />
+				<img data-src="/images/students.jpg" class="coreImage  triggerMe lazy" />
 			 	<figcaption>
 			 		This is a caption
 			 	</figcaption>
@@ -312,7 +310,7 @@
 
 
 			<figure class="triggerMe">
-				<img src="/images/nsevolunteer.jpg" class="coreImage  triggerMe" />
+				<img data-src="/images/nsevolunteer.jpg" class="coreImage  triggerMe lazy" />
 			 	<figcaption>
 			 		This is a caption
 			 	</figcaption>
@@ -409,7 +407,7 @@
 
 
 			<figure class="triggerMe">
-				<img src="/images/NorthShore.jpg" class="coreImage triggerMe" />
+				<img data-src="/images/NorthShore.jpg" class="coreImage triggerMe lazy" />
 			 	<figcaption>
 			 		This is a caption
 			 	</figcaption>
@@ -480,7 +478,7 @@
 
 
 	
-		<div class="rightHalfContainer triggerMe" style="background-image: url('/images/repair.jpg');">
+		<div class="rightHalfContainer triggerMe lazy" data-src="/images/repair.jpg">
 
 		</div>
 	
