@@ -13,7 +13,7 @@
 
 				{{ range $key, $value := .Params.list_items }}
 					<li class="project triggerMe glide__slide">
-						<img class="projectImage" src="{{ $value.image }}" />
+						<img class="projectImage lazy" data-src="{{ $value.image }}" />
 						<h4>{{ $value.title }}</h4>
 						<p>{{ $value.description }}</p>
 						{{ if isset $value "link" }}

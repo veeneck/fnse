@@ -176,46 +176,46 @@
 	"\/images\/7thhour.jpg": {
 		"ft": 16384,
 		"iS": 298400,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/7thhour.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/aboutfnse.jpg": {
 		"ft": 16384,
 		"iS": 100805,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/aboutfnse.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/aerial.jpg": {
 		"ft": 16384,
 		"iS": 53762,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/aerial.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/afterschool.jpg": {
 		"ft": 16384,
-		"iS": 294343,
-		"jF": 0,
+		"iS": 242790,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/afterschool.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/band.png": {
 		"ft": 32768,
@@ -234,32 +234,32 @@
 		"oA": 0,
 		"oAP": "\/images\/banner.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/basketball.jpg": {
 		"ft": 16384,
 		"iS": 2889068,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/basketball.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/bball2.jpg": {
 		"ft": 16384,
 		"iS": 3323350,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/bball2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/blue_shield.png": {
 		"ft": 32768,
@@ -267,32 +267,32 @@
 		"oA": 0,
 		"oAP": "\/images\/blue_shield.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/bluedoor.jpg": {
 		"ft": 16384,
 		"iS": 11643070,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/bluedoor.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/brick.jpg": {
 		"ft": 16384,
 		"iS": 5492721,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/brick.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/castle_wall.png": {
 		"ft": 32768,
@@ -319,79 +319,79 @@
 	"\/images\/class.jpg": {
 		"ft": 16384,
 		"iS": 92473,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/class.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/classrom.jpg": {
 		"ft": 16384,
 		"iS": 769742,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/classrom.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
-	"\/images\/classroom_small.jpg": {
+	"\/images\/classroom_small.JPG": {
 		"ft": 16384,
 		"iS": 172363,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/classroom_small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/cooper.jpg": {
 		"ft": 16384,
 		"iS": 82368,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/cooper.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/courtyard.jpg": {
 		"ft": 16384,
 		"iS": 51795,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/courtyard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/drone.jpg": {
 		"ft": 16384,
 		"iS": 53762,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/drone.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/entry.jpg": {
 		"ft": 16384,
 		"iS": 3857501,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/entry.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/facebook.png": {
 		"ft": 32768,
@@ -407,13 +407,13 @@
 	"\/images\/fnsegroup.jpg": {
 		"ft": 16384,
 		"iS": 75114,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/fnsegroup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/fnselogo.png": {
 		"ft": 32768,
@@ -421,8 +421,8 @@
 		"oA": 0,
 		"oAP": "\/images\/fnselogo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -451,13 +451,13 @@
 	"\/images\/garden2.jpg": {
 		"ft": 16384,
 		"iS": 44137,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/garden2.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/grey_shield.png": {
 		"ft": 32768,
@@ -473,101 +473,101 @@
 	"\/images\/grid1.jpg": {
 		"ft": 16384,
 		"iS": 71244,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/grid2.jpg": {
 		"ft": 16384,
 		"iS": 126554,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/grid3.jpg": {
 		"ft": 16384,
 		"iS": 530869,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/grid4.jpg": {
 		"ft": 16384,
 		"iS": 122672,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/grid5.jpg": {
 		"ft": 16384,
 		"iS": 150423,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/grid6.jpg": {
 		"ft": 16384,
 		"iS": 109766,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/grid7.jpg": {
 		"ft": 16384,
 		"iS": 135327,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/grid8.jpg": {
 		"ft": 16384,
 		"iS": 99275,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/grid9.jpg": {
 		"ft": 16384,
 		"iS": 12484,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/grid9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/hasQuoteBottom.png": {
 		"ft": 32768,
@@ -586,43 +586,43 @@
 		"oA": 0,
 		"oAP": "\/images\/hasQuoteTop.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/headshot.jpg": {
 		"ft": 16384,
 		"iS": 6611,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/headshot.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/healthylunch.jpg": {
 		"ft": 16384,
 		"iS": 362865,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/healthylunch.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/homework.jpg": {
 		"ft": 16384,
 		"iS": 122672,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/homework.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/icons\/icon_castle.png": {
 		"ft": 32768,
@@ -663,8 +663,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_faq.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -685,8 +685,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_hand.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -718,8 +718,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_mail.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -729,8 +729,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_megaphone.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -784,8 +784,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_school.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -795,8 +795,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_sustain.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -828,8 +828,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_volunteer.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -847,46 +847,46 @@
 	"\/images\/informed.jpg": {
 		"ft": 16384,
 		"iS": 237096,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/informed.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/informed2.jpg": {
 		"ft": 16384,
 		"iS": 65706,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/informed2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/informed3.jpg": {
 		"ft": 16384,
 		"iS": 648400,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/informed3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/informed4.jpg": {
 		"ft": 16384,
 		"iS": 137671,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/informed4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/instagram.png": {
 		"ft": 32768,
@@ -902,13 +902,13 @@
 	"\/images\/KidsBanner.jpg": {
 		"ft": 16384,
 		"iS": 137432,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/KidsBanner.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/kindergarden.png": {
 		"ft": 32768,
@@ -916,21 +916,21 @@
 		"oA": 0,
 		"oAP": "\/images\/kindergarden.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/knight.jpg": {
 		"ft": 16384,
 		"iS": 2917493,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/knight.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/MapIcon.png": {
 		"ft": 32768,
@@ -938,8 +938,8 @@
 		"oA": 0,
 		"oAP": "\/images\/MapIcon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -957,13 +957,13 @@
 	"\/images\/NorthShore.jpg": {
 		"ft": 16384,
 		"iS": 3917935,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/NorthShore.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/NorthShoreLogo.png": {
 		"ft": 32768,
@@ -971,8 +971,8 @@
 		"oA": 0,
 		"oAP": "\/images\/NorthShoreLogo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -982,76 +982,76 @@
 		"oA": 0,
 		"oAP": "\/images\/NorthShoreLogo150.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/nsevolunteer.jpg": {
 		"ft": 16384,
 		"iS": 164711,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/nsevolunteer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/picnic.jpg": {
 		"ft": 16384,
 		"iS": 3572984,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/picnic.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/placeholder.jpg": {
 		"ft": 16384,
 		"iS": 313670,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/placeholder.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/plaque.jpg": {
 		"ft": 16384,
 		"iS": 1384881,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/plaque.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/play.jpg": {
 		"ft": 16384,
 		"iS": 107243,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/play.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/playground.jpg": {
 		"ft": 16384,
 		"iS": 5008962,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/playground.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/recess.png": {
 		"ft": 32768,
@@ -1067,35 +1067,35 @@
 	"\/images\/repair.jpg": {
 		"ft": 16384,
 		"iS": 168562,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/repair.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/School1.jpg": {
 		"ft": 16384,
 		"iS": 2720882,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/School1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/school2.jpg": {
 		"ft": 16384,
 		"iS": 2314261,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/school2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/SchoolGrade.png": {
 		"ft": 32768,
@@ -1111,46 +1111,46 @@
 	"\/images\/schoolright.jpg": {
 		"ft": 16384,
 		"iS": 4124224,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/schoolright.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/staff.jpg": {
 		"ft": 16384,
 		"iS": 79244,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/staff.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/students.jpg": {
 		"ft": 16384,
 		"iS": 104157,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/students.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/table.jpg": {
 		"ft": 16384,
 		"iS": 4109009,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/table.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/twitter.png": {
 		"ft": 32768,
@@ -1158,43 +1158,43 @@
 		"oA": 0,
 		"oAP": "\/images\/twitter.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Volunteer.jpg": {
 		"ft": 16384,
 		"iS": 3990664,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/Volunteer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/VolunteerLarge.jpg": {
 		"ft": 16384,
 		"iS": 3990664,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/VolunteerLarge.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
-		"q": 100
+		"q": 87
 		},
 	"\/images\/wall.jpg": {
 		"ft": 16384,
 		"iS": 2045725,
-		"jF": 0,
+		"jF": 2,
 		"oA": 0,
 		"oAP": "\/images\/wall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"q": 87
 		},
 	"\/images\/zonemap.png": {
 		"ft": 32768,
@@ -1202,8 +1202,8 @@
 		"oA": 0,
 		"oAP": "\/images\/zonemap.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3326,8 +3326,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"outputFormat": 0,
-		"quality": 100
+		"outputFormat": 2,
+		"quality": 87
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
