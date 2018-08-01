@@ -172,6 +172,7 @@ function initGlideCarousel() {
 	      perView: 1,
 	      peek: { before: 20, after: 75 },
 	      gap: 20,
+	      swipeThreshold: 25
 	    }
 	  }
 	}).mount()
