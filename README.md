@@ -5,6 +5,7 @@ This is the respository for the FNSE website located at http://fnse.org.
 ## Services and Tools Used
 
 **Content Manager**: Build with [Hugo](https://gohugo.io)
+
 **Hosting**: Hosted at [Netlify](http://netlify.com).
 
 ## Introduction to the Code
