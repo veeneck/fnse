@@ -16,6 +16,10 @@ Non technical users will not need to know what is happening. They'll just make a
 
 ## Introduction to the Code
 
+## Responsive Concerns
+
+## SEO
+
 ## Colors, Assets, Fonts, Marketing stuff all in one place?
 
 ## Performance
