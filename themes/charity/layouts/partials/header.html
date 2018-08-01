@@ -33,4 +33,22 @@
   <!-- MapKit -->
   <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
 
+  <!-- NoScript : Force pending animations and hidden content to instantly be visible if JS is disabled -->
+  <noscript>
+    <style>
+      .triggerMe {
+        visibility: visible !important;
+      }
+      .triggerMe::before {
+        visibility: visible !important;
+      }
+      p {
+        margin-top: 1.5rem !important;
+      }
+      .hide {
+        display: block !important;
+      }
+    </style>
+  </noscript>
+
 </head>
