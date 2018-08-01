@@ -24,14 +24,29 @@ The best way to familiarize yourself with the code is to understand Hugo. The tu
 
 `/themes/charity/static`: All of the static assets. CSS is written in the `sass` directory, and then compiled into CSS with Codekit or any other comparible tool. JS is minizmied in a similar fashion. Images live in the `/images` directory.
 
+## Notes on the Content
+
+## Notes on the CSS
+
+## Notes on the JavaScript
+
 ## Responsive Concerns
+
+Talk about breakpoints and responsive images
 
 ## SEO
 
-## Colors, Assets, Fonts, Marketing stuff all in one place?
+Talk about SEO 
+
+## Style Guide
+
+Style guide for the site, and anyone who may want to make a separate document
+
+Colors, Assets, Fonts, Marketing stuff all in one place?
 
 ## Performance
 
 - lazy load (https://www.andreaverlicchi.eu/lazyload/)
 - http://www.webpagetest.org (As of this writing the home page has all A's)
 - cloudinary website speed test (https://webspeedtest.cloudinary.com) is useful, but watch the resolution in the recommendations
+- compatibility. currently IE+ and all modern browsers
