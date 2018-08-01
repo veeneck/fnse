@@ -180,8 +180,8 @@
 		"oA": 0,
 		"oAP": "\/images\/7thhour.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/aboutfnse.jpg": {
@@ -279,7 +279,7 @@
 		"oA": 0,
 		"oAP": "\/images\/bluedoor.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
 		"q": 87
 		},
@@ -598,8 +598,8 @@
 		"oA": 0,
 		"oAP": "\/images\/headshot.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/healthylunch.jpg": {
@@ -623,17 +623,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 87
-		},
-	"\/images\/icons\/.icon_whitecap~imageoptim.png": {
-		"ft": 32768,
-		"iS": 855,
-		"oA": 0,
-		"oAP": "\/images\/icons\/.icon_whitecap~imageoptim.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/images\/icons\/icon_castle.png": {
 		"ft": 32768,
@@ -993,8 +982,8 @@
 		"oA": 0,
 		"oAP": "\/images\/NorthShoreLogo150.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1027,7 +1016,7 @@
 		"oA": 0,
 		"oAP": "\/images\/placeholder.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
 		"q": 87
 		},
@@ -1126,7 +1115,7 @@
 		"oA": 0,
 		"oAP": "\/images\/schoolright.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
 		"q": 87
 		},
@@ -1192,7 +1181,7 @@
 		"oA": 0,
 		"oAP": "\/images\/VolunteerLarge.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
 		"q": 87
 		},
