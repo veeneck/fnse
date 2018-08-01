@@ -16,6 +16,14 @@ Non technical users will not need to know what is happening. They'll just make a
 
 ## Introduction to the Code
 
+The best way to familiarize yourself with the code is to understand Hugo. The tutorials on their website are a great point to start with. That said, here are some key locations to be aware of:
+
+`/content`: This directory holds the markdown files that represent all of the content on the site. When users edit text, the text is found on one of these files. These files also contain _front matter_, which is a config block at the top of each file. That block may dictate which images or tags the page uses.
+
+`/themes/charity/layouts`: All of the HTML files, which use Hugo templating, that the entire site is built off of.
+
+`/themes/charity/static`: All of the static assets. CSS is written in the `sass` directory, and then compiled into CSS with Codekit or any other comparible tool. JS is minizmied in a similar fashion. Images live in the `/images` directory.
+
 ## Responsive Concerns
 
 ## SEO
