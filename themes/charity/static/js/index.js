@@ -60,33 +60,8 @@
 
 });
 
-// This would make images parallax themselves if backgorund-image were used instead of img tag
-	/*var velocity = 0.05;
 
-function update(){ 
-var pos = $(window).scrollTop(); 
-$('.coreImage').each(function() { 
-    var $element = $(this);
-    // subtract some from the height b/c of the padding
-    var height = $element.height()-18;
-    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
-   }); 
-   };
 
- $(window).bind('scroll', update);*/
-
-/*;(function($, win) {
-  $.fn.inViewport = function(cb) {
-     return this.each(function(i,el){
-       function visPx(){
-         var H = $(this).height(),
-             r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
-         return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  
-       } visPx();
-       $(win).on("resize scroll", visPx);
-     });
-  };
-}(jQuery, window));*/
 
 /* -------- DOCUMENT READY -------- */
 
@@ -101,6 +76,7 @@ function ready(fn) {
 }
 
 function loadPage() {
+	bringElementsIntoView();
 	initMobileListeners();
 	initFAQListeners();
 	initGlideCarousel();
@@ -151,6 +127,42 @@ function toggleQuestion(element) {
 	toggleClass(element.parentNode.nextElementSibling, "hide");
 }
 
+/* -------- ELEMENTS SCROLL INTO VIEW -------------*/
+ 
+
+function bringElementsIntoView() {
+	checkAllTriggers();
+	document.addEventListener('scroll', function(event) {
+		checkAllTriggers();
+	});
+}
+
+function checkAllTriggers() {
+	checkIfTriggerIsInView(document.querySelectorAll('.triggerMe'));
+	checkIfTriggerIsInView(document.querySelectorAll('p'));
+}
+
+function checkIfTriggerIsInView(nodes) {
+	Array.prototype.forEach.call(nodes, function(trigger, i){
+		if(isScrolledIntoView(trigger)) {
+			console.log("in view");
+			addClass(trigger, "triggeredCSS3");
+		}
+	});
+}
+
+function isScrolledIntoView(el) {
+    var rect = el.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+
+    // Only completely visible elements return true:
+    ///var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    // Partially visible elements return true:
+    var isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+    return isVisible;
+}
+
 /* -------- GLIDE JS FOR CAROUSEL -------- */
 
 /// Documentation and implementation here: https://glidejs.com/docs/setup/
@@ -193,6 +205,13 @@ function toggleClass(el, className) {
 	    classes.push(className);
 		el.className = classes.join(' ');
 	}
+}
+
+function addClass(el, className) {
+    var arr = el.className.split(" ");
+    if (arr.indexOf(className) == -1) {
+        el.className += " " + className;
+    }
 }
 
 /* ----------- GLIDE JS ---------- */

@@ -2594,6 +2594,9 @@ sup {
 .grid9 {
   background-image: url("/images/grid9.jpg"); }
 
+#map {
+  width: 100%; }
+
 .faqlist {
   background-color: #A4A4A4;
   background-image: url("/images/placeholder.jpg");
