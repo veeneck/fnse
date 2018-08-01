@@ -192,7 +192,7 @@
 		"oAP": "\/images\/aboutfnse.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/aerial.jpg": {
@@ -208,7 +208,7 @@
 		},
 	"\/images\/afterschool.jpg": {
 		"ft": 16384,
-		"iS": 294343,
+		"iS": 242790,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/afterschool.jpg",
@@ -234,8 +234,8 @@
 		"oA": 0,
 		"oAP": "\/images\/banner.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -267,8 +267,8 @@
 		"oA": 0,
 		"oAP": "\/images\/blue_shield.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -338,7 +338,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/classroom_small.jpg": {
+	"\/images\/classroom_small.JPG": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 0,
@@ -421,8 +421,8 @@
 		"oA": 0,
 		"oAP": "\/images\/fnselogo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -511,7 +511,7 @@
 		"oAP": "\/images\/grid4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/grid5.jpg": {
@@ -522,7 +522,7 @@
 		"oAP": "\/images\/grid5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/grid6.jpg": {
@@ -586,8 +586,8 @@
 		"oA": 0,
 		"oAP": "\/images\/hasQuoteTop.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -622,6 +622,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/icons\/.icon_whitecap~imageoptim.png": {
+		"ft": 32768,
+		"iS": 855,
+		"oA": 0,
+		"oAP": "\/images\/icons\/.icon_whitecap~imageoptim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/icons\/icon_castle.png": {
@@ -663,8 +674,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_faq.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -685,8 +696,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_hand.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -718,8 +729,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_mail.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -729,8 +740,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_megaphone.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -784,8 +795,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_school.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -795,8 +806,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_sustain.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -828,8 +839,8 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_volunteer.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -874,7 +885,7 @@
 		"oAP": "\/images\/informed3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/informed4.jpg": {
@@ -916,8 +927,8 @@
 		"oA": 0,
 		"oAP": "\/images\/kindergarden.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -938,8 +949,8 @@
 		"oA": 0,
 		"oAP": "\/images\/MapIcon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -971,8 +982,8 @@
 		"oA": 0,
 		"oAP": "\/images\/NorthShoreLogo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1017,7 +1028,7 @@
 		"oAP": "\/images\/placeholder.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/plaque.jpg": {
@@ -1028,7 +1039,7 @@
 		"oAP": "\/images\/plaque.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/play.jpg": {
@@ -1039,7 +1050,7 @@
 		"oAP": "\/images\/play.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/playground.jpg": {
@@ -1127,7 +1138,7 @@
 		"oAP": "\/images\/staff.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/students.jpg": {
@@ -1158,8 +1169,8 @@
 		"oA": 0,
 		"oAP": "\/images\/twitter.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1193,7 +1204,7 @@
 		"oAP": "\/images\/wall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/zonemap.png": {
@@ -1202,8 +1213,8 @@
 		"oA": 0,
 		"oAP": "\/images\/zonemap.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
