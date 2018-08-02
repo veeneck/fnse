@@ -46,7 +46,11 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
-	justify-content: space-evenly;
+	font-size: 80%;
+	@include breakpoint(normal-screen) {
+		justify-content: space-evenly;
+		font-size: 100%;
+	}
 	padding-left: 0px;
 	margin-left: 0px;
 }

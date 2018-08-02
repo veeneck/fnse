@@ -74,3 +74,4 @@ Use a style guide generator for my own consistency? Make a living style guide?
 
 - compatibility. currently IE+ and all modern browsers
 - noscript
+- print styles are weak right now
