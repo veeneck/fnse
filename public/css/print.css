@@ -1,0 +1,3 @@
+@media print {
+  header, .footer, .sitecontent, .credits {
+    display: none; } }

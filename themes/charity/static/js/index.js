@@ -16,7 +16,6 @@ function loadPage() {
 	initMobileListeners();
 	initFAQListeners();
 	initGlideCarousel();
-	initMapKit();
 }
 
 
@@ -82,13 +81,20 @@ function bringElementsIntoView() {
 function checkAllTriggers() {
 	checkIfTriggerIsInView(document.querySelectorAll('.triggerMe'));
 	checkIfTriggerIsInView(document.querySelectorAll('p'));
+	checkIfTriggerIsInView(document.querySelectorAll('#map'));
 }
 
 /// Loop through a node list and see if each element is in view. If so, add triggeredCSS3, which is the class used to animate.
 function checkIfTriggerIsInView(nodes) {
 	Array.prototype.forEach.call(nodes, function(trigger, i){
 		if(isScrolledIntoView(trigger)) {
-			addClass(trigger, "triggeredCSS3");
+			if(trigger.id == "map" && !hasClass(trigger, "loaded")) {
+				addClass(trigger, "loaded");
+				loadMapKit();
+			}
+			else {
+				addClass(trigger, "triggeredCSS3");
+			}
 		}
 	});
 }
@@ -161,7 +167,22 @@ function hasClass(el, className) {
     return el.classList ? el.classList.contains(className) : new RegExp('\\b'+ className+'\\b').test(el.className);
 }
 
+
+function loadScript(url,callback){
+    var script = document.createElement('script');
+ 
+    script.onload = function(){
+        //once the script is loaded, run the callback
+        if (callback){callback()};
+    };
+ 
+    //create the script and add it to the DOM
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+};
+
 /* ----------- MAPKIT IMPLEMENTATION --------------- */
+
 
 function initMapKit() {
 	var hasMap = document.getElementById("map");
@@ -209,6 +230,12 @@ function initMapKit() {
 		var rectangle = new mapkit.PolygonOverlay([points], { style: style });
 		map.addOverlay(rectangle);
 	}
+}
+
+function loadMapKit() {
+	loadScript("https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js", function() {
+		initMapKit();
+	});
 }
 
 /* ----------- LAZYLOAD JS ----------- */

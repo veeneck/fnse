@@ -102,17 +102,20 @@
 	@include flex();
 	flex-direction: column;
 	justify-content: center;
-	padding: 75px 0px;
 	background-color: $lightGrey;
 	border-radius: $borderRadius;
-	width: 75%;
+	width: 100%;
+	padding: 25px 0px;
 	@include breakpoint(normal-screen) {
 		justify-content: space-evenly;
 		flex-direction: row;
+		width: 75%;
+		padding: 75px 0px;
 	}
 }
 
 .sitecontent .logo {
+	display: none;
 	width: 25%;
 	background-image: url('/images/fnselogo.png');
 	    background-repeat: no-repeat;
@@ -122,6 +125,7 @@
 	margin-bottom: 35px;
 	@include breakpoint(normal-screen) {
 		///margin: 0px 0px 0px 50px;
+		display: block;
 	}
 }
 
@@ -153,7 +157,10 @@
 }
 
 .nsfooter {
-	padding-right: 50px;
+	text-align: center;
+	@include breakpoint(normal-screen) {
+		padding-right: 50px;
+	}
 }
 
 .nsfooter img {
@@ -196,12 +203,13 @@
 	color: $white;
 	padding: 10px;
 	background-color: $blue;
-	font-size: 70%;
+	font-size: 60%;
 	text-align: center;
 	border-radius: $borderRadius;
 	margin-top: 3px;
 	@include breakpoint(normal-screen) {
 		text-align: right;
+		font-size: 70%;
 	}
 }
 
