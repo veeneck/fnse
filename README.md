@@ -65,6 +65,7 @@ Use a style guide generator for my own consistency? Make a living style guide?
 - lazy load (https://www.andreaverlicchi.eu/lazyload/)
 - http://www.webpagetest.org (As of this writing the home page has all A's)
 - cloudinary website speed test (https://webspeedtest.cloudinary.com) is useful, but watch the resolution in the recommendations
+- https://website.grader.com/results/fnse.netlify.com
 
 ## Compatibility, Support and Known Issues
 

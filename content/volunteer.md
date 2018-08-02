@@ -1,5 +1,6 @@
 ---
 title: Volunteer
+description: If you're looking to get involved, we would love to have you. Learn more about how Friends of North Shore Elementary could use help, or how you could volunteer at the school.
 type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/volunteer"

@@ -1,5 +1,6 @@
 ---
 title: Friends of North Shore Elementary
+description: Come and see why North Shore Elementary should be the first choice for parents in the zoned district. We believe this neighborhood gem in St. Petersburg, FL is worthy of your consideration. 
 type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/"

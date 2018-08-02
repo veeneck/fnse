@@ -1,5 +1,6 @@
 ---
 title: About FNSE
+description: Friends of North Shore Elementary is a non profit whose goal is to support North Shore Elementary however possible, so that it continues to be the first choice for local families.
 type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/about"

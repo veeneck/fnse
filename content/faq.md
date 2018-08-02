@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+description: Have your questions about North Shore Elementary or FNSE addressed.
 type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/faq"
