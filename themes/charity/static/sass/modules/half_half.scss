@@ -46,10 +46,9 @@
 	width: 100%;
 	@include breakpoint(normal-screen) {
 		width: 50%;
+		height: auto;
 		max-width: 50%;
-		    background-repeat: no-repeat;
-		    background-position: center center;
-		    background-size: cover;
+
 	}
 	display: flex;
 }
@@ -140,6 +139,10 @@
 
   #map {
       width: 100%;
+      height: 400px;
+      @include breakpoint(normal-screen) {
+      	height: auto;
+      }
   }
 
 
