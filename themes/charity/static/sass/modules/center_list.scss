@@ -162,6 +162,25 @@
 	}
 }
 
+.vimeo {
+width: 100%;
+height: 400px;
+margin-top: 50px;
+}
+
+.ptamission {
+	display: inline-block;
+	border-bottom: none;
+	text-align: center;
+	width: 100%;
+	font-size: 80%;
+}
+
+.ptamission:hover {
+	border-bottom: none;
+	color: $darkBlue;
+}
+
 /* --------------- VOLUNTEER WAYS ---------------*/
 
 .ways p {

@@ -2438,6 +2438,22 @@ sup {
   .pta li:nth-child(2) {
     margin: 50px 2%; } }
 
+.vimeo {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px; }
+
+.ptamission {
+  display: inline-block;
+  border-bottom: none;
+  text-align: center;
+  width: 100%;
+  font-size: 80%; }
+
+.ptamission:hover {
+  border-bottom: none;
+  color: #00295C; }
+
 /* --------------- VOLUNTEER WAYS ---------------*/
 .ways p {
   text-align: center; }

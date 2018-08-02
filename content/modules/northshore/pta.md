@@ -11,19 +11,8 @@ type: module
 module_type: center_list
 color: grey_list
 class_name: pta
-list_items:
-- title: Education
-  class: graduate
-  description: Develop, advocate for and implement programs that ensure strong education
-    outcomes.
-- title: Community
-  class: community
-  description: Ignite and strengthen community and school pride among all parents,
-    teachers, and students.
-- title: Opportunity
-  class: sustain
-  description: Provide opportunities for families, staff and community members to
-    sustain these programs.
-
 ---
+<iframe src="https://player.vimeo.com/video/232548056?title=0&byline=0&portrait=0" class="vimeo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<a class="ptamission" href="https://vimeo.com/232548056">North Shore PTA Mission</a>.
+
 In the coming year the [PTA](https://www.pcsb.org/Page/4476) is looking to help support teachers and encourage participation in continuing education programs, provide scholarships and free opportunities for after school enrichments, as well as provide on-going program support for school-wide events like the One School One Book, Knight Readers, grade level field trips, and Bully Prevention.
