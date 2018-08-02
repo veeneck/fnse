@@ -1422,6 +1422,7 @@ body.fouroh {
 .hero {
   width: 100%;
   height: 80vh;
+  min-height: 600px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1430,7 +1431,8 @@ body.fouroh {
     .hero {
       background-attachment: fixed;
       text-align: right;
-      height: 85vh; } }
+      height: 85vh;
+      min-height: 800px; } }
 
 .castle-wall {
   background-image: url("/images/castle_wall_mobile.png");
