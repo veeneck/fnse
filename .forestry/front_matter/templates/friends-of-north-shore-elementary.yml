@@ -8,6 +8,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: textarea
+  label: Description
+  name: description
+  description: Used in the meta tag for search engines to pick up on.
 - name: type
   label: Type
   type: text
@@ -51,9 +55,9 @@ fields:
       type: pages
       section: modules
 pages:
-- content/nse.md
 - content/_index.md
 - content/volunteer.md
-- content/why.md
 - content/faq.md
 - content/fnse.md
+- content/why.md
+- content/nse.md
