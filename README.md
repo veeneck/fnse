@@ -38,12 +38,17 @@ The best way to familiarize yourself with the code is to understand Hugo. The tu
 
 ## Notes on the JavaScript
 
-no jquery. most of it straight forward and the code is commented. a few dependencies, which include:
+The JavaScript for this site is fairly common. The goal was to keep it small and remove the need for things like jQuery. The vast majority of what it is doing is to improve initial page load performance or implement corss browser features. It can all be found at `/themes/charity/static/js/index.js`. It is then minified into `index-min.js` and served. The file is commented, and here are the cliff notes:
 
-- lazyload (discussed below) https://www.andreaverlicchi.eu/lazyload/
-- https://glidejs.com for carousel
-- https://github.com/zengabor/zenscroll for smooth scrolling. discuss how firefox does this in CSS, as will others when they implement
-- maptkitjs. used https://mapkitjs.rubeng.nl/#/ to create key. tied to my developer account. 
+`LazyLoad`: Using a native JS [lazyload script](https://www.andreaverlicchi.eu/lazyload/) to only load images when they come into view. In modern browsers, this uses `IntersectionObserver`, and in older browsers this attaches to the scroll event. Anything with a class name of `lazy` and a `data-src` attribute will automatically be lazy loaded.
+
+`ZenScroll`: Just a small, convenient [solution for smooth scrolling](https://github.com/zengabor/zenscroll) on anchor links for browsers that don't support `scroll-behavior: smooth;`
+
+`MapKitJS`: The map in the zoned FAQ module has a nice visual impact. Using my developer account, I've added a functional Apple Maps impleemntation. The keys for this setup were created using https://mapkitjs.rubeng.nl/#/.
+
+`Animations`: CSS Animations are used to add subtle effects while scrolling. Any element with a class name of `triggerMe` will be checked on scroll. If the element is in view, it will be given a class of `triggeredCSS3` where animations can be attached.
+
+`Carousel`: https://glidejs.com for carousel
 
 ## Responsive Concerns
 
