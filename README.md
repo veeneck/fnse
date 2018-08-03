@@ -53,7 +53,7 @@ A module can be included on any page. There are a few main types of modules:
 
 Each module can further be customized with class names in the front matter. For example, Questions about North Shore has `module text_left faq blue_module padded-module` as class names. `padded-module` allows the background color to extend the entire height by using padding instead of margin. `blue_module` turns the background blue, and adjusts the text and link colors accordingly. `faq` is a custom class hook that can be used in the CSS to add specific styling to that one module. There is no master list of options, but every option is used on the site. If you need to make a new module, find the type on the site, and look at the front matter of the corresponding markdown file.
 
-### Quesitons
+### Questions
 
 To make it easier to view in the admin panel, questions are separated out into their own content type. These are simply posts with the quesiton as the title and the answer as the content.
 
@@ -70,7 +70,7 @@ The JavaScript for this site is fairly common. The goal was to keep it small and
 
 **ZenScroll**: Just a small, convenient [solution for smooth scrolling](https://github.com/zengabor/zenscroll) on anchor links for browsers that don't support `scroll-behavior: smooth;`
 
-**MapKitJS**: The map in the zoned FAQ module has a nice visual impact. Using my developer account, I've added a functional Apple Maps impleemntation. The keys for this setup were created using https://mapkitjs.rubeng.nl/#/.
+**MapKitJS**: The map in the zoned FAQ module has a nice visual impact. Using my developer account, I've added a functional Apple Maps implementation. The keys for this setup were created using https://mapkitjs.rubeng.nl/#/.
 
 **Animations**: CSS Animations are used to add subtle effects while scrolling. Any element with a class name of `triggerMe` will be checked on scroll. If the element is in view, it will be given a class of `triggeredCSS3` where animations can be attached.
 
@@ -80,7 +80,12 @@ As much of the JS as possible is loaded as needed. For example, maps are only lo
 
 ## Responsive Concerns
 
-Talk about breakpoints and responsive images
+The site uses `@media` queries to handle different screen sizes. The breakpoints can be found in `mixins.scss`. Other than different CSS, the other responsive change is image sizes. When the user uploads an image to the admin panel, it should:
+
+- State the desired size
+- They save
+- Netlify runs a task to generat emultiple sizes of theeimage
+- Some piece of code gives multiple data src's to the element
 
 ## SEO
 
