@@ -363,7 +363,9 @@ textarea {
   padding-top: 20px; }
 
 body {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px; }
 
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
@@ -707,6 +709,14 @@ a.button {
 /* --------  404 Page -------- */
 body.fouroh {
   background-color: #00295C; }
+
+html {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  height: 100%;
+  overflow: auto; }
 
 .module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
@@ -1073,7 +1083,9 @@ textarea {
   padding-top: 20px; }
 
 body {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px; }
 
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
@@ -1417,6 +1429,14 @@ a.button {
 /* --------  404 Page -------- */
 body.fouroh {
   background-color: #00295C; }
+
+html {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  height: 100%;
+  overflow: auto; }
 
 /*----------------------- Title and Background ------------------------------ */
 .hero {
@@ -2258,16 +2278,6 @@ sup {
 .sample-projects {
   margin: 50px 0px; }
 
-.center-project {
-  margin: 0px 25px; }
-  @media (min-width: 1080px) {
-    .center-project {
-      margin: 0px 50px; } }
-
-@media (min-width: 1080px) {
-  .sample-projects {
-    width: 100%; } }
-
 .project {
   background-color: #fff;
   background-clip: padding-box;
@@ -2276,15 +2286,13 @@ sup {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
-  @media (min-width: 1080px) {
-    .project {
-      width: 30%;
-      max-width: 30%; } }
+  animation-fill-mode: both;
+  visibility: hidden; }
 
 .project.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
+  animation-name: fadeIn;
+  visibility: visible; }
 
 .project:nth-child(1) {
   -webkit-animation-delay: 0s;
@@ -2559,7 +2567,10 @@ sup {
     .half_half .rightHalfContainer {
       width: 50%;
       height: auto;
-      max-width: 50%; } }
+      max-width: 50%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover; } }
 
 .halfImage {
   width: 100%;

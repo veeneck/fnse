@@ -18,5 +18,12 @@ modules:
 - modules/common/spotlight.md
 - modules/common/volunteer.md
 - modules/common/faq1.md
+modules_copy:
+- modules/fnse/aboutfriends.md
+- modules/common/testimonial.md
+- modules/northshore/aboutnorthshore.md
+- modules/common/spotlight.md
+- modules/common/volunteer.md
+- modules/common/faq1.md
 ---
 hello world

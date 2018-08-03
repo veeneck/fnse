@@ -18,41 +18,22 @@
 	margin: 50px 0px;
 }
 
-.center-project {
-	margin: 0px 25px;
-	@include breakpoint(normal-screen) {
-		margin: 0px 50px;
-	}
-}
-
-.sample-projects {
-	@include breakpoint(normal-screen) {
-		width: 100%;
-	}
-}
-
 .project {
-	///width: 300px;
 	background-color: $white;
 	background-clip: padding-box;
 	background-repeat: no-repeat;
 	border-radius: $borderRadius $borderRadius 0px 0px;
-	///border-bottom: 40px dotted $white;
-	@include breakpoint(normal-screen) {
-		width: 30%;
-		max-width: 30%;
-	}
 	-webkit-animation-duration: 1.5s;
   	animation-duration: 1.5s;
   	-webkit-animation-fill-mode: both;
   	animation-fill-mode: both;
-  	///visibility: hidden;
+  	visibility: hidden;
 }
 
 .project.triggeredCSS3 {
 -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  ///visibility: visible;
+  visibility: visible;
 }
 
 .project:nth-child(1) {

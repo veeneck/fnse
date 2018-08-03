@@ -23,11 +23,13 @@ function loadPage() {
 
 /// Toggle a classname whenever the hamburger menu is clicked to open and close the element.
 function initMobileListeners() {
+	var $menu = document.getElementById("menu");
     var $menulink = document.querySelectorAll('.menu-link')[0];
   
 	$menulink.addEventListener("click", function(event) {
 	  event.preventDefault();
 	  toggleClass(this, 'open');
+	  toggleClass($menu, 'open');
 	  return false;
 	});
 }
