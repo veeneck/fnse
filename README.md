@@ -89,7 +89,7 @@ The site uses `@media` queries to handle different screen sizes. The breakpoints
 
 ## SEO
 
-Talk about SEO 
+Talk about SEO. Title, description, H1/H2/H3, clean URL's, alt text on links, captions. Talk abotu site map being manually created,a nd how publish date is updated.
 
 ## Style Guide
 
