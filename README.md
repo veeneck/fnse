@@ -4,7 +4,7 @@ This is the respository for the FNSE website located at http://fnse.org.
 
 ## Services and Tools Used
 
-**Domain**: Godaddy?
+**Domain**: [Godaddy](http://godaddy.com)
 
 **Content Manager**: Built with [Hugo](https://gohugo.io)
 
@@ -37,18 +37,25 @@ The content is broken down into 3 main types:
 
 ### Pages
 
-page stuff
+Each page consists of front matter like `title`, `description`, `hero_image` and `url`. Additionally, there is a `modules` variable in the front matter that is an array of modules ID's. `/themes/charity/layouts/default/baseof.html` is the entry point for how this is rendered while `/themes/charity/layouts/partials/content.html` contains the branching logic for each type of module.
 
 ### Modules
 
-moduel stuff
+A module can be included on any page. There are a few main types of modules:
+- Text Left
+- Text Right
+- Half Half
+- Quote
+- Carousel
+- Center List
+- Hero
+- Footer
+
+Each module can further be customized with class names in the front matter. For example, Questions about North Shore has `module text_left faq blue_module padded-module` has class names. `padded-module` allows the background color to extend the entire height by using padding instead of margin. `blue_module` turns the background blue, and adjusts the text and link colors accordingly. `faq` is a custom class hook that can be used in the CSS to add specific styling to that one module. There is no master list of options, but every option is used on the site. If you need to make a new module, find the type on the site, and look at the front matter of the corresponding markdown file.
 
 ### Quesitons
 
-quesiton stuff
-
-- explain front matter for pages, modules, faq. explain any tags used, or hidden front matter this is hidden on admin panel but available to developers.
-- explain how to create a new module
+The make it easier to view in the admin panel, questions are separated out into their own content type. These are simply posts with the quesiton as the title and the answer as the content.
 
 ## Notes on the CSS
 
