@@ -5,6 +5,9 @@ body {
     padding: 0px;
 }
 
+/* If you need to debug, uncomment this */
+//* { outline: 1px solid red; }
+
 /* -------------- CORE LAYOUT ------------- */
 
 /* Every section is a module. By building around this class, margins and widths will be the same. */

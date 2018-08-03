@@ -367,6 +367,7 @@ body {
   margin: 0px;
   padding: 0px; }
 
+/* If you need to debug, uncomment this */
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {
@@ -1079,6 +1080,7 @@ body {
   margin: 0px;
   padding: 0px; }
 
+/* If you need to debug, uncomment this */
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {

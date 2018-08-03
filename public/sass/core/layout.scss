@@ -1,7 +1,12 @@
 
 body {
     scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
 }
+
+/* If you need to debug, uncomment this */
+//* { outline: 1px solid red; }
 
 /* -------------- CORE LAYOUT ------------- */
 

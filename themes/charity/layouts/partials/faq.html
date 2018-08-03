@@ -14,7 +14,7 @@
 
 				{{ range $key, $faq := $.Site.Taxonomies.tags.fnsefaq }}
 
-					<p><a href="" class="question arrow-right" id="fnse{{ $key }}">{{ $faq.Title }}</a></p>
+					<p><a href="#fnse{{ $key }}" class="question arrow-right" id="fnse{{ $key }}">{{ $faq.Title }}</a></p>
 					<div class="answer hide">{{ $faq.Content }}</div>
 
 				{{ end }}
@@ -37,7 +37,7 @@
 
 				{{ range $key, $faq := $.Site.Taxonomies.tags.nsefaq }}
 
-					<p><a href="" class="question arrow-right" id="nse{{ $key }}">{{ $faq.Title }}</a></p>
+					<p><a href="#nse{{ $key }}" class="question arrow-right" id="nse{{ $key }}">{{ $faq.Title }}</a></p>
 					<div class="answer hide">{{ $faq.Content }}</div>
 
 				{{ end }}

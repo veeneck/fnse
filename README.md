@@ -34,6 +34,7 @@ The best way to familiarize yourself with the code is to understand Hugo. The tu
 ## Notes on the CSS
 
 - ideas behind core, glide, modules organization. reference the style guide below.
+- uncomment debug rule at the top of layout.scss to outline all elements
 
 ## Notes on the JavaScript
 

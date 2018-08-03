@@ -95,7 +95,9 @@ function checkIfTriggerIsInView(nodes) {
 				loadMapKit();
 			}
 			else {
-				addClass(trigger, "triggeredCSS3");
+				if(!hasClass(trigger, "triggeredCSS3")) {
+					addClass(trigger, "triggeredCSS3");
+				}
 			}
 		}
 	});
@@ -103,6 +105,8 @@ function checkIfTriggerIsInView(nodes) {
 
 /// Utility function to check if an element is in view.
 function isScrolledIntoView(el) {
+	console.log(window.innerHeight);
+	console.log(document.body.getBoundingClientRect().top);
     var rect = el.getBoundingClientRect();
     var elemTop = rect.top;
     var elemBottom = rect.bottom;
@@ -258,6 +262,7 @@ https://www.andreaverlicchi.eu/lazyload/
 function initLazyLoad() {
 	var myLazyLoad = new LazyLoad({
     	elements_selector: ".lazy"
+    	///container: document.body
 	});
 }
 
