@@ -12,6 +12,8 @@ This is the respository for the FNSE website located at http://fnse.org.
 
 **Compiler**: Compiled with [CodeKit](https://codekitapp.com)
 
+**Admin Panel**: [Forestry.io](http://forestry.io) provides the user interface to edit content.
+
 Hugo is a static site generator, which means every page on the site has its HTML generated ahead of time. So, this site has no database. Whenever an edit is made through the front end, the entire site is rebuilt very quickly. This happens as a post commit hook in Netlify. Netlify detects the change, rebuilds, and redeploys to their CDN. The site is served quickly since there is no server to run.
 
 Non technical users will not need to know what is happening. They'll just make a change, the site rebuilds, and the changes will appear. Technical users can also edit the code directly, manually trigger a rebuild, and commit the code. To work on the site, programmers must use Codekit or some other tool that can compile the SASS files into CSS, and mizimize the JS files. Before writing code, hugo must be [installed locally](https://gohugo.io/getting-started/installing/) and [the local server must be running](https://gohugo.io/getting-started/usage/).
@@ -27,6 +29,23 @@ The best way to familiarize yourself with the code is to understand Hugo. The tu
 `/themes/charity/static`: All of the static assets. CSS is written in the `sass` directory, and then compiled into CSS with Codekit or any other comparible tool. JS is minizmied in a similar fashion. Images live in the `/images` directory.
 
 ## Notes on the Content
+
+The content is broken down into 3 main types:
+- **Page**: A web page with a unique URL.
+- **Module**: A section inside of a webpage.
+- **Question**:	A single FAQ question.
+
+### Pages
+
+page stuff
+
+### Modules
+
+moduel stuff
+
+### Quesitons
+
+quesiton stuff
 
 - explain front matter for pages, modules, faq. explain any tags used, or hidden front matter this is hidden on admin panel but available to developers.
 - explain how to create a new module
