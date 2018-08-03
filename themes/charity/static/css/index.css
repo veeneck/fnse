@@ -453,8 +453,8 @@ figure.triggeredCSS3 {
 
 figcaption {
   font-style: italic;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   color: #3A3A3A;
   font-size: 80%;
   margin-top: 10px;
@@ -1166,8 +1166,8 @@ figure.triggeredCSS3 {
 
 figcaption {
   font-style: italic;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   color: #3A3A3A;
   font-size: 80%;
   margin-top: 10px;
@@ -1569,8 +1569,8 @@ h1 img {
 /*-----------------Dropdown Menu---------------*/
 nav[role=navigation] {
   overflow: hidden;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   width: 0px; }
   @media (min-width: 1080px) {
     nav[role=navigation] {
@@ -1587,7 +1587,7 @@ ul.nav {
       margin: auto 10px auto 0px;
       border: 0;
       text-align: right;
-      font-size: 80%; } }
+      font-size: 85%; } }
 
 ul.nav li {
   display: inline-block;
@@ -1960,8 +1960,8 @@ div.menu-link {
       text-align: left; } }
 
 .listcontent li {
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   font-size: 85%;
   margin: 10px 0px; }
 
@@ -2080,8 +2080,8 @@ div.menu-link {
   padding: 10px 20px;
   margin: 5px 5px;
   background-color: #FAFAFA;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
   @media (min-width: 35em) {
     .text_left li {
       margin: 10px 20px; } }
@@ -2145,8 +2145,8 @@ sup {
   padding: 10px 20px;
   margin: 5px 5px;
   background-color: #FAFAFA;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
   @media (min-width: 35em) {
     .text_right li {
       margin: 10px 20px; } }
@@ -2218,8 +2218,8 @@ sup {
   font-weight: 900; }
 
 .quote span {
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   color: #A4A4A4; }
 
 /* ------------ BACKGROUND QUOTE "" VISUALS ---------------*/
@@ -2240,8 +2240,8 @@ sup {
 
 .volunteer span {
   color: #3FB08A;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   font-style: italic;
   display: block;
   margin: 50px 0px;
@@ -2429,8 +2429,8 @@ sup {
 
 .list_item span {
   display: block;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   text-align: left; }
 
 /* --------------- PTA ---------------*/
@@ -2649,8 +2649,8 @@ sup {
   color: #fff;
   display: block;
   margin: 50px 0px -20px 0px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   font-size: 100%;
   background-color: #00295C;
   border-radius: 4px;
@@ -2722,8 +2722,8 @@ sup {
   padding: 10px 20px;
   margin: 10px 20px;
   background-color: #FAFAFA;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
 
 .hide {
   display: none; }

@@ -89,13 +89,21 @@ function checkAllTriggers() {
 /// Loop through a node list and see if each element is in view. If so, add triggeredCSS3, which is the class used to animate.
 function checkIfTriggerIsInView(nodes) {
 	Array.prototype.forEach.call(nodes, function(trigger, i){
-		if(isScrolledIntoView(trigger)) {
-			if(trigger.id == "map" && !hasClass(trigger, "loaded")) {
+		var leading = 0;
+
+		/// For the map, set a leading so that it preloads in advance.
+		if(trigger.id == "map" && !hasClass(trigger, "loaded")) {
+			leading = 500;
+			if(isScrolledIntoView(trigger, leading)) {
 				addClass(trigger, "loaded");
 				loadMapKit();
 			}
-			else {
-				if(!hasClass(trigger, "triggeredCSS3")) {
+		}
+
+		/// For everything else, add a classname if it isn't already present
+		else {
+			if(!hasClass(trigger, "triggeredCSS3")) {
+				if(isScrolledIntoView(trigger, leading)) {
 					addClass(trigger, "triggeredCSS3");
 				}
 			}
@@ -104,7 +112,7 @@ function checkIfTriggerIsInView(nodes) {
 }
 
 /// Utility function to check if an element is in view.
-function isScrolledIntoView(el) {
+function isScrolledIntoView(el, leading) {
 	console.log(window.innerHeight);
 	console.log(document.body.getBoundingClientRect().top);
     var rect = el.getBoundingClientRect();
@@ -114,7 +122,7 @@ function isScrolledIntoView(el) {
     // Only completely visible elements return true:
     ///var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
     // Partially visible elements return true:
-    var isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+    var isVisible = elemTop < (window.innerHeight + leading) && elemBottom >= 0;
     return isVisible;
 }
 
@@ -250,20 +258,17 @@ function loadMapKit() {
 https://www.andreaverlicchi.eu/lazyload/
 */
 
-/*(function(w, d){
-	var b = d.getElementsByTagName('body')[0];
-	var s = d.createElement("script"); s.async = true;
-	var v = !("IntersectionObserver" in w) ? "8.12.0" : "10.12.0";
-	s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
-	w.lazyLoadOptions = {}; // Your options here. See "recipes" for more information about async.
-	b.appendChild(s);
-}(window, document));*/
-
 function initLazyLoad() {
-	var myLazyLoad = new LazyLoad({
-    	elements_selector: ".lazy"
-    	///container: document.body
-	});
+	(function(w, d){
+		var b = d.getElementsByTagName('body')[0];
+		var s = d.createElement("script"); s.async = true;
+		var v = !("IntersectionObserver" in w) ? "8.12.0" : "10.12.0";
+		s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
+		w.lazyLoadOptions = {
+			elements_selector: ".lazy"
+		}; // Your options here. See "recipes" for more information about async.
+		b.appendChild(s);
+	}(window, document));
 }
 
 /* ----------- GLIDE JS ---------- */
