@@ -71,7 +71,7 @@ function toggleQuestion(element) {
 /// Check once on initial call for elements alreayd in view, and then the scroll / resize event will check the rest.
 function bringElementsIntoView() {
 	checkAllTriggers();
-	document.body.addEventListener('scroll', function(event) {
+	document.addEventListener('scroll', function(event) {
 		checkAllTriggers();
 	});
 	document.addEventListener('resize', function(event) {
@@ -104,7 +104,7 @@ function checkIfTriggerIsInView(nodes) {
 }
 
 /// Utility function to check if an element is in view.
-/*function isScrolledIntoView(el) {
+function isScrolledIntoView(el) {
 	console.log(window.innerHeight);
 	console.log(document.body.getBoundingClientRect().top);
     var rect = el.getBoundingClientRect();
@@ -116,23 +116,6 @@ function checkIfTriggerIsInView(nodes) {
     // Partially visible elements return true:
     var isVisible = elemTop < window.innerHeight && elemBottom >= 0;
     return isVisible;
-}*/
-
-function isScrolledIntoView (el) {
-
-    //special bonus for those using jQuery
-    if (typeof jQuery === "function" && el instanceof jQuery) {
-        el = el[0];
-    }
-
-    var rect = el.getBoundingClientRect();
-
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
-    );
 }
 
 /* -------- GLIDE JS FOR CAROUSEL -------- */
@@ -278,8 +261,8 @@ https://www.andreaverlicchi.eu/lazyload/
 
 function initLazyLoad() {
 	var myLazyLoad = new LazyLoad({
-    	elements_selector: ".lazy",
-    	container: document.body
+    	elements_selector: ".lazy"
+    	///container: document.body
 	});
 }
 

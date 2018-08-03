@@ -710,14 +710,6 @@ a.button {
 body.fouroh {
   background-color: #00295C; }
 
-html {
-  overflow: hidden;
-  height: 100%; }
-
-body {
-  height: 100%;
-  overflow: auto; }
-
 .module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
   .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
@@ -1429,14 +1421,6 @@ a.button {
 /* --------  404 Page -------- */
 body.fouroh {
   background-color: #00295C; }
-
-html {
-  overflow: hidden;
-  height: 100%; }
-
-body {
-  height: 100%;
-  overflow: auto; }
 
 /*----------------------- Title and Background ------------------------------ */
 .hero {
