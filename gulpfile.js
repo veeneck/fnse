@@ -9,22 +9,23 @@ gulp.task("img", () =>
   gulp.src("./public/images/**.*")
     .pipe(responsive({
       "*": [{
-        width: 480,
-        rename: {suffix: "-sm"},
+        width: 450,
+        rename: {suffix: "@450"},
         skipOnEnlargement: true,
         withoutEnlargement: true
       }, {
-        width: 480 * 2,
-        rename: {suffix: "-sm@2x"},
+        width: 900,
+        rename: {suffix: "@900"},
         skipOnEnlargement: true,
         withoutEnlargement: true
       }, {
-        width: 675,
+        width: 1080,
+        rename: {suffix: "@1080"},
         skipOnEnlargement: true,
         withoutEnlargement: true
       }, {
-        width: 675 * 2,
-        rename: {suffix: "@2x"},
+        width: 1440,
+        rename: {suffix: "@1440"},
         skipOnEnlargement: true,
         withoutEnlargement: true
       }],
