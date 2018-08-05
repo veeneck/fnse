@@ -5,11 +5,6 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/questions
-  label: Questions
-  create: all
-  match: "**/*"
-- type: directory
   path: content
   label: Pages
   create: all
@@ -17,6 +12,11 @@ sections:
 - type: directory
   path: content/modules
   label: Modules
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/questions
+  label: Questions
   create: all
   match: "**/*"
 upload_dir: static/uploads
