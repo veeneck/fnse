@@ -1,0 +1,29 @@
+{
+  "name": "fnse",
+  "version": "1.0.0",
+  "description": "Friends of North Shore Website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-responsive": "^2.11.0",
+    "gulp-yarn": "^2.0.0"
+  },
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeneck/fnse.git"
+  },
+  "keywords": [
+    "school"
+  ],
+  "author": "fnse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veeneck/fnse/issues"
+  },
+  "homepage": "https://github.com/veeneck/fnse#readme"
+}
