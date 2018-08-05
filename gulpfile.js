@@ -29,8 +29,8 @@ gulp.task("img", () =>
         withoutEnlargement: true
       }],
     }, {
-      silent: true,      // Don't spam the console
+      silent: false,      // Don't spam the console
       errorOnEnlargement: false
     }))
-    .pipe(gulp.dest(".public/dist/img")
+    .pipe(gulp.dest("dist/img")
 ));
