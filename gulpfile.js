@@ -32,5 +32,5 @@ gulp.task("img", () =>
       silent: true,      // Don't spam the console
       errorOnEnlargement: false
     }))
-    .pipe(gulp.dest("./dist/img")
+    .pipe(gulp.dest(".public/dist/img")
 ));
