@@ -1,0 +1,15 @@
+<!--<figure class="triggerMe">
+<picture class="coreImage triggerMe">
+	<source media="(min-width: 1024px)" data-srcset="{{ .Params.image }}" />
+	<source media="(max-width: 1023px)" data-srcset="{{ .Params.image }}" />
+	<img class="lazy" alt="Image Description" data-src="{{ .Params.image }}">
+ </picture>
+<figcaption>{{ .Params.caption }}</figcaption>
+</figure>-->
+
+<figure class="triggerMe">
+	<img data-src="{{ .Params.image }}" class="coreImage triggerMe lazy" />
+ 	<figcaption>
+ 		{{ .Params.caption }}
+ 	</figcaption>
+</figure>

@@ -6,7 +6,7 @@ gulp.task('hello', function() {
 });
 
 gulp.task("img", () =>
-  gulp.src("./public/images/**.*")
+  gulp.src("./themes/charity/static/images/**.*")
     .pipe(responsive({
       "*": [{
         width: 450,
@@ -33,5 +33,5 @@ gulp.task("img", () =>
       silent: false,      // Don't spam the console
       errorOnEnlargement: false
     }))
-    .pipe(gulp.dest("./public/images/responsive")
+    .pipe(gulp.dest("./themes/charity/static/images/responsive")
 ));

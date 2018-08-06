@@ -1,5 +1,36 @@
 {{ if isset .Params "hero_title" }}
-<section class="hero darken-pseudo {{ .Params.hero_class }} {{ if (not (isset .Params "hero_button_text")) }}nocta{{end}} lazy" data-src="{{ .Params.image }}">
+
+{{ $splitImageName := split .Params.image "/" }}
+{{ $completeFile := index (last 1 $splitImageName) 0 }}
+{{ $fileName := index (split $completeFile ".") 0 }}
+{{ $fileType := index (split $completeFile ".") 1 }}
+
+<style scoped>
+/* 0 to 299 */
+.hero_image {
+    background-image: url('/images/responsive/{{ $fileName }}@450.{{ $fileType }}');
+}
+/* 450 to 899 */
+@media (min-width: 450px) {
+    .hero_image {   
+        background-image: url('/images/responsive/{{ $fileName }}@900.{{ $fileType }}');
+    }
+}
+/* 900 to 1080 */
+@media (min-width: 900px) {
+    .hero_image {   
+        background-image: url('/images/responsive/{{ $fileName }}@1080.{{ $fileType }}');
+    }
+}
+/* 1080 to X */
+@media (min-width: 1080px) {
+    .hero_image {   
+        background-image: url('/images/responsive/{{ $fileName }}@1440.{{ $fileType }}');
+    }
+}
+</style>
+
+<section class="hero darken-pseudo {{ .Params.hero_class }} {{ if (not (isset .Params "hero_button_text")) }}nocta{{end}} hero_image">
 
 	<div class="container">
 

@@ -440,7 +440,7 @@ figure {
   @media (min-width: 35em) {
     figure {
       padding-top: 0px;
-      width: 45%; } }
+      max-width: 45%; } }
   @media (min-width: 1080px) {
     figure {
       margin-top: 0px; } }
@@ -462,6 +462,9 @@ figcaption {
   @media (min-width: 35em) {
     figcaption {
       display: block; } }
+
+picture {
+  max-width: 100%; }
 
 /* -------------- THIRDS MODULE ------------- */
 .thirdContainer {
@@ -1153,7 +1156,7 @@ figure {
   @media (min-width: 35em) {
     figure {
       padding-top: 0px;
-      width: 45%; } }
+      max-width: 45%; } }
   @media (min-width: 1080px) {
     figure {
       margin-top: 0px; } }
@@ -1175,6 +1178,9 @@ figcaption {
   @media (min-width: 35em) {
     figcaption {
       display: block; } }
+
+picture {
+  max-width: 100%; }
 
 /* -------------- THIRDS MODULE ------------- */
 .thirdContainer {

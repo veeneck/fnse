@@ -90,7 +90,7 @@ figure {
     /* Wrap the text around the image. */
     @include breakpoint(condensed-screen) {
         padding-top: 0px;
-        width: 45%;
+        max-width: 45%;
     }
 
     /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */
@@ -116,6 +116,10 @@ figcaption {
     @include breakpoint(condensed-screen) {
         display: block;
     }   
+}
+
+picture {
+    max-width: 100%;
 }
 
 /* -------------- THIRDS MODULE ------------- */

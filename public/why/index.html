@@ -82,7 +82,38 @@
 	    
 
 		
-<section class="hero darken-pseudo placeholder  lazy" data-src="/images/schoolright.jpg">
+
+
+
+
+
+
+<style scoped>
+ 
+.hero_image {
+    background-image: url('/images/responsive/schoolright@450.jpg');
+}
+ 
+@media (min-width: 450px) {
+    .hero_image {   
+        background-image: url('/images/responsive/schoolright@900.jpg');
+    }
+}
+ 
+@media (min-width: 900px) {
+    .hero_image {   
+        background-image: url('/images/responsive/schoolright@1080.jpg');
+    }
+}
+ 
+@media (min-width: 1080px) {
+    .hero_image {   
+        background-image: url('/images/responsive/schoolright@1440.jpg');
+    }
+}
+</style>
+
+<section class="hero darken-pseudo placeholder  hero_image">
 
 	<div class="container">
 
@@ -124,11 +155,14 @@
 
 
 			<figure class="triggerMe">
-				<img data-src="/images/table.jpg" class="coreImage  triggerMe lazy" />
-			 	<figcaption>
-			 		This is a caption
-			 	</figcaption>
-			</figure>
+<picture class="coreImage triggerMe">
+	<source media="(min-width: 1024px)" data-srcset="/images/table.jpg" />
+	<source media="(max-width: 1023px)" data-srcset="/images/table.jpg" />
+	<img class="lazy" alt="Image Description" data-src="/images/table.jpg">
+ </picture>
+<figcaption>This is a caption</figcaption>
+</figure>
+
 
 			<p><p>North Shore Elementary has been proudly serving students for over 90 years and is the alma mater to many of today’s leaders in St. Petersburg.  It is a small school with character, compassion, diversity, and ingenuity that continues to define what successful public education should and can look like.  With approximately 350 students, the small size of North Shore allows for all teachers and staff to know all students, not just the ones in their classes.  Whether you are walking around the campus, participating in school-wide events, or at the monthly assemblies you can see and hear teachers, students, and parents supporting each other and engaging in each other’s lives.  Additionally, the teachers who come to North Shore Elementary to teach stay there, and are continually supported to grow and develop their craft as they see fit.</p>
 </p>
@@ -239,11 +273,14 @@
 
 
 			<figure class="triggerMe">
-				<img data-src="/images/staff.jpg" class="coreImage  triggerMe lazy" />
-			 	<figcaption>
-			 		This is a caption
-			 	</figcaption>
-			</figure>
+<picture class="coreImage triggerMe">
+	<source media="(min-width: 1024px)" data-srcset="/images/staff.jpg" />
+	<source media="(max-width: 1023px)" data-srcset="/images/staff.jpg" />
+	<img class="lazy" alt="Image Description" data-src="/images/staff.jpg">
+ </picture>
+<figcaption>This is a caption</figcaption>
+</figure>
+
 
 			<p><p><a href="https://www.pcsb.org/domain/2019">Principle Cooper Dawson</a> has been a principal in the Pinellas County School system since 2005 and spent the prior 10 years in the classroom.  She holds a Master’s Degree in Education from the University of South Florida, and brings with her a wealth of experience and knowledge.  She has created a caring a nurturing environment, motivating staff and students to work as a community alway in the pursuit of excellence.  She continues to make great strides in re-establishing North Shore Elementary as a dynamic, engaging, and successful school. Additionally, she welcomes further education for teachers, and the inclusion of alternate programs like <a href="/nse#CastleApprenticeship">C.A.P</a>, a project based approach.</p>
 </p>
@@ -436,11 +473,14 @@
 
 
 			<figure class="triggerMe">
-				<img data-src="/images/KidsBanner.jpg" class="coreImage  triggerMe lazy" />
-			 	<figcaption>
-			 		This is a caption
-			 	</figcaption>
-			</figure>
+<picture class="coreImage triggerMe">
+	<source media="(min-width: 1024px)" data-srcset="/images/KidsBanner.jpg" />
+	<source media="(max-width: 1023px)" data-srcset="/images/KidsBanner.jpg" />
+	<img class="lazy" alt="Image Description" data-src="/images/KidsBanner.jpg">
+ </picture>
+<figcaption>This is a caption</figcaption>
+</figure>
+
 
 			<p><p>Friends of North Shore Elementary (FNSE) was founded from sidewalk conversations in 2015. Neighbors with preschool aged children were asking themselves,&ldquo;Why are families in one neighborhood attending over 10 different elementary schools instead of North Shore Elementary, our zoned school?&rdquo; The interest in this idea was incredibly strong, and it was clear that many individuals wanted to support their neighborhood school. With the purpose to help bring positive focus and contribution to North Shore Elementary, FNSE incorporated as a non-profit in December 2015 and was established as a 501&copy;(3) a few months later.</p>
 </p>

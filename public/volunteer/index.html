@@ -82,7 +82,38 @@
 	    
 
 		
-<section class="hero darken-pseudo faqhero  lazy" data-src="/images/VolunteerLarge.jpg">
+
+
+
+
+
+
+<style scoped>
+ 
+.hero_image {
+    background-image: url('/images/responsive/VolunteerLarge@450.jpg');
+}
+ 
+@media (min-width: 450px) {
+    .hero_image {   
+        background-image: url('/images/responsive/VolunteerLarge@900.jpg');
+    }
+}
+ 
+@media (min-width: 900px) {
+    .hero_image {   
+        background-image: url('/images/responsive/VolunteerLarge@1080.jpg');
+    }
+}
+ 
+@media (min-width: 1080px) {
+    .hero_image {   
+        background-image: url('/images/responsive/VolunteerLarge@1440.jpg');
+    }
+}
+</style>
+
+<section class="hero darken-pseudo faqhero  hero_image">
 
 	<div class="container">
 
@@ -124,11 +155,14 @@
 
 
 			<figure class="triggerMe">
-				<img data-src="/images/students.jpg" class="coreImage  triggerMe lazy" />
-			 	<figcaption>
-			 		This is a caption
-			 	</figcaption>
-			</figure>
+<picture class="coreImage triggerMe">
+	<source media="(min-width: 1024px)" data-srcset="/images/students.jpg" />
+	<source media="(max-width: 1023px)" data-srcset="/images/students.jpg" />
+	<img class="lazy" alt="Image Description" data-src="/images/students.jpg">
+ </picture>
+<figcaption>This is a caption</figcaption>
+</figure>
+
 
 			<p><p>At Friends of North Shore, our goal is to identify needs of the school and offer our support to make sure those needs are met. From fundraising, networking, promotion to our time, we&rsquo;ll do what&rsquo;s necessary to ensure a successful experience for our children. If you&rsquo;re interested in helping out, please look at some ouf our needs below, and consider <a href="#">contacting us</a>. Even if a need is not listed on this site, but you have a specific skill to offer, we would love to hear from you. From all of us, thanks for your consideration.</p>
 </p>
@@ -313,11 +347,14 @@
 
 
 			<figure class="triggerMe">
-				<img data-src="/images/nsevolunteer.jpg" class="coreImage  triggerMe lazy" />
-			 	<figcaption>
-			 		This is a caption
-			 	</figcaption>
-			</figure>
+<picture class="coreImage triggerMe">
+	<source media="(min-width: 1024px)" data-srcset="/images/nsevolunteer.jpg" />
+	<source media="(max-width: 1023px)" data-srcset="/images/nsevolunteer.jpg" />
+	<img class="lazy" alt="Image Description" data-src="/images/nsevolunteer.jpg">
+ </picture>
+<figcaption>This is a caption</figcaption>
+</figure>
+
 
 			<p><p>There are plenty of ways to get involved at North Shore Elementary. We encourage all parents to attend our <a href="#">PTA meetings</a> and share their thoughts. Additionally, community members are welcome to join the <a href="#">Student Advisory Council</a> and lend their expertise. As for traditional volunteering, the school is actively looking for help in areas like mentoring, supervision, tutoring and front office assistance. To volunteer on campus, <a href="https://www.pcsb.org/Page/21252">you must fill out paperwork</a> with Mrs. gervais which includes a background check. What adiditional info do we want to include here? Contact info, more detail on options, etc? You may find <a href="https://www.pcsb.org/domain/7787">additional opportunities on the school website</a>.</p>
 </p>

@@ -6,12 +6,7 @@
 
 			{{ partial "module_header.html" $.module }}
 
-			<figure class="triggerMe">
-				<img data-src="{{ $.module.Params.image }}" class="coreImage  triggerMe lazy" />
-			 	<figcaption>
-			 		{{ $.module.Params.caption }}
-			 	</figcaption>
-			</figure>
+			{{ partial "img.html" $.module }}
 
 			<p>{{ $.module.Content }}</p>
 
