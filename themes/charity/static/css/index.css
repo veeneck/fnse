@@ -1441,9 +1441,13 @@ body.fouroh {
   text-align: center; }
   @media (min-width: 35em) {
     .hero {
+      background-attachment: fixed;
       text-align: right;
       height: 85vh;
       min-height: 900px; } }
+  @media (hover: none) {
+    .hero {
+      background-attachment: initial; } }
 
 .castle-wall {
   background-image: url("/images/castle_wall_mobile.png");
