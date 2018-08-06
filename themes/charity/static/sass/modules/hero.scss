@@ -15,7 +15,7 @@
 
     text-align: center;
     @include breakpoint(condensed-screen) {
-      background-attachment: fixed;
+      ///background-attachment: fixed;
         text-align: right;
          height: 85vh;
          min-height: 900px;
