@@ -7,26 +7,26 @@
 
 <style scoped>
 .hero_image {
-  background-image: url('/images/responsive/{{ $fileName }}@450.{{ $fileType }}');
+  background-image: url('/images/responsive/{{ $fileName }}@768.{{ $fileType }}');
 }
 @media
   (-webkit-min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi) {
   .hero_image {
-    background-image: url('/images/responsive/{{ $fileName }}@900.{{ $fileType }}');
+    background-image: url('/images/responsive/{{ $fileName }}@1080.{{ $fileType }}');
   }
 }
 @media
   (min-width: 800px) {
   .hero_image {
-    background-image: url('/images/responsive/{{ $fileName }}@1080.{{ $fileType }}');
+    background-image: url('/images/responsive/{{ $fileName }}@1440.{{ $fileType }}');
   }
 }
 @media
   (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px), 
   (min-resolution: 192dpi) and (min-width: 800px) {
   .hero_image {
-    background-image: url('/images/responsive/{{ $fileName }}@1440.{{ $fileType }}');
+    background-image: url('/images/responsive/{{ $fileName }}@1920.{{ $fileType }}');
   }
 }
 
