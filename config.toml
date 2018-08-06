@@ -2,3 +2,5 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Friends of North Shore Elementary"
 theme = "charity"
+cloudinary_url = "https://res.cloudinary.com/du4ny2w9j/image/upload/"
+
