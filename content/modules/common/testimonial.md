@@ -12,12 +12,12 @@ list_items:
   body: I'm constantly amazed by the teachers and staff at North Shore elementary.
     Their commitment, responsiveness, and desire to educate make me proud to send
     my kids there.
-  image: "/images/headshot.jpg"
+  image: "/images/user/headshot.jpg"
 - name: Jessica Stork
   role: Mom to 3rd Grader
   body: North Shore Elementary keeps surprising me with their improvements and progress.
     Wonderful school and staff!
-  image: "/images/headshot.jpg"
+  image: "/images/user/headshot.jpg"
 
 ---
 This is a testimonial module.

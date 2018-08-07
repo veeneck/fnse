@@ -7,15 +7,15 @@ module_type: carousel
 class_name: events
 list_items:
 - title: Event 1
-  image: "/images/placeholder.jpg"
+  image: "/images/uneditable/placeholder.jpg"
   description: This is the secription of an event that takes place. No link to an
     external page unless necessary.
 - title: Event 2
-  image: "/images/placeholder.jpg"
+  image: "/images/uneditable/placeholder.jpg"
   description: This is the secription of an event that takes place. No link to an
     external page unless necessary.
 - title: Event 3
-  image: "/images/placeholder.jpg"
+  image: "/images/uneditable/placeholder.jpg"
   description: This is the secription of an event that takes place. No link to an
     external page unless necessary.
 

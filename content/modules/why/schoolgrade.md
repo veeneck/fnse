@@ -16,6 +16,6 @@ class_name: grade
 color: blue_list
 
 ---
-<img src="/images/SchoolGrade.png" style="margin: 75px auto; display: block; border-radius: 4px; max-width:100%;"/>
+<img src="/images/uneditable/SchoolGrade.png" style="margin: 75px auto; display: block; border-radius: 4px; max-width:100%;"/>
 
 At the same time, the school grade is not all that prospective parents should care about. Gearing specifically towards tests does not ensure a well rounded education. [Homework policies](#), [teacher engagement](#), [recess time](#) and many other factors go into the North Shore experience. We strongly encourage all families who are considering North Shore elementary to [schedule a tour](#) and see first hand if the school meets their needs. Molly / Marci, are these two paragraphs the right feel? Discuss where we want to go with this.

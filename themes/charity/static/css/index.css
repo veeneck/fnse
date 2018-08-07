@@ -1945,7 +1945,7 @@ div.menu-link {
 .sitecontent .logo {
   display: none;
   width: 25%;
-  background-image: url("/images/fnselogo.png");
+  background-image: url("/images/uneditable/fnselogo.png");
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0 auto;
@@ -2239,13 +2239,13 @@ sup {
   position: absolute;
   top: 0;
   left: 0;
-  content: url("/images/hasQuoteTop.png"); }
+  content: url("/images/uneditable/hasQuoteTop.png"); }
 
 .hasQuote::after {
   position: absolute;
   bottom: -6px;
   right: 0;
-  content: url("/images/hasQuoteBottom.png"); }
+  content: url("/images/uneditable/hasQuoteBottom.png"); }
 
 .volunteer span {
   color: #3FB08A;
@@ -2420,10 +2420,10 @@ sup {
       margin-right: 0px; } }
 
 .grey_list .shield {
-  background-image: url("/images/grey_shield.png"); }
+  background-image: url("/images/uneditable/grey_shield.png"); }
 
 .blue_list .shield {
-  background-image: url("/images/blue_shield.png"); }
+  background-image: url("/images/uneditable/blue_shield.png"); }
 
 /* --------------- LIST ITEM, NAME, DESCRIPTION ---------------*/
 .list_item {
@@ -2613,31 +2613,31 @@ sup {
   width: 33%; }
 
 .grid1 {
-  background-image: url("/images/grid1.jpg"); }
+  background-image: url("/images/uneditable/grid1.jpg"); }
 
 .grid2 {
-  background-image: url("/images/grid2.jpg"); }
+  background-image: url("/images/uneditable/grid2.jpg"); }
 
 .grid3 {
-  background-image: url("/images/grid3.jpg"); }
+  background-image: url("/images/uneditable/grid3.jpg"); }
 
 .grid4 {
-  background-image: url("/images/grid4.jpg"); }
+  background-image: url("/images/uneditable/grid4.jpg"); }
 
 .grid5 {
-  background-image: url("/images/grid5.jpg"); }
+  background-image: url("/images/uneditable/grid5.jpg"); }
 
 .grid6 {
-  background-image: url("/images/grid6.jpg"); }
+  background-image: url("/images/uneditable/grid6.jpg"); }
 
 .grid7 {
-  background-image: url("/images/grid7.jpg"); }
+  background-image: url("/images/uneditable/grid7.jpg"); }
 
 .grid8 {
-  background-image: url("/images/grid8.jpg"); }
+  background-image: url("/images/uneditable/grid8.jpg"); }
 
 .grid9 {
-  background-image: url("/images/grid9.jpg"); }
+  background-image: url("/images/uneditable/grid9.jpg"); }
 
 #map {
   width: 100%;
@@ -2648,7 +2648,7 @@ sup {
 
 .faqlist {
   background-color: #A4A4A4;
-  background-image: url("/images/placeholder.jpg");
+  background-image: url("/images/uneditable/placeholder.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

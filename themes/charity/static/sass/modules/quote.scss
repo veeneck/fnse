@@ -80,13 +80,13 @@
 	position: absolute;
 	top: 0;
     left: 0;
-	content: url("/images/hasQuoteTop.png");
+	content: url("/images/uneditable/hasQuoteTop.png");
 }
 
 .hasQuote::after {
 	position: absolute;
 	bottom: -6px;
 	right: 0;
-	content: url("/images/hasQuoteBottom.png");
+	content: url("/images/uneditable/hasQuoteBottom.png");
 
 }
