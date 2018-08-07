@@ -55,7 +55,7 @@ fields:
 - type: file
   name: image
   label: Image
-  description: The image to use for the module.
+  description: The image to use for the module. Must be at least 1080 pixels wide.
 - type: text
   name: caption
   label: Caption
