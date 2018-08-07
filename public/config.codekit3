@@ -348,7 +348,7 @@
 		"opt": 1,
 		"q": 87
 		},
-	"\/images\/classroom_small.JPG": {
+	"\/images\/classroom_small.jpg": {
 		"ft": 16384,
 		"iS": 172363,
 		"jF": 2,
@@ -845,7 +845,7 @@
 		},
 	"\/images\/icons\/icon_whitecap.png": {
 		"ft": 32768,
-		"iS": 1128,
+		"iS": 855,
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_whitecap.png",
 		"oF": 0,
@@ -1157,8 +1157,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/band@1080.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1202,8 +1202,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/basketball@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/basketball@1440.jpg": {
@@ -1268,8 +1268,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/bball2@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/bball2@1440.jpg": {
@@ -1334,8 +1334,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/bluedoor@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/bluedoor@1440.jpg": {
@@ -1400,8 +1400,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/brick@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/brick@1440.jpg": {
@@ -1499,8 +1499,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/classrom@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/classrom@1440.jpg": {
@@ -1609,8 +1609,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/entry@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/entry@1440.jpg": {
@@ -1752,8 +1752,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/grid3@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/grid3@1440.jpg": {
@@ -1928,8 +1928,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/informed3@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/informed3@1440.jpg": {
@@ -2027,8 +2027,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/informed@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/informed@450.jpg": {
@@ -2103,8 +2103,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/kindergarden@1080.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2247,8 +2247,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/picnic@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/picnic@1440.jpg": {
@@ -2313,8 +2313,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/placeholder@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/placeholder@1440.jpg": {
@@ -2379,8 +2379,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/plaque@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/plaque@1440.jpg": {
@@ -2478,8 +2478,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/playground@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/playground@1440.jpg": {
@@ -2566,8 +2566,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/School1@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/School1@1440.jpg": {
@@ -2621,8 +2621,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/school2@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/school2@1440.jpg": {
@@ -2709,8 +2709,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/schoolright@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/schoolright@1440.jpg": {
@@ -2731,8 +2731,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/schoolright@1920.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/schoolright@450.jpg": {
@@ -2874,8 +2874,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/VolunteerLarge@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/VolunteerLarge@1440.jpg": {
@@ -2929,8 +2929,8 @@
 		"oA": 0,
 		"oAP": "\/images\/responsive\/wall@1080.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/responsive\/wall@1440.jpg": {

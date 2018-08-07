@@ -19,8 +19,8 @@ gulp.task("img", () =>
         skipOnEnlargement: true,
         withoutEnlargement: true
       }, {
-        width: 900,
-        rename: {suffix: "@900"},
+        width: 1080,
+        rename: {suffix: "@1080"},
         skipOnEnlargement: true,
         withoutEnlargement: true
       }, {

@@ -7,8 +7,19 @@
 <figcaption>{{ .Params.caption }}</figcaption>
 </figure>-->
 
+{{ $splitImageName := split .Params.image "/" }}
+{{ $completeFile := index (last 1 $splitImageName) 0 }}
+{{ $fileName := index (split $completeFile ".") 0 }}
+{{ $fileType := index (split $completeFile ".") 1 }}
+
 <figure class="triggerMe">
-	<img data-src="{{ .Params.image }}" class="coreImage triggerMe lazy" />
+<img class="coreImage triggerMe lazy" data-src="/images/responsive/{{ $fileName }}@450.{{ $fileType }}"
+     data-srcset="/images/responsive/{{ $fileName }}@1080.{{ $fileType }} 1080w,
+             /images/responsive/{{ $fileName }}@768.{{ $fileType }} 768w,
+             /images/responsive/{{ $fileName }}@450.{{ $fileType }} 450w"
+     data-sizes="(min-width: 36em) 33.3vw,
+            100vw"
+     alt="{{ .Params.caption }}" />
  	<figcaption>
  		{{ .Params.caption }}
  	</figcaption>
