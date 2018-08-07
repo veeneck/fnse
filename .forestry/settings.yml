@@ -19,7 +19,7 @@ sections:
   label: Questions
   create: all
   match: "**/*"
-upload_dir: themes/charity/static/images
+upload_dir: themes/charity/static/images/user
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: 
