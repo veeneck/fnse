@@ -36,7 +36,8 @@ gulp.task("img", () =>
       }],
     }, {
       silent: false,      // Don't spam the console
-      errorOnEnlargement: false
+      errorOnEnlargement: false,
+      quality: 85
     }))
     .pipe(gulp.dest("./themes/charity/static/images/responsive")
 ));
