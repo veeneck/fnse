@@ -6,7 +6,7 @@ gulp.task('hello', function() {
 });
 
 gulp.task("img", () =>
-  gulp.src("./themes/charity/static/images/**.*")
+  gulp.src("./themes/charity/static/images/user/**.*")
     .pipe(responsive({
       "*": [{
         width: 450,
