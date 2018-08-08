@@ -55,9 +55,9 @@ fields:
       type: pages
       section: modules
 pages:
-- content/_index.md
 - content/volunteer.md
 - content/faq.md
 - content/fnse.md
+- content/_index.md
 - content/why.md
 - content/nse.md
