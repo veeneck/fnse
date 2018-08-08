@@ -1450,8 +1450,8 @@ body.fouroh {
       background-attachment: initial; } }
 
 .castle-wall {
-  background-image: url("/images/castle_wall_mobile.png");
-  background-image: url("/images/castle_wall_mobile.png");
+  background-image: url("/images/uneditable/castle_wall_mobile.png");
+  background-image: url("/images/uneditable/castle_wall_mobile.png");
   background-repeat: repeat-x;
   background-position: bottom center;
   width: 100%;
@@ -1461,7 +1461,7 @@ body.fouroh {
   position: relative; }
   @media (min-width: 35em) {
     .castle-wall {
-      background-image: url("/images/castle_wall.png"); } }
+      background-image: url("/images/uneditable/castle_wall.png"); } }
 
 .hero .content p {
   color: #fff;
