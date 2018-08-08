@@ -1,4 +1,5 @@
 /node_modules
 /themes/charity/static/images/responsive
-themes/charity/static/images/responsive
-public/images/responsive
+themes/charity/static/images/responsive/*
+/public/images/responsive
+/themes/charity/static/images/responsive/*
