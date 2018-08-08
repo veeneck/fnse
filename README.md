@@ -89,6 +89,8 @@ The site uses `@media` queries to handle different screen sizes. The breakpoints
 - Netlify runs a task to generat emultiple sizes of theeimage
 - Some piece of code gives multiple data src's to the element
 
+Tool: https://material.io/tools/resizer/#url=https%3A%2F%2Ffnse.netlify.com
+
 ## SEO
 
 Talk about SEO. Title, description, H1/H2/H3, clean URL's, alt text on links, captions. Talk abotu site map being manually created,a nd how publish date is updated.
