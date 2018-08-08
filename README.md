@@ -117,7 +117,13 @@ The `data-sizes` mimic the sizes in `mixins.scss`. For phones, the image will be
 
 ## SEO
 
-Talk about SEO. Title, description, H1/H2/H3, clean URL's, alt text on links, captions. Talk abotu site map being manually created,a nd how publish date is updated.
+There is no complex SEO strategy in place yet. We'll try to convince people to link to the site on social media / other sites, but due to the nature of the site and small community, that may not do much. So, for now, just the staples are in place:
+
+- Each page has a descriptive title.
+- Each page has a proper meta description.
+- H1, H2 and H3's are used properly, and represent the page structure.
+- Captions and alt texts as much as possible.
+- Sitemap in place.
 
 ## Style Guide
 
