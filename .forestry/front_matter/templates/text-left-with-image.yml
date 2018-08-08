@@ -72,8 +72,8 @@ fields:
   config:
     labelField: title
 pages:
-- content/modules/northshore/nsegeneralinfo.md
 - content/modules/why/faculty.md
+- content/modules/northshore/nsegeneralinfo.md
 - content/modules/volunteer/nsevolunteer.md
 - content/modules/why/whynse.md
 - content/modules/fnse/fnsegeneralinfo.md
