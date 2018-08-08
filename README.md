@@ -30,6 +30,18 @@ The best way to familiarize yourself with the code is to understand Hugo. The tu
 
 `/themes/charity/static`: All of the static assets. CSS is written in the `sass` directory, and then compiled into CSS with Codekit or any other comparible tool. JS is minizmied in a similar fashion. Images live in the `/images` directory.
 
+As far as the build process goes, there are 3 steps to be aware of:
+
+1. SCSS is compiled into CSS locally. I used CodeKit, but any tool is fine. The CSS must be committed because that is what will be served. The build process in Netlify does not duplicate this step currently.
+
+2. JS must be minified locally. I used CodeKit, but any tool is fine. The minified file must be committed because that is what will be served. The build process in Netlify does not duplicate this step currently.
+
+3. Images are complicated. Every image that a user uploads goes into the `/images/user` folder. Now, have a look at `gulpfile.js`. Notice each image in the `images/user` folder is looped over, and resaved as different sizes. Each size of the image will be added to `/images/responsive`, which is what we will serve to the site visitor. Not only are the images resized, but they are also compressed by the same script. Every time Netlify deploys, this process must be run. So, our build script is:
+
+    gulp img; hugo
+
+Netlify first processes all of the images, and then rebuilds Hugo. So, if a user adds an image through Forestry, it will be saved under `/images/user`, and then Netlify will detect the new image, run the build process, and deploy the site. **Important**: Netlify does not commit these changes -- it completely copies the repo each deploy and stores the responsive images there. So, if things break locally with images, it is because you haven't generated the responsive versions. The same command (`gulp img; hugo`) must be run in terminal inside of the fnse directory.
+
 ## Notes on the Content
 
 The content is broken down into 3 main types:
