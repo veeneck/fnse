@@ -25,6 +25,11 @@
    font-weight: 300;
 }
 
+@mixin altBoldStack() {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
 /*----------------------- Typebase Defaults ------------------------------ */
 
 /*! Typebase.less v0.1.0 | MIT License */

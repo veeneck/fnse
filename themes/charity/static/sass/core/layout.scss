@@ -1,19 +1,27 @@
-
 body {
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
 }
 
+.clear {
+    @extend %clearfix;
+}
+
+/* -------------- DEBUG ------------- */
+
 /* If you need to debug, uncomment this */
+
 //* { outline: 1px solid red; }
 
 /* -------------- CORE LAYOUT ------------- */
 
+
 /* Every section is a module. By building around this class, margins and widths will be the same. */
+
 .module {
     @extend %clearfix;
-    width: 100%; 
+    width: 100%;
     margin: $mobileModuleMargin 0px;
     @include breakpoint(normal-screen) {
         margin: $moduleMargin 0px;
@@ -30,10 +38,6 @@ body {
     }
 }
 
-.no-padding {
-
-}
-
 .no-margin {
     margin: 3px 0px !important;
 }
@@ -46,7 +50,9 @@ body {
     background-color: $darkBlue;
 }
 
-/* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
+
+/* While a module is 100% width, the container is max-width. It sits inside, centered, for modules that don't want full width. */
+
 .container {
     max-width: $maxWidth;
     margin: 0px auto;
@@ -59,33 +65,37 @@ body {
     }
 }
 
-/* On mobile, the image should sit on top of the text. */
+.copy {
+    width: 100%;
+}
+
+/* -------------- IMAGES ------------- */
+
 .coreImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: $borderRadius;
-     -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
     visibility: hidden;
 
-   @include transition(all 0.3s);
+    @include transition(all 0.3s);
 }
 
 .coreImage.triggeredCSS3 {
-   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
     visibility: visible;
-
 }
 
 figure {
     width: 100%;
     margin: 1.5rem 0px 0px 0px;
-     @include transition(all 1s);
-     padding-top: 25px;
+    @include transition(all 1s);
+    padding-top: 25px;
 
     /* Wrap the text around the image. */
     @include breakpoint(condensed-screen) {
@@ -115,12 +125,13 @@ figcaption {
     display: none;
     @include breakpoint(condensed-screen) {
         display: block;
-    }   
+    }
 }
 
 picture {
     max-width: 100%;
 }
+
 
 /* -------------- THIRDS MODULE ------------- */
 
@@ -133,6 +144,7 @@ picture {
     width: 67%;
     border-radius: $borderRadius;
 }
+
 
 /* -------------- HALVES MODULE ------------- */
 
@@ -147,31 +159,30 @@ picture {
     border-radius: $borderRadius;
 }
 
-/* -------------- UNVERIFIED ---------------- */
-
+/* -------------- HEADERS ---------------- */
 
 h3:before {
-  content:""; 
-  background: $lightBlue; 
-  position: absolute; 
-  top: 0; 
-  height: 3px; 
-  width: 150px;
-           -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+    content: "";
+    background: $lightBlue;
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 150px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 h3.triggeredCSS3:before {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand;
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
 }
 
 .right h3 {
     text-align: center;
     @include breakpoint(condensed-screen) {
-         text-align: right;
+        text-align: right;
     }
 }
 
@@ -189,7 +200,7 @@ h3.triggeredCSS3:before {
 .left h3 {
     text-align: center;
     @include breakpoint(condensed-screen) {
-         text-align: left;
+        text-align: left;
     }
 }
 
@@ -200,10 +211,6 @@ h3.triggeredCSS3:before {
         left: 0;
         margin-left: 0px;
     }
-}
-
-.carousel h3, .footer h3 {
-    color: $white;
 }
 
 .center h3 {
@@ -225,22 +232,8 @@ h3.triggeredCSS3:before {
 .right .subtitle {
     text-align: center;
     @include breakpoint(condensed-screen) {
-         text-align: right;
+        text-align: right;
     }
-}
-
-.copy {
-    width: 100%;
-}
-
-.one-edge-shadow {
-    -webkit-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-       -moz-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-            box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-}
-
-.clear {
-    @extend %clearfix;
 }
 
 /*----------MAPKIT------------*/
@@ -253,6 +246,7 @@ h3.triggeredCSS3:before {
     left: 0;
 }
 
+
 /*----------------------- LINKS ------------------------------ */
 
 section a {
@@ -261,7 +255,8 @@ section a {
     border-bottom: 1px solid $blue;
 }
 
-.blue_module a, .blue_list a {
+.blue_module a,
+.blue_list a {
     color: $lightBlue;
     border-bottom: 1px solid $lightBlue;
 }
@@ -270,7 +265,8 @@ section a:hover {
     border-bottom: 1px dashed $blue;
 }
 
-.blue_module a:hover, .blue_list a:hover {
+.blue_module a:hover,
+.blue_list a:hover {
     border-bottom: 1px dashed $lightBlue;
 }
 
@@ -297,44 +293,11 @@ a.button {
     @include breakpoint(condensed-screen) {
         font-size: 90%;
         padding: 15px 20px;
-
     }
     @include breakpoint(normal-screen) {
         padding: 15px 20px;
     }
 }
-
-/*a.button:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.button:after {
-    width: 200px;
-    height: 0;
-    top: 50%;
-    left: 50%;
-    background: $darkBlue;
-    opacity: 0;
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    transform: translateX(-50%) translateY(-50%) rotate(90deg);
-}
-
-.button:hover:after {
-    height: 800%;
-    opacity: 1;
-}
-
-.button:active:after {
-    height: 50%;
-    opacity: 1;
-}*/
 
 .button:hover {
     background-color: $darkBlue;
@@ -359,27 +322,26 @@ a.button {
     line-height: normal;
     margin-right: 10px;
 
-     @include breakpoint(condensed-screen) {
+    @include breakpoint(condensed-screen) {
         margin-right: 15px;
-
     }
 }
 
-.button.triggerMe::before  {
-         -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  visibility: hidden;
+.button.triggerMe::before {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    visibility: hidden;
     -webkit-animation-delay: 0.25s;
-  animation-delay: 0.25s;
-  -webkit-transform-style: preserve-3d;
+    animation-delay: 0.25s;
+    -webkit-transform-style: preserve-3d;
 }
 
 .button.triggeredCSS3::before {
-      -webkit-animation-name: jackInTheBox;
-  animation-name: jackInTheBox;
-  visibility: visible;
+    -webkit-animation-name: jackInTheBox;
+    animation-name: jackInTheBox;
+    visibility: visible;
 }
 
 .button.heart::before {
@@ -418,13 +380,9 @@ a.button {
     content: url("/images/icons/icon_more.png");
 }
 
+
 /* --------  404 Page -------- */
 
 body.fouroh {
     background-color: $darkBlue;
 }
-
-
-
-
-

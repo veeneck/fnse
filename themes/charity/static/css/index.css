@@ -1,9 +1,9 @@
-.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
+.clear, .module, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .clear:before, .module:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -25,10 +25,6 @@
 .red {
   background-color: #C51E20; }
 
-/*h2.triggerMe mark {
-	@include transition(all 1s ease-out);
-	opacity: 0;
-}*/
 /* -------------------- */
 @-webkit-keyframes rubberBand {
   from {
@@ -367,6 +363,7 @@ body {
   margin: 0px;
   padding: 0px; }
 
+/* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
@@ -395,7 +392,7 @@ body {
 .blue_module {
   background-color: #00295C; }
 
-/* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
+/* While a module is 100% width, the container is max-width. It sits inside, centered, for modules that don't want full width. */
 .container {
   max-width: 1300px;
   margin: 0px auto;
@@ -404,7 +401,10 @@ body {
     .container {
       padding: 0px 50px; } }
 
-/* On mobile, the image should sit on top of the text. */
+.copy {
+  width: 100%; }
+
+/* -------------- IMAGES ------------- */
 .coreImage {
   width: 100%;
   height: 100%;
@@ -485,7 +485,7 @@ picture {
   width: 50%;
   border-radius: 4px; }
 
-/* -------------- UNVERIFIED ---------------- */
+/* -------------- HEADERS ---------------- */
 h3:before {
   content: "";
   background: #D1E5FB;
@@ -531,9 +531,6 @@ h3.triggeredCSS3:before {
       left: 0;
       margin-left: 0px; } }
 
-.carousel h3, .footer h3 {
-  color: #fff; }
-
 .center h3 {
   text-align: center; }
 
@@ -554,14 +551,6 @@ h3.triggeredCSS3:before {
     .right .subtitle {
       text-align: right; } }
 
-.copy {
-  width: 100%; }
-
-.one-edge-shadow {
-  -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
-
 /*----------MAPKIT------------*/
 .mk-map-view > * {
   left: 0; }
@@ -575,14 +564,16 @@ section a {
   text-decoration: none;
   border-bottom: 1px solid #3C70AC; }
 
-.blue_module a, .blue_list a {
+.blue_module a,
+.blue_list a {
   color: #D1E5FB;
   border-bottom: 1px solid #D1E5FB; }
 
 section a:hover {
   border-bottom: 1px dashed #3C70AC; }
 
-.blue_module a:hover, .blue_list a:hover {
+.blue_module a:hover,
+.blue_list a:hover {
   border-bottom: 1px dashed #D1E5FB; }
 
 .blue_list .button:hover {
@@ -616,37 +607,6 @@ a.button {
     a.button {
       padding: 15px 20px; } }
 
-/*a.button:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.button:after {
-    width: 200px;
-    height: 0;
-    top: 50%;
-    left: 50%;
-    background: $darkBlue;
-    opacity: 0;
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    transform: translateX(-50%) translateY(-50%) rotate(90deg);
-}
-
-.button:hover:after {
-    height: 800%;
-    opacity: 1;
-}
-
-.button:active:after {
-    height: 50%;
-    opacity: 1;
-}*/
 .button:hover {
   background-color: #00295C;
   border: none !important; }
@@ -714,12 +674,12 @@ a.button {
 body.fouroh {
   background-color: #00295C; }
 
-.module, .clear, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
+.clear, .module, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
-  .module:before, .clear:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .clear:before, .module:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     content: " ";
     display: table; }
-  .module:after, .clear:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -741,10 +701,6 @@ body.fouroh {
 .red {
   background-color: #C51E20; }
 
-/*h2.triggerMe mark {
-	@include transition(all 1s ease-out);
-	opacity: 0;
-}*/
 /* -------------------- */
 @-webkit-keyframes rubberBand {
   from {
@@ -1083,6 +1039,7 @@ body {
   margin: 0px;
   padding: 0px; }
 
+/* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
@@ -1111,7 +1068,7 @@ body {
 .blue_module {
   background-color: #00295C; }
 
-/* While a module is 100% width, the container is max-width. It sits inside, centered, to k=for modules that don't want full width. */
+/* While a module is 100% width, the container is max-width. It sits inside, centered, for modules that don't want full width. */
 .container {
   max-width: 1300px;
   margin: 0px auto;
@@ -1120,7 +1077,10 @@ body {
     .container {
       padding: 0px 50px; } }
 
-/* On mobile, the image should sit on top of the text. */
+.copy {
+  width: 100%; }
+
+/* -------------- IMAGES ------------- */
 .coreImage {
   width: 100%;
   height: 100%;
@@ -1201,7 +1161,7 @@ picture {
   width: 50%;
   border-radius: 4px; }
 
-/* -------------- UNVERIFIED ---------------- */
+/* -------------- HEADERS ---------------- */
 h3:before {
   content: "";
   background: #D1E5FB;
@@ -1247,9 +1207,6 @@ h3.triggeredCSS3:before {
       left: 0;
       margin-left: 0px; } }
 
-.carousel h3, .footer h3 {
-  color: #fff; }
-
 .center h3 {
   text-align: center; }
 
@@ -1270,14 +1227,6 @@ h3.triggeredCSS3:before {
     .right .subtitle {
       text-align: right; } }
 
-.copy {
-  width: 100%; }
-
-.one-edge-shadow {
-  -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); }
-
 /*----------MAPKIT------------*/
 .mk-map-view > * {
   left: 0; }
@@ -1291,14 +1240,16 @@ section a {
   text-decoration: none;
   border-bottom: 1px solid #3C70AC; }
 
-.blue_module a, .blue_list a {
+.blue_module a,
+.blue_list a {
   color: #D1E5FB;
   border-bottom: 1px solid #D1E5FB; }
 
 section a:hover {
   border-bottom: 1px dashed #3C70AC; }
 
-.blue_module a:hover, .blue_list a:hover {
+.blue_module a:hover,
+.blue_list a:hover {
   border-bottom: 1px dashed #D1E5FB; }
 
 .blue_list .button:hover {
@@ -1332,37 +1283,6 @@ a.button {
     a.button {
       padding: 15px 20px; } }
 
-/*a.button:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.button:after {
-    width: 200px;
-    height: 0;
-    top: 50%;
-    left: 50%;
-    background: $darkBlue;
-    opacity: 0;
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    transform: translateX(-50%) translateY(-50%) rotate(90deg);
-}
-
-.button:hover:after {
-    height: 800%;
-    opacity: 1;
-}
-
-.button:active:after {
-    height: 50%;
-    opacity: 1;
-}*/
 .button:hover {
   background-color: #00295C;
   border: none !important; }
@@ -1858,6 +1778,9 @@ div.menu-link {
       width: 80%;
       margin-right: 50px; } }
 
+.footer h3 {
+  color: #fff; }
+
 .details {
   width: 100%;
   align-self: flex-end;
@@ -2261,6 +2184,9 @@ sup {
   text-align: center;
   background-color: #00295C;
   border-radius: 4px; }
+
+.carousel h3 {
+  color: #fff; }
 
 .carousel .white-font {
   padding: 0px 20px; }

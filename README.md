@@ -75,8 +75,9 @@ To make it easier to view in the admin panel, questions are separated out into t
 
 ## Notes on the CSS
 
-- ideas behind core, glide, modules organization. reference the style guide below.
-- uncomment debug rule at the top of layout.scss to outline all elements
+If you find yourslef having to debug the CSS, the first placve to start would be `/sass/core/layout.scss`. You will find all shared styles across pages and modules. At the top, you can uncomment the debug section to outline everything in red. If you explore the `core` folder more, each file is self explanatory. `animations.scss` hols the animations, `constants.scss` holds variables, `typography.scss` loads fonts and sets default rules, and so on.
+
+Outside of `core`, we have the `/sass/modules` directory. Here, we have each type of module listed in the content section above. Carousel, Text Left, Quote, etc. Not only are the module specific rules defined in these files, but also content specific rules. For example, the **Stay In Touch** module has a custom grid of 9 photos in it. This is accomplished by using the Half half module, and then putting specific CSS rules in `half_half.scss` to achieve the desired look. So, if you need to debug a certain module, first find out what type of module it is, and then jump into the appropriate CSS file.
 
 ## Notes on the JavaScript
 
