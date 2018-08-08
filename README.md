@@ -20,7 +20,7 @@ Hugo is a static site generator, which means every page on the site has its HTML
 
 Non technical users will not need to know what is happening. They'll just make a change, the site rebuilds, and the changes will appear. Technical users can also edit the code directly, manually trigger a rebuild, and commit the code. To work on the site, programmers must use Codekit or some other tool that can compile the SASS files into CSS, and mizimize the JS files. Before writing code, hugo must be [installed locally](https://gohugo.io/getting-started/installing/) and [the local server must be running](https://gohugo.io/getting-started/usage/).
 
-## Introduction to the Code
+## Introduction to the Code & Build Process
 
 The best way to familiarize yourself with the code is to understand Hugo. The tutorials on their website are a great point to start with. That said, here are some key locations to be aware of:
 
@@ -82,7 +82,24 @@ As much of the JS as possible is loaded as needed. For example, maps are only lo
 
 ## Responsive Concerns
 
-The site uses `@media` queries to handle different screen sizes. The breakpoints can be found in `mixins.scss`. Other than different CSS, the other responsive change is image sizes. When the user uploads an image to the admin panel, it should:
+The site uses `@media` queries to handle different screen sizes. The breakpoints can be found in `mixins.scss`. For a quick look at the expected responsive design, view the site in [Google's Resizer](https://material.io/tools/resizer/#url=https%3A%2F%2Ffnse.netlify.com). The responsive CSS is fairly straightforward, while the image handling is more complex. There are two specific spots where responsive images are used.
+
+**Hero Image**: To avoid using a polyfill for `object-fit:cover`, the hero image uses a CSS background instead of an image. At the time of this writing, image-set in CSS has poor support but looks like it will be implemented. So, for now, browser that don't support it will just load the 1440px background image. Browsers that do support it will conditionally load the 1440px or 1920px background image. See `hero.html` for the scoped inline CSS.
+
+**Left and Right Module Images**: The vast majority of images on the site are in the Left text and Right text modules. Those modules use the partial `img.html` which contains an `img` tag with a `srcset`.
+
+    <figure class="triggerMe">
+        <img class="coreImage triggerMe lazy" data-src="/images/responsive/{{ $fileName }}@768.{{ $fileType }}"
+            data-srcset="/images/responsive/{{ $fileName }}@1080.{{ $fileType }} 1080w,
+                         /images/responsive/{{ $fileName }}@768.{{ $fileType }} 768w"
+            data-sizes="(min-width: 35em) 100vw,
+     			        45vw" />
+ 	    <figcaption>
+ 		    {{ .Params.caption }}
+ 	    </figcaption>
+    </figure>
+
+Other than different CSS, the other responsive change is image sizes. When the user uploads an image to the admin panel, it should:
 
 - State the desired size
 - They save
