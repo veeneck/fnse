@@ -1950,8 +1950,8 @@
 		"oA": 0,
 		"oAP": "\/images\/user\/aerial.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/user\/afterschool.jpg": {
@@ -2071,8 +2071,8 @@
 		"oA": 0,
 		"oAP": "\/images\/user\/fnsegroup.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/user\/Friends of North Shore Pic.jpg": {
