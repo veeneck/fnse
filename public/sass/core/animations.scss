@@ -6,12 +6,6 @@
   transition: $args;
 }
 
-/// EXAMPLE
-/*h2.triggerMe mark {
-	@include transition(all 1s ease-out);
-	opacity: 0;
-}*/
-
 /* -------------------- */
 
 @-webkit-keyframes rubberBand {

@@ -9,23 +9,14 @@ header {
     @include heavyFontStack();
     height: 60px;
     position: absolute;
-  	///position: sticky;
   	top: 0px;
     border-bottom: 3px solid $blue;
-  	@include breakpoint(condensed-screen) {
+  	@include breakpoint(normal-screen) {
          height: 89px;
          position: relative;
-         ///border-radius: $borderRadius;
-         //border-top: 1px solid $blue;
          margin: 0px auto 0px auto;
          max-width: 100%;
     }
-         /*-webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-      -webkit-animation-name: slideInDown;
-    animation-name: slideInDown;*/
 }
 
 h1 {
@@ -36,9 +27,6 @@ h1 {
 h1 img {
 	width: 80%;
 
-    @include breakpoint(condensed-screen) {
-         width: 90%;
-    }
 	@include breakpoint(normal-screen) {
         width: 100%;
     }
@@ -65,7 +53,7 @@ h1 img {
 	height: 25px;
 	display: inline-block;
 	margin: auto 0px !important;
-	@include breakpoint(condensed-screen) {
+	@include breakpoint(normal-screen) {
          margin: auto 25px !important;
     }
 }
@@ -136,81 +124,9 @@ ul.nav li a.selected {
 }
 
 
-ul.nav li:hover .dropdown {
-	@include transition(all 0.3s ease-out);
-    display: block;
-}
-
-/*ul.nav li:hover a.topmenu::before {
-  content:""; 
-  background: $lightBlue; 
-  position: absolute; 
-  top: 0; 
-  height: 3px; 
-  width: 50%;
-  left: 50%;
-  margin-left: -25%;
-}*/
-
 ul.nav li img {
     margin-bottom: -8px;
 }
-
-.dropdown {
-	display: none;
-	position: absolute;
-	background-color: $darkBlue;
-	margin-top: 56px;
-	padding: 40px 25px 0px 25px;
-	border-radius: 0px 0px $borderRadius $borderRadius;
-	@include transition(all 0.3s ease-out);
-
-	@include breakpoint(normal-screen) {
-    	-webkit-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-       	-moz-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-        box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-    }
-}
-
-.dropdown li {
-	display: block !important;
-	text-align: center;
-	width: 100%;
-	margin-left: 0px !important;
-	margin-bottom: 10px !important;
-}
-
-.dropdown li a {
-	width: 100%;
-	text-align: center !important;
-	color: $lightBlue !important;
-	display: inline-block;
-	@include transition(all 0.3s);
-}
-
-.dropdown li a:hover {
-	color: $white !important;
-}
-
-/*.verticalbanner:after,.verticalbanner:before {
-    content: '';
-    position: absolute;
-    border-top: 45px solid $darkBlue; // angle degree, reduce to reduce degree of angles
-    height: 0; // no height, no content, just border
-    width: 0;
-    top: 100%;
-}
-.verticalbanner:after { // right angle
-    border-left: 150px solid transparent;
-    right:0;
-    border-radius: 0px 0px $borderRadius $borderRadius;
-}
-.verticalbanner:before { // left angle
-    border-right: 150px solid transparent;
-    left:0;
-    border-radius: 0px 0px $borderRadius $borderRadius;
-}*/
-
 
 div.menu-link {
     padding: 1em;
@@ -219,24 +135,6 @@ div.menu-link {
     @include breakpoint(normal-screen) {
         display: none;
     }
-}
-
-.explore {
-	@include breakpoint(normal-screen) {
-		margin-left: -80px;
-	}
-}
-
-.about {
-	@include breakpoint(normal-screen) {
-		margin-left: -60px;
-	}
-}
-
-.volunteermenu {
-	@include breakpoint(normal-screen) {
-		margin-left: -50px;
-	}
 }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
@@ -365,7 +263,7 @@ ul.nav li.facebookmobile {
 
 div.menu-link {
     @include btn(15px, 5px);
-    @include breakpoint(condensed-screen) {
+    @include breakpoint(normal-screen) {
          @include btn(20px, 20px);
     }
 

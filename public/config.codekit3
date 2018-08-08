@@ -394,7 +394,7 @@
 		},
 	"\/images\/icons\/icon_whitecap.png": {
 		"ft": 32768,
-		"iS": 855,
+		"iS": 1128,
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_whitecap.png",
 		"oF": 0,
@@ -2964,19 +2964,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/center_list.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/modules\/custom.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/custom.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
