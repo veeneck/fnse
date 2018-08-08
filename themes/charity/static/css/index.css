@@ -2170,16 +2170,6 @@ sup {
   right: 0;
   content: url("/images/uneditable/hasQuoteBottom.png"); }
 
-.volunteer span {
-  color: #3FB08A;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  display: block;
-  margin: 50px 0px;
-  line-height: 1.5rem;
-  text-align: left; }
-
 .carousel {
   text-align: center;
   background-color: #00295C;
@@ -2776,7 +2766,3 @@ sup {
   cursor: grabbing;
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing; }
-
-body {
-  margin: 0;
-  padding: 0; }

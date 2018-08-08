@@ -19,13 +19,13 @@
         background-attachment: fixed;
         text-align: right;
         height: 85vh;
-        min-height: 900px; ///margin-top: -139px;
+        min-height: 900px;
     }
 
     @media (hover: none) {
         background-attachment: initial;
     }
-} ///border-radius: $borderRadius;
+}
 
 
 .castle-wall {
@@ -58,10 +58,6 @@
 }
 
 .hero .content {
-    ///max-width: 800px;
-    ///margin-top: 50vh;
-    //z-index: 1;
-    ///position: relative;
     height: 60vh;
     width: 100%;
     @include breakpoint(condensed-screen) {}

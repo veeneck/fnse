@@ -5,7 +5,6 @@
 @import "modules/text_left.scss";
 @import "modules/text_right.scss";
 @import "modules/quote.scss";
-@import "modules/custom.scss";
 @import "modules/carousel.scss";
 @import "modules/center_list.scss";
 @import "modules/half_half.scss";
@@ -14,8 +13,3 @@
 @import "glide/_variables.scss";
 @import "glide/glide.core.scss";
 @import "glide/glide.theme.scss";
-
-body {
-  margin: 0;
-  padding: 0;
-}
