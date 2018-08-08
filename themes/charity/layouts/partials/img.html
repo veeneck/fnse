@@ -13,7 +13,7 @@
 {{ $fileType := index (split $completeFile ".") 1 }}
 
 <figure class="triggerMe">
-<img class="coreImage triggerMe lazy" data-src="/images/responsive/{{ $fileName }}@768.{{ $fileType }}"
+<img class="coreImage triggerMe lazy" data-src="/images/{{ $fileName }}@768.{{ $fileType }}"
      data-srcset="/images/responsive/{{ $fileName }}@1080.{{ $fileType }} 1080w,
              /images/responsive/{{ $fileName }}@768.{{ $fileType }} 768w"
      data-sizes="100vw,

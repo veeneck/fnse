@@ -10,7 +10,7 @@ This is the respository for the FNSE website located at http://fnse.org.
 
 **Hosting**: Hosted at [Netlify](http://netlify.com).
 
-**Compiler**: Compiled with [CodeKit](https://codekitapp.com)
+**Compiler**: Compiled with [CodeKit](https://codekitapp.com) locally, and with [Gulp](https://gulpjs.com) on the server.
 
 **Admin Panel**: [Forestry.io](http://forestry.io) provides the user interface to edit content.
 

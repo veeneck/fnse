@@ -3,7 +3,7 @@ title: Questions?
 id: modules/common/faq4.md
 type: module
 module_type: half_half
-image: "/images/repair.jpg"
+image: "/images/user/repair.jpg"
 alignment: left
 button: READ THE FAQ
 button_icon: faq
