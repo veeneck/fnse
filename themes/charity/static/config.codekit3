@@ -1928,8 +1928,8 @@
 		"oA": 0,
 		"oAP": "\/images\/user\/7thhour.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/user\/aboutfnse.jpg": {
@@ -1939,8 +1939,8 @@
 		"oA": 0,
 		"oAP": "\/images\/user\/aboutfnse.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/user\/aerial.jpg": {
@@ -2049,8 +2049,8 @@
 		"oA": 0,
 		"oAP": "\/images\/user\/drone.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/user\/entry.jpg": {
@@ -2225,8 +2225,8 @@
 		"oA": 0,
 		"oAP": "\/images\/user\/play.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/user\/playground.jpg": {
@@ -2313,8 +2313,8 @@
 		"oA": 0,
 		"oAP": "\/images\/user\/students.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 87
 		},
 	"\/images\/user\/table.jpg": {
