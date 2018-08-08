@@ -84,7 +84,7 @@ As much of the JS as possible is loaded as needed. For example, maps are only lo
 
 The site uses `@media` queries to handle different screen sizes. The breakpoints can be found in `mixins.scss`. For a quick look at the expected responsive design, view the site in [Google's Resizer](https://material.io/tools/resizer/#url=https%3A%2F%2Ffnse.netlify.com). The responsive CSS is fairly straightforward, while the image handling is more complex. There are two specific spots where responsive images are used.
 
-**Hero Image**: To avoid using a polyfill for `object-fit:cover`, the hero image uses a CSS background instead of an image. At the time of this writing, image-set in CSS has poor support but looks like it will be implemented. So, for now, browser that don't support it will just load the 1440px background image. Browsers that do support it will conditionally load the 1440px or 1920px background image. See `hero.html` for the scoped inline CSS.
+**Hero Image**: To avoid using a polyfill for `object-fit:cover`, the hero image uses a CSS background instead of an image. At the time of this writing, image-set in CSS has [poor support](https://cloudfour.com/examples/image-set/) but looks like it will be implemented. So, for now, browser that don't support it will just load the 1440px background image. Browsers that do support it will conditionally load the 1440px or 1920px background image. See `hero.html` for the scoped inline CSS.
 
 **Left and Right Module Images**: The vast majority of images on the site are in the Left text and Right text modules. Those modules use the partial `img.html` which contains an `img` tag with a `srcset`.
 
@@ -99,14 +99,7 @@ The site uses `@media` queries to handle different screen sizes. The breakpoints
  	    </figcaption>
     </figure>
 
-Other than different CSS, the other responsive change is image sizes. When the user uploads an image to the admin panel, it should:
-
-- State the desired size
-- They save
-- Netlify runs a task to generat emultiple sizes of theeimage
-- Some piece of code gives multiple data src's to the element
-
-Tool: https://material.io/tools/resizer/#url=https%3A%2F%2Ffnse.netlify.com
+The `data-sizes` mimic the sizes in `mixins.scss`. For phones, the image will be full width. For tablet and PC, the image takes up 45% of the width. The browser will choose the best fit. **Note:** To debug this, there is a funciton at the bottom of the JavaScript file that you can call on document load and it will print out the pixel density, resolution, and browser decision.
 
 ## SEO
 
