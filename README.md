@@ -36,7 +36,9 @@ As far as the build process goes, there are 3 steps to be aware of:
 
 2. JS must be minified locally. I used CodeKit, but any tool is fine. The minified file must be committed because that is what will be served. The build process in Netlify does not duplicate this step currently.
 
-3. Images are complicated. Every image that a user uploads goes into the `/images/user` folder. Now, have a look at `gulpfile.js`. Notice each image in the `images/user` folder is looped over, and resaved as different sizes. Each size of the image will be added to `/images/responsive`, which is what we will serve to the site visitor. Not only are the images resized, but they are also compressed by the same script. Every time Netlify deploys, this process must be run. So, our build script is:
+3. Images are complicated. See below:
+
+Every image that a user uploads goes into the `/images/user` folder. Now, have a look at `gulpfile.js`. Notice each image in the `images/user` folder is looped over, and resaved as different sizes. Each size of the image will be added to `/images/responsive`, which is what we will serve to the site visitor. Not only are the images resized, but they are also compressed by the same script. Every time Netlify deploys, this process must be run. So, our build script is:
 
     gulp img; hugo
 
