@@ -89,29 +89,17 @@
 
 
 <style scoped>
+
 .hero_image {
-  background-image: url('/images/responsive/aboutfnse@768.jpg');
-}
-@media
-  (-webkit-min-device-pixel-ratio: 2), 
-  (min-resolution: 192dpi) {
-  .hero_image {
-    background-image: url('/images/responsive/aboutfnse@1080.jpg');
-  }
-}
-@media
-  (min-width: 800px) {
-  .hero_image {
-    background-image: url('/images/responsive/aboutfnse@1440.jpg');
-  }
-}
-@media
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px), 
-  (min-resolution: 192dpi) and (min-width: 800px),
-  (min-width:1440px) {
-  .hero_image {
-    background-image: url('/images/responsive/aboutfnse@1440.jpg');
-  }
+  background-image: url('/images/responsive/aboutfnse@1440.jpg');
+  background-image: -webkit-image-set(url(/images/responsive/aboutfnse@1440.jpg) 1x,
+                                      url(/images/responsive/aboutfnse@1920.jpg) 2x);
+  background-image: -moz-image-set(url(/images/responsive/aboutfnse@1440.jpg) 1x,
+                                      url(/images/responsive/aboutfnse@1920.jpg) 2x);
+  background-image: -o-image-set(url(/images/responsive/aboutfnse@1440.jpg) 1x,
+                                      url(/images/responsive/aboutfnse@1920.jpg) 2x);
+  background-image: -ms-image-set(url(/images/responsive/aboutfnse@1440.jpg) 1x,
+                                      url(/images/responsive/aboutfnse@1920.jpg) 2x);
 }
 
 </style>

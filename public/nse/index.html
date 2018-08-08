@@ -89,29 +89,17 @@
 
 
 <style scoped>
+
 .hero_image {
-  background-image: url('/images/responsive/School1@768.jpg');
-}
-@media
-  (-webkit-min-device-pixel-ratio: 2), 
-  (min-resolution: 192dpi) {
-  .hero_image {
-    background-image: url('/images/responsive/School1@1080.jpg');
-  }
-}
-@media
-  (min-width: 800px) {
-  .hero_image {
-    background-image: url('/images/responsive/School1@1440.jpg');
-  }
-}
-@media
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px), 
-  (min-resolution: 192dpi) and (min-width: 800px),
-  (min-width:1440px) {
-  .hero_image {
-    background-image: url('/images/responsive/School1@1440.jpg');
-  }
+  background-image: url('/images/responsive/School1@1440.jpg');
+  background-image: -webkit-image-set(url(/images/responsive/School1@1440.jpg) 1x,
+                                      url(/images/responsive/School1@1920.jpg) 2x);
+  background-image: -moz-image-set(url(/images/responsive/School1@1440.jpg) 1x,
+                                      url(/images/responsive/School1@1920.jpg) 2x);
+  background-image: -o-image-set(url(/images/responsive/School1@1440.jpg) 1x,
+                                      url(/images/responsive/School1@1920.jpg) 2x);
+  background-image: -ms-image-set(url(/images/responsive/School1@1440.jpg) 1x,
+                                      url(/images/responsive/School1@1920.jpg) 2x);
 }
 
 </style>
@@ -382,13 +370,13 @@
 	<div class="thirdContainer">
 		<div class="headshot">
 			<img src="/images/user/headshot.jpg" />
-			<strong>Jessica Stork</strong>
-			<span>Mom to 3rd Grader</span>
+			<strong>Jessica Jones</strong>
+			<span>Mom to 2nd Grader</span>
 		</div>
 	</div>
 
 	<div class="twoThirdContainer hasQuote">
-		<blockquote>North Shore Elementary keeps surprising me with their improvements and progress. Wonderful school and staff!</blockquote>
+		<blockquote>I&#39;m constantly amazed by the teachers and staff at North Shore elementary. Their commitment, responsiveness, and desire to educate make me proud to send my kids there.</blockquote>
 	</div>
 
 </section>

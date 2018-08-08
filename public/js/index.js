@@ -17,10 +17,10 @@ function loadPage() {
 	initFAQListeners();
 	initGlideCarousel();
 
-	var elems = document.querySelectorAll('img');
+	/*var elems = document.querySelectorAll('img');
 	elems.forEach( function(el) {
         responsiveImageDebugOutput(el);
-    });
+    });*/
 }
 
 

@@ -6,29 +6,17 @@
 {{ $fileType := index (split $completeFile ".") 1 }}
 
 <style scoped>
+
 .hero_image {
-  background-image: url('/images/responsive/{{ $fileName }}@768.{{ $fileType }}');
-}
-@media
-  (-webkit-min-device-pixel-ratio: 2), 
-  (min-resolution: 192dpi) {
-  .hero_image {
-    background-image: url('/images/responsive/{{ $fileName }}@1080.{{ $fileType }}');
-  }
-}
-@media
-  (min-width: 800px) {
-  .hero_image {
-    background-image: url('/images/responsive/{{ $fileName }}@1440.{{ $fileType }}');
-  }
-}
-@media
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px), 
-  (min-resolution: 192dpi) and (min-width: 800px),
-  (min-width:1440px) {
-  .hero_image {
-    background-image: url('/images/responsive/{{ $fileName }}@1440.{{ $fileType }}');
-  }
+  background-image: url('/images/responsive/{{ $fileName }}@1440.{{ $fileType }}');
+  background-image: -webkit-image-set(url(/images/responsive/{{ $fileName }}@1440.{{ $fileType }}) 1x,
+                                      url(/images/responsive/{{ $fileName }}@1920.{{ $fileType }}) 2x);
+  background-image: -moz-image-set(url(/images/responsive/{{ $fileName }}@1440.{{ $fileType }}) 1x,
+                                      url(/images/responsive/{{ $fileName }}@1920.{{ $fileType }}) 2x);
+  background-image: -o-image-set(url(/images/responsive/{{ $fileName }}@1440.{{ $fileType }}) 1x,
+                                      url(/images/responsive/{{ $fileName }}@1920.{{ $fileType }}) 2x);
+  background-image: -ms-image-set(url(/images/responsive/{{ $fileName }}@1440.{{ $fileType }}) 1x,
+                                      url(/images/responsive/{{ $fileName }}@1920.{{ $fileType }}) 2x);
 }
 
 </style>
