@@ -2,6 +2,18 @@
 
 This is the respository for the FNSE website located at http://fnse.org. 
 
+1. [Services and Tools Used](#services-and-tools-used)
+2. [Code & Build Process](#introduction-to-the-code--build-process)
+3. [The Site Content](#notes-on-the-content)
+4. [CSS Organization](#notes-on-the-css)
+5. [JavaScript Dependencies](#notes-on-the-javascript)
+6. [Responsive Concerns](#responsive-concerns)
+7. [SEO](#seo)
+8. [Style Guide](#style-guide)
+9. [Performance](#performance)
+10. [Comaptibility, Support & Known Issues](#compatibility-support-and-known-issues)
+
+
 ## Services and Tools Used
 
 **Domain**: [Godaddy](http://godaddy.com)
