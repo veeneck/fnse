@@ -370,7 +370,7 @@ body {
   @media (min-width: 35em) {
     body {
       border-top: 5px solid yellow; } }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     body {
       border-top: 5px solid orange; } }
   @media (min-width: 1080px) {
@@ -390,7 +390,7 @@ header {
   margin: 30px 0px;
   text-align: center;
   scroll-behavior: smooth; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .module {
       margin: 75px 0px; } }
   @media (min-width: 1080px) {
@@ -400,7 +400,7 @@ header {
 .padded-module {
   margin: 0px !important;
   padding: 30px 0px; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .padded-module {
       padding: 75px 0px; } }
   @media (min-width: 1080px) {
@@ -707,7 +707,7 @@ body.fouroh {
   @media (min-width: 35em) {
     .hero {
       background-attachment: fixed; } }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .hero {
       height: 85vh;
       min-height: 900px;
