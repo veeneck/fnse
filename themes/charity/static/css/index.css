@@ -307,7 +307,7 @@ html {
     @media (min-width: 1080px) {
       html h2 {
         font-size: 2.6rem; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1300px) {
       html h2 {
         font-size: 3.1108rem;
         line-height: 3.3rem; } }
@@ -319,7 +319,7 @@ html {
     @media (min-width: 1080px) {
       html h3 {
         font-size: 1.3rem; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1300px) {
       html h3 {
         font-size: 1.414rem; } }
   html h4 {
@@ -376,7 +376,7 @@ body {
   @media (min-width: 1080px) {
     body {
       border-top: 5px solid red; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1300px) {
     body {
       border-top: 5px solid blue; } }
 
@@ -750,17 +750,13 @@ body.fouroh {
   bottom: 100px;
   left: 0;
   padding: 0px 20px; }
-  @media (min-width: 35em) {
+  @media (min-width: 50em) {
     .content-bottom {
       top: 47%;
       right: 50px;
       left: inherit;
       max-width: 900px;
       padding: 0px; } }
-
-@media (min-width: 35em) {
-  .nocta .content {
-    bottom: 25%; } }
 
 .hero .container {
   margin: 0 auto !important;

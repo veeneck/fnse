@@ -71,7 +71,7 @@
     bottom: 100px;
     left: 0;
     padding: 0px 20px;
-    @include breakpoint(condensed-screen) {
+    @include breakpoint(tablet-screen) {
         top: 47%;
         right: 50px;
         left: inherit;
@@ -80,11 +80,6 @@
     }
 }
 
-.nocta .content {
-    @include breakpoint(condensed-screen) {
-        bottom: 25%;
-    }
-}
 
 .hero .container {
     margin: 0 auto !important;
