@@ -265,7 +265,7 @@ html {
     -ms-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s; }
-  html p.triggeredCSS3 {
+  html p.triggeredCSS3, html p.no-animation {
     margin-top: 1.5rem; }
   html ul, html ol {
     margin-top: 1.5rem;
@@ -365,24 +365,25 @@ body {
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
-body {
-  border-top: 5px solid black; }
-  @media (min-width: 35em) {
-    body {
-      border-top: 5px solid yellow; } }
-  @media (min-width: 50em) {
-    body {
-      border-top: 5px solid orange; } }
-  @media (min-width: 1080px) {
-    body {
-      border-top: 5px solid red; } }
-  @media (min-width: 1300px) {
-    body {
-      border-top: 5px solid blue; } }
+/*body {
+    border-top: 5px solid black;
+    @include breakpoint(condensed-screen) {
+        border-top: 5px solid yellow;
+    }
+    @include breakpoint(tablet-screen) {
+        border-top: 5px solid orange;
+    }
+    @include breakpoint(normal-screen) {
+        border-top: 5px solid red;
+    }
+    @include breakpoint(large-screen) {
+        border-top: 5px solid blue;
+    }
+}
 
 header {
-  top: 5px !important; }
-
+    top: 5px !important;
+}*/
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {
@@ -424,6 +425,9 @@ header {
   @media (min-width: 35em) {
     .container {
       padding: 0px 50px; } }
+  @media (min-width: 1300px) {
+    .container {
+      padding: 0px 75px; } }
 
 .copy {
   width: 100%; }
@@ -1222,6 +1226,9 @@ div.menu-link {
   @media (min-width: 1080px) {
     .text_left figure {
       height: 600px;
+      padding: 0px 0px 60px 50px; } }
+  @media (min-width: 1300px) {
+    .text_left figure {
       padding: 0px 0px 60px 100px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
@@ -1291,6 +1298,9 @@ sup {
   @media (min-width: 1080px) {
     .text_right figure {
       height: 450px;
+      padding: 0px 50px 60px 0px; } }
+  @media (min-width: 1300px) {
+    .text_right figure {
       padding: 0px 100px 60px 0px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */

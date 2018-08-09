@@ -14,7 +14,7 @@ body {
 
 //* { outline: 1px solid red; }
 
-body {
+/*body {
     border-top: 5px solid black;
     @include breakpoint(condensed-screen) {
         border-top: 5px solid yellow;
@@ -32,7 +32,7 @@ body {
 
 header {
     top: 5px !important;
-}
+}*/
 
 /* -------------- CORE LAYOUT ------------- */
 
@@ -87,7 +87,7 @@ header {
         padding: 0px 50px;
     }
     @include breakpoint(large-screen) {
-        // figure out how to layout left_text and right_tex the best here
+        padding: 0px 75px;
     }
 }
 
