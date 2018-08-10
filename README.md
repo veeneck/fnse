@@ -142,11 +142,19 @@ Aside from the above, the site was also submitted to [various search engines](ht
 
 ## Style Guide
 
+<img src="/themes/charity/static/images/uneditable/styleguide.png" />
+
 Style guide for the site, and anyone who may want to make a separate document
 
 Colors, Assets, Fonts, Marketing stuff all in one place?
 
 Use a style guide generator for my own consistency? Make a living style guide?
+
+https://www.fontsquirrel.com/fonts/source-sans-pro
+
+https://www.opensans.com
+
+Peace Sans - located in fonts directory
 
 ## Performance
 

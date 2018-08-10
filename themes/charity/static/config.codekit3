@@ -394,7 +394,7 @@
 		},
 	"\/images\/icons\/icon_whitecap.png": {
 		"ft": 32768,
-		"iS": 1128,
+		"iS": 855,
 		"oA": 0,
 		"oAP": "\/images\/icons\/icon_whitecap.png",
 		"oF": 0,
@@ -2322,6 +2322,17 @@
 		"iS": 22031,
 		"oA": 0,
 		"oAP": "\/images\/uneditable\/SchoolGrade.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/uneditable\/styleguide.png": {
+		"ft": 32768,
+		"iS": 141243,
+		"oA": 0,
+		"oAP": "\/images\/uneditable\/styleguide.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
