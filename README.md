@@ -138,6 +138,8 @@ There is no complex SEO strategy in place yet. We'll try to convince people to l
 - Captions and alt texts as much as possible.
 - Sitemap in place.
 
+Aside from the above, the site was also submitted to [various search engines](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md#search), uses [Open Graph](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md#facebook-open-graph-data) for social embed appearance, has a key for Google Search Console and uses Google Analytics.
+
 ## Style Guide
 
 Style guide for the site, and anyone who may want to make a separate document
