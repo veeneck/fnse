@@ -23,11 +23,13 @@ function loadPage() {
 /* -------- OBJECT FIT FALLBACK -------- */
 
 function objectFitFallback() {
-	if (Modernizr.objectfit) {
-		// Do nothing as the browser supports object-fit: cover;
-	}
-	else {
-		
+	if (!Modernizr.objectfit) {
+		var images = document.querySelectorAll(".image-container");
+		Array.prototype.forEach.call(images, function(imageContainer, i){
+			var src = getFirstChild(imageContainer).getAttribute("data-src");
+			imageContainer.style.backgroundImage = "url('"+src+"')";
+			addClass(imageContainer, 'compat-object-fit');
+		});
 	}
 }
 
@@ -205,6 +207,14 @@ function loadScript(url,callback){
     script.src = url;
     document.getElementsByTagName('head')[0].appendChild(script);
 };
+
+function getFirstChild(el){
+  var firstChild = el.firstChild;
+  while(firstChild != null && firstChild.nodeType == 3){ // skip TextNodes
+    firstChild = firstChild.nextSibling;
+  }
+  return firstChild;
+}
 
 /* ----------- MAPKIT IMPLEMENTATION --------------- */
 
