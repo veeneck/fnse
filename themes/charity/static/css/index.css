@@ -373,7 +373,7 @@ body {
   padding: 0;
   overflow: auto;
   margin: 0;
-  -webkit-overflow-scrolling: auto;
+  -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth; }
 
 /* -------------- DEBUG ------------- */
