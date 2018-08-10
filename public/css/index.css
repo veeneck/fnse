@@ -358,10 +358,20 @@ textarea {
   margin: 25px 0px;
   padding-top: 20px; }
 
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
 body {
-  scroll-behavior: smooth;
-  margin: 0px;
-  padding: 0px; }
+  position: relative;
+  height: 100%;
+  padding: 0;
+  overflow: auto;
+  overflow-y: scroll;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth; }
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
@@ -440,7 +450,8 @@ div.image-container {
     background-size: cover;
     background-position: center center; }
     div.image-container.compat-object-fit .coreImage {
-      opacity: 0; }
+      opacity: 0;
+      visibility: hidden; }
 
 .coreImage {
   width: 100%;

@@ -1,8 +1,20 @@
-body {
-    scroll-behavior: smooth;
-    margin: 0px;
-    padding: 0px;
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
+
+body {
+ position: relative;
+  height: 100%;
+  padding: 0;
+  overflow: auto;
+  overflow-y: scroll;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
 
 .clear {
     @extend %clearfix;
@@ -106,6 +118,7 @@ div.image-container {
         background-position: center center;
         .coreImage { // hide image if object fit is not supported - opacity to 0 for the link area
             opacity: 0;
+            visibility: hidden;
         }
     }
 }
