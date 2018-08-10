@@ -360,10 +360,9 @@ textarea {
 
 body {
   padding: 0;
-  margin: 0; }
-
-.wrapper {
-  overflow: hidden; }
+  margin: 0;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; }
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
