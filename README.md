@@ -103,6 +103,8 @@ The JavaScript for this site is fairly common. The goal was to keep it small and
 
 **Animations**: CSS Animations are used to add subtle effects while scrolling. Any element with a class name of `triggerMe` will be checked on scroll. If the element is in view, it will be given a class of `triggeredCSS3` where animations can be attached.
 
+**Modernizer**: The site uses `object-fit: cover` to ensure images work at different sizes, but Edge 15 and below don't support this. So, [moderizer is used to detect the browser](https://modernizr.com/download?objectfit-dontmin-setclasses&q=object%20fit), and then a different class is added to certain image tags if they use this rule. [See this post for example implementation](https://medium.com/@primozcigler/neat-trick-for-css-object-fit-fallback-on-edge-and-other-browsers-afbc53bbb2c3).
+
 **Carousel**: https://glidejs.com for carousel
 
 As much of the JS as possible is loaded as needed. For example, maps are only loaded when they're about to come into view. The combination of this, lazy load and deferred loading has decreased the initial load from ~12mb to ~600kb.
