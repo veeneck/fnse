@@ -19,6 +19,7 @@ function loadPage() {
 	initFAQListeners();
 	initGlideCarousel();
 	//debugImages();
+	debugOverFlow();
 }
 
 /* -------- OBJECT FIT FALLBACK -------- */
@@ -345,6 +346,10 @@ function debugImages() {
 	elems.forEach( function(el) {
         responsiveImageDebugOutput(el);
     });
+}
+
+function debugOverflow() {
+	var docWidth = document.documentElement.offsetWidth;[].forEach.call(document.querySelectorAll("*"), function (el) {if (el.offsetWidth > docWidth) el.style.border = "1px solid red"});
 }
 
 function responsiveImageDebugOutput(img) {
