@@ -377,6 +377,9 @@ body {
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
+* {
+  outline: 1px solid red; }
+
 /*body {
     border-top: 5px solid black;
     @include breakpoint(condensed-screen) {
