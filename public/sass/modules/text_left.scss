@@ -16,6 +16,10 @@
     /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */
     @include breakpoint(normal-screen) {
     	height: 600px;
+    	padding: 0px 0px 60px 50px;
+    }
+
+    @include breakpoint(large-screen) {
     	padding: 0px 0px 60px 100px;
     }
 }

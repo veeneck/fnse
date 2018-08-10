@@ -14,6 +14,26 @@ body {
 
 //* { outline: 1px solid red; }
 
+/*body {
+    border-top: 5px solid black;
+    @include breakpoint(condensed-screen) {
+        border-top: 5px solid yellow;
+    }
+    @include breakpoint(tablet-screen) {
+        border-top: 5px solid orange;
+    }
+    @include breakpoint(normal-screen) {
+        border-top: 5px solid red;
+    }
+    @include breakpoint(large-screen) {
+        border-top: 5px solid blue;
+    }
+}
+
+header {
+    top: 5px !important;
+}*/
+
 /* -------------- CORE LAYOUT ------------- */
 
 
@@ -23,7 +43,7 @@ body {
     @extend %clearfix;
     width: 100%;
     margin: $mobileModuleMargin 0px;
-    @include breakpoint(condensed-screen) {
+    @include breakpoint(tablet-screen) {
         margin: $tabletModuleMargin 0px;
     }
     @include breakpoint(normal-screen) {
@@ -67,7 +87,7 @@ body {
         padding: 0px 50px;
     }
     @include breakpoint(large-screen) {
-        // figure out how to layout left_text and right_tex the best here
+        padding: 0px 75px;
     }
 }
 
@@ -296,11 +316,8 @@ a.button {
     overflow: hidden;
     z-index: 1;
 
-    @include breakpoint(condensed-screen) {
-        font-size: 90%;
-        padding: 15px 20px;
-    }
     @include breakpoint(normal-screen) {
+        font-size: 90%;
         padding: 15px 20px;
     }
 }

@@ -168,6 +168,17 @@ TODO: Logos go here.
 
 ## Compatibility, Support and Known Issues
 
-- compatibility. currently IE+ and all modern browsers
-- noscript
-- print styles are weak right now
+**Noscript**: If users have JavaScript disabled, the following still work:
+
+- Hero images: They are not lazy loaded, so they still appear.
+- Left Half and Right Half Module Images: They are lazy loaded with JS. If JS is disabled, a local noscript tag in `img.html` loads the image.
+- FAQ questions all open up.
+- Most JS has a fallback, like anchor links.
+- Some things will break, like Apple Maps and Half/Half Modules. However, the text is there and legible in every module.
+
+**Print Styles**: Print styles exist, but they are very basic. They need a lot of work right now.
+
+**Compatibility**: Designed for IE9+ and all modern browsers.
+
+**Other Known Issues**: Keep a running list here.
+

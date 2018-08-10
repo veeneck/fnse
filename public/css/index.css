@@ -265,7 +265,7 @@ html {
     -ms-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s; }
-  html p.triggeredCSS3 {
+  html p.triggeredCSS3, html p.no-animation {
     margin-top: 1.5rem; }
   html ul, html ol {
     margin-top: 1.5rem;
@@ -307,7 +307,7 @@ html {
     @media (min-width: 1080px) {
       html h2 {
         font-size: 2.6rem; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1300px) {
       html h2 {
         font-size: 3.1108rem;
         line-height: 3.3rem; } }
@@ -319,7 +319,7 @@ html {
     @media (min-width: 1080px) {
       html h3 {
         font-size: 1.3rem; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1300px) {
       html h3 {
         font-size: 1.414rem; } }
   html h4 {
@@ -365,6 +365,25 @@ body {
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
+/*body {
+    border-top: 5px solid black;
+    @include breakpoint(condensed-screen) {
+        border-top: 5px solid yellow;
+    }
+    @include breakpoint(tablet-screen) {
+        border-top: 5px solid orange;
+    }
+    @include breakpoint(normal-screen) {
+        border-top: 5px solid red;
+    }
+    @include breakpoint(large-screen) {
+        border-top: 5px solid blue;
+    }
+}
+
+header {
+    top: 5px !important;
+}*/
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {
@@ -372,7 +391,7 @@ body {
   margin: 30px 0px;
   text-align: center;
   scroll-behavior: smooth; }
-  @media (min-width: 35em) {
+  @media (min-width: 50em) {
     .module {
       margin: 75px 0px; } }
   @media (min-width: 1080px) {
@@ -382,7 +401,7 @@ body {
 .padded-module {
   margin: 0px !important;
   padding: 30px 0px; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .padded-module {
       padding: 75px 0px; } }
   @media (min-width: 1080px) {
@@ -406,6 +425,9 @@ body {
   @media (min-width: 35em) {
     .container {
       padding: 0px 50px; } }
+  @media (min-width: 1300px) {
+    .container {
+      padding: 0px 75px; } }
 
 .copy {
   width: 100%; }
@@ -605,694 +627,9 @@ a.button {
   transition: all 0.3s;
   overflow: hidden;
   z-index: 1; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     a.button {
       font-size: 90%;
-      padding: 15px 20px; } }
-  @media (min-width: 1080px) {
-    a.button {
-      padding: 15px 20px; } }
-
-.button:hover {
-  background-color: #00295C;
-  border: none !important; }
-
-@media (min-width: 35em) {
-  .right a.button {
-    float: right; } }
-
-@media (min-width: 35em) {
-  .left a.button {
-    float: left; } }
-
-.button::before {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-  margin-right: 10px; }
-  @media (min-width: 35em) {
-    .button::before {
-      margin-right: 15px; } }
-
-.button.triggerMe::before {
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  visibility: hidden;
-  -webkit-animation-delay: 0.25s;
-  animation-delay: 0.25s;
-  -webkit-transform-style: preserve-3d; }
-
-.button.triggeredCSS3::before {
-  -webkit-animation-name: jackInTheBox;
-  animation-name: jackInTheBox;
-  visibility: visible; }
-
-.button.heart::before {
-  content: url("/images/icons/icon_heart.png"); }
-
-.button.castle::before {
-  content: url("/images/icons/icon_castle.png"); }
-
-.button.hand::before {
-  content: url("/images/icons/icon_hand.png"); }
-
-.button.explore::before {
-  content: url("/images/icons/icon_explore.png"); }
-
-.button.lend::before {
-  content: url("/images/icons/icon_lend.png"); }
-
-.button.roller::before {
-  content: url("/images/icons/icon_roller.png"); }
-
-.button.faq::before {
-  content: url("/images/icons/icon_faq.png"); }
-
-.button.mail::before {
-  content: url("/images/icons/icon_mail.png"); }
-
-.button.more::before {
-  content: url("/images/icons/icon_more.png"); }
-
-/* --------  404 Page -------- */
-body.fouroh {
-  background-color: #00295C; }
-
-.clear, .module, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
-  *zoom: 1; }
-  .clear:before, .module:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
-    content: " ";
-    display: table; }
-  .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
-    clear: both; }
-
-/*----------------------- Misc ------------------------------ */
-/*----------------------- Colors ------------------------------ */
-/*----------------------- Font Color ------------------------------ */
-.white-font {
-  color: #fff; }
-
-/*----------------------- Backgrounds ------------------------------ */
-.blueGreen {
-  background-color: #3FB08A; }
-
-.blue {
-  background-color: #3C70AC; }
-
-.purple {
-  background-color: #00295C; }
-
-.red {
-  background-color: #C51E20; }
-
-/* -------------------- */
-@-webkit-keyframes rubberBand {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); }
-  30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1); }
-  40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1); }
-  50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1); }
-  65% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1); }
-  75% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1); }
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
-
-@keyframes rubberBand {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); }
-  30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1); }
-  40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1); }
-  50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1); }
-  65% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1); }
-  75% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1); }
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
-
-.rubberBand {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand; }
-
-/* --------------------- */
-@-webkit-keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible; }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
-
-@keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible; }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
-
-.slideInDown {
-  -webkit-animation-name: slideInDown;
-  animation-name: slideInDown; }
-
-/* -------------------- */
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
-
-/* ------------------*/
-@-webkit-keyframes jackInTheBox {
-  from {
-    opacity: 0;
-    -webkit-transform: scale(0.1) rotate(30deg);
-    transform: scale(0.1) rotate(30deg);
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom; }
-  50% {
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg); }
-  70% {
-    -webkit-transform: rotate(3deg);
-    transform: rotate(3deg); }
-  to {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes jackInTheBox {
-  from {
-    opacity: 0;
-    -webkit-transform: scale(0.1) rotate(30deg);
-    transform: scale(0.1) rotate(30deg);
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom; }
-  50% {
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg); }
-  70% {
-    -webkit-transform: rotate(3deg);
-    transform: rotate(3deg); }
-  to {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-.jackInTheBox {
-  -webkit-animation-name: jackInTheBox;
-  animation-name: jackInTheBox; }
-
-/* ---------------- */
-@-webkit-keyframes tada {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); }
-  10%,
-  20% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
-  30%,
-  50%,
-  70%,
-  90% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
-  40%,
-  60%,
-  80% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
-
-@keyframes tada {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); }
-  10%,
-  20% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
-  30%,
-  50%,
-  70%,
-  90% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
-  40%,
-  60%,
-  80% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
-
-.tada {
-  -webkit-animation-name: tada;
-  animation-name: tada; }
-
-/* ---------------- */
-@-webkit-keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible; }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
-
-@keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible; }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
-
-.slideInDown {
-  -webkit-animation-name: slideInDown;
-  animation-name: slideInDown; }
-
-@font-face {
-  font-family: 'Peace Sans';
-  src: url("/fonts/PeaceSans.woff2") format("woff2"), url("/fonts/PeaceSans.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-/*----------------------- Typebase Defaults ------------------------------ */
-/*! Typebase.less v0.1.0 | MIT License */
-/* Setup */
-html {
-  /* Change default typefaces here */
-  font-family: serif;
-  font-size: 110%;
-  -webkit-font-smoothing: antialiased;
-  /* Copy & Lists */
-  /* Headings */
-  /* Tables */
-  /* Code blocks */
-  /* Leading paragraph text */
-  /* Hug a the block above you */ }
-  @media (min-width: 35em) {
-    html {
-      font-size: 137.5%; } }
-  html p {
-    line-height: 1.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s; }
-  html p.triggeredCSS3 {
-    margin-top: 1.5rem; }
-  html ul, html ol {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem; }
-    html ul li, html ol li {
-      line-height: 1.5rem; }
-    html ul ul, html ul ol, html ol ul, html ol ol {
-      margin-top: 0;
-      margin-bottom: 0; }
-  html blockquote {
-    line-height: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
-    color: #00295C;
-    font-style: italic; }
-  html h2, html h3, html h4, html h5, html h6 {
-    /* Change heading typefaces here */
-    font-family: sans-serif;
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-    line-height: 1.5rem;
-    text-transform: uppercase;
-    font: 100% 'Peace Sans', Helvetica, sans-serif;
-    color: #00295C;
-    display: block;
-    position: relative;
-    padding-top: 10px; }
-  html h1 {
-    font-size: 1.5rem; }
-  html h2 {
-    color: #fff;
-    font-size: 1.8rem;
-    margin-top: 3rem; }
-    @media (min-width: 35em) {
-      html h2 {
-        font-size: 2rem;
-        line-height: 3rem; } }
-    @media (min-width: 1080px) {
-      html h2 {
-        font-size: 2.6rem; } }
-    @media (min-width: 1200px) {
-      html h2 {
-        font-size: 3.1108rem;
-        line-height: 3.3rem; } }
-  html h3 {
-    font-size: 1rem; }
-    @media (min-width: 35em) {
-      html h3 {
-        font-size: 1rem; } }
-    @media (min-width: 1080px) {
-      html h3 {
-        font-size: 1.3rem; } }
-    @media (min-width: 1200px) {
-      html h3 {
-        font-size: 1.414rem; } }
-  html h4 {
-    font-size: 0.707rem; }
-  html h5 {
-    font-size: 0.4713333333rem; }
-  html h6 {
-    font-size: 0.3535rem; }
-  html table {
-    margin-top: 1.5rem;
-    border-spacing: 0px;
-    border-collapse: collapse; }
-    html table td, html table th {
-      padding: 0;
-      line-height: 33px; }
-  html code {
-    vertical-align: bottom; }
-  html .lead {
-    font-size: 1.414rem; }
-  html .hug {
-    margin-top: 0; }
-
-input[type=text], select, textarea {
-  display: block;
-  height: 50px;
-  margin: 25px 0px;
-  width: 100%;
-  padding: 5px 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 90%;
-  box-sizing: border-box; }
-
-textarea {
-  display: block;
-  height: 200px;
-  margin: 25px 0px;
-  padding-top: 20px; }
-
-body {
-  scroll-behavior: smooth;
-  margin: 0px;
-  padding: 0px; }
-
-/* -------------- DEBUG ------------- */
-/* If you need to debug, uncomment this */
-/* -------------- CORE LAYOUT ------------- */
-/* Every section is a module. By building around this class, margins and widths will be the same. */
-.module {
-  width: 100%;
-  margin: 30px 0px;
-  text-align: center;
-  scroll-behavior: smooth; }
-  @media (min-width: 35em) {
-    .module {
-      margin: 75px 0px; } }
-  @media (min-width: 1080px) {
-    .module {
-      margin: 150px 0px; } }
-
-.padded-module {
-  margin: 0px !important;
-  padding: 30px 0px; }
-  @media (min-width: 48em) {
-    .padded-module {
-      padding: 75px 0px; } }
-  @media (min-width: 1080px) {
-    .padded-module {
-      padding: 150px 0px; } }
-
-.no-margin {
-  margin: 3px 0px !important; }
-
-.grey_module {
-  background-color: #FAFAFA; }
-
-.blue_module {
-  background-color: #00295C; }
-
-/* While a module is 100% width, the container is max-width. It sits inside, centered, for modules that don't want full width. */
-.container {
-  max-width: 1300px;
-  margin: 0px auto;
-  padding: 0px 20px; }
-  @media (min-width: 35em) {
-    .container {
-      padding: 0px 50px; } }
-
-.copy {
-  width: 100%; }
-
-/* -------------- IMAGES ------------- */
-.coreImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  visibility: hidden;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-
-.coreImage.triggeredCSS3 {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  visibility: visible; }
-
-figure {
-  width: 100%;
-  margin: 1.5rem 0px 0px 0px;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
-  padding-top: 25px;
-  /* Wrap the text around the image. */
-  /* Image is now same height as text and should sit next to the text. Offset top margin to bring about the header. */ }
-  @media (min-width: 35em) {
-    figure {
-      padding-top: 0px;
-      max-width: 45%; } }
-  @media (min-width: 1080px) {
-    figure {
-      margin-top: 0px; } }
-
-figure.triggeredCSS3 {
-  padding-top: 0px; }
-  @media (min-width: 1080px) {
-    figure.triggeredCSS3 {
-      margin-top: -75px; } }
-
-figcaption {
-  font-style: italic;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  color: #3A3A3A;
-  font-size: 80%;
-  margin-top: 10px;
-  display: none; }
-  @media (min-width: 35em) {
-    figcaption {
-      display: block; } }
-
-picture {
-  max-width: 100%; }
-
-/* -------------- THIRDS MODULE ------------- */
-.thirdContainer {
-  width: 33%;
-  border-radius: 4px; }
-
-.twoThirdContainer {
-  width: 67%;
-  border-radius: 4px; }
-
-/* -------------- HALVES MODULE ------------- */
-.leftHalfContainer {
-  width: 50%;
-  margin-right: 3px;
-  border-radius: 4px; }
-
-.rightHalfContainer {
-  width: 50%;
-  border-radius: 4px; }
-
-/* -------------- HEADERS ---------------- */
-h3:before {
-  content: "";
-  background: #D1E5FB;
-  position: absolute;
-  top: 0;
-  height: 3px;
-  width: 150px;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
-
-h3.triggeredCSS3:before {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand; }
-
-.right h3 {
-  text-align: center; }
-  @media (min-width: 35em) {
-    .right h3 {
-      text-align: right; } }
-
-.right h3:before {
-  left: 50%;
-  margin-left: -75px; }
-  @media (min-width: 35em) {
-    .right h3:before {
-      right: 0;
-      margin-left: 0px;
-      left: inherit; } }
-
-.left h3 {
-  text-align: center; }
-  @media (min-width: 35em) {
-    .left h3 {
-      text-align: left; } }
-
-.left h3:before {
-  left: 50%;
-  margin-left: -75px; }
-  @media (min-width: 35em) {
-    .left h3:before {
-      left: 0;
-      margin-left: 0px; } }
-
-.center h3 {
-  text-align: center; }
-
-.center h3:before {
-  left: 50%;
-  margin-left: -75px; }
-
-.subtitle {
-  color: #A4A4A4;
-  display: block;
-  margin: 10px 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900; }
-
-.right .subtitle {
-  text-align: center; }
-  @media (min-width: 35em) {
-    .right .subtitle {
-      text-align: right; } }
-
-/*----------MAPKIT------------*/
-.mk-map-view > * {
-  left: 0; }
-
-.mk-zoom-controls .mk-icon {
-  left: 0; }
-
-/*----------------------- LINKS ------------------------------ */
-section a {
-  color: #3C70AC;
-  text-decoration: none;
-  border-bottom: 1px solid #3C70AC; }
-
-.blue_module a,
-.blue_list a {
-  color: #D1E5FB;
-  border-bottom: 1px solid #D1E5FB; }
-
-section a:hover {
-  border-bottom: 1px dashed #3C70AC; }
-
-.blue_module a:hover,
-.blue_list a:hover {
-  border-bottom: 1px dashed #D1E5FB; }
-
-.blue_list .button:hover {
-  background-color: #D1E5FB; }
-
-a.button {
-  color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
-  font-size: 80%;
-  text-decoration: none;
-  padding: 10px 12px 6px 12px;
-  margin: 25px 0px;
-  border-radius: 4px;
-  border: none;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  overflow: hidden;
-  z-index: 1; }
-  @media (min-width: 35em) {
-    a.button {
-      font-size: 90%;
-      padding: 15px 20px; } }
-  @media (min-width: 1080px) {
-    a.button {
       padding: 15px 20px; } }
 
 .button:hover {
@@ -1367,16 +704,18 @@ body.fouroh {
   width: 100%;
   height: 80vh;
   min-height: 600px;
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-  text-align: center; }
+  background-size: cover; }
   @media (min-width: 35em) {
     .hero {
-      background-attachment: fixed;
-      text-align: right;
+      background-attachment: fixed; } }
+  @media (min-width: 50em) {
+    .hero {
       height: 85vh;
-      min-height: 900px; } }
+      min-height: 900px;
+      text-align: right; } }
   @media (hover: none) {
     .hero {
       background-attachment: initial; } }
@@ -1415,7 +754,7 @@ body.fouroh {
   bottom: 100px;
   left: 0;
   padding: 0px 20px; }
-  @media (min-width: 35em) {
+  @media (min-width: 50em) {
     .content-bottom {
       top: 47%;
       right: 50px;
@@ -1423,16 +762,13 @@ body.fouroh {
       max-width: 900px;
       padding: 0px; } }
 
-@media (min-width: 35em) {
-  .nocta .content {
-    bottom: 25%; } }
-
 .hero .container {
   margin: 0 auto !important;
   width: 90%;
   height: 100%;
   position: relative; }
 
+/* ------------ Overlay to darken the hero image ------------  */
 .darken-pseudo {
   position: relative; }
 
@@ -1458,14 +794,8 @@ header {
   height: 60px;
   position: absolute;
   top: 0px;
-  border-bottom: 3px solid #3C70AC;
-  /*-webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-      -webkit-animation-name: slideInDown;
-    animation-name: slideInDown;*/ }
-  @media (min-width: 35em) {
+  border-bottom: 3px solid #3C70AC; }
+  @media (min-width: 1080px) {
     header {
       height: 89px;
       position: relative;
@@ -1478,9 +808,6 @@ h1 {
 
 h1 img {
   width: 80%; }
-  @media (min-width: 35em) {
-    h1 img {
-      width: 90%; } }
   @media (min-width: 1080px) {
     h1 img {
       width: 100%; } }
@@ -1503,7 +830,7 @@ h1 img {
   height: 25px;
   display: inline-block;
   margin: auto 0px !important; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .donate {
       margin: auto 25px !important; } }
 
@@ -1556,102 +883,15 @@ ul.nav li a:hover {
 ul.nav li a.selected {
   font-weight: 900 !important; }
 
-ul.nav li:hover .dropdown {
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  display: block; }
-
-/*ul.nav li:hover a.topmenu::before {
-  content:""; 
-  background: $lightBlue; 
-  position: absolute; 
-  top: 0; 
-  height: 3px; 
-  width: 50%;
-  left: 50%;
-  margin-left: -25%;
-}*/
 ul.nav li img {
   margin-bottom: -8px; }
 
-.dropdown {
-  display: none;
-  position: absolute;
-  background-color: #00295C;
-  margin-top: 56px;
-  padding: 40px 25px 0px 25px;
-  border-radius: 0px 0px 4px 4px;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out; }
-  @media (min-width: 1080px) {
-    .dropdown {
-      -webkit-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
-      -moz-box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3);
-      box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.3); } }
-
-.dropdown li {
-  display: block !important;
-  text-align: center;
-  width: 100%;
-  margin-left: 0px !important;
-  margin-bottom: 10px !important; }
-
-.dropdown li a {
-  width: 100%;
-  text-align: center !important;
-  color: #D1E5FB !important;
-  display: inline-block;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-
-.dropdown li a:hover {
-  color: #fff !important; }
-
-/*.verticalbanner:after,.verticalbanner:before {
-    content: '';
-    position: absolute;
-    border-top: 45px solid $darkBlue; // angle degree, reduce to reduce degree of angles
-    height: 0; // no height, no content, just border
-    width: 0;
-    top: 100%;
-}
-.verticalbanner:after { // right angle
-    border-left: 150px solid transparent;
-    right:0;
-    border-radius: 0px 0px $borderRadius $borderRadius;
-}
-.verticalbanner:before { // left angle
-    border-right: 150px solid transparent;
-    left:0;
-    border-radius: 0px 0px $borderRadius $borderRadius;
-}*/
 div.menu-link {
   padding: 1em;
   color: #00295C; }
   @media (min-width: 1080px) {
     div.menu-link {
       display: none; } }
-
-@media (min-width: 1080px) {
-  .explore {
-    margin-left: -80px; } }
-
-@media (min-width: 1080px) {
-  .about {
-    margin-left: -60px; } }
-
-@media (min-width: 1080px) {
-  .volunteermenu {
-    margin-left: -50px; } }
 
 /*----------------------- Hamburger Functionality ------------------------------ */
 nav[role=navigation].open {
@@ -1720,7 +960,7 @@ div.menu-link {
   right: 15px;
   transition-duration: 0.5s;
   position: absolute; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     div.menu-link {
       width: 20px;
       top: 20px;
@@ -1986,6 +1226,9 @@ div.menu-link {
   @media (min-width: 1080px) {
     .text_left figure {
       height: 600px;
+      padding: 0px 0px 60px 50px; } }
+  @media (min-width: 1300px) {
+    .text_left figure {
       padding: 0px 0px 60px 100px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */
@@ -2055,6 +1298,9 @@ sup {
   @media (min-width: 1080px) {
     .text_right figure {
       height: 450px;
+      padding: 0px 50px 60px 0px; } }
+  @media (min-width: 1300px) {
+    .text_right figure {
       padding: 0px 100px 60px 0px; } }
 
 /* Some modules have buttons on one page, and not on another. If no button, lower the image height so that it fits next to text still. */

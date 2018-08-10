@@ -1,6 +1,3 @@
-@import "../core/core.scss";
-
-
 /*----------------------- Title and Background ------------------------------ */
 
 .hero {
@@ -9,17 +6,20 @@
     width: 100%;
     height: 80vh;
     min-height: 600px;
+    text-align: center;
 
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 
-    text-align: center;
     @include breakpoint(condensed-screen) {
         background-attachment: fixed;
-        text-align: right;
+    }
+
+    @include breakpoint(tablet-screen) {
         height: 85vh;
         min-height: 900px;
+        text-align: right;
     }
 
     @media (hover: none) {
@@ -71,7 +71,7 @@
     bottom: 100px;
     left: 0;
     padding: 0px 20px;
-    @include breakpoint(condensed-screen) {
+    @include breakpoint(tablet-screen) {
         top: 47%;
         right: 50px;
         left: inherit;
@@ -80,11 +80,6 @@
     }
 }
 
-.nocta .content {
-    @include breakpoint(condensed-screen) {
-        bottom: 25%;
-    }
-}
 
 .hero .container {
     margin: 0 auto !important;
@@ -93,7 +88,7 @@
     position: relative;
 }
 
-.hero .button {}
+/* ------------ Overlay to darken the hero image ------------  */
 
 .darken-pseudo {
     position: relative;

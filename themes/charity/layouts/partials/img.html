@@ -12,7 +12,24 @@
 {{ $fileName := index (split $completeFile ".") 0 }}
 {{ $fileType := index (split $completeFile ".") 1 }}
 
-<figure class="triggerMe">
+<noscript>
+
+<style scoped>
+	figure.js {
+		display: none;
+	}
+</style>
+
+	<figure class="triggeredCSS3">
+	<img class="coreImage triggeredCSS3" src="/images/responsive/{{ $fileName }}@768.{{ $fileType }}" />
+	 	<figcaption>
+	 		{{ .Params.caption }}
+	 	</figcaption>
+	</figure>
+
+</noscript>
+
+<figure class="js triggerMe">
 <img class="coreImage triggerMe lazy" data-src="/images/responsive/{{ $fileName }}@768.{{ $fileType }}"
      data-srcset="/images/responsive/{{ $fileName }}@1080.{{ $fileType }} 1080w,
              /images/responsive/{{ $fileName }}@768.{{ $fileType }} 768w"
