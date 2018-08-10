@@ -361,14 +361,15 @@ textarea {
 html {
   height: 100%;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
 
 body {
-  position: relative;
+  position: absolute;
   height: 100%;
   padding: 0;
   overflow: auto;
-  overflow-y: scroll;
   margin: 0;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth; }
