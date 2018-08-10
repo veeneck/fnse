@@ -440,7 +440,8 @@ div.image-container {
     background-size: cover;
     background-position: center center; }
     div.image-container.compat-object-fit .coreImage {
-      opacity: 0; }
+      opacity: 0;
+      visibility: hidden; }
 
 .coreImage {
   width: 100%;
