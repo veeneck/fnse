@@ -9,6 +9,9 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.bodyWrapper {
+    overflow: hidden; 
+}
 
 .clear {
     @extend %clearfix;

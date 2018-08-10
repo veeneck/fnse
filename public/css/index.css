@@ -364,6 +364,9 @@ body {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch; }
 
+.bodyWrapper {
+  overflow: hidden; }
+
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
 /*body {
