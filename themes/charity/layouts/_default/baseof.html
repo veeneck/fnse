@@ -1,11 +1,12 @@
 {{ partial "header.html" . }}
   <body>
-
+  		<div class="wrapper">
 	  	{{ partial "navigation.html" . }}
 	  
 	    {{ block "main" . -}}{{- end }}
 
 		{{ template "_internal/google_analytics_async.html" . }}
+	</div>
 
   </body>
 </html>

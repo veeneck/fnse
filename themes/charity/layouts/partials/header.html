@@ -5,7 +5,7 @@
   {{ .Hugo.Generator }}
 
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover, user-scalable=no">
 
   <!-- Meta Tags -->
   {{ if .IsHome -}}
@@ -16,7 +16,7 @@
   <meta name="Description" content="{{ .Description }}">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/index.css" media="screen">
 
   <!--These styles styles are only for print as set by the media value-->
   <link rel="stylesheet" href="/css/print.css" media="print">
