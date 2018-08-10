@@ -142,19 +142,19 @@ Aside from the above, the site was also submitted to [various search engines](ht
 
 ## Style Guide
 
+Colors and fonts used for the site are below. This can be expanded to print styles, or other material distributed.
+
 <img src="/themes/charity/static/images/uneditable/styleguide.png" />
 
-Style guide for the site, and anyone who may want to make a separate document
+Fonts can be found here:
 
-Colors, Assets, Fonts, Marketing stuff all in one place?
+- Peace Sans: Locate in this repository at `/themes/charity/static/fonts`
+- Source Sans Pro: Served via Google Fonts, [but can be download here](https://www.fontsquirrel.com/fonts/source-sans-pro) to use in Word, Photoshop, and other desktop programs.
+- Open Sans: Also served via Google Fonts, and [can be downloaded here](https://www.opensans.com).
 
-Use a style guide generator for my own consistency? Make a living style guide?
+The other consideration is logos. Below you will find various sizes and colors of the logo.
 
-https://www.fontsquirrel.com/fonts/source-sans-pro
-
-https://www.opensans.com
-
-Peace Sans - located in fonts directory
+TODO: Logos go here.
 
 ## Performance
 
