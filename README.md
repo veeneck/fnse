@@ -91,6 +91,8 @@ If you find yourslef having to debug the CSS, the first place to start would be 
 
 Outside of `core`, we have the `/sass/modules` directory. Here, we have each type of module listed in the content section above. Carousel, Text Left, Quote, etc. Not only are the module specific rules defined in these files, but also content specific rules. For example, the **Stay In Touch** module has a custom grid of 9 photos in it. This is accomplished by using the Half half module, and then putting specific CSS rules in `half_half.scss` to achieve the desired look. So, if you need to debug a certain module, first find out what type of module it is, and then jump into the appropriate CSS file.
 
+**Note**: No CSS Reset or change to `box-sizing` was used. You may find minor annoyances because of this.
+
 ## Notes on the JavaScript
 
 The JavaScript for this site is fairly common. The goal was to keep it small and remove the need for things like jQuery. The vast majority of what it is doing is to improve initial page load performance or implement cross browser features. It can all be found at `/themes/charity/static/js/index.js`. It is then minified into `index-min.js` and served. The file is commented, and here are the cliff notes:

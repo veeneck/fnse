@@ -14,6 +14,7 @@
 
     @include breakpoint(condensed-screen) {
         background-attachment: fixed;
+        height: 85vh;
     }
 
     @include breakpoint(tablet-screen) {
@@ -86,6 +87,7 @@
     width: 90%;
     height: 100%;
     position: relative;
+    padding: 0px;
 }
 
 /* ------------ Overlay to darken the hero image ------------  */

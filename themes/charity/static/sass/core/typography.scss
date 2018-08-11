@@ -121,7 +121,7 @@ h2 {
   
   margin-top: 2 * $leading;
     @include breakpoint(condensed-screen) {
-        font-size: 2 * 1 * 1rem;
+        font-size: 2 * 1.2 * 1rem;
         line-height: 2 * $leading;
     }
 
