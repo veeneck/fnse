@@ -152,11 +152,17 @@ function initGlideCarousel() {
 	  		perView: 3,
 	  		peek: 0,
 	  		gap: 50,
+	  		peek: { before: 50, after: 50 },
 	  		breakpoints: {
+	  		1200: {
+		      perView: 2,
+		      peek: { before: 40, after: 40 },
+		      gap: 40,
+		    },
 		    800: {
 		      perView: 1,
-		      peek: { before: 50, after: 250 },
-		      gap: 20,
+		      peek: { before: 50, after: 200 },
+		      gap: 50,
 		      focusAt: 'center'
 		    },
 		    600: {
