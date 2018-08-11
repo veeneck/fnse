@@ -13,8 +13,11 @@
 	position: relative;
 	width: 100%;
 	text-align: center;
-	padding: 50px 20px;
-    @include breakpoint(condensed-screen) {
+	padding: 50px $mobileModuleMargin;
+	@include breakpoint(condensed-screen) {
+		padding: $tabletModuleMargin;
+	}
+    @include breakpoint(normal-screen) {
     	text-align: left;
     	width: 70%;
     	margin: auto auto;

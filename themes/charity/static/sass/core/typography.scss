@@ -126,7 +126,7 @@ h2 {
     }
 
     @include breakpoint(normal-screen) {
-        font-size: 2 * 1.3 * 1rem;
+        font-size: 2.2 * 1.3 * 1rem;
     }
 
     @include breakpoint(large-screen) {
