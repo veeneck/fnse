@@ -51,7 +51,15 @@
 	flex-wrap: wrap;
 	width: 100%;
 	font-size: 80%;
+	@include breakpoint(tablet-screen) {
+		justify-content: space-evenly;
+		font-size: 85%;
+	}
 	@include breakpoint(normal-screen) {
+		justify-content: space-evenly;
+		font-size: 95%;
+	}
+	@include breakpoint(large-screen) {
 		justify-content: space-evenly;
 		font-size: 100%;
 	}
@@ -66,7 +74,8 @@
 	margin: 5px 5px;
 	background-color: $lightGrey;
 	@include altProseStack();
-	@include breakpoint(condensed-screen) {
+	margin: 10px;
+	@include breakpoint(normal-screen-screen) {
 		margin: 10px 20px;
 	}
 }

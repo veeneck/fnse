@@ -14,6 +14,7 @@
 
     @include breakpoint(condensed-screen) {
         background-attachment: fixed;
+        height: 90vh;
     }
 
     @include breakpoint(tablet-screen) {
@@ -75,8 +76,14 @@
         top: 47%;
         right: 50px;
         left: inherit;
-        max-width: 900px;
+        max-width: 700px;
         padding: 0px;
+    }
+    @include breakpoint(normal-screen) {
+        max-width: 800px;
+    }
+    @include breakpoint(large-screen) {
+        max-width: 900px;
     }
 }
 
@@ -86,6 +93,7 @@
     width: 90%;
     height: 100%;
     position: relative;
+    padding: 0px;
 }
 
 /* ------------ Overlay to darken the hero image ------------  */

@@ -10,12 +10,12 @@ link: "/volunteer"
 image: "/images/VolunteerLarge.jpg"
 caption: This is a caption
 list_items:
-- title: Become a Lunch PAL
-- title: Recess Monitor
-- title: Tutor
+- title: Lunch PAL
 - title: Front Office Assistance
+- title: Tutor
+- title: Recess Monitor
 - title: Join a Committee
-- title: Attend our Meetings
+- title: Attend Meetings
 - title: Fundraise
 - title: Connect Us
 - title: Host an Event

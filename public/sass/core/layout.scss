@@ -9,6 +9,8 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+/// This, in combination with user-scalable in the meta viewport, prevent mobile Safari from allowing horizontal scroll.
+/// This is needed so that the carousel works, and just creates a nicer expwerience as oyu scroll through the page.
 .bodyWrapper {
     overflow: hidden; 
 }
@@ -52,7 +54,7 @@ header {
     @extend %clearfix;
     width: 100%;
     margin: $mobileModuleMargin 0px;
-    @include breakpoint(tablet-screen) {
+    @include breakpoint(condensed-screen) {
         margin: $tabletModuleMargin 0px;
     }
     @include breakpoint(normal-screen) {
@@ -65,7 +67,7 @@ header {
 .padded-module {
     margin: 0px !important;
     padding: $mobileModuleMargin 0px;
-    @include breakpoint(tablet-screen) {
+    @include breakpoint(condensed-screen) {
         padding: $tabletModuleMargin 0px;
     }
     @include breakpoint(normal-screen) {
@@ -95,7 +97,7 @@ header {
     @include breakpoint(condensed-screen) {
         padding: 0px 50px;
     }
-    @include breakpoint(large-screen) {
+    @include breakpoint(tablet-screen) {
         padding: 0px 75px;
     }
 }
