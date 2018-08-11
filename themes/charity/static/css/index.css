@@ -1412,7 +1412,7 @@ sup {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 100%;
+  font-size: 110%;
   line-height: 1.8rem; }
   @media (min-width: 35em) {
     .quote blockquote {
