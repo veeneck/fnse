@@ -1412,8 +1412,17 @@ sup {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 120%;
+  font-size: 90%;
   line-height: 1.8rem; }
+  @media (min-width: 35em) {
+    .quote blockquote {
+      font-size: 90%; } }
+  @media (min-width: 50em) {
+    .quote blockquote {
+      font-size: 100%; } }
+  @media (min-width: 1080px) {
+    .quote blockquote {
+      font-size: 110%; } }
 
 .quote strong {
   color: #00295C;

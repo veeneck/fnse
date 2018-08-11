@@ -54,8 +54,17 @@
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	font-size: 120%;
+	font-size: 90%;
 	line-height: 1.8rem;
+	@include breakpoint(condensed-screen) {
+		font-size: 90%;
+	}
+	@include breakpoint(tablet-screen) {
+		font-size: 100%;
+	}
+	@include breakpoint(normal-screen) {
+		font-size: 110%;
+	}
 }
 
 .quote strong {
