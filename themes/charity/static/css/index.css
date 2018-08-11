@@ -724,7 +724,7 @@ body.fouroh {
   @media (min-width: 35em) {
     .hero {
       background-attachment: fixed;
-      height: 85vh; } }
+      height: 90vh; } }
   @media (min-width: 50em) {
     .hero {
       height: 85vh;
