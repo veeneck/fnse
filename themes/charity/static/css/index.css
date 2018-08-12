@@ -1630,15 +1630,17 @@ sup {
   background-position: center center;
   background-size: contain;
   width: 25%;
-  margin-right: 20px;
-  display: none; }
-  @media (min-width: 50em) {
-    .shield {
-      display: block; } }
+  margin-right: 20px; }
   @media (min-width: 1080px) {
     .shield {
       width: 100%;
       margin-right: 0px; } }
+
+.hasButton .shield {
+  display: none; }
+  @media (min-width: 50em) {
+    .hasButton .shield {
+      display: block; } }
 
 .shieldDesc {
   width: 75%;
