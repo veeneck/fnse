@@ -9,14 +9,16 @@
 		<ul>
 			{{ range $key, $value := .Params.list_items }}
 				<li class="list_item triggerMe">
-					<div>
-						<div class="shield {{ $value.class }}"></div>
+					<div class="shield {{ $value.class }}"></div>
+					<div class="shieldDesc">
 						<strong>{{ $value.title }}</strong>
 						<span>{{ $value.description }}</span>
-						{{ if isset $value "link" }}
-							<a href="{{ $value.link }}" class="button blue more triggerMe">MORE</a>
-						{{ end }}
 					</div>
+					{{ if isset $value "link" }}
+					<div>
+						<a href="{{ $value.link }}" class="button blue more triggerMe">MORE</a>
+					</div>
+					{{ end }}				
 				</li>
 			{{ end }}
 		</ul>

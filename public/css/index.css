@@ -369,25 +369,24 @@ body {
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
-/*body {
-    border-top: 5px solid black;
-    @include breakpoint(condensed-screen) {
-        border-top: 5px solid yellow;
-    }
-    @include breakpoint(tablet-screen) {
-        border-top: 5px solid orange;
-    }
-    @include breakpoint(normal-screen) {
-        border-top: 5px solid red;
-    }
-    @include breakpoint(large-screen) {
-        border-top: 5px solid blue;
-    }
-}
+body {
+  border-top: 5px solid black; }
+  @media (min-width: 35em) {
+    body {
+      border-top: 5px solid yellow; } }
+  @media (min-width: 50em) {
+    body {
+      border-top: 5px solid orange; } }
+  @media (min-width: 1080px) {
+    body {
+      border-top: 5px solid red; } }
+  @media (min-width: 1300px) {
+    body {
+      border-top: 5px solid blue; } }
 
 header {
-    top: 5px !important;
-}*/
+  top: 5px !important; }
+
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {
@@ -1573,13 +1572,13 @@ sup {
   list-style-type: none;
   flex-wrap: wrap;
   padding-left: 0px; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .center_list ul {
       flex-direction: row; } }
 
 .center_list li:nth-child(2) {
   margin: 10px 0px; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .center_list li:nth-child(2) {
       margin: 50px 5%; } }
 
@@ -1601,8 +1600,14 @@ sup {
   animation-delay: 0.4s; }
 
 .center_list li {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
@@ -1611,23 +1616,32 @@ sup {
   visibility: hidden; }
   @media (min-width: 35em) {
     .center_list li {
-      width: 30%;
       margin-top: 50px;
       margin-bottom: 50px; } }
+  @media (min-width: 1080px) {
+    .center_list li {
+      width: 30%;
+      flex-direction: column; } }
 
 .shield {
   height: 140px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  float: left;
   width: 25%;
   margin-right: 20px; }
-  @media (min-width: 35em) {
+  @media (min-width: 1080px) {
     .shield {
       width: 100%;
-      float: none;
       margin-right: 0px; } }
+
+.shieldDesc {
+  width: 75%;
+  text-align: left; }
+  @media (min-width: 1080px) {
+    .shieldDesc {
+      text-align: center;
+      width: 100%; } }
 
 .grey_list .shield {
   background-image: url("/images/uneditable/grey_shield.png"); }
@@ -1641,7 +1655,7 @@ sup {
 
 .list_item strong {
   display: block;
-  margin: 25px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   padding-top: 5px; }
@@ -1654,20 +1668,6 @@ sup {
   font-weight: 300; }
 
 /* --------------- PTA ---------------*/
-.pta li {
-  background-color: #fff;
-  padding: 2% 4%;
-  width: 92%;
-  border-radius: 4px; }
-  @media (min-width: 35em) {
-    .pta li {
-      width: 23.5%;
-      padding: 50px 4%; } }
-
-@media (min-width: 35em) {
-  .pta li:nth-child(2) {
-    margin: 50px 2%; } }
-
 .vimeo {
   width: 100%;
   height: 300px; }
@@ -1870,6 +1870,21 @@ sup {
   background-size: cover;
   background-attachment: fixed;
   border-radius: 0px; }
+
+.faqlist li {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 2% 4%;
+  border-radius: 4px; }
+  @media (min-width: 35em) {
+    .faqlist li {
+      padding: 50px 4%; } }
+
+.faqlist h3 {
+  display: none; }
+  @media (min-width: 1080px) {
+    .faqlist h3 {
+      display: block; } }
 
 .faq a.question {
   color: #fff;

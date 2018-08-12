@@ -9,6 +9,24 @@
       border-radius: 0px;
 }
 
+.faqlist li {
+	box-sizing: border-box;
+	background-color: $white;
+	padding: 2% 4%;
+	border-radius: $borderRadius;
+	///border: 3px solid $grey;
+	@include breakpoint(condensed-screen) {
+		padding: 50px 4%;
+	}
+}
+
+.faqlist h3 {
+	display: none;
+	@include breakpoint(normal-screen) {
+		display: block;
+	}
+}
+
 .faq a.question {
 	color: $white;
 	display: block;

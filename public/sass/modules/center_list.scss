@@ -32,14 +32,14 @@
 	flex-wrap: wrap;
 	padding-left: 0px;
 
-	@include breakpoint(condensed-screen) {
+	@include breakpoint(normal-screen) {
 		flex-direction: row;
 	}
 }
 
 .center_list li:nth-child(2) {
 	margin: 10px 0px;
-	@include breakpoint(condensed-screen) {
+	@include breakpoint(normal-screen) {
 		margin: 50px 5%;
 	}
 }
@@ -67,16 +67,22 @@
 
 .center_list li {
 	 @extend %clearfix;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	 @include flex();
+	flex-direction: row;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
 	width: 100%;
 	@include breakpoint(condensed-screen) {
-		width: 30%;
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
+	@include breakpoint(normal-screen) {
+		width: 30%;
+		flex-direction: column;
+	}
 
-			-webkit-animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
   	animation-duration: 1.5s;
   	-webkit-animation-fill-mode: both;
   	animation-fill-mode: both;
@@ -95,13 +101,20 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
-	float: left;
 	width: 25%;
 	margin-right: 20px;
-	@include breakpoint(condensed-screen) {
+	@include breakpoint(normal-screen) {
 		width: 100%;
-		float: none;
 		margin-right: 0px;
+	}
+}
+
+.shieldDesc {
+	width: 75%;
+	text-align: left;
+	@include breakpoint(normal-screen) {
+		text-align: center;
+		width: 100%;
 	}
 }
 
@@ -126,7 +139,7 @@
 
 .list_item strong {
 	display: block;
-	margin: 25px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
 	@include boldFontStack();
 	padding-top: 5px;
 }
@@ -146,21 +159,7 @@
 }
 
 .pta li {
-	background-color: $white;
-	padding: 2% 4%;
-	width: 92%;
-	border-radius: $borderRadius;
-	///border: 3px solid $grey;
-	@include breakpoint(condensed-screen) {
-		width: 23.5%;
-		padding: 50px 4%;
-	}
-}
 
-.pta li:nth-child(2) {
-	@include breakpoint(condensed-screen) {
-		margin: 50px 2%;
-	}
 }
 
 .vimeo {
