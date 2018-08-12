@@ -149,6 +149,13 @@
 	}
 }
 
+.shieldCTA a:before {
+	display: none;
+	@include breakpoint(condensed-screen) {
+		display: inline-block;
+	}
+}
+
 .grey_list .shield {
 	background-image: url("/images/uneditable/grey_shield.png");
 }

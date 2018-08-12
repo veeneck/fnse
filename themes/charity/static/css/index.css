@@ -1671,6 +1671,12 @@ sup {
       top: inherit;
       margin-top: 25px; } }
 
+.shieldCTA a:before {
+  display: none; }
+  @media (min-width: 35em) {
+    .shieldCTA a:before {
+      display: inline-block; } }
+
 .grey_list .shield {
   background-image: url("/images/uneditable/grey_shield.png"); }
 
