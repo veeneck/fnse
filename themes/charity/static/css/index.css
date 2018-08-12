@@ -1581,7 +1581,7 @@ sup {
   margin: 10px 0px; }
   @media (min-width: 1080px) {
     .center_list li:nth-child(2) {
-      margin: 50px 5%; } }
+      margin: 30px 5%; } }
 
 .center_list li.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
@@ -1617,8 +1617,8 @@ sup {
   visibility: hidden; }
   @media (min-width: 35em) {
     .center_list li {
-      margin-top: 50px;
-      margin-bottom: 50px; } }
+      margin-top: 30px;
+      margin-bottom: 30px; } }
   @media (min-width: 1080px) {
     .center_list li {
       width: 30%;
@@ -1638,11 +1638,30 @@ sup {
 
 .shieldDesc {
   width: 75%;
-  text-align: left; }
+  text-align: left;
+  padding-right: 20px; }
   @media (min-width: 1080px) {
     .shieldDesc {
       text-align: center;
       width: 100%; } }
+
+.shieldCTA {
+  width: 25%; }
+  @media (min-width: 1080px) {
+    .shieldCTA {
+      width: auto; } }
+
+.shieldCTA a {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0px; }
+  @media (min-width: 1080px) {
+    .shieldCTA a {
+      position: inherit;
+      transform: none;
+      top: inherit;
+      margin-top: 25px; } }
 
 .grey_list .shield {
   background-image: url("/images/uneditable/grey_shield.png"); }
@@ -1878,6 +1897,9 @@ sup {
   padding: 2% 4%;
   border-radius: 4px; }
   @media (min-width: 35em) {
+    .faqlist li {
+      padding: 30px 4%; } }
+  @media (min-width: 1080px) {
     .faqlist li {
       padding: 50px 4%; } }
 

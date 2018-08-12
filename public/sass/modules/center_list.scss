@@ -40,7 +40,7 @@
 .center_list li:nth-child(2) {
 	margin: 10px 0px;
 	@include breakpoint(normal-screen) {
-		margin: 50px 5%;
+		margin: 30px 5%;
 	}
 }
 
@@ -74,8 +74,8 @@
 	margin-bottom: 20px;
 	width: 100%;
 	@include breakpoint(condensed-screen) {
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	@include breakpoint(normal-screen) {
 		width: 30%;
@@ -112,9 +112,30 @@
 .shieldDesc {
 	width: 75%;
 	text-align: left;
+	padding-right: 20px;
 	@include breakpoint(normal-screen) {
 		text-align: center;
 		width: 100%;
+	}
+}
+
+.shieldCTA {
+	width: 25%;
+	@include breakpoint(normal-screen) {
+		width: auto;
+	}
+}
+
+.shieldCTA a {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: 0px;
+	@include breakpoint(normal-screen) {
+		position: inherit;
+		transform: none;
+		top: inherit;
+		margin-top: 25px;
 	}
 }
 

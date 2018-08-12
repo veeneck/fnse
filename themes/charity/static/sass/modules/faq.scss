@@ -16,6 +16,9 @@
 	border-radius: $borderRadius;
 	///border: 3px solid $grey;
 	@include breakpoint(condensed-screen) {
+		padding: 30px 4%;
+	}
+	@include breakpoint(normal-screen) {
 		padding: 50px 4%;
 	}
 }
