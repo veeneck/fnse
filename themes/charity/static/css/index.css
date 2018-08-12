@@ -1644,12 +1644,14 @@ sup {
 
 .shieldDesc {
   width: 75%;
-  text-align: left;
-  padding-right: 20px; }
+  text-align: left; }
   @media (min-width: 1080px) {
     .shieldDesc {
       text-align: center;
       width: 100%; } }
+
+.hasButton .shieldDesc {
+  padding-right: 20px; }
 
 .shieldCTA {
   width: 30%; }
