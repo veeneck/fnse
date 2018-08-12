@@ -1629,8 +1629,10 @@ sup {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  min-width: 100px;
   width: 25%;
-  margin-right: 20px; }
+  margin-right: 20px;
+  flex-grow: 2; }
   @media (min-width: 1080px) {
     .shield {
       width: 100%;

@@ -101,8 +101,10 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
+	min-width: 100px;
 	width: 25%;
 	margin-right: 20px;
+	flex-grow: 2;
 	@include breakpoint(normal-screen) {
 		width: 100%;
 		margin-right: 0px;
