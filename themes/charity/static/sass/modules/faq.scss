@@ -9,6 +9,13 @@
       border-radius: 0px;
 }
 
+.faqlist ul {
+	margin-top: 50px;
+	@include breakpoint(condensed-screen) {
+		margin-top: inherit;
+	}
+}
+
 .faqlist li {
 	box-sizing: border-box;
 	background-color: $white;

@@ -1578,7 +1578,7 @@ sup {
       flex-direction: row; } }
 
 .center_list li:nth-child(2) {
-  margin: 10px 0px; }
+  margin: 0px 0px; }
   @media (min-width: 1080px) {
     .center_list li:nth-child(2) {
       margin: 30px 5%; } }
@@ -1607,8 +1607,8 @@ sup {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
@@ -1630,7 +1630,11 @@ sup {
   background-position: center center;
   background-size: contain;
   width: 25%;
-  margin-right: 20px; }
+  margin-right: 20px;
+  display: none; }
+  @media (min-width: 50em) {
+    .shield {
+      display: block; } }
   @media (min-width: 1080px) {
     .shield {
       width: 100%;
@@ -1646,7 +1650,7 @@ sup {
       width: 100%; } }
 
 .shieldCTA {
-  width: 25%; }
+  width: 30%; }
   @media (min-width: 1080px) {
     .shieldCTA {
       width: auto; } }
@@ -1675,10 +1679,12 @@ sup {
 
 .list_item strong {
   display: block;
-  margin: 10px 0px 10px 0px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   padding-top: 5px; }
+  @media (min-width: 1080px) {
+    .list_item strong {
+      margin: 10px 0px 10px 0px; } }
 
 .list_item span {
   display: block;
@@ -1890,6 +1896,12 @@ sup {
   background-size: cover;
   background-attachment: fixed;
   border-radius: 0px; }
+
+.faqlist ul {
+  margin-top: 50px; }
+  @media (min-width: 35em) {
+    .faqlist ul {
+      margin-top: inherit; } }
 
 .faqlist li {
   box-sizing: border-box;

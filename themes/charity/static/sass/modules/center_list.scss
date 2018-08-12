@@ -38,7 +38,7 @@
 }
 
 .center_list li:nth-child(2) {
-	margin: 10px 0px;
+	margin: 0px 0px;
 	@include breakpoint(normal-screen) {
 		margin: 30px 5%;
 	}
@@ -70,8 +70,8 @@
 	 @include flex();
 	flex-direction: row;
 
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	width: 100%;
 	@include breakpoint(condensed-screen) {
 		margin-top: 30px;
@@ -103,6 +103,10 @@
 	background-size: contain;
 	width: 25%;
 	margin-right: 20px;
+	display: none;
+	@include breakpoint(tablet-screen) {
+		display: block;
+	}
 	@include breakpoint(normal-screen) {
 		width: 100%;
 		margin-right: 0px;
@@ -120,7 +124,7 @@
 }
 
 .shieldCTA {
-	width: 25%;
+	width: 30%;
 	@include breakpoint(normal-screen) {
 		width: auto;
 	}
@@ -160,9 +164,11 @@
 
 .list_item strong {
 	display: block;
-	margin: 10px 0px 10px 0px;
 	@include boldFontStack();
 	padding-top: 5px;
+	@include breakpoint(normal-screen) {
+		margin: 10px 0px 10px 0px;
+	}
 }
 
 .list_item span {
