@@ -729,7 +729,6 @@ body.fouroh {
   @media (min-width: 50em) {
     .hero {
       height: 85vh;
-      min-height: 900px;
       text-align: right; } }
   @media (hover: none) {
     .hero {
@@ -760,22 +759,38 @@ body.fouroh {
       display: block; } }
 
 .hero .content {
-  height: 60vh;
+  height: 100%;
   width: 100%; }
 
 .content-bottom {
   z-index: 1;
+  /*position: absolute;
+    bottom: 100px;
+    left: 0;
+    padding: 0px 20px;
+    @include breakpoint(tablet-screen) {
+        top: 47%;
+        right: 50px;
+        left: inherit;
+        max-width: 700px;
+        padding: 0px;
+    }
+    @include breakpoint(normal-screen) {
+        max-width: 800px;
+    }
+    @include breakpoint(large-screen) {
+        max-width: 900px;
+    }*/
   position: absolute;
-  bottom: 100px;
-  left: 0;
-  padding: 0px 20px; }
+  top: 60%;
+  transform: translateY(-50%);
+  width: 100%; }
   @media (min-width: 50em) {
     .content-bottom {
-      top: 47%;
-      right: 50px;
-      left: inherit;
+      right: 0px;
       max-width: 700px;
-      padding: 0px; } }
+      padding: 0px;
+      text-align: right; } }
   @media (min-width: 1080px) {
     .content-bottom {
       max-width: 800px; } }
