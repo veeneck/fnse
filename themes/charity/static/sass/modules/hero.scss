@@ -18,11 +18,10 @@
     }
 
     @include breakpoint(tablet-screen) {
-        height: 85vh;
-        //min-height: 700px;
         text-align: right;
     }
 
+    /// iOS can't handle fixed background, so on touch devices just fall back to normal background
     @media (hover: none) {
         background-attachment: initial;
     }
@@ -68,25 +67,8 @@
 
 .content-bottom {
     z-index: 1;
-    /*position: absolute;
-    bottom: 100px;
-    left: 0;
-    padding: 0px 20px;
-    @include breakpoint(tablet-screen) {
-        top: 47%;
-        right: 50px;
-        left: inherit;
-        max-width: 700px;
-        padding: 0px;
-    }
-    @include breakpoint(normal-screen) {
-        max-width: 800px;
-    }
-    @include breakpoint(large-screen) {
-        max-width: 900px;
-    }*/
     position: absolute;
-    top: 60%;
+    top: 58%;
     transform: translateY(-50%);
     width: 100%;
      @include breakpoint(tablet-screen) {
