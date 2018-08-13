@@ -1132,12 +1132,15 @@ div.menu-link {
   border-radius: 4px;
   width: 100%;
   padding: 25px 0px; }
-  @media (min-width: 1080px) {
+  @media (min-width: 50em) {
     .listcontent {
       justify-content: space-evenly;
       flex-direction: row;
-      width: 75%;
+      width: 100%;
       padding: 75px 0px; } }
+  @media (min-width: 1080px) {
+    .listcontent {
+      width: 75%; } }
 
 .sitecontent .logo {
   display: none;
@@ -1168,8 +1171,10 @@ div.menu-link {
 .listcontent li {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  font-size: 85%;
   margin: 10px 0px; }
+  @media (min-width: 50em) {
+    .listcontent li {
+      font-size: 85%; } }
 
 .listcontent a, .nsfooter a {
   font-size: 90%;
@@ -1179,7 +1184,7 @@ div.menu-link {
 
 .nsfooter {
   text-align: center; }
-  @media (min-width: 1080px) {
+  @media (min-width: 50em) {
     .nsfooter {
       padding-right: 50px; } }
 
