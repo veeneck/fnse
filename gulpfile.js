@@ -6,7 +6,8 @@ gulp.task('hello', function() {
   console.log('Hello Zell');
 });
 
-//gulp.task('netlify', ['img', 'compress']);
+//gulp.task('netlify', ['img', 'compress'],
+    //function() {});
 
 gulp.task("img", () =>
   gulp.src("./themes/charity/static/images/user/**.*")
