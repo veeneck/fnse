@@ -1,9 +1,12 @@
 var gulp = require('gulp');
 var responsive = require('gulp-responsive');
+var gzip = require('gulp-gzip');
 
 gulp.task('hello', function() {
   console.log('Hello Zell');
 });
+
+//gulp.task('netlify', ['img', 'compress']);
 
 gulp.task("img", () =>
   gulp.src("./themes/charity/static/images/user/**.*")
@@ -41,3 +44,13 @@ gulp.task("img", () =>
     }))
     .pipe(gulp.dest("./themes/charity/static/images/responsive")
 ));
+ 
+gulp.task('compress', function() {
+    gulp.src('./themes/charity/static/js/*.js')
+    .pipe(gzip())
+    .pipe(gulp.dest('./themes/charity/static/js'));
+
+    gulp.src('./themes/charity/static/css/*.css')
+    .pipe(gzip())
+    .pipe(gulp.dest('./themes/charity/static/css'));
+}); 

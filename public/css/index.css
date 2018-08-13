@@ -728,8 +728,6 @@ body.fouroh {
       height: 90vh; } }
   @media (min-width: 50em) {
     .hero {
-      height: 85vh;
-      min-height: 900px;
       text-align: right; } }
   @media (hover: none) {
     .hero {
@@ -760,22 +758,21 @@ body.fouroh {
       display: block; } }
 
 .hero .content {
-  height: 60vh;
+  height: 100%;
   width: 100%; }
 
 .content-bottom {
   z-index: 1;
   position: absolute;
-  bottom: 100px;
-  left: 0;
-  padding: 0px 20px; }
+  top: 58%;
+  transform: translateY(-50%);
+  width: 100%; }
   @media (min-width: 50em) {
     .content-bottom {
-      top: 47%;
-      right: 50px;
-      left: inherit;
+      right: 0px;
       max-width: 700px;
-      padding: 0px; } }
+      padding: 0px;
+      text-align: right; } }
   @media (min-width: 1080px) {
     .content-bottom {
       max-width: 800px; } }
@@ -1132,12 +1129,15 @@ div.menu-link {
   border-radius: 4px;
   width: 100%;
   padding: 25px 0px; }
-  @media (min-width: 1080px) {
+  @media (min-width: 50em) {
     .listcontent {
       justify-content: space-evenly;
       flex-direction: row;
-      width: 75%;
+      width: 100%;
       padding: 75px 0px; } }
+  @media (min-width: 1080px) {
+    .listcontent {
+      width: 75%; } }
 
 .sitecontent .logo {
   display: none;
@@ -1168,8 +1168,10 @@ div.menu-link {
 .listcontent li {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  font-size: 85%;
   margin: 10px 0px; }
+  @media (min-width: 50em) {
+    .listcontent li {
+      font-size: 85%; } }
 
 .listcontent a, .nsfooter a {
   font-size: 90%;
@@ -1179,7 +1181,7 @@ div.menu-link {
 
 .nsfooter {
   text-align: center; }
-  @media (min-width: 1080px) {
+  @media (min-width: 50em) {
     .nsfooter {
       padding-right: 50px; } }
 
@@ -1629,8 +1631,10 @@ sup {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  min-width: 100px;
   width: 25%;
-  margin-right: 20px; }
+  margin-right: 20px;
+  flex-grow: 2; }
   @media (min-width: 1080px) {
     .shield {
       width: 100%;
@@ -1644,12 +1648,14 @@ sup {
 
 .shieldDesc {
   width: 75%;
-  text-align: left;
-  padding-right: 20px; }
+  text-align: left; }
   @media (min-width: 1080px) {
     .shieldDesc {
       text-align: center;
       width: 100%; } }
+
+.hasButton .shieldDesc {
+  padding-right: 20px; }
 
 .shieldCTA {
   width: 30%; }
@@ -1668,6 +1674,12 @@ sup {
       transform: none;
       top: inherit;
       margin-top: 25px; } }
+
+.shieldCTA a:before {
+  display: none; }
+  @media (min-width: 35em) {
+    .shieldCTA a:before {
+      display: inline-block; } }
 
 .grey_list .shield {
   background-image: url("/images/uneditable/grey_shield.png"); }

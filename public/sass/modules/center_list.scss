@@ -101,8 +101,10 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
+	min-width: 100px;
 	width: 25%;
 	margin-right: 20px;
+	flex-grow: 2;
 	@include breakpoint(normal-screen) {
 		width: 100%;
 		margin-right: 0px;
@@ -119,11 +121,14 @@
 .shieldDesc {
 	width: 75%;
 	text-align: left;
-	padding-right: 20px;
 	@include breakpoint(normal-screen) {
 		text-align: center;
 		width: 100%;
 	}
+}
+
+.hasButton .shieldDesc {
+	padding-right: 20px;
 }
 
 .shieldCTA {
@@ -143,6 +148,13 @@
 		transform: none;
 		top: inherit;
 		margin-top: 25px;
+	}
+}
+
+.shieldCTA a:before {
+	display: none;
+	@include breakpoint(condensed-screen) {
+		display: inline-block;
 	}
 }
 

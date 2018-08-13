@@ -110,11 +110,14 @@
 	border-radius: $borderRadius;
 	width: 100%;
 	padding: 25px 0px;
-	@include breakpoint(normal-screen) {
+	@include breakpoint(tablet-screen) {
 		justify-content: space-evenly;
 		flex-direction: row;
-		width: 75%;
+		width: 100%;
 		padding: 75px 0px;
+	}
+	@include breakpoint(normal-screen) {
+		width: 75%;
 	}
 }
 
@@ -149,8 +152,10 @@
 
 .listcontent li {
 	@include altProseStack();
-	font-size: 85%;
 	margin: 10px 0px;
+	@include breakpoint(tablet-screen) {
+		font-size: 85%;
+	}
 }
 
 .listcontent a, .nsfooter a {
@@ -162,7 +167,7 @@
 
 .nsfooter {
 	text-align: center;
-	@include breakpoint(normal-screen) {
+	@include breakpoint(tablet-screen) {
 		padding-right: 50px;
 	}
 }

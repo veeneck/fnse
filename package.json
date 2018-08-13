@@ -7,6 +7,7 @@
     "gulp": "^4.0.0"
   },
   "devDependencies": {
+    "gulp-gzip": "^1.4.2",
     "gulp-responsive": "^2.11.0",
     "gulp-yarn": "^2.0.0",
     "run-sequence": "^2.2.1"

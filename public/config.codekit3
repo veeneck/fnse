@@ -19,6 +19,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/animations.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/animations.css.gz",
+		"oF": 0
+		},
 	"\/css\/base.css": {
 		"aP": 1,
 		"bl": 0,
@@ -28,6 +35,13 @@
 		"oAP": "\/css\/base-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/base.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/base.css.gz",
+		"oF": 0
 		},
 	"\/css\/core.css": {
 		"aP": 1,
@@ -39,6 +53,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/core.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/core.css.gz",
+		"oF": 0
+		},
 	"\/css\/footer.css": {
 		"aP": 1,
 		"bl": 0,
@@ -48,6 +69,13 @@
 		"oAP": "\/css\/footer-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/footer.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/footer.css.gz",
+		"oF": 0
 		},
 	"\/css\/form.css": {
 		"aP": 1,
@@ -59,6 +87,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/form.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/form.css.gz",
+		"oF": 0
+		},
 	"\/css\/friends.css": {
 		"aP": 1,
 		"bl": 0,
@@ -68,6 +103,13 @@
 		"oAP": "\/css\/friends-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/friends.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/friends.css.gz",
+		"oF": 0
 		},
 	"\/css\/half_half.css": {
 		"aP": 1,
@@ -79,6 +121,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/half_half.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/half_half.css.gz",
+		"oF": 0
+		},
 	"\/css\/hero.css": {
 		"aP": 1,
 		"bl": 0,
@@ -88,6 +137,13 @@
 		"oAP": "\/css\/hero-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/hero.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/hero.css.gz",
+		"oF": 0
 		},
 	"\/css\/index.css": {
 		"aP": 1,
@@ -99,6 +155,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/index.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/index.css.gz",
+		"oF": 0
+		},
 	"\/css\/layout.css": {
 		"aP": 1,
 		"bl": 0,
@@ -108,6 +171,13 @@
 		"oAP": "\/css\/layout-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/layout.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/layout.css.gz",
+		"oF": 0
 		},
 	"\/css\/mixins.css": {
 		"aP": 1,
@@ -119,6 +189,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/mixins.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/mixins.css.gz",
+		"oF": 0
+		},
 	"\/css\/navigation.css": {
 		"aP": 1,
 		"bl": 0,
@@ -128,6 +205,13 @@
 		"oAP": "\/css\/navigation-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/navigation.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/navigation.css.gz",
+		"oF": 0
 		},
 	"\/css\/newsletter.css": {
 		"aP": 1,
@@ -139,6 +223,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/newsletter.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/newsletter.css.gz",
+		"oF": 0
+		},
 	"\/css\/print.css": {
 		"aP": 1,
 		"bl": 0,
@@ -148,6 +239,13 @@
 		"oAP": "\/css\/print-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/print.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/print.css.gz",
+		"oF": 0
 		},
 	"\/css\/text_left.css": {
 		"aP": 1,
@@ -159,6 +257,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/text_left.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/text_left.css.gz",
+		"oF": 0
+		},
 	"\/css\/typography.css": {
 		"aP": 1,
 		"bl": 0,
@@ -168,6 +273,13 @@
 		"oAP": "\/css\/typography-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/typography.css.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/typography.css.gz",
+		"oF": 0
 		},
 	"\/fonts\/PeaceSans.woff": {
 		"cB": 0,
@@ -2800,6 +2912,13 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/index-min.js.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/index-min.js.gz",
+		"oF": 0
+		},
 	"\/js\/index.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2809,6 +2928,13 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/js\/index.js.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/index.js.gz",
+		"oF": 0
 		},
 	"\/sass\/core\/animations.scss": {
 		"aP": 0,

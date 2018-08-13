@@ -1,4 +1,3 @@
-/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
 @mixin breakpoint($point) {
     // Full design
     @if $point == large-screen {
