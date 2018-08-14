@@ -12,7 +12,7 @@
   <meta name="Description" content="The PTA’s vision is to foster a fully inclusive school community where students are thriving, teachers are supported, families are engaged, and all voices are welcome. Attending a PTA meeting, which take place every other month, is an easy way to get connected to the school community. Additionally, there are a number of committee to get involved in including Fall Festival, Turkey Trot, Educational Garden, and Families Socials to name a few.">
 
   
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900|Open+Sans:300,400,600,600i" rel="preload" as="style" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900|Open+Sans:300,400,600,600i" rel="stylesheet">
   <link rel="preload" href="/fonts/PeaceSans.woff2" as="font" type="font/woff2" crossorigin>
 
 
@@ -109,11 +109,14 @@
 
 			<form>
 
-			<input type="text" placeholder="Name" />
+			<label for="name">Name</label>
+			<input id="name" type="text" placeholder="Name" />
 
-			<input type="text" placeholder="Email" />
+			<label for="email">Email</label>
+			<input id="email" type="text" placeholder="Email" />
 
-			<textarea placeholder="Your message or questions."></textarea>
+			<label for="message">Message</label>
+			<textarea id="message" placeholder="Your message or questions."></textarea>
 
 			<a href="#" class="button blue mail triggerMe">SUBMIT</a>
 

@@ -26,11 +26,9 @@ h1 {
 
 h1 img {
 	width: 80%;
-    height: 80%;
 
 	@include breakpoint(normal-screen) {
         width: 100%;
-        height: 100%;
     }
 }
 
