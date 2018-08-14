@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var responsive = require('gulp-responsive');
-var gzip = require('gulp-gzip');
+var prettyHtml = require('gulp-pretty-html');
 
 gulp.task('hello', function() {
   console.log('Hello Zell');
@@ -45,13 +45,11 @@ gulp.task("img", () =>
     }))
     .pipe(gulp.dest("./themes/charity/static/images/responsive")
 ));
- 
-gulp.task('compress', function() {
-    gulp.src('./themes/charity/static/js/*.js')
-    .pipe(gzip())
-    .pipe(gulp.dest('./themes/charity/static/js'));
 
-    gulp.src('./themes/charity/static/css/*.css')
-    .pipe(gzip())
-    .pipe(gulp.dest('./themes/charity/static/css'));
-}); 
+gulp.task('prettify', function () {
+    return gulp.src('./public/**/*.html')
+        .pipe(prettyHtml( {max_preserve_newlines: 1 } ))
+        .pipe(gulp.dest(function (file) {
+            return file.base;
+        }));
+});

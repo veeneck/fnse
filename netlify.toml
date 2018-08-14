@@ -1,5 +1,5 @@
 [build]
-  command = "gulp img; hugo"
+  command = "gulp img; gulp prettify; hugo"
   publish = "public"
 
 [context.production.environment]

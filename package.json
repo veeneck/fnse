@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "gulp-gzip": "^1.4.2",
+    "gulp-pretty-html": "^2.0.9",
     "gulp-responsive": "^2.11.0",
     "gulp-yarn": "^2.0.0",
     "run-sequence": "^2.2.1"
