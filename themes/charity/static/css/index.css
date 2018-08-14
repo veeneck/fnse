@@ -649,11 +649,6 @@ a.button {
       font-size: 90%;
       padding: 15px 20px; } }
 
-.button:link {
-  color: #fff !important;
-  background-color: #00295C;
-  border: none !important; }
-
 .button:visited {
   color: #fff !important;
   background-color: #3C70AC;
