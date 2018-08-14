@@ -89,7 +89,7 @@ function bringElementsIntoView() {
 	checkAllTriggers();
 	document.addEventListener('scroll', function(event) {
 		checkAllTriggers();
-	});
+	}, {passive: true});
 	document.addEventListener('resize', function(event) {
 		checkAllTriggers();
 	});
