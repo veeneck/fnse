@@ -40,19 +40,49 @@
 .faq a.question {
 	color: $white;
 	display: block;
-	margin: 50px 0px -20px 0px;
+	margin: 10px 0px -20px 0px;
+	padding: 20px 50px 20px 25px;
+	@include breakpoint(tablet-screen) {
+		margin: 35px 0px -20px 0px;
+		padding: 20px 100px 20px 25px;
+	}
 	@include altProseStack();
+	font-weight: 400;
 	font-size: 100%;
 	background-color: $darkBlue;
 	border-radius: $borderRadius;
-	padding: 20px 100px 20px 25px;
 	text-decoration: none;
 	position: relative;
+	border: none !important;
+}
+
+.question:hover {
+	opacity: 0.9;
+	border: none !important;
 }
 
 .alt.faq a.question {
 	background-color: $lightBlue;
 	color: $darkBlue;
+}
+
+.faq .answer li {
+	background-color: transparent !important;
+	text-align: left;
+	font-family: 'Open Sans';
+	margin: 0px 0px 0px 30px;
+	@include breakpoint(tablet-screen) {
+		margin: 0px 0px 0px 50px;
+	}
+}
+
+.faq .answer ul {
+	width: 100% !important;
+	list-style: square;
+	font-size: 100%;
+	@include breakpoint(tablet-screen) {
+		width: 80% !important;
+	}
 }
 
 .arrow-down {

@@ -1957,15 +1957,25 @@ sup {
 .faq a.question {
   color: #fff;
   display: block;
-  margin: 50px 0px -20px 0px;
+  margin: 10px 0px -20px 0px;
+  padding: 20px 50px 20px 25px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
+  font-weight: 400;
   font-size: 100%;
   background-color: #00295C;
   border-radius: 4px;
-  padding: 20px 100px 20px 25px;
   text-decoration: none;
-  position: relative; }
+  position: relative;
+  border: none !important; }
+  @media (min-width: 50em) {
+    .faq a.question {
+      margin: 35px 0px -20px 0px;
+      padding: 20px 100px 20px 25px; } }
+
+.question:hover {
+  opacity: 0.9;
+  border: none !important; }
 
 .alt.faq a.question {
   background-color: #D1E5FB;
@@ -1975,12 +1985,18 @@ sup {
   background-color: transparent !important;
   text-align: left;
   font-family: 'Open Sans';
-  margin: 0px 0px 0px 50px; }
+  margin: 0px 0px 0px 30px; }
+  @media (min-width: 50em) {
+    .faq .answer li {
+      margin: 0px 0px 0px 50px; } }
 
 .faq .answer ul {
-  width: 80% !important;
+  width: 100% !important;
   list-style: square;
   font-size: 100%; }
+  @media (min-width: 50em) {
+    .faq .answer ul {
+      width: 80% !important; } }
 
 .arrow-down::after {
   content: '\25bc';

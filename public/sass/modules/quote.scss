@@ -36,15 +36,21 @@
 	text-align: center;
 }
 
+.headshot .compat-object-fit img {
+	border: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
 .headshot img {
-	 background-color:$lightBlue;
-    border:5px dashed $blue;    
-    height:100px;
+    object-fit: cover;    
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     width:100px;
-    object-fit: cover;
+    height:100px;
+    background-color:$lightBlue;
+    border:5px dashed $blue;  
 }
 
 .quote blockquote {
