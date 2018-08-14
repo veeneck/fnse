@@ -1,12 +1,12 @@
 
-@font-face {
+/*@font-face {
     font-family: 'Peace Sans';
     font-display: swap;
     src: url('/fonts/PeaceSans.woff2') format('woff2'),
         url('/fonts/PeaceSans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 @mixin heavyFontStack {
     font: 100% 'Peace Sans', Helvetica, sans-serif;
