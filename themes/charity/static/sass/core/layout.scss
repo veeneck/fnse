@@ -347,7 +347,23 @@ a.button {
     }
 }
 
+.button:link {
+    color: $white !important;
+    background-color: $darkBlue;
+    border: none !important;
+}
+.button:visited {
+    color: $white !important;
+    background-color: $blue;
+    border: none !important;
+}
 .button:hover {
+    color: $white !important;
+    background-color: $darkBlue;
+    border: none !important;
+}
+.button:active {
+    color: $white !important;
     background-color: $darkBlue;
     border: none !important;
 }

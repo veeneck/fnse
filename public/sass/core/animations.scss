@@ -6,6 +6,10 @@
   transition: $args;
 }
 
+.no-animation {
+  visibility: visible;
+}
+
 /* -------------------- */
 
 @-webkit-keyframes rubberBand {
