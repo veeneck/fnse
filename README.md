@@ -56,6 +56,8 @@ Every image that a user uploads goes into the `/images/user` folder. Now, have a
 
 Netlify first processes all of the images, and then rebuilds Hugo. So, if a user adds an image through Forestry, it will be saved under `/images/user`, and then Netlify will detect the new image, run the build process, and deploy the site. **Important**: Netlify does not commit these changes -- it completely copies the repo each deploy and stores the responsive images there. So, if things break locally with images, it is because you haven't generated the responsive versions. The same command (`gulp img; hugo`) must be run in terminal inside of the fnse directory.
 
+Finally, Netlify adds a few additional process right before deployment. These are configured within the Netlify admin panel. Currently, this only involves GZIP on the CSS and JS.
+
 ## Notes on the Content
 
 The content is broken down into 3 main types:
