@@ -1971,6 +1971,10 @@ sup {
   background-color: #D1E5FB;
   color: #00295C; }
 
+.answer li {
+  background-color: transparent !important;
+  text-align: left; }
+
 .arrow-down::after {
   content: '\25bc';
   padding-left: 0.5em;

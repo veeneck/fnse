@@ -55,6 +55,11 @@
 	color: $darkBlue;
 }
 
+.answer li {
+	background-color: transparent !important;
+	text-align: left;
+}
+
 .arrow-down {
   &::after {
     content: '\25bc';
