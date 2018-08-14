@@ -107,7 +107,7 @@ The JavaScript for this site is fairly common. The goal was to keep it small and
 
 **Modernizer**: The site uses `object-fit: cover` to ensure images work at different sizes, but Edge 15 and below don't support this. So, [moderizer is used to detect the browser](https://modernizr.com/download?objectfit-dontmin-setclasses&q=object%20fit), and then a different class is added to certain image tags if they use this rule. [See this post for example implementation](https://medium.com/@primozcigler/neat-trick-for-css-object-fit-fallback-on-edge-and-other-browsers-afbc53bbb2c3).
 
-**Carousel**: https://glidejs.com for carousel
+**Carousel**: [GlideJS](https://glidejs.com) is a dependency free, native JS carousel. The implementation is in the markup at `carousel.html`. The initialization is in `index.js` and the various breakpoints dictate how many slides show at different screen sizes.
 
 As much of the JS as possible is loaded as needed. For example, maps are only loaded when they're about to come into view. The combination of this, lazy load and deferred loading has decreased the initial load from ~12mb to ~600kb.
 
