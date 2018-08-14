@@ -60,7 +60,7 @@ fields:
     type: file
     hidden: false
     default: ''
-    description: A headshot of the person.
+    description: A headshot of the person. Please keep this file to 200px wide.
   hidden: false
   default: ''
 pages:
