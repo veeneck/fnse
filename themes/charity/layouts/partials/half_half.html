@@ -5,7 +5,7 @@
 
 			{{ partial "module_header.html" $.module }}
 
-			<p>{{ $.module.Content }}</p>
+			{{ $.module.Content }}
 
 			{{ if eq $.buttonClass "" }}
 				{{ if isset $.module.Params "button" }}

@@ -8,7 +8,7 @@
 
 			{{ partial "img.html" $.module }}
 
-			<p>{{ $.module.Content }}</p>
+			{{ $.module.Content }}
 
 			{{ if eq $.buttonClass "" }}
 				{{ if and (isset $.module.Params "button") (ne $.module.Params.button "") }}
@@ -19,11 +19,14 @@
 		</div>
 
 		{{ if isset $.module.Params "list_items" }}
-			<ul>
-			{{ range $key, $value := $.module.Params.list_items }}
-				<li>{{ $value.title }}</li>
+			{{ $items := $.module.Params.list_items }}
+			{{ if gt (len $items) 0 }}
+				<ul>
+				{{ range $key, $value := $items }}
+					<li>{{ $value.title }}</li>
+				{{ end }}
+				</ul>
 			{{ end }}
-			</ul>
 		{{ end }}
 
 	</div>
