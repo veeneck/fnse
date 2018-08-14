@@ -55,9 +55,17 @@
 	color: $darkBlue;
 }
 
-.answer li {
+.faq .answer li {
 	background-color: transparent !important;
 	text-align: left;
+	font-family: 'Open Sans';
+	margin: 0px 0px 0px 50px;
+}
+
+.faq .answer ul {
+	width: 80% !important;
+	list-style: square;
+	font-size: 100%;
 }
 
 .arrow-down {
