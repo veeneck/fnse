@@ -373,24 +373,25 @@ body {
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
-body {
-  border-top: 5px solid black; }
-  @media (min-width: 35em) {
-    body {
-      border-top: 5px solid yellow; } }
-  @media (min-width: 50em) {
-    body {
-      border-top: 5px solid orange; } }
-  @media (min-width: 1080px) {
-    body {
-      border-top: 5px solid red; } }
-  @media (min-width: 1300px) {
-    body {
-      border-top: 5px solid blue; } }
+/*body {
+    border-top: 5px solid black;
+    @include breakpoint(condensed-screen) {
+        border-top: 5px solid yellow;
+    }
+    @include breakpoint(tablet-screen) {
+        border-top: 5px solid orange;
+    }
+    @include breakpoint(normal-screen) {
+        border-top: 5px solid red;
+    }
+    @include breakpoint(large-screen) {
+        border-top: 5px solid blue;
+    }
+}
 
 header {
-  top: 5px !important; }
-
+    top: 5px !important;
+}*/
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {
