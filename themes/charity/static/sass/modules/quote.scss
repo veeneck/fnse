@@ -16,10 +16,11 @@
 
 .quote .twoThirdContainer {
 	background-color: $lightBlue;
-	height: 400px;
+	height: auto;
 	width: 100%;
 	text-align: left;
 	@include breakpoint(condensed-screen) {
+		height: 400px;
 		width: 67%;
     }
 }
@@ -53,7 +54,7 @@
     border:5px dashed $blue;  
 }
 
-.quote blockquote {
+.actualQuote {
 	display: block;
 	margin: auto auto;
 	width: 80%;
@@ -62,7 +63,9 @@
 	transform: translateY(-50%);
 	font-size: 110%;
 	line-height: 1.8rem;
+	padding: 100px 0px;
 	@include breakpoint(condensed-screen) {
+		padding: 0px;
 		font-size: 90%;
 	}
 	@include breakpoint(tablet-screen) {
@@ -72,6 +75,20 @@
 		font-size: 110%;
 	}
 }
+
+.quote blockquote {
+	margin: auto auto;
+}
+
+/*cite {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 25px;
+	@include breakpoint(condensed-screen) {
+		display: none;
+	}
+}*/
 
 .quote strong {
 	color: $darkBlue;
