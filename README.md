@@ -142,7 +142,7 @@ There is no complex SEO strategy in place yet. We'll try to convince people to l
 - Each page has a proper meta description.
 - H1, H2 and H3's are used properly, and represent the page structure.
 - Captions and alt texts as much as possible.
-- Sitemap in place.
+- Sitemap in place. Last update is changed in `sitemap.xml` each time Hugo builds the site.
 
 Aside from the above, the site was also submitted to [various search engines](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md#search), uses [Open Graph](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md#facebook-open-graph-data) for social embed appearance, has a key for Google Search Console and uses Google Analytics.
 
