@@ -52,9 +52,9 @@ As far as the build process goes, there are 3 steps to be aware of:
 
 Every image that a user uploads goes into the `/images/user` folder. Now, have a look at `gulpfile.js`. Notice each image in the `images/user` folder is looped over, and resaved as different sizes. Each size of the image will be added to `/images/responsive`, which is what we will serve to the site visitor. Not only are the images resized, but they are also compressed by the same script. Every time Netlify deploys, this process must be run. So, our build script is:
 
-    gulp img; hugo
+    gulp img; hugo; gulp prettify;
 
-Netlify first processes all of the images, and then rebuilds Hugo. So, if a user adds an image through Forestry, it will be saved under `/images/user`, and then Netlify will detect the new image, run the build process, and deploy the site. **Important**: Netlify does not commit these changes -- it completely copies the repo each deploy and stores the responsive images there. So, if things break locally with images, it is because you haven't generated the responsive versions. The same command (`gulp img; hugo`) must be run in terminal inside of the fnse directory.
+Netlify first processes all of the images, and then rebuilds Hugo. So, if a user adds an image through Forestry, it will be saved under `/images/user`, and then Netlify will detect the new image, run the build process, and deploy the site. **Important**: Netlify does not commit these changes -- it completely copies the repo each deploy and stores the responsive images there. So, if things break locally with images, it is because you haven't generated the responsive versions. The same command (`gulp img; hugo`) must be run in terminal inside of the fnse directory. The `gulp prettify` command is just a clean up scrip that removes extra newlines and whitespace from the final markup. It's just a bonus add on.
 
 Finally, Netlify adds a few additional processes right before deployment. These are configured within the Netlify admin panel. Currently, this only involves GZIP on the CSS and JS.
 

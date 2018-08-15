@@ -5,7 +5,7 @@
 {{ $fileName := index (split $completeFile ".") 0 }}
 {{ $fileType := index (split $completeFile ".") 1 }}
 
-<style scoped>
+<style>
 
 .hero_image {
   background-image: url('/images/responsive/{{ $fileName }}@1440.{{ $fileType }}');
