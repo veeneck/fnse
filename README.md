@@ -177,9 +177,9 @@ Most of the issues are related to the carousel being off screen and having JS th
 - [Cloudinary](https://webspeedtest.cloudinary.com/results/180815_21_789e526c061ad06c4274973fab3a8765) breaks down images to pixel level improvements. Progressive or modern image formats would be best way to improve load time at this point.
 - [Website Grader](https://website.grader.com/results/fnse.netlify.com)
 
-TODO: Finally, this launch checklist was used.
+The [HTML Validation of the site](https://validator.w3.org/nu/?doc=http%3A%2F%2Ffnse.netlify.com%2F) has 10 errors at the time of this writing. 5 are due to lazy loaded images not having a `src` attribute, and the other 5 are images that need alt tags, which has to be built into the CMS. Overall, the markup is acceptible.
 
-TODO: Link to HTML validator
+TODO: Finally, this launch checklist was used.
 
 ## Compatibility, Support and Known Issues
 
