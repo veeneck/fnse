@@ -117,6 +117,9 @@
 		padding: 75px 0px;
 	}
 	@include breakpoint(normal-screen) {
+		width: 80%;
+	}
+	@include breakpoint(large-screen) {
 		width: 75%;
 	}
 }
@@ -125,14 +128,20 @@
 	display: none;
 	width: 25%;
 	background-image: url('/images/uneditable/fnselogo.png');
-	    background-repeat: no-repeat;
+	background-repeat: no-repeat;
     background-position: center center;
+    background-size: 90%;
    
 	margin: 0 auto;
 	margin-bottom: 35px;
 	@include breakpoint(normal-screen) {
-		///margin: 0px 0px 0px 50px;
+		background-size: 90%;
 		display: block;
+		width: 20%;
+	}
+	@include breakpoint(large-screen) {
+		background-size: auto;
+		width: 25%;
 	}
 }
 
@@ -140,21 +149,20 @@
 	color: $darkGrey;
 	width: 100%;
 	text-align: center;
-	@include breakpoint(normal-screen) {
+	@include breakpoint(tablet-screen) {
 		width: auto;
 		text-align: left;
+		margin-top: 0px;
 	}
 }
 
 .listcontent ul {
-	color: $darkGrey;
-	@include boldFontStack();
 	list-style-type: none;
 	margin: 15px auto;
-	width: 60%;
+	width: 100%;
 	text-align: center;
 	padding: 0px;
-	@include breakpoint(normal-screen) {
+	@include breakpoint(tablet-screen) {
 		width: auto;
 		text-align: left;
 	}
@@ -169,7 +177,7 @@
 }
 
 .listcontent a, .nsfooter a {
-	font-size: 90%;
+	font-size: 100%;
 	color: $blue;
 	text-decoration: none;
 	border-bottom: none;
@@ -178,7 +186,7 @@
 .nsfooter {
 	text-align: center;
 	@include breakpoint(tablet-screen) {
-		padding-right: 50px;
+		///padding-right: 50px;
 	}
 }
 
@@ -186,8 +194,14 @@
 	background-color: $white;
 	border-radius: $borderRadius;
 	padding: 25px;
-	
-	width: 125px;
+	width: 100px;
+	margin-top: 33px;
+	@include breakpoint(tablet-screen) {
+		margin-top: 0px;
+	}
+	@include breakpoint(normal-screen) {
+		width: 125px;
+	}
 }
 
 .nsfooter a {

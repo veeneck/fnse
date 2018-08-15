@@ -373,25 +373,24 @@ body {
 
 /* -------------- DEBUG ------------- */
 /* If you need to debug, uncomment this */
-/*body {
-    border-top: 5px solid black;
-    @include breakpoint(condensed-screen) {
-        border-top: 5px solid yellow;
-    }
-    @include breakpoint(tablet-screen) {
-        border-top: 5px solid orange;
-    }
-    @include breakpoint(normal-screen) {
-        border-top: 5px solid red;
-    }
-    @include breakpoint(large-screen) {
-        border-top: 5px solid blue;
-    }
-}
+body {
+  border-top: 5px solid black; }
+  @media (min-width: 35em) {
+    body {
+      border-top: 5px solid yellow; } }
+  @media (min-width: 50em) {
+    body {
+      border-top: 5px solid orange; } }
+  @media (min-width: 1080px) {
+    body {
+      border-top: 5px solid red; } }
+  @media (min-width: 1300px) {
+    body {
+      border-top: 5px solid blue; } }
 
 header {
-    top: 5px !important;
-}*/
+  top: 5px !important; }
+
 /* -------------- CORE LAYOUT ------------- */
 /* Every section is a module. By building around this class, margins and widths will be the same. */
 .module {
@@ -1152,6 +1151,9 @@ div.menu-link {
       padding: 75px 0px; } }
   @media (min-width: 1080px) {
     .listcontent {
+      width: 80%; } }
+  @media (min-width: 1300px) {
+    .listcontent {
       width: 75%; } }
 
 .sitecontent .logo {
@@ -1160,31 +1162,36 @@ div.menu-link {
   background-image: url("/images/uneditable/fnselogo.png");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 90%;
   margin: 0 auto;
   margin-bottom: 35px; }
   @media (min-width: 1080px) {
     .sitecontent .logo {
-      display: block; } }
+      background-size: 90%;
+      display: block;
+      width: 20%; } }
+  @media (min-width: 1300px) {
+    .sitecontent .logo {
+      background-size: auto;
+      width: 25%; } }
 
 .listcontent section h4 {
   color: #3A3A3A;
   width: 100%;
   text-align: center; }
-  @media (min-width: 1080px) {
+  @media (min-width: 50em) {
     .listcontent section h4 {
       width: auto;
-      text-align: left; } }
+      text-align: left;
+      margin-top: 0px; } }
 
 .listcontent ul {
-  color: #3A3A3A;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
   list-style-type: none;
   margin: 15px auto;
-  width: 60%;
+  width: 100%;
   text-align: center;
   padding: 0px; }
-  @media (min-width: 1080px) {
+  @media (min-width: 50em) {
     .listcontent ul {
       width: auto;
       text-align: left; } }
@@ -1198,22 +1205,26 @@ div.menu-link {
       font-size: 85%; } }
 
 .listcontent a, .nsfooter a {
-  font-size: 90%;
+  font-size: 100%;
   color: #3C70AC;
   text-decoration: none;
   border-bottom: none; }
 
 .nsfooter {
   text-align: center; }
-  @media (min-width: 50em) {
-    .nsfooter {
-      padding-right: 50px; } }
 
 .nsfooter img {
   background-color: #fff;
   border-radius: 4px;
   padding: 25px;
-  width: 125px; }
+  width: 100px;
+  margin-top: 33px; }
+  @media (min-width: 50em) {
+    .nsfooter img {
+      margin-top: 0px; } }
+  @media (min-width: 1080px) {
+    .nsfooter img {
+      width: 125px; } }
 
 .nsfooter a {
   display: block; }
