@@ -56,7 +56,7 @@ Every image that a user uploads goes into the `/images/user` folder. Now, have a
 
 Netlify first processes all of the images, and then rebuilds Hugo. So, if a user adds an image through Forestry, it will be saved under `/images/user`, and then Netlify will detect the new image, run the build process, and deploy the site. **Important**: Netlify does not commit these changes -- it completely copies the repo each deploy and stores the responsive images there. So, if things break locally with images, it is because you haven't generated the responsive versions. The same command (`gulp img; hugo`) must be run in terminal inside of the fnse directory.
 
-Finally, Netlify adds a few additional process right before deployment. These are configured within the Netlify admin panel. Currently, this only involves GZIP on the CSS and JS.
+Finally, Netlify adds a few additional processes right before deployment. These are configured within the Netlify admin panel. Currently, this only involves GZIP on the CSS and JS.
 
 ## Notes on the Content
 
@@ -164,13 +164,20 @@ TODO: Logos go here.
 
 ## Performance
 
-- lazy load (https://www.andreaverlicchi.eu/lazyload/)
-- http://www.webpagetest.org (As of this writing the home page has all A's)
-- cloudinary website speed test (https://webspeedtest.cloudinary.com) is useful, but watch the resolution in the recommendations
-- https://website.grader.com/results/fnse.netlify.com
-- http://nibbler.silktide.com/en_US (another tester)
-- https://gtmetrix.com/reports/fnse.netlify.com/2xJupMhD
-- https://developers.google.com/speed/pagespeed/insights/?url=fnse.netlify.com&tab=desktop
+The most impactful change to page speed is from lazy loading. This site is image heavy, so the initial load can be decreased from 4-12MB in some case down to just 400KB. 
+
+The main benchmark was Lighthouse in Chrome. Here are the scores:
+
+<img src="/themes/charity/static/images/lighthouse.png" />
+
+Most of the issues are related to the carousel being off screen and having JS that I can't edit. Overall though, the site is in good shape. As a sanity check, here are some other benchmarks and graders to keep an eye on:
+
+- [YSlow and Google Page Speed Test](https://gtmetrix.com/reports/fnse.netlify.com/pcOj0rPq) scores 84% and 99% respectively.
+- [WebPageTest](http://www.webpagetest.org/result/180815_WC_857b0453a4226aa6993efb4476039c84/1/performance_optimization/) scores all A's
+- [Cloudinary](https://webspeedtest.cloudinary.com/results/180815_21_789e526c061ad06c4274973fab3a8765) breaks down images to pixel level improvements. Progressive or modern image formats would be best way to improve load time at this point.
+- [Website Grader](https://website.grader.com/results/fnse.netlify.com)
+
+TODO: Finally, this launch checklist was used.
 
 ## Compatibility, Support and Known Issues
 
