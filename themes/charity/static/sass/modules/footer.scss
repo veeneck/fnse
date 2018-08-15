@@ -136,6 +136,16 @@
 	}
 }
 
+.listcontent section h4 {
+	color: $darkGrey;
+	width: 100%;
+	text-align: center;
+	@include breakpoint(normal-screen) {
+		width: auto;
+		text-align: left;
+	}
+}
+
 .listcontent ul {
 	color: $darkGrey;
 	@include boldFontStack();

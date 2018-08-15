@@ -1166,6 +1166,15 @@ div.menu-link {
     .sitecontent .logo {
       display: block; } }
 
+.listcontent section h4 {
+  color: #3A3A3A;
+  width: 100%;
+  text-align: center; }
+  @media (min-width: 1080px) {
+    .listcontent section h4 {
+      width: auto;
+      text-align: left; } }
+
 .listcontent ul {
   color: #3A3A3A;
   font-family: 'Source Sans Pro', sans-serif;
