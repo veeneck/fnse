@@ -1,16 +1,8 @@
-<!--<figure class="triggerMe">
-<picture class="coreImage triggerMe">
-	<source media="(min-width: 1024px)" data-srcset="{{ .Params.image }}" />
-	<source media="(max-width: 1023px)" data-srcset="{{ .Params.image }}" />
-	<img class="lazy" alt="Image Description" data-src="{{ .Params.image }}">
- </picture>
-<figcaption>{{ .Params.caption }}</figcaption>
-</figure>-->
-
 {{ $splitImageName := split .Params.image "/" }}
 {{ $completeFile := index (last 1 $splitImageName) 0 }}
 {{ $fileName := index (split $completeFile ".") 0 }}
 {{ $fileType := index (split $completeFile ".") 1 }}
+{{ $cleanName := replace $fileName " " "%20" }}
 
 <noscript>
 
@@ -21,7 +13,7 @@
 </style>
 
 	<figure class="triggeredCSS3">
-	<img class="coreImage triggeredCSS3" src="/images/responsive/{{ $fileName }}@768.{{ $fileType }}" />
+	<img class="coreImage triggeredCSS3" src="/images/responsive/{{ $cleanName }}@768.{{ $fileType }}" />
 	 	<figcaption>
 	 		{{ .Params.caption }}
 	 	</figcaption>
@@ -31,9 +23,9 @@
 
 <figure class="js triggerMe">
 	<div class="image-container">
-		<img class="coreImage triggerMe lazy" data-src="/images/responsive/{{ $fileName }}@768.{{ $fileType }}"
-     		data-srcset="/images/responsive/{{ $fileName }}@1080.{{ $fileType }} 1080w,
-             /images/responsive/{{ $fileName }}@768.{{ $fileType }} 768w"
+		<img class="coreImage triggerMe lazy" data-src="/images/responsive/{{ $cleanName }}@768.{{ $fileType }}"
+     		data-srcset="/images/responsive/{{ $cleanName }}@1080.{{ $fileType }} 1080w,
+             /images/responsive/{{ $cleanName }}@768.{{ $fileType }} 768w"
      		data-sizes="(min-width: 35em) 100vw,
      			45vw" />
     </div>
