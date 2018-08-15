@@ -179,6 +179,8 @@ Most of the issues are related to the carousel being off screen and having JS th
 
 TODO: Finally, this launch checklist was used.
 
+TODO: Link to HTML validator
+
 ## Compatibility, Support and Known Issues
 
 **Noscript**: If users have JavaScript disabled, the following still work:
