@@ -55,8 +55,22 @@ sup {
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-evenly;
-	margin-left: 0px;
+	font-size: 80%;
+	@include breakpoint(tablet-screen) {
+		justify-content: space-evenly;
+		font-size: 85%;
+	}
+	@include breakpoint(normal-screen) {
+		justify-content: space-evenly;
+		font-size: 95%;
+	}
+	@include breakpoint(large-screen) {
+		justify-content: space-evenly;
+		font-size: 100%;
+	}
 	padding-left: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 
 .text_right li {
