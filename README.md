@@ -168,7 +168,7 @@ The most impactful change to page speed is from lazy loading. This site is image
 
 The main benchmark was Lighthouse in Chrome. Here are the scores:
 
-<img src="/themes/charity/static/images/lighthouse.png" />
+<img src="/themes/charity/static/images/uneditable/lighthouse.png" />
 
 Most of the issues are related to the carousel being off screen and having JS that I can't edit. Overall though, the site is in good shape. As a sanity check, here are some other benchmarks and graders to keep an eye on:
 
