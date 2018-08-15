@@ -8,7 +8,7 @@ button: MEET US
 button_icon: hand
 image: "/images/Friends of North Shore Pic.jpg"
 text_left: ''
-link: "/about"
+link: "/about/"
 caption: This is a caption
 subtitle: ''
 list_items: []

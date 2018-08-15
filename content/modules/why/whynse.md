@@ -6,7 +6,7 @@ module_type: text_left
 class_name: why
 button: EXPLORE
 button_icon: castle
-link: "/why"
+link: "/why/"
 image: "/images/classrom.jpg"
 caption: This is a caption
 subtitle: ''

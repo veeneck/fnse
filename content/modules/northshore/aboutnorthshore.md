@@ -7,7 +7,7 @@ class_name: northshore
 button: EXPLORE
 button_icon: explore
 image: "/images/NorthShoreLeft.jpg"
-link: "/nse"
+link: "/nse/"
 caption: This is a caption
 subtitle: ''
 list_items: []
