@@ -87,32 +87,39 @@
 
 .arrow-down {
   &::after {
-    content: '\25bc';
+    content: '\0041';
     padding-left: 0.5em;
     position: absolute;
     right: 25px;
     top: 50%;
 	transform: translateY(-50%);
 	color: $white;
+	font: normal normal normal 1em/1 'fnse';
   }
 }
 
 .arrow-right {
   &::after {
-    content: '\25ba';
+    content: '\0042';
     padding-left: 0.5em;
     position: absolute;
     right: 25px;
     top: 50%;
 	transform: translateY(-50%);
 	@include transition(all 0.3s ease-out);
-	color: $blue;
+	color: $white;
+	font: normal normal normal 1em/1 'fnse';
   }
 }
 
-.alt .arrow-down {
+.alt .arrow-right {
 	&::after {
 		color: $darkBlue !important; 
+	}
+}
+.alt .arrow-down {
+	&::after {
+		color: $blue !important; 
 	}
 }
 

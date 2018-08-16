@@ -109,6 +109,7 @@ ul.nav li a {
 	top: 50%;
 	transform: translateY(-50%);
     display: inline-block;
+    font-weight: 400;
     @include breakpoint(normal-screen) {
     	border: 0;
         font-size: 90%;

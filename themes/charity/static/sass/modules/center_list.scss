@@ -239,8 +239,14 @@
 
 .shield::before {
     display: inline-block;
-    vertical-align: middle;
-    line-height: 175px;
+    ///vertical-align: middle;
+    line-height: 120px;
+    font-size: 3em;
+    color: $darkBlue;
+}
+
+.grey_list .shield::before {
+	color: $white;
 }
 
 .teacher::before {

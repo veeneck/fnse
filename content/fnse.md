@@ -8,7 +8,7 @@ hero_class: placeholder
 hero_title: Friends of North Shore Elementary
 hero_subtitle: We're a local non proft assisting the school however we can.
 hero_button_text: READ MORE
-hero_button_icon: more
+hero_button_icon: icon-Arrow
 hero_link: "#HowWeStarted"
 image: /images/aboutfnse.jpg
 modules:

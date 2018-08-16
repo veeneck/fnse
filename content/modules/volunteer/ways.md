@@ -11,15 +11,15 @@ button_icon: mail
 link: "/contact"
 list_items:
 - title: Network
-  class: network
+  class: icon-messages-bubble-share
   description: Attend meetings, join a committee, introduce us to an influential person,
     or otherwise help guide FNSE.
 - title: Fundraise
-  class: piggy
-  description: Offer a venue, lead an event, or lend your time with one of our existing
+  class: icon-Piggy
+  description: Offer us a venue, lead an event, or lend us your time with one of our existing
     fundraisers.
 - title: Services
-  class: tools
+  class: icon-hammer-wench
   description: Painters, contractors, lawn care, print services, design, IT. You name
     it, we’re would love to hear from you.
 

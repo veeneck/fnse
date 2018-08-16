@@ -8,7 +8,7 @@ hero_class: placeholder
 hero_title: Have Questions?
 hero_subtitle: We'll attempt to answer them.
 hero_button_text: READ MORE
-hero_button_icon: more
+hero_button_icon: icon-Arrow
 hero_link: "#faqlist"
 image: "/images/informed4.jpg"
 modules:

@@ -8,7 +8,7 @@ hero_class: placeholder
 hero_title: Experience North Shore Elementary
 hero_subtitle: What you can expect to find at North Shore Elementary.
 hero_button_text: READ MORE
-hero_button_icon: more
+hero_button_icon: icon-Arrow
 hero_link: "#GeneralInformation"
 image: "/images/School1.jpg"
 modules:

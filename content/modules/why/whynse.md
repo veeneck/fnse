@@ -5,7 +5,7 @@ type: module
 module_type: text_left
 class_name: why
 button: EXPLORE
-button_icon: castle
+button_icon: icon-historical-building-castle-1
 link: "/why/"
 image: "/images/classrom.jpg"
 caption: This is a caption

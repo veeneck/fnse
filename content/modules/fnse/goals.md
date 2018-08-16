@@ -9,15 +9,15 @@ class_name: goals
 color: blue_list
 list_items:
 - title: School Programming
-  class: programming
+  class: icon-study-owl
   description: Develop relationships with faculty to assess the curriculum, school
     day, and teachers needs.
 - title: Fundraising
-  class: piggy
+  class: icon-Piggy
   description: Identify and fund projects which encourage education and facilities
     to be both functional and inspiring.
 - title: Outreach
-  class: megaphone
+  class: icon-megaphone-1
   description: Engage with local businesses, elected officials, and individuals regarding
     oppurtunities.
 

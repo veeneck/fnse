@@ -17,7 +17,7 @@ modules:
 - modules/northshore/aboutnorthshore.md
 - modules/common/faq4.md
 hero_button_text: READ MORE
-hero_button_icon: more
+hero_button_icon: icon-Arrow
 hero_link: "#VolunteerforFNSE"
 
 ---
