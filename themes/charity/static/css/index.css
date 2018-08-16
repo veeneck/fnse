@@ -837,7 +837,7 @@ a.button {
   margin-top: -3px; }
   @media (min-width: 35em) {
     .button::before {
-      margin-top: -5px; } }
+      margin-top: -3px; } }
   @media (min-width: 1080px) {
     .button::before {
       margin-right: 15px; } }

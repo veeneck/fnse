@@ -390,7 +390,7 @@ a.button {
     margin-top: -3px;
 
     @include breakpoint(condensed-screen) {
-        margin-top: -5px;
+        margin-top: -3px;
     }
 
     @include breakpoint(normal-screen) {
