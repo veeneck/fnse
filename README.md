@@ -158,7 +158,7 @@ Fonts can be found here:
 - Source Sans Pro: Served via Google Fonts, [but can be download here](https://www.fontsquirrel.com/fonts/source-sans-pro) to use in Word, Photoshop, and other desktop programs.
 - Open Sans: Also served via Google Fonts, and [can be downloaded here](https://www.opensans.com).
 
-The other consideration is logos. Below you will find various sizes and colors of the logo.
+The other consideration is logos and icons. Below you will find various sizes and colors of the logo.
 
 TODO: Logos go here.
 

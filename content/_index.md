@@ -10,7 +10,7 @@ hero_class: classroom
 hero_title: Considering North Shore Elementary?
 hero_subtitle: We're happy to promote our local gem.
 hero_button_text: WHY CHOOSE NORTH SHORE
-hero_button_icon: icon-school-building
+hero_button_icon: icon-historical-building-castle-1
 hero_link: "/why"
 image: "/images/classroom.jpg"
 modules:
