@@ -387,6 +387,7 @@ a.button {
     /* Better Font Rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin-top: -3px;
 
     @include breakpoint(condensed-screen) {
         margin-top: -5px;
@@ -444,6 +445,12 @@ a.button {
 
 .button.more::before {
     content: url("/images/icons/icon_more.png");
+}
+
+.button.rocket::before {
+    content: url("/images/icons/icon_rocket.png");
+    height: 32px;
+    width: 32px;
 }
 
 

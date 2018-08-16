@@ -833,7 +833,8 @@ a.button {
   text-transform: none;
   /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -3px; }
   @media (min-width: 35em) {
     .button::before {
       margin-top: -5px; } }
@@ -879,6 +880,11 @@ a.button {
 
 .button.more::before {
   content: url("/images/icons/icon_more.png"); }
+
+.button.rocket::before {
+  content: url("/images/icons/icon_rocket.png");
+  height: 32px;
+  width: 32px; }
 
 /* --------  404 Page -------- */
 body.fouroh {
