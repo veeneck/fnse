@@ -6,7 +6,7 @@ module_type: half_half
 image: "/images/uneditable/SchoolGrade.png"
 alignment: right
 button: READ THE FAQ
-button_icon: faq
+button_icon: icon-question-circle
 link: "/faq/"
 class_name: schoolgrade
 ---

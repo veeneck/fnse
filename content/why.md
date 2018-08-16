@@ -8,7 +8,7 @@ hero_class: placeholder
 hero_title: Why Choose North Shore Elementary
 hero_subtitle: This neighborhood school in St. Petersburg, FL has plenty to offer.
 hero_button_text: READ MORE
-hero_button_icon: more
+hero_button_icon: icon-Arrow
 hero_link: "#ALocalGem"
 image: "/images/schoolright.jpg"
 modules:

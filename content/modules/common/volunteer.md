@@ -5,7 +5,7 @@ type: module
 module_type: text_left
 class_name: volunteer
 button: LEND A HAND
-button_icon: lend
+button_icon: icon-ProtectionShieldStar
 link: "/volunteer/"
 image: "/images/VolunteerLarge.jpg"
 caption: This is a caption

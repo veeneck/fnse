@@ -5,7 +5,7 @@ type: module
 module_type: text_right
 class_name: northshore
 button: EXPLORE
-button_icon: explore
+button_icon: icon-book-flip-page
 image: "/images/NorthShoreLeft.jpg"
 link: "/nse/"
 caption: This is a caption

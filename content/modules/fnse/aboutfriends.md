@@ -5,7 +5,7 @@ type: module
 module_type: text_left
 class_name: friends
 button: MEET US
-button_icon: hand
+button_icon: icon-hand-expand
 image: "/images/Friends of North Shore Pic.jpg"
 text_left: ''
 link: "/about/"
