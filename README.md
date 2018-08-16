@@ -158,7 +158,9 @@ Fonts can be found here:
 - Source Sans Pro: Served via Google Fonts, [but can be download here](https://www.fontsquirrel.com/fonts/source-sans-pro) to use in Word, Photoshop, and other desktop programs.
 - Open Sans: Also served via Google Fonts, and [can be downloaded here](https://www.opensans.com).
 
-The other consideration is logos and icons. Below you will find various sizes and colors of the logo.
+**Icons**
+
+The majority of icons are font icons served through `/fonts/fnse.*`. This font face was created with [Glyphter](https://glyphter.com) by uploading SVG files and exporting the newly created font face. The original SVG files can be found uat `/images/icons/fnse.iconjar`. This is a proprietary file that opens up in [IconJar](https://geticonjar.com). The actual icons used are [Streamline 3 Icons](https://www.streamlineicons.com) that I bought a license for. If new icons need to be added, they would first be added to IconJar, and then exported to recrate the font face. Other than font icons, `.svg` and `png` files are used in other places.
 
 TODO: Logos go here.
 
