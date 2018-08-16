@@ -53,7 +53,7 @@ header {
 .module {
     @extend %clearfix;
     width: 100%;
-    margin: $mobileModuleMargin 0px;
+    margin: $mobileModuleMargin 0px 50px 0px;
     @include breakpoint(condensed-screen) {
         margin: $tabletModuleMargin 0px;
     }
@@ -66,7 +66,7 @@ header {
 
 .padded-module {
     margin: 0px !important;
-    padding: $mobileModuleMargin 0px;
+    padding: $mobileModuleMargin 0px 50px 0px;
     @include breakpoint(condensed-screen) {
         padding: $tabletModuleMargin 0px;
     }
@@ -381,6 +381,7 @@ a.button {
     vertical-align: middle;
     line-height: normal;
     margin-right: 10px;
+    font-size: 30px;
 
     @include breakpoint(condensed-screen) {
         margin-right: 15px;
@@ -405,7 +406,7 @@ a.button {
 }
 
 .button.heart::before {
-    content: url("/images/icons/icon_heart.png");
+    //content: url("/images/icons/icon_heart.svg");
 }
 
 .button.castle::before {

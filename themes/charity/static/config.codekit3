@@ -89,6 +89,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/icons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/icons-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -168,6 +178,44 @@
 		"oAP": "\/css\/typography-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/fonts\/friends.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/friends.eot",
+		"oF": 0
+		},
+	"\/fonts\/friends.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/friends.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/friends.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/friends.ttf",
+		"oF": 0
+		},
+	"\/fonts\/friends.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/friends.woff",
+		"oF": 0
+		},
+	"\/fonts\/friends.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/friends.woff2",
+		"oF": 0
 		},
 	"\/fonts\/PeaceSans.woff": {
 		"cB": 0,
@@ -259,6 +307,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/icons\/icon_heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/icon_heart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/icons\/icon_lend.png": {
 		"ft": 32768,
@@ -2869,6 +2927,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/form.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/core\/icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/icons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

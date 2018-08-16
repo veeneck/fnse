@@ -330,13 +330,13 @@ a.button {
     @include boldFontStack();
     font-size: 80%;
     text-decoration: none;
-    padding: 10px 12px 6px 12px;
+    padding: 10px 12px 10px 12px;
     margin: 25px 0px;
     border-radius: $borderRadius;
     border: none;
     display: inline-block;
     position: relative;
-    vertical-align: middle;
+    ///vertical-align: middle;
     @include transition(background-color 0.3s);
     overflow: hidden;
     z-index: 1;
@@ -379,10 +379,20 @@ a.button {
 .button::before {
     display: inline-block;
     vertical-align: middle;
-    line-height: normal;
     margin-right: 10px;
+    font: normal normal normal 1em/1 'friends';
+    speak: none;
+    text-transform: none;
+    ///margin-top: -3px;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     @include breakpoint(condensed-screen) {
+        margin-top: -5px;
+    }
+
+    @include breakpoint(normal-screen) {
         margin-right: 15px;
     }
 }
@@ -402,10 +412,6 @@ a.button {
     -webkit-animation-name: jackInTheBox;
     animation-name: jackInTheBox;
     visibility: visible;
-}
-
-.button.heart::before {
-    content: url("/images/icons/icon_heart.png");
 }
 
 .button.castle::before {
