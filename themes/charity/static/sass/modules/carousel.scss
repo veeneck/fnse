@@ -92,6 +92,13 @@
 	visibility: hidden;
 }
 
+.project a.button {
+	transition: none;
+	@include breakpoint(normal-screen) {
+		@include transition(background-color 0.3s);
+	}
+}
+
 .carousel h4 {
 	margin-top: 20px;
 	margin-bottom: 15px;

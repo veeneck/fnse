@@ -1735,6 +1735,16 @@ sup {
   opacity: 0;
   visibility: hidden; }
 
+.project a.button {
+  transition: none; }
+  @media (min-width: 1080px) {
+    .project a.button {
+      -webkit-transition: background-color 0.3s;
+      -moz-transition: background-color 0.3s;
+      -ms-transition: background-color 0.3s;
+      -o-transition: background-color 0.3s;
+      transition: background-color 0.3s; } }
+
 .carousel h4 {
   margin-top: 20px;
   margin-bottom: 15px; }
