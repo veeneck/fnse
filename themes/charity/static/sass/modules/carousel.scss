@@ -81,6 +81,11 @@
     border-radius: $borderRadius $borderRadius 0 0 ;
 }
 
+.projectImage .compat-object-fit img {
+	opacity: 0;
+	visibility: hidden;
+}
+
 .carousel h4 {
 	margin-top: 20px;
 	margin-bottom: 15px;
