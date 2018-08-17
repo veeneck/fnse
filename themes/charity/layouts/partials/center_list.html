@@ -6,22 +6,27 @@
 
 		<p class="desc">{{ .Description | safeHTML }}</p>
 
-		<ul>
-			{{ range $key, $value := .Params.list_items }}
-				<li class="list_item triggerMe {{ if isset $value "link" }}hasButton{{ end }}">
-					<div class="shield {{ $value.class }}"></div>
-					<div class="shieldDesc">
-						<strong>{{ $value.title }}</strong>
-						<span>{{ $value.description }}</span>
-					</div>
-					{{ if isset $value "link" }}
-					<div class="shieldCTA">
-						<a href="{{ $value.link }}" class="button blue icon-Arrow triggerMe">MORE</a>
-					</div>
-					{{ end }}				
-				</li>
+		{{ if isset .Params "list_items" }}
+			{{ $items := .Params.list_items }}
+			{{ if gt (len $items) 0 }}
+				<ul>
+					{{ range $key, $value := $items }}
+						<li class="list_item triggerMe {{ if isset $value "link" }}hasButton{{ end }}">
+							<div class="shield {{ $value.class }}"></div>
+							<div class="shieldDesc">
+								<strong>{{ $value.title }}</strong>
+								<span>{{ $value.description }}</span>
+							</div>
+							{{ if isset $value "link" }}
+							<div class="shieldCTA">
+								<a href="{{ $value.link }}" class="button blue icon-Arrow triggerMe">MORE</a>
+							</div>
+							{{ end }}				
+						</li>
+					{{ end }}
+				</ul>
 			{{ end }}
-		</ul>
+		{{ end }}
 
 		{{ .Content }}
 

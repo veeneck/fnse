@@ -150,6 +150,7 @@ nav[role=navigation].open {
     margin-top: 60px;
     width: 100%;
     position: absolute;
+    border-bottom: 3px solid $blue;
     background-color: $white;
     	-webkit-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
        	-moz-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);

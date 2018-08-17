@@ -208,7 +208,6 @@
 .vimeo {
 	width: 100%;
 	height: 200px;
-	margin-top: -20px;
 	@include breakpoint(condensed-screen) {
 		height: 300px;
 	}
