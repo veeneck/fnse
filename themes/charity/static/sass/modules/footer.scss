@@ -115,7 +115,7 @@
 	width: 100%;
 	padding: 25px 0px;
 	@include breakpoint(tablet-screen) {
-		justify-content: space-evenly;
+		justify-content: space-around;
 		flex-direction: row;
 		width: 100%;
 		padding: 75px 0px;
