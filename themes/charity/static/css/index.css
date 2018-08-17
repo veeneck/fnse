@@ -1802,7 +1802,8 @@ sup {
 .shieldDesc {
   width: 82%;
   text-align: left;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
   @media (min-width: 1080px) {
     .shieldDesc {
       text-align: center;
@@ -2098,6 +2099,9 @@ sup {
     .faqlist h3 {
       display: block; } }
 
+.faqlist .shieldDesc {
+  padding-left: 5px; }
+
 .faq a.question {
   color: #fff;
   display: block;
@@ -2176,9 +2180,11 @@ sup {
 .alt h3 {
   color: #fff; }
 
+.answer {
+  margin-top: 35px; }
+
 .alt .answer {
-  color: #fff;
-  margin-top: 50px; }
+  color: #fff; }
 
 .faq .toc {
   display: -webkit-box;

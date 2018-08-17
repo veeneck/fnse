@@ -122,6 +122,7 @@
 	width: 82%;
 	text-align: left;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	@include breakpoint(normal-screen) {
 		text-align: center;
 		width: 100%;
