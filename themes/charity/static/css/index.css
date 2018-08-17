@@ -1666,6 +1666,9 @@ sup {
 .sample-projects {
   margin: 50px 0px; }
 
+.sample-projects a {
+  line-height: 1em; }
+
 .project {
   background-color: #fff;
   background-clip: padding-box;
