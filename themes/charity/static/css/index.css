@@ -1723,7 +1723,7 @@ sup {
   object-fit: cover;
   border-radius: 4px 4px 0 0; }
 
-.projectImage .compat-object-fit img {
+.project .compat-object-fit img {
   opacity: 0;
   visibility: hidden; }
 
