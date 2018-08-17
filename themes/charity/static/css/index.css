@@ -1652,7 +1652,7 @@ sup {
   visibility: hidden; }
   @media (min-width: 50em) {
     .project {
-      padding-bottom: 15px; } }
+      padding-bottom: 25px; } }
 
 .project.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
@@ -1674,7 +1674,7 @@ sup {
 .project p {
   text-align: left;
   font-size: 85%;
-  margin-top: 5px;
+  margin-top: 20px !important;
   padding: 0px 25px 10px 25px; }
   @media (min-width: 50em) {
     .project p {
