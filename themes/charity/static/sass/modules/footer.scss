@@ -115,7 +115,7 @@
 	width: 100%;
 	padding: 25px 0px;
 	@include breakpoint(tablet-screen) {
-		justify-content: space-around;
+		justify-content: space-evenly;
 		flex-direction: row;
 		width: 100%;
 		padding: 75px 0px;
@@ -125,6 +125,10 @@
 	}
 	@include breakpoint(large-screen) {
 		width: 75%;
+	}
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		/* IE10+ CSS styles go here */
+		justify-content: space-around;
 	}
 }
 

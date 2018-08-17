@@ -1330,7 +1330,7 @@ div.menu-link {
   padding: 25px 0px; }
   @media (min-width: 50em) {
     .listcontent {
-      justify-content: space-around;
+      justify-content: space-evenly;
       flex-direction: row;
       width: 100%;
       padding: 75px 0px; } }
@@ -1340,6 +1340,10 @@ div.menu-link {
   @media (min-width: 1300px) {
     .listcontent {
       width: 75%; } }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .listcontent {
+      /* IE10+ CSS styles go here */
+      justify-content: space-around; } }
 
 .sitecontent .logo {
   display: none;
