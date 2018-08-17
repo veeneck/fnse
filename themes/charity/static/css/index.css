@@ -22,6 +22,9 @@
 .purple {
   background-color: #00295C; }
 
+.purple:visited {
+  background-color: #00295C !important; }
+
 .red {
   background-color: #C51E20; }
 
@@ -917,7 +920,7 @@ body.fouroh {
   color: #fff;
   margin: 5px 0px 0px 0px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   display: none; }
   @media (min-width: 35em) {
     .hero .content p {
@@ -1026,7 +1029,8 @@ nav[role=navigation] {
   width: 0px; }
   @media (min-width: 1080px) {
     nav[role=navigation] {
-      flex-grow: 5; } }
+      flex-grow: 5;
+      height: 89px; } }
 
 ul.nav {
   padding: 0; }
@@ -1108,7 +1112,7 @@ nav[role=navigation].open {
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  padding-top: 30px; }
+  padding-top: 22px; }
 
 .open ul.nav li {
   display: block !important;
@@ -1401,9 +1405,8 @@ div.menu-link {
 .nsfooter a {
   display: block; }
 
-.fnsefb img {
-  height: 30px;
-  margin-bottom: -7px;
+.sitecontent .facebook a:after {
+  font-size: 1.5em;
   margin-left: 5px; }
 
 .socialicons {
@@ -1413,13 +1416,17 @@ div.menu-link {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 10px; }
+  justify-content: center;
+  font-size: 1.3em; }
 
-.socialicons img {
-  background-color: none;
-  padding: 0px;
-  width: 30px; }
+.socialicons a {
+  margin: 10px 20px; }
+  @media (min-width: 50em) {
+    .socialicons a {
+      margin: 10px 15px; } }
+  @media (min-width: 1080px) {
+    .socialicons a {
+      margin: 10px 20px; } }
 
 .sitecontent a:hover {
   border-bottom: none;

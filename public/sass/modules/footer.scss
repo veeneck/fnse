@@ -212,23 +212,26 @@
 	display: block;
 }
 
-.fnsefb img {
-	height: 30px;
-	margin-bottom: -7px;
+.sitecontent .facebook a:after {
+	font-size: 1.5em;
 	margin-left: 5px;
 }
 
 .socialicons {
 	@include flex();
 	flex-direction: row;
-	justify-content: space-evenly;
-	margin-top: 10px;
+	justify-content: center;
+	font-size: 1.3em;
 }
 
-.socialicons img {
-	background-color: none;
-	padding: 0px;
-	width: 30px;
+.socialicons a {
+	margin: 10px 20px;
+	@include breakpoint(tablet-screen) {
+		margin: 10px 15px;
+	}
+	@include breakpoint(normal-screen) {
+		margin: 10px 20px;
+	}
 }
 
 .sitecontent a:hover {

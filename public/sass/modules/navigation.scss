@@ -68,10 +68,10 @@ nav[role=navigation] {
     @include altProseStack();
     ///font-weight: 600;
     width: 0px;
-
     @include breakpoint(normal-screen) {
     	///text-transform: uppercase;
     	flex-grow: 5;
+        height: 89px;
     }
 }
 
@@ -180,7 +180,7 @@ nav[role=navigation].open {
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 22px;
 }
 
 .open ul.nav li {

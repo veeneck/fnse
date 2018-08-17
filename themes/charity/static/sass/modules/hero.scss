@@ -50,7 +50,7 @@
     color: $white;
     margin: 5px 0px 0px 0px;
     @include proseFontStack();
-    font-weight: 300;
+    font-weight: 400;
     display: none;
     @include breakpoint(condensed-screen) {
         display: block;
