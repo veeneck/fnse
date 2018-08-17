@@ -741,6 +741,9 @@ ul.variableList li {
   background-color: #FAFAFA;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300; }
+  @media (min-width: 1080px) {
+    ul.variableList li {
+      margin: 10px 20px; } }
 
 /*----------------------- LINKS ------------------------------ */
 section a {
