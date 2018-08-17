@@ -1208,13 +1208,15 @@ div.menu-link {
       margin-top: 150px;
       margin-bottom: 150px; } }
 
+.footer .copy {
+  width: 100%; }
+  @media (min-width: 1080px) {
+    .footer .copy {
+      width: 55%; } }
+
 .footer form {
   width: 100%;
   text-align: center; }
-  @media (min-width: 1080px) {
-    .footer form {
-      width: 80%;
-      margin-right: 50px; } }
 
 .footer h3 {
   color: #fff; }
@@ -1223,11 +1225,11 @@ div.menu-link {
   width: 100%;
   align-self: flex-end;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 30px; }
   @media (min-width: 1080px) {
     .details {
       margin-top: none;
-      width: 50%; } }
+      width: 45%; } }
 
 .details img {
   border-radius: 4px;
@@ -1244,22 +1246,23 @@ div.menu-link {
 
 .contact {
   color: #fff;
-  text-align: right;
+  text-align: center;
   font-family: 'Open Sans', sans-serif; }
   @media (min-width: 1080px) {
     .contact {
-      margin-bottom: 125px; } }
+      margin-bottom: 125px;
+      text-align: right; } }
 
 .contact strong {
   display: block;
-  font-size: 70%; }
+  font-size: 90%; }
   @media (min-width: 1080px) {
     .contact strong {
       font-size: inherit; } }
 
 .contact span {
   display: block;
-  font-size: 70%; }
+  font-size: 90%; }
   @media (min-width: 1080px) {
     .contact span {
       font-size: inherit; } }
