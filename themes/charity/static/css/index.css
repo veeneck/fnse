@@ -1148,7 +1148,7 @@ nav[role=navigation].open {
 
 .facebook a:after {
   content: '\0048';
-  font-size: 1.5em;
+  font-size: 1.5em !important;
   margin-top: -2px;
   vertical-align: middle;
   color: #3B5998;
@@ -1162,7 +1162,7 @@ nav[role=navigation].open {
   text-transform: none; }
   @media (min-width: 1080px) {
     .facebook a:after {
-      font-size: 1.8em;
+      font-size: 1.8em !important;
       margin-top: 0px; } }
 
 .open .volunteerlist, .open .reachout {
