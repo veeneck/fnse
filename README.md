@@ -195,7 +195,7 @@ TODO: Finally, this launch checklist was used.
 
 **Print Styles**: Print styles exist, but they are very basic. They need a lot of work right now.
 
-**Compatibility**: Designed for IE9+ and all modern browsers. Certain parts, like Glide.js, only support IE11+.
+**Compatibility**: Designed for IE11+ and all modern browsers.
 
 **Other Known Issues**: Keep a running list here.
 

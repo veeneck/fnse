@@ -894,7 +894,7 @@ body.fouroh {
   @media (min-width: 35em) {
     .hero {
       background-attachment: fixed;
-      height: 90vh; } }
+      height: 85vh; } }
   @media (min-width: 50em) {
     .hero {
       text-align: right; } }

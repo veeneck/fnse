@@ -14,7 +14,7 @@
 
     @include breakpoint(condensed-screen) {
         background-attachment: fixed;
-        height: 90vh;
+        height: 85vh;
     }
 
     @include breakpoint(tablet-screen) {
