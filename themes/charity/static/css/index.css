@@ -1702,6 +1702,9 @@ sup {
   font-size: 85%;
   margin-top: 5px;
   padding: 0px 25px 10px 25px; }
+  @media (min-width: 50em) {
+    .project p {
+      padding: 0px 40px 10px 40px; } }
 
 .projectImage {
   width: 100%;
