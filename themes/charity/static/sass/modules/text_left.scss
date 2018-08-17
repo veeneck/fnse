@@ -43,44 +43,6 @@
     }
 }
 
-.text_left ul {
-	@extend %clearfix;
-	list-style: none;
-	@include flex();
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-	font-size: 80%;
-	@include breakpoint(tablet-screen) {
-		justify-content: space-evenly;
-		font-size: 85%;
-	}
-	@include breakpoint(normal-screen) {
-		justify-content: space-evenly;
-		font-size: 95%;
-	}
-	@include breakpoint(large-screen) {
-		justify-content: space-evenly;
-		font-size: 100%;
-	}
-	padding-left: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-}
-
-.text_left li {
-	border-radius: $borderRadius;
-	///border: 3px solid $grey;
-	padding: 10px 20px;
-	margin: 5px 5px;
-	background-color: $lightGrey;
-	@include altProseStack();
-	margin: 10px;
-	@include breakpoint(normal-screen-screen) {
-		margin: 10px 20px;
-	}
-}
-
 .volunteerinfo figure {
 	height: 500px;
 }

@@ -1,9 +1,9 @@
-.clear, .module, .hero, nav[role=navigation], .text_left ul, .text_right ul, .center_list li, .half_half .rightHalfContainer, .faq ul {
+.clear, .module, ul.variableList, .hero, nav[role=navigation], .center_list li, .half_half .rightHalfContainer, .faq ul {
   *zoom: 1; }
-  .clear:before, .module:before, .hero:before, nav[role=navigation]:before, .text_left ul:before, .text_right ul:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .clear:before, .module:before, ul.variableList:before, .hero:before, nav[role=navigation]:before, .center_list li:before, .half_half .rightHalfContainer:before, .faq ul:before, .clear:after, .module:after, ul.variableList:after, .hero:after, nav[role=navigation]:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     content: " ";
     display: table; }
-  .clear:after, .module:after, .hero:after, nav[role=navigation]:after, .text_left ul:after, .text_right ul:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
+  .clear:after, .module:after, ul.variableList:after, .hero:after, nav[role=navigation]:after, .center_list li:after, .half_half .rightHalfContainer:after, .faq ul:after {
     clear: both; }
 
 /*----------------------- Misc ------------------------------ */
@@ -702,6 +702,45 @@ h3.triggeredCSS3:before {
 
 .mk-zoom-controls .mk-icon {
   left: 0; }
+
+/* -------------- UL MODULE LISTS ---------------- */
+ul.variableList {
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 110%;
+  font-size: 80%;
+  margin-left: -5%;
+  justify-content: center;
+  padding-left: 0px;
+  margin-bottom: 0px; }
+  @media (min-width: 50em) {
+    ul.variableList {
+      width: 100%;
+      margin-left: 0%;
+      justify-content: space-evenly;
+      font-size: 85%; } }
+  @media (min-width: 1080px) {
+    ul.variableList {
+      font-size: 95%;
+      width: 90%;
+      margin-left: 5%; } }
+  @media (min-width: 1300px) {
+    ul.variableList {
+      font-size: 100%; } }
+
+ul.variableList li {
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 5px 5px;
+  background-color: #FAFAFA;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
 
 /*----------------------- LINKS ------------------------------ */
 section a {
@@ -1413,42 +1452,6 @@ div.menu-link {
   .gem figure {
     height: 650px !important; } }
 
-.text_left ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  font-size: 80%;
-  padding-left: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px; }
-  @media (min-width: 50em) {
-    .text_left ul {
-      justify-content: space-evenly;
-      font-size: 85%; } }
-  @media (min-width: 1080px) {
-    .text_left ul {
-      justify-content: space-evenly;
-      font-size: 95%; } }
-  @media (min-width: 1300px) {
-    .text_left ul {
-      justify-content: space-evenly;
-      font-size: 100%; } }
-
-.text_left li {
-  border-radius: 4px;
-  padding: 10px 20px;
-  margin: 5px 5px;
-  background-color: #FAFAFA;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  margin: 10px; }
-
 .volunteerinfo figure {
   height: 500px; }
 
@@ -1491,45 +1494,6 @@ sup {
 @media (min-width: 1080px) {
   .afterschool figure {
     height: 500px !important; } }
-
-.text_right ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-evenly;
-  font-size: 80%;
-  padding-left: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px; }
-  @media (min-width: 50em) {
-    .text_right ul {
-      justify-content: space-evenly;
-      font-size: 85%; } }
-  @media (min-width: 1080px) {
-    .text_right ul {
-      justify-content: space-evenly;
-      font-size: 95%; } }
-  @media (min-width: 1300px) {
-    .text_right ul {
-      justify-content: space-evenly;
-      font-size: 100%; } }
-
-.text_right li {
-  border-radius: 4px;
-  padding: 10px 20px;
-  margin: 5px 5px;
-  background-color: #FAFAFA;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300; }
-  @media (min-width: 35em) {
-    .text_right li {
-      margin: 10px 20px; } }
 
 .text_right figcaption {
   float: left; }
@@ -1666,6 +1630,9 @@ sup {
 .sample-projects {
   margin: 50px 0px; }
 
+.sample-projects a {
+  line-height: 1em; }
+
 .project {
   background-color: #fff;
   background-clip: padding-box;
@@ -1698,8 +1665,10 @@ sup {
   text-align: left;
   font-size: 85%;
   margin-top: 5px;
-  margin-bottom: 25px;
-  padding: 5px 25px 10px 25px; }
+  padding: 0px 25px 10px 25px; }
+  @media (min-width: 50em) {
+    .project p {
+      padding: 0px 40px 10px 40px; } }
 
 .projectImage {
   width: 100%;
@@ -1812,7 +1781,7 @@ sup {
   background-position: center center;
   background-size: contain;
   min-width: 100px;
-  width: 25%;
+  width: 18%;
   margin-right: 20px;
   flex-grow: 2; }
   @media (min-width: 1080px) {
@@ -1827,8 +1796,9 @@ sup {
       display: block; } }
 
 .shieldDesc {
-  width: 75%;
-  text-align: left; }
+  width: 82%;
+  text-align: left;
+  padding-top: 10px; }
   @media (min-width: 1080px) {
     .shieldDesc {
       text-align: center;
@@ -1918,8 +1888,11 @@ sup {
 .shield::before {
   display: inline-block;
   line-height: 120px;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #00295C; }
+  @media (min-width: 1080px) {
+    .shield::before {
+      font-size: 3em; } }
 
 .grey_list .shield::before {
   color: #fff; }

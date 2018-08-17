@@ -298,6 +298,49 @@ h3.triggeredCSS3:before {
 }
 
 
+/* -------------- UL MODULE LISTS ---------------- */
+
+ul.variableList {
+    @extend %clearfix;
+    list-style: none;
+    @include flex();
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 110%;
+    font-size: 80%;
+    margin-left: -5%;
+    justify-content: center;
+    @include breakpoint(tablet-screen) {
+        width: 100%;
+        margin-left: 0%;
+        justify-content: space-evenly;
+        font-size: 85%;
+    }
+    @include breakpoint(normal-screen) {
+        font-size: 95%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    @include breakpoint(large-screen) {
+        font-size: 100%;
+    }
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+ul.variableList li {
+    border-radius: $borderRadius;
+    ///border: 3px solid $grey;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    background-color: $lightGrey;
+    @include altProseStack();
+    @include breakpoint(normal-screen-screen) {
+        margin: 10px 20px;
+    }
+}
+
+
 /*----------------------- LINKS ------------------------------ */
 
 section a {

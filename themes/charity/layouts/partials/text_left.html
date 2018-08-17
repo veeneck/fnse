@@ -21,7 +21,7 @@
 		{{ if isset $.module.Params "list_items" }}
 			{{ $items := $.module.Params.list_items }}
 			{{ if gt (len $items) 0 }}
-				<ul>
+				<ul class="variableList">
 				{{ range $key, $value := $items }}
 					<li>{{ $value.title }}</li>
 				{{ end }}

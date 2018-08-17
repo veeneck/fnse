@@ -47,44 +47,6 @@ sup {
     }
 }
 
-.text_right ul {
-	@extend %clearfix;
-	list-style: none;
-	@include flex();
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: space-evenly;
-	font-size: 80%;
-	@include breakpoint(tablet-screen) {
-		justify-content: space-evenly;
-		font-size: 85%;
-	}
-	@include breakpoint(normal-screen) {
-		justify-content: space-evenly;
-		font-size: 95%;
-	}
-	@include breakpoint(large-screen) {
-		justify-content: space-evenly;
-		font-size: 100%;
-	}
-	padding-left: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-}
-
-.text_right li {
-	border-radius: $borderRadius;
-	///border: 3px solid $grey;
-	padding: 10px 20px;
-	margin: 5px 5px;
-	background-color: $lightGrey;
-	@include altProseStack();
-	@include breakpoint(condensed-screen) {
-		margin: 10px 20px;
-	}
-}
-
 .text_right figcaption {
 	float: left;
 }
