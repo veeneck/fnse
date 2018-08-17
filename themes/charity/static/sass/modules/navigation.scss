@@ -20,8 +20,17 @@ header {
 }
 
 h1 {
-    margin: auto 0px;
+    margin: 0px;
     padding: 0px 0px 0px 20px;
+    height: 100%;
+}
+
+h1 a {
+    display: inline-block;
+    margin-top: 12px;
+    @include breakpoint(normal-screen) {
+         margin-top: 21px;
+    }
 }
 
 h1 img {
@@ -50,11 +59,11 @@ h1 img {
 }
 
 .donate {
-	///height: 25px;
 	display: inline-block;
 	margin: auto 0px !important;
 	@include breakpoint(normal-screen) {
          margin: auto 25px !important;
+         height: 25px;
     }
 }
 
