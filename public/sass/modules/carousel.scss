@@ -27,7 +27,7 @@
 }
 
 .project {
-	background-color: $white;
+ 	background-color: $white;
 	background-clip: padding-box;
 	background-repeat: no-repeat;
 	border-radius: $borderRadius $borderRadius 0px 0px;
@@ -36,6 +36,9 @@
   	-webkit-animation-fill-mode: both;
   	animation-fill-mode: both;
   	visibility: hidden;
+  	@include breakpoint(tablet-screen) {
+  		padding-bottom: 25px;
+  	}
 }
 
 .project.triggeredCSS3 {
@@ -63,7 +66,7 @@
 .project p {
 	text-align: left;
 	font-size: 85%;
-	margin-top: 5px;
+	margin-top: 20px !important;
 	padding: 0px 25px 10px 25px;
 	@include breakpoint(tablet-screen) {
 		padding: 0px 40px 10px 40px;

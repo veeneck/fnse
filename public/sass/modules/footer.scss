@@ -18,12 +18,15 @@
     }
 }
 
-.footer form {
+.footer .copy {
 	width: 100%;
 	@include breakpoint(normal-screen) {
-        width: 80%;
-        margin-right: 50px;
-    }
+		width: 55%;
+	}
+}
+
+.footer form {
+	width: 100%;
     text-align: center;
 }
 
@@ -35,10 +38,10 @@
 	width: 100%;
 	align-self: flex-end;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 30px;
 	@include breakpoint(normal-screen) {
 		margin-top: none;
-		width: 50%;
+		width: 45%;
     }
 }
 
@@ -58,17 +61,18 @@
 
 .contact {
 	color: $white;
-	text-align: right;
+	text-align: center;
 	@include proseFontStack();
 	@include breakpoint(normal-screen) {
 		margin-bottom: 125px;
+		text-align: right;
 	}
     
 }
 
 .contact strong {
 	display: block;
-	font-size: 70%;
+	font-size: 90%;
 	@include breakpoint(normal-screen) {
 		font-size: inherit;
 	}
@@ -76,7 +80,7 @@
 
 .contact span {
 	display: block;
-	font-size: 70%;
+	font-size: 90%;
 	@include breakpoint(normal-screen) {
 		font-size: inherit;
 	}

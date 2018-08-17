@@ -205,15 +205,31 @@ ul.nav li.facebookmobile {
 	}
 }
 
-.open ul.nav li.facebook {
-	display: none !important;
-	@include breakpoint(normal-screen) {
-		display: inherit !important;
-	}
+.fbtext {
+    @include breakpoint(normal-screen) {
+        display: none;
+    }
+    margin-right: 10px;
 }
 
-.facebook img {
-	width: 30px;
+.facebook a:after {
+    content:'\0048';
+    font-size: 1.5em;
+    margin-top: -2px;
+    @include breakpoint(normal-screen) {
+        font-size: 1.8em;
+        margin-top: 0px;
+    }
+    vertical-align: middle;
+    color: #3B5998; 
+    display: inline-block;
+   font-family: 'fnse';
+   font-style: normal;
+   font-weight: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+    speak: none;
+   text-transform: none;
 }
 
 .open .volunteerlist, .open .reachout {

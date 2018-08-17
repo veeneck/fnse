@@ -37,6 +37,10 @@
 	}
 }
 
+.faqlist .shieldDesc {
+	padding-left: 5px;
+}
+
 .faq a.question {
 	color: $white;
 	display: block;
@@ -127,9 +131,12 @@
 	color: $white;
 }
 
+.answer {
+	margin-top: 35px;
+}
+
 .alt .answer {
 	color: $white;
-	margin-top: 50px;
 }
 
 .faq .toc {

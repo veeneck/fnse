@@ -741,6 +741,9 @@ ul.variableList li {
   background-color: #FAFAFA;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300; }
+  @media (min-width: 1080px) {
+    ul.variableList li {
+      margin: 10px 20px; } }
 
 /*----------------------- LINKS ------------------------------ */
 section a {
@@ -1124,14 +1127,30 @@ nav[role=navigation].open {
   ul.nav li.facebookmobile {
     display: none !important; } }
 
-.open ul.nav li.facebook {
-  display: none !important; }
+.fbtext {
+  margin-right: 10px; }
   @media (min-width: 1080px) {
-    .open ul.nav li.facebook {
-      display: inherit !important; } }
+    .fbtext {
+      display: none; } }
 
-.facebook img {
-  width: 30px; }
+.facebook a:after {
+  content: '\0048';
+  font-size: 1.5em;
+  margin-top: -2px;
+  vertical-align: middle;
+  color: #3B5998;
+  display: inline-block;
+  font-family: 'fnse';
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+  text-transform: none; }
+  @media (min-width: 1080px) {
+    .facebook a:after {
+      font-size: 1.8em;
+      margin-top: 0px; } }
 
 .open .volunteerlist, .open .reachout {
   margin-top: 15px; }
@@ -1205,13 +1224,15 @@ div.menu-link {
       margin-top: 150px;
       margin-bottom: 150px; } }
 
+.footer .copy {
+  width: 100%; }
+  @media (min-width: 1080px) {
+    .footer .copy {
+      width: 55%; } }
+
 .footer form {
   width: 100%;
   text-align: center; }
-  @media (min-width: 1080px) {
-    .footer form {
-      width: 80%;
-      margin-right: 50px; } }
 
 .footer h3 {
   color: #fff; }
@@ -1220,11 +1241,11 @@ div.menu-link {
   width: 100%;
   align-self: flex-end;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 30px; }
   @media (min-width: 1080px) {
     .details {
       margin-top: none;
-      width: 50%; } }
+      width: 45%; } }
 
 .details img {
   border-radius: 4px;
@@ -1241,22 +1262,23 @@ div.menu-link {
 
 .contact {
   color: #fff;
-  text-align: right;
+  text-align: center;
   font-family: 'Open Sans', sans-serif; }
   @media (min-width: 1080px) {
     .contact {
-      margin-bottom: 125px; } }
+      margin-bottom: 125px;
+      text-align: right; } }
 
 .contact strong {
   display: block;
-  font-size: 70%; }
+  font-size: 90%; }
   @media (min-width: 1080px) {
     .contact strong {
       font-size: inherit; } }
 
 .contact span {
   display: block;
-  font-size: 70%; }
+  font-size: 90%; }
   @media (min-width: 1080px) {
     .contact span {
       font-size: inherit; } }
@@ -1644,6 +1666,9 @@ sup {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   visibility: hidden; }
+  @media (min-width: 50em) {
+    .project {
+      padding-bottom: 25px; } }
 
 .project.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
@@ -1665,7 +1690,7 @@ sup {
 .project p {
   text-align: left;
   font-size: 85%;
-  margin-top: 5px;
+  margin-top: 20px !important;
   padding: 0px 25px 10px 25px; }
   @media (min-width: 50em) {
     .project p {
@@ -1799,7 +1824,8 @@ sup {
 .shieldDesc {
   width: 82%;
   text-align: left;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
   @media (min-width: 1080px) {
     .shieldDesc {
       text-align: center;
@@ -2095,6 +2121,9 @@ sup {
     .faqlist h3 {
       display: block; } }
 
+.faqlist .shieldDesc {
+  padding-left: 5px; }
+
 .faq a.question {
   color: #fff;
   display: block;
@@ -2173,9 +2202,11 @@ sup {
 .alt h3 {
   color: #fff; }
 
+.answer {
+  margin-top: 35px; }
+
 .alt .answer {
-  color: #fff;
-  margin-top: 50px; }
+  color: #fff; }
 
 .faq .toc {
   display: -webkit-box;

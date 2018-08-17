@@ -335,7 +335,7 @@ ul.variableList li {
     margin: 5px 5px;
     background-color: $lightGrey;
     @include altProseStack();
-    @include breakpoint(normal-screen-screen) {
+    @include breakpoint(normal-screen) {
         margin: 10px 20px;
     }
 }
