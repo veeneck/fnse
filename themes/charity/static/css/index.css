@@ -26,7 +26,7 @@
   background-color: #00295C !important; }
 
 .red {
-  background-color: #C51E20; }
+  background-color: #FF6B6B; }
 
 .no-animation {
   visibility: visible; }
@@ -1035,6 +1035,14 @@ h1 img {
     .donate {
       margin: auto 25px !important;
       height: 25px; } }
+
+.donate:hover:before {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #FF6B6B; }
 
 /*-----------------Dropdown Menu---------------*/
 nav[role=navigation] {

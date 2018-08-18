@@ -67,6 +67,11 @@ h1 img {
     }
 }
 
+.donate:hover:before {
+    @include transition(all 0.3s);
+    color: $red;
+}
+
 /*-----------------Dropdown Menu---------------*/
 
 
