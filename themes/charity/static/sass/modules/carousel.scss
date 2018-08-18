@@ -92,6 +92,7 @@
 	visibility: hidden;
 }
 
+/// Glide.js has a weird bug with touch events and transitions. Turn transitions off on mobile.
 .project a.button {
 	transition: none;
 	@include breakpoint(normal-screen) {

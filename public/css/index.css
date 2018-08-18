@@ -775,7 +775,7 @@ a.button {
   font-weight: 900;
   font-size: 80%;
   text-decoration: none;
-  padding: 10px 12px 10px 12px;
+  padding: 12px 12px 12px 12px;
   margin: 25px 0px;
   border-radius: 4px;
   border: none;
@@ -898,6 +898,9 @@ body.fouroh {
   @media (min-width: 50em) {
     .hero {
       text-align: right; } }
+  @media (min-width: 1080px) {
+    .hero {
+      height: 85vh; } }
   @media (hover: none) {
     .hero {
       background-attachment: initial; } }
@@ -991,8 +994,16 @@ header {
       max-width: 100%; } }
 
 h1 {
-  margin: auto 0px;
-  padding: 0px 0px 0px 20px; }
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  height: 100%; }
+
+h1 a {
+  display: inline-block;
+  margin-top: 12px; }
+  @media (min-width: 1080px) {
+    h1 a {
+      margin-top: 21px; } }
 
 h1 img {
   width: 80%; }
@@ -1019,7 +1030,8 @@ h1 img {
   margin: auto 0px !important; }
   @media (min-width: 1080px) {
     .donate {
-      margin: auto 25px !important; } }
+      margin: auto 25px !important;
+      height: 25px; } }
 
 /*-----------------Dropdown Menu---------------*/
 nav[role=navigation] {
@@ -1139,7 +1151,7 @@ nav[role=navigation].open {
 
 .facebook a:after {
   content: '\0048';
-  font-size: 1.5em;
+  font-size: 1.5em !important;
   margin-top: -2px;
   vertical-align: middle;
   color: #3B5998;
@@ -1153,7 +1165,7 @@ nav[role=navigation].open {
   text-transform: none; }
   @media (min-width: 1080px) {
     .facebook a:after {
-      font-size: 1.8em;
+      font-size: 1.8em !important;
       margin-top: 0px; } }
 
 .open .volunteerlist, .open .reachout {
@@ -1331,6 +1343,10 @@ div.menu-link {
   @media (min-width: 1300px) {
     .listcontent {
       width: 75%; } }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .listcontent {
+      /* IE10+ CSS styles go here */
+      justify-content: space-around; } }
 
 .sitecontent .logo {
   display: none;
@@ -1698,17 +1714,36 @@ sup {
   text-align: left;
   font-size: 85%;
   margin-top: 20px !important;
-  padding: 0px 25px 10px 25px; }
+  padding: 0px 25px 10px 25px;
+  white-space: normal; }
   @media (min-width: 50em) {
     .project p {
       padding: 0px 40px 10px 40px; } }
 
+.project .image-container {
+  width: 100%;
+  height: 250px; }
+
 .projectImage {
   width: 100%;
-  height: 250px;
+  height: 100%;
   z-index: 100;
   object-fit: cover;
   border-radius: 4px 4px 0 0; }
+
+.project .compat-object-fit img {
+  opacity: 0;
+  visibility: hidden; }
+
+.project a.button {
+  transition: none; }
+  @media (min-width: 1080px) {
+    .project a.button {
+      -webkit-transition: background-color 0.3s;
+      -moz-transition: background-color 0.3s;
+      -ms-transition: background-color 0.3s;
+      -o-transition: background-color 0.3s;
+      transition: background-color 0.3s; } }
 
 .carousel h4 {
   margin-top: 20px;

@@ -21,6 +21,10 @@
         text-align: right;
     }
 
+    @include breakpoint(normal-screen) {
+        height: 85vh;
+    }
+
     /// iOS can't handle fixed background, so on touch devices just fall back to normal background
     @media (hover: none) {
         background-attachment: initial;

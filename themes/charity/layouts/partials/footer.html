@@ -6,15 +6,15 @@
 
 			<h3 class="white">Get in Touch</h3>
 
-			<form>
+			<form name="contact" method="POST" netlify>
 
-			<input id="name" type="text" placeholder="Name"  aria-label="Name" />
+			<input id="name" name="name" type="text" placeholder="Name"  aria-label="Name" />
 
-			<input id="email" type="text" placeholder="Email"  aria-label="Email" />
+			<input id="email" name="email" type="text" placeholder="Email"  aria-label="Email" />
 
-			<textarea id="message" placeholder="Your message or questions."  aria-label="Message"></textarea>
+			<textarea id="message" name="message" placeholder="Your message or questions."  aria-label="Message"></textarea>
 
-			<a href="#" class="button blue icon-Email triggerMe">SUBMIT</a>
+			<button type="submit" class="button blue icon-Email triggerMe">SUBMIT</a>
 
 			<div class="clear"></div>
 
