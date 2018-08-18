@@ -193,9 +193,12 @@ TODO: Finally, this launch checklist was used.
 - Most JS has a fallback, like anchor links.
 - Some things will break, like Apple Maps and Half/Half Modules. However, the text is there and legible in every module.
 
-**Print Styles**: Print styles exist, but they are very basic. They need a lot of work right now.
+**Print Styles**: Print styles exist and have decent support. They are fully functional / don't waste paper. However, there is no design -- just the content.
 
 **Compatibility**: Designed for IE11+ and all modern browsers.
 
-**Other Known Issues**: Keep a running list here.
+**Other Known Issues**: 
+
+- Potential issue with Windows Nokia phone hamburger menu. It is only 50% to the left, so it is cut off on the right.
+- Certain scroll listeners could use IntersectionObserver instead of a scroll listener for a tiny performance improvement.
 
