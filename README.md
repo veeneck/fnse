@@ -26,7 +26,7 @@ This is the respository for the FNSE website located at http://fnse.org.
 
 **Admin Panel**: [Forestry.io](http://forestry.io) provides the user interface to edit content.
 
-**Forms**: Wufoo or Netlify offering?
+**Forms**: Netlify offers 100 free form submission. The emails that get notified of submissions are configured in the Netlify admin panel.
 
 Hugo is a static site generator, which means every page on the site has its HTML generated ahead of time. So, this site has no database. Whenever an edit is made through the front end, the entire site is rebuilt very quickly. This happens as a post commit hook in Netlify. Netlify detects the change, rebuilds, and redeploys to their CDN. The site is served quickly since there is no server to run.
 
