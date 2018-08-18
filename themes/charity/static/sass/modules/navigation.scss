@@ -228,10 +228,10 @@ ul.nav li.facebookmobile {
 
 .facebook a:after {
     content:'\0048';
-    font-size: 1.5em !important;
+    font-size: 25px !important;
     margin-top: -2px;
     @include breakpoint(normal-screen) {
-        font-size: 1.8em !important;
+        font-size: 32px !important;
         margin-top: 0px;
     }
     vertical-align: middle;

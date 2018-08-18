@@ -352,7 +352,7 @@ section a {
 .blue_module a,
 .blue_list a {
     color: $lightBlue;
-    border-bottom: 1px solid $lightBlue;
+    ///border-bottom: 1px solid $lightBlue;
 }
 
 section a:hover {
@@ -361,7 +361,7 @@ section a:hover {
 
 .blue_module a:hover,
 .blue_list a:hover {
-    border-bottom: 1px dashed $lightBlue;
+    ///border-bottom: 1px dashed $lightBlue;
 }
 
 .blue_list .button:hover {
