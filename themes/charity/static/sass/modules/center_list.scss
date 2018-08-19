@@ -89,13 +89,6 @@
   	visibility: hidden;
 }
 
-.center_list p {
-	@include breakpoint(condensed-screen) {
-		///width: 100%;
-		///padding: 0px 12%;
-    }
-}
-
 .shield {
 	height: 140px;
 	background-repeat: no-repeat;
