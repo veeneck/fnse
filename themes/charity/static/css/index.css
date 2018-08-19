@@ -1116,11 +1116,13 @@ h1 a {
     h1 a {
       margin-top: 21px; } }
 
-h1 img {
-  width: 80%; }
+h1 object {
+  width: 72px;
+  margin-right: 20px; }
   @media (min-width: 1080px) {
-    h1 img {
-      width: 100%; } }
+    h1 object {
+      width: 90px;
+      margin-right: 0px; } }
 
 .navigation {
   width: 100%;

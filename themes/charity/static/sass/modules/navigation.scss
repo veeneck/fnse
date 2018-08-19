@@ -41,11 +41,13 @@ h1 a {
     }
 }
 
-h1 img {
-	width: 80%;
+h1 object {
+	width: 72px;
+    margin-right: 20px;
 
 	@include breakpoint(normal-screen) {
-        width: 100%;
+        width: 90px;
+        margin-right: 0px;
     }
 }
 
