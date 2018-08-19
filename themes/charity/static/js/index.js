@@ -67,7 +67,7 @@ function initMobileListeners() {
 	  if(hasClass($menu, 'closed')) {
 		  setTimeout(function() {
 	  		removeClass(header, 'noborder');
-		  }, 200);
+		  }, 300);
 	  }
 	  else {
 	  	addClass(header, 'noborder');
