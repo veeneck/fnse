@@ -999,6 +999,9 @@ h1 {
 h1 a {
   display: inline-block;
   margin-top: 12px; }
+  @media (min-width: 35em) {
+    h1 a {
+      margin-top: 6px; } }
   @media (min-width: 1080px) {
     h1 a {
       margin-top: 21px; } }
