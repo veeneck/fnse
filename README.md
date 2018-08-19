@@ -201,4 +201,5 @@ TODO: Finally, this launch checklist was used.
 
 - Potential issue with Windows Nokia phone hamburger menu. It is only 50% to the left, so it is cut off on the right.
 - Certain scroll listeners could use IntersectionObserver instead of a scroll listener for a tiny performance improvement.
+- Open full browser, shrink browser, open hamburger menu, close hamburger menu, enlarge browser…because “open” CSS class is there, the navigation menu no longer shows.
 

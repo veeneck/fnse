@@ -2199,6 +2199,7 @@ sup {
 
 .half_half .rightHalfContainer {
   width: 100%;
+  height: 0px;
   display: flex; }
   @media (min-width: 1080px) {
     .half_half .rightHalfContainer {

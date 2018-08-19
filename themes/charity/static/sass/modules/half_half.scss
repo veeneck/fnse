@@ -47,6 +47,7 @@
 .half_half .rightHalfContainer {
 	@extend %clearfix;
 	width: 100%;
+	height: 0px;
 	@include breakpoint(normal-screen) {
 		width: 50%;
 		height: auto;
