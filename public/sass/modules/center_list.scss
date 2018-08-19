@@ -89,13 +89,6 @@
   	visibility: hidden;
 }
 
-.center_list p {
-	@include breakpoint(condensed-screen) {
-		///width: 100%;
-		///padding: 0px 12%;
-    }
-}
-
 .shield {
 	height: 140px;
 	background-repeat: no-repeat;
@@ -241,11 +234,14 @@
 .shield::before {
     display: inline-block;
     ///vertical-align: middle;
-    line-height: 120px;
-    font-size: 2.5em;
+    line-height: 125px;
+    font-size: 50px;
     color: $darkBlue;
+    @include breakpoint(condensed-screen) {
+		font-size: 55px;
+    }
     @include breakpoint(normal-screen) {
-    	font-size: 3em;
+    	font-size: 60px;
     }
 }
 

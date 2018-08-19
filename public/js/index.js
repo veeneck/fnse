@@ -43,11 +43,36 @@ function objectFitFallback() {
 function initMobileListeners() {
 	var $menu = document.getElementById("menu");
     var $menulink = document.querySelectorAll('.menu-link')[0];
+    var header = document.getElementsByTagName("header")[0];
   
 	$menulink.addEventListener("click", function(event) {
 	  event.preventDefault();
+
+	  /// Set the hamburger icon to open
 	  toggleClass(this, 'open');
-	  toggleClass($menu, 'open');
+
+	  /// The animations reverse each other. So open and closed are always toggled.
+	  toggleClass($menu, 'closed');
+
+	  /// Set the drop down menu to open
+	  addClass($menu, "open");
+
+	  /// On load, we don't want animations to play. This class prevents them, and is removed on first click.
+	  if(hasClass($menu, "firstView")) {
+	  	removeClass($menu, 'firstView');
+	  }
+
+	  // To make it look like the border moves, toggle noborder  with the above.
+	  /// On open, there is no delay. On close, it has to wait until the close animation finishes.
+	  if(hasClass($menu, 'closed')) {
+		  setTimeout(function() {
+	  		removeClass(header, 'noborder');
+		  }, 300);
+	  }
+	  else {
+	  	addClass(header, 'noborder');
+	  }
+
 	  return false;
 	});
 }
@@ -204,6 +229,15 @@ function addClass(el, className) {
 
 function hasClass(el, className) {
     return el.classList ? el.classList.contains(className) : new RegExp('\\b'+ className+'\\b').test(el.className);
+}
+
+function removeClass(el, className) {
+  if (el.classList)
+    el.classList.remove(className)
+  else if (hasClass(el, className)) {
+    var reg = new RegExp('(\\s|^)' + className + '(\\s|$)')
+    el.className=el.className.replace(reg, ' ')
+  }
 }
 
 

@@ -352,7 +352,7 @@ section a {
 .blue_module a,
 .blue_list a {
     color: $lightBlue;
-    border-bottom: 1px solid $lightBlue;
+    ///border-bottom: 1px solid $lightBlue;
 }
 
 section a:hover {
@@ -361,14 +361,14 @@ section a:hover {
 
 .blue_module a:hover,
 .blue_list a:hover {
-    border-bottom: 1px dashed $lightBlue;
+    ///border-bottom: 1px dashed $lightBlue;
 }
 
 .blue_list .button:hover {
     background-color: $lightBlue;
 }
 
-a.button {
+.button {
     color: $white;
     @include boldFontStack();
     font-size: 80%;
@@ -407,13 +407,13 @@ a.button {
     border: none !important;
 }
 
-.right a.button {
+.right .button {
     @include breakpoint(condensed-screen) {
         float: right;
     }
 }
 
-.left a.button {
+.left .button {
     @include breakpoint(condensed-screen) {
         float: left;
     }
