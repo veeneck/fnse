@@ -111,7 +111,7 @@ The JavaScript for this site is fairly common. The goal was to keep it small and
 
 **Carousel**: [GlideJS](https://glidejs.com) is a dependency free, native JS carousel. The implementation is in the markup at `carousel.html`. The initialization is in `index.js` and the various breakpoints dictate how many slides show at different screen sizes.
 
-As much of the JS as possible is loaded as needed. For example, maps are only loaded when they're about to come into view. The combination of this, lazy load and deferred loading has decreased the initial load from ~12mb to ~600kb.
+As much of the JS as possible is loaded as needed. For example, maps are only loaded when they're about to come into view. The combination of this, lazy load and deferred loading has decreased the initial load from ~12mb to ~600kb. **Note**: Custom CodeKit comments are at the top of `index.js` to load external scripts and prepend them. If you aren't using CodeKit, consider this with your build process.
 
 ## Responsive Concerns
 
