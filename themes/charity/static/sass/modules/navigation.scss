@@ -19,6 +19,10 @@ header {
     }
 }
 
+header.noborder {
+    border-bottom: 3px solid $white;
+}
+
 h1 {
     margin: 0px;
     padding: 0px 0px 0px 20px;
@@ -96,8 +100,8 @@ nav[role=navigation] {
     animation-duration: 0.2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     -webkit-transform-style: preserve-3d;
 }
 
@@ -180,7 +184,7 @@ div.menu-link {
 // When we want nav to appear, change the height
 nav[role=navigation].open {
     margin-bottom: 10px;
-    margin-top: 60px;
+    margin-top: 63px;
     width: 100%;
     position: absolute;
     border-bottom: 3px solid $blue;
@@ -198,6 +202,8 @@ nav[role=navigation].open {
 nav[role=navigation].closed {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
+      -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
 }
 
 ul.nav {
@@ -228,8 +234,8 @@ ul.nav {
     padding-top: 22px;
             -webkit-animation-name: fadeInDown;
         animation-name: fadeInDown;
-        -webkit-animation-delay: 0.3s;
-        animation-delay: 0.3s;
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
     @include breakpoint(normal-screen) {
         -webkit-animation-name: none;
         animation-name: none;
