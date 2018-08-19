@@ -23,6 +23,7 @@ h1 {
     margin: 0px;
     padding: 0px 0px 0px 20px;
     height: 100%;
+    z-index: 1;
 }
 
 h1 a {
@@ -81,15 +82,23 @@ h1 img {
 nav[role=navigation] {
     @extend %clearfix;
     overflow: hidden;
-    ///@include transition(all 0.3s ease-out);
+    ///margin-bottom: 10px;
+    ///margin-top: 60px;
+    ///width: 100%;
+    ///position: absolute;
     @include altProseStack();
-    ///font-weight: 600;
     width: 0px;
     @include breakpoint(normal-screen) {
-    	///text-transform: uppercase;
     	flex-grow: 5;
         height: 89px;
     }
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    -webkit-transform-style: preserve-3d;
 }
 
 ul.nav {
@@ -159,6 +168,13 @@ div.menu-link {
 
 /// Credit: https://codepen.io/bradfrost/pen/sHvaz
 
+.firstView {
+    animation-name: none !important;
+    visibility: hidden !important;
+     @include breakpoint(normal-screen) {
+        visibility: visible !important;
+    }
+}
 
 
 // When we want nav to appear, change the height
@@ -169,47 +185,60 @@ nav[role=navigation].open {
     position: absolute;
     border-bottom: 3px solid $blue;
     background-color: $white;
-    	-webkit-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-       	-moz-box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
-        box-shadow: 0 4px 3px -3px rgba(0,0,0,0.3);
+     -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+    @include breakpoint(normal-screen) {
+        -webkit-animation-name: none;
+        animation-name: none;
+    }
+    visibility: visible;
+    //z-index: 5;
 }
 
-.open .dropdown {
-	position: relative !important;
-	display: block !important;
-	background-color: $white;
-	margin-top: 0px;
-	padding-top: 10px !important;
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-	z-index: 10;
-	font-size: 80% !important;
+nav[role=navigation].closed {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
 }
 
-.open .dropdown li {
-	text-align: left;
+ul.nav {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform-style: preserve-3d;
+}
+
+.closed ul.nav {
+      -webkit-animation-name: fadeOutUp !important;
+    animation-name: fadeOutUp  !important;
+    -webkit-animation-delay: 0s   !important;
+    animation-delay: 0s   !important;
+     @include breakpoint(normal-screen) {
+        -webkit-animation-name: none !important;
+        animation-name: none  !important;
+    }
 }
 
 .open ul.nav {
-	//@include flex();
-	//flex-wrap: wrap;
-	///justify-content: space-evenly;
     margin: 0 auto;
     width: 100%;
     text-align: center;
     padding-top: 22px;
+            -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+    @include breakpoint(normal-screen) {
+        -webkit-animation-name: none;
+        animation-name: none;
+    }
 }
 
 .open ul.nav li {
 	display: block !important;
     margin: 25px 0px;
-}
-
-.open .dropdown li a {
-    display: block !important;
-    text-align: left !important;
-    color: $black !important;
-    font-weight: 600 !important;
 }
 
 .open .volunteerlist {

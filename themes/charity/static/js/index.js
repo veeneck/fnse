@@ -47,7 +47,11 @@ function initMobileListeners() {
 	$menulink.addEventListener("click", function(event) {
 	  event.preventDefault();
 	  toggleClass(this, 'open');
-	  toggleClass($menu, 'open');
+	  addClass($menu, "open");
+	  if(hasClass($menu, "firstView")) {
+	  	removeClass($menu, 'firstView');
+	  }
+	  toggleClass($menu, 'closed');
 	  return false;
 	});
 }
@@ -204,6 +208,15 @@ function addClass(el, className) {
 
 function hasClass(el, className) {
     return el.classList ? el.classList.contains(className) : new RegExp('\\b'+ className+'\\b').test(el.className);
+}
+
+function removeClass(el, className) {
+  if (el.classList)
+    el.classList.remove(className)
+  else if (hasClass(el, className)) {
+    var reg = new RegExp('(\\s|^)' + className + '(\\s|$)')
+    el.className=el.className.replace(reg, ' ')
+  }
 }
 
 
