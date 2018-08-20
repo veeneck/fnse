@@ -1126,12 +1126,12 @@ h1 a {
     h1 a {
       margin-top: 21px; } }
 
-h1 object {
+h1 img {
   width: 72px;
   margin-right: 20px;
   height: 15.1875px; }
   @media (min-width: 1080px) {
-    h1 object {
+    h1 img {
       width: 90px;
       height: 19px;
       margin-right: 0px; } }
