@@ -164,9 +164,9 @@ The majority of icons are font icons served through `/fonts/fnse.*`. This font f
 
 As for Logos, there are two variations. One for web and smaller sizes. For larger print (i.e.: 200px width or greater), the 2x logo can be used to show a bit more detail. Both logos are shown below.
 
-<img src="/themes/charity/static/images/uneditable/logos/logosmall.svg" />
+<img src="/themes/charity/static/images/uneditable/logos/logosmall.svg" width="300"/>
 
-<img src="/themes/charity/static/images/uneditable/logos/logosmall2x.svg" />
+<img src="/themes/charity/static/images/uneditable/logos/logosmall2x.svg" width="300" />
 
 
 ## Performance
