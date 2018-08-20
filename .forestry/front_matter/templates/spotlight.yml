@@ -60,6 +60,6 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/modules/fnse/events.md
 - content/modules/common/spotlight.md
 - content/modules/northshore/coolthings.md
+- content/modules/fnse/events.md
