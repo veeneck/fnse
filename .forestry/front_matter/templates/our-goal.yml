@@ -69,7 +69,7 @@ fields:
   label: Button
   description: Optional button text.
 pages:
-- content/modules/volunteer/ways.md
+- content/modules/fnse/goals.md
 - content/modules/northshore/pta.md
 - content/modules/why/schoolgrade.md
-- content/modules/fnse/goals.md
+- content/modules/volunteer/ways.md
