@@ -5,7 +5,7 @@ type: module
 module_type: text_left
 class_name: faculty
 image: "/images/dawson.jpg"
-caption: This is a caption
+caption: Our leaders are welcoming to our families and community
 subtitle: ''
 text_left: ''
 button: ''
