@@ -8,7 +8,7 @@ button: EXPLORE
 button_icon: icon-book-flip-page
 image: "/images/NorthShoreLeft.jpg"
 link: "/nse/"
-caption: Established as Coffee Pot Elementary in 1927
+caption: First established as Coffee Pot Elementary in 1927
 subtitle: ''
 list_items: []
 
