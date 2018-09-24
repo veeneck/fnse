@@ -6,6 +6,6 @@ title = "Beyond state standards, how are teachers engaging their students?"
 +++
 North Shore’s principal, Ms. Cooper Dawson, is passionate about student engagement and student learning.  It is a priority at North Shore for teachers to understand what each of their students’ learning needs are and to ensure they are being met.  While students work together through the day, they also “cluster” by ability and do individual work as well. The philosophy of Pinellas County Schools is that the only way for all kids to achieve success is to challenge and raise expectations on all students, not just a few.
 
-North Shore has adopted a Project Based Learning model through their CAP Program for several years.  Teachers received professional development to further incorporate the Schoolwide Enrichment Model (SEM) into their regular day.    
+North Shore has adopted a Project Based Learning model through their CAP Program for several years.  Teachers have received professional development to further incorporate the Schoolwide Enrichment Model (SEM) into their regular day.    
 
 Additionally, all grade level teams meet weekly with Ms. Dawson to problem solve issues as well as share successes and strategies to better serve students. This collaborative strategy allows for more innovation in the classroom. 
