@@ -5,7 +5,7 @@ type: module
 module_type: text_right
 class_name: exceptional
 image: "/images/7thhour.jpg"
-caption: This is a caption
+caption: ''
 color: grey_module padded-module
 subtitle: ''
 button: ''
