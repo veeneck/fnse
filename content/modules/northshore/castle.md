@@ -5,7 +5,7 @@ type: module
 module_type: text_left
 class_name: castle
 image: "/images/placeholder.jpg"
-caption: This is a caption
+caption: ''
 list_items:
 - title: World Travelers
 - title: Puppeteers Club
