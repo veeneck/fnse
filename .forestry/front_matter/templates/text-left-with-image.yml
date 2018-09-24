@@ -72,11 +72,11 @@ fields:
   config:
     labelField: title
 pages:
+- content/modules/why/localgem.md
 - content/modules/why/whynse.md
 - content/modules/common/volunteer.md
 - content/modules/why/faculty.md
 - content/modules/volunteer/nsevolunteer.md
-- content/modules/why/localgem.md
 - content/modules/northshore/nsegeneralinfo.md
 - content/modules/northshore/castle.md
 - content/modules/fnse/fnsegeneralinfo.md

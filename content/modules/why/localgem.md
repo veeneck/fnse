@@ -5,7 +5,7 @@ type: module
 module_type: text_left
 class_name: gem
 image: "/images/IMG_6091.jpg"
-caption: This is a caption
+caption: 'Enjoy lunch outside in the quaint courtyard '
 subtitle: ''
 text_left: ''
 button: ''
