@@ -72,8 +72,8 @@ fields:
   config:
     labelField: title
 pages:
-- content/modules/why/localgem.md
 - content/modules/why/whynse.md
+- content/modules/why/localgem.md
 - content/modules/common/volunteer.md
 - content/modules/why/faculty.md
 - content/modules/volunteer/nsevolunteer.md
