@@ -1,6 +1,8 @@
 ---
 title: Why Choose North Shore
-description: Community, staff, charm and oppurtunities are just a few of the reason we believe you should consider North Shore Elementary. Learn more about the school grade, experiences, or how to schedule a tour.
+description: Community, staff, charm and opportunities are just a few of the reasons
+  we believe you should consider North Shore Elementary. Learn more about the school
+  grade, experiences, or how to schedule a tour.
 type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/why"
